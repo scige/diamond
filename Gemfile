@@ -7,6 +7,12 @@ gem 'rails', '3.2.13'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'capybara'
+  #gem 'database_cleaner'
+  #gem 'factory_girl_rails'
+  #gem 'faker'
+  #gem 'simplecov'
 
   gem 'pry-rails'
   gem 'pry-debugger'
