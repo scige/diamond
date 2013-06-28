@@ -8,6 +8,8 @@ class WeixinsController < ApplicationController
 
   def create
     if params[:xml][:MsgType] == "text"
+      content = params[:xml][:Content]
+      @shops = Shop.where("name like '%s'" % "%#{content}%").limit(3)
       render "pic_text", :formats => :xml
     end
   end
