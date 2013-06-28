@@ -10,7 +10,7 @@
         <Title><![CDATA[<%= shop.name %>]]></Title> 
         <Description><![CDATA[<%= shop.name %>]]></Description>
         <PicUrl><![CDATA[<%= root_url + shop.thumb %>]]></PicUrl>
-        <Url><![CDATA[<%= root_url + "shops/#{shop.id}" %>]]></Url>
+        <Url><![CDATA[<%= shop_url(shop) %>]]></Url>
       </item>
     <% end %>
   </Articles>
