@@ -1,7 +1,7 @@
 Diamond::Application.routes.draw do
   root :to => 'home#index'
 
-  resource :weixin
+  resources :weixins
 
-  resource :shop
+  resources :shops
 end
