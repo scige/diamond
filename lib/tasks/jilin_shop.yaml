@@ -12,14 +12,15 @@
   product_rating: 27
   environment_rating: 22
   service_rating: 19
-  recommended_products: 麻辣烫(72)月饼(62)绿豆糕(59)面包(53)老婆饼(42)麻花(36)泡芙(33)绿豆光头(28)玉米饼(27)元宵(19)冰点(11)糕点(9)蛋包饭(7)薯条(6)酸辣粉(4)麻辣香锅(3)炸串(3)蛋挞(3)花生酥条(3)油茶(2)无水蛋糕(2)蛋糕(2)肉丝炒面(2)黑椒炒饭(2)牛排(2)更多
+  recommended_products: 麻辣烫 月饼 绿豆糕 面包 老婆饼 麻花 泡芙 绿豆光头 玉米饼 元宵 冰点 糕点 蛋包饭 薯条 酸辣粉 麻辣香锅
+    炸串 蛋挞 花生酥条 油茶 无水蛋糕 蛋糕 肉丝炒面 黑椒炒饭 牛排 更多
   address: 河南街117号
   phone: 0432-20265341
   description: “地地道道”的老字号，陪伴了“几代吉林人”。1楼中式点心、西式糕点“一应俱全”，每到中秋、元宵，买月饼、买汤圆的人都会“挤破头”。楼上做小吃快餐，“顶喜欢”他家的麻辣烫。夏天门口还会有“自制”冰淇淋，“挺好吃的”。
   alias: “地地道道”的老字号，陪伴了“几代吉林人”。1楼中式点心、西式糕点“一应俱全”，每到中秋、元宵，买月饼、买汤圆的人都会“挤破头”。楼上做小吃快餐，“顶喜欢”他家的麻辣烫。夏天门口还会有“自制”冰淇淋，“挺好吃的”。
   hours: ''
-  atmosphere: 餐厅氛围：随便吃吃(61)休闲小憩(45)朋友聚餐(28)情侣约会(18)
-  characteristics: 餐厅特色：是老字号(35)供应夜宵(5)可以刷卡(3)有下午茶(2)
+  atmosphere: 随便吃吃 休闲小憩 朋友聚餐 情侣约会
+  characteristics: 是老字号 供应夜宵 可以刷卡 有下午茶
 - rank: 2
   shop_id: 2064736
   name: 大唐食代(解放中路店)
@@ -33,14 +34,14 @@
   product_rating: 29
   environment_rating: 26
   service_rating: 24
-  recommended_products: 特味牛排(77)五花肉(52)肥牛(45)特色牛肉(27)牛仔骨(17)特味肥牛(17)冷面(15)牛排(13)素杂拌(10)黑椒牛肉(3)海鲜饼(2)
+  recommended_products: 特味牛排 五花肉 肥牛 特色牛肉 牛仔骨 特味肥牛 冷面 牛排 素杂拌 黑椒牛肉 海鲜饼
   address: 解放中路7号(近大东门广场)
   phone: 0432-24222222599999
   description: “每次回吉林必去”的韩国烤肉餐厅。特味牛排、五花肉、肥牛分量“十足”，调味“适中”，无论是“自己动手”还是“服务员帮忙”，味道都还“不错”。环境蛮适合“情侣约会”，只是抽烟机“稍有不足”，叫人郁闷。
   alias: “每次回吉林必去”的韩国烤肉餐厅。特味牛排、五花肉、肥牛分量“十足”，调味“适中”，无论是“自己动手”还是“服务员帮忙”，味道都还“不错”。环境蛮适合“情侣约会”，只是抽烟机“稍有不足”，叫人郁闷。
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(92)家庭聚会(53)情侣约会(52)商务宴请(26)
-  characteristics: 餐厅特色：免费停车(28)可以刷卡(22)供应夜宵(4)有景观位(2)
+  atmosphere: 朋友聚餐 家庭聚会 情侣约会 商务宴请
+  characteristics: 免费停车 可以刷卡 供应夜宵 有景观位
 - rank: 3
   shop_id: 585826
   name: 川王福(解放中路店)
@@ -54,14 +55,14 @@
   product_rating: 22
   environment_rating: 17
   service_rating: 17
-  recommended_products: 火锅(56)黑米粥(40)
+  recommended_products: 火锅 黑米粥
   address: 昌邑区解放大路96号
   phone: 0432-62040055
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(8)是老字号(3)可以刷卡(2)
-  characteristics: 会员贡献：米米鱼耳朵添加商户|眼神直勾勾发布首条点评放浪者最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 4
   shop_id: 563549
   name: 小男孩西餐厅(青岛街店)
@@ -75,14 +76,14 @@
   product_rating: 20
   environment_rating: 20
   service_rating: 17
-  recommended_products: 草莓汁(21)虾饼(17)意大利面(15)玉米饼(11)水果寿司(3)
+  recommended_products: 草莓汁 虾饼 意大利面 玉米饼 水果寿司
   address: 青岛街
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：有下午茶(4)有景观位(2)有露天位(2)
-  characteristics: 会员贡献：xiaozhou001添加商户|xiaozhou001发布首条点评系统在07-08-09最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 5
   shop_id: 584896
   name: 朝鲜族饭店
@@ -96,14 +97,14 @@
   product_rating: 27
   environment_rating: 16
   service_rating: 14
-  recommended_products: 冷面(53)豆腐丝(32)明太鱼丝(17)萝卜块(3)
+  recommended_products: 冷面 豆腐丝 明太鱼丝 萝卜块
   address: 吉林大街170号百货大楼
   phone: ''
   description: 门面“很大”，1楼大堂“更大”，大家“排队、付钱、买票、拿菜”，就像“国营食堂”。最好吃的当属冷面，汤底可选“酸甜口”或“咸口”的；拌豆腐丝和明太鱼也很不错。生意“超级火爆”，老字号“就是不一样”！
   alias: 门面“很大”，1楼大堂“更大”，大家“排队、付钱、买票、拿菜”，就像“国营食堂”。最好吃的当属冷面，汤底可选“酸甜口”或“咸口”的；拌豆腐丝和明太鱼也很不错。生意“超级火爆”，老字号“就是不一样”！
   hours: ''
-  atmosphere: 餐厅氛围：随便吃吃(15)朋友聚餐(15)休闲小憩(11)情侣约会(6)
-  characteristics: 餐厅特色：是老字号(5)
+  atmosphere: 随便吃吃 朋友聚餐 休闲小憩 情侣约会
+  characteristics: 是老字号
 - rank: 6
   shop_id: 4207687
   name: 春园烤肉王
@@ -117,14 +118,14 @@
   product_rating: 21
   environment_rating: 18
   service_rating: 16
-  recommended_products: 烤肉(26)培根(21)韩式牛排(19)蛋糕(14)鱼丸(12)沙拉(2)
+  recommended_products: 烤肉 培根 韩式牛排 蛋糕 鱼丸 沙拉
   address: 吉林大街50号(近滔博运动城)
   phone: 0432-6646066662433888
   description: ''
   alias: ''
   hours: 10：00-21：00
-  atmosphere: 餐厅特色：免费停车(11)有无烟区(4)可以刷卡(2)是老字号(2)
-  characteristics: 会员贡献：花花琳琳添加商户|花花琳琳发布首条点评系统在12-11-21最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 7
   shop_id: 2006776
   name: 牛马行牛肉饸饹铺
@@ -138,14 +139,14 @@
   product_rating: 24
   environment_rating: 11
   service_rating: 11
-  recommended_products: 饸饹条(43)素鸡豆腐(12)干豆腐丝(8)酱牛肉(8)肉馅饸饹条(6)
+  recommended_products: 饸饹条 素鸡豆腐 干豆腐丝 酱牛肉 肉馅饸饹条
   address: 解放中路(青岛街口)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：是老字号(9)供应早餐(2)
-  characteristics: 会员贡献：soskitty添加商户|soskitty发布首条点评MrCp最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 8
   shop_id: 2267251
   name: 宏伟煎粉第一家
@@ -159,13 +160,13 @@
   product_rating: 23
   environment_rating: 18
   service_rating: 15
-  recommended_products: 煎粉(44)豆腐串(21)茶蛋(14)
+  recommended_products: 煎粉 豆腐串 茶蛋
   address: 解放大路中段市儿童公园对面
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：我是赵啦啦添加商户|我是赵啦啦发布首条点评系统在07-09-13最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 10
   shop_id: 2180137
@@ -180,14 +181,14 @@
   product_rating: 27
   environment_rating: 24
   service_rating: 23
-  recommended_products: 锅包肉(29)牛肉煎粉(17)水煮肉片(9)香辣肉丝(7)地三鲜(2)
+  recommended_products: 锅包肉 牛肉煎粉 水煮肉片 香辣肉丝 地三鲜
   address: 大东门信合福苑4号网点
   phone: 0432-624884382486222
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(9)可以刷卡(5)是老字号(3)
-  characteristics: 会员贡献：萍香大橱添加商户|人海漂发布首条点评系统在12-07-23最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 11
   shop_id: 582837
   name: 萍香园
@@ -201,14 +202,14 @@
   product_rating: 24
   environment_rating: 17
   service_rating: 17
-  recommended_products: 锅包肉(29)一锅出(13)煎粉牛肉(7)
+  recommended_products: 锅包肉 一锅出 煎粉牛肉
   address: 解放大路九中旁(近重庆路)
   phone: 0432-62449595
   description: ''
   alias: ''
   hours: 周一 至 周日 09:00-22:00
-  atmosphere: 餐厅特色：免费停车(5)可以刷卡(2)
-  characteristics: 会员贡献：珠珠吃天下添加商户|珠珠吃天下发布首条点评TwoDaysL最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 13
   shop_id: 1887808
   name: 富翔火锅店
@@ -222,14 +223,14 @@
   product_rating: 24
   environment_rating: 23
   service_rating: 18
-  recommended_products: 肥牛(28)虾滑(12)上脑(11)羊腿(5)
+  recommended_products: 肥牛 虾滑 上脑 羊腿
   address: 大东门
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(8)可以刷卡(8)
-  characteristics: 会员贡献：涵淡潋滟添加商户|涵淡潋滟发布首条点评小欠巴登最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 14
   shop_id: 585830
   name: 世纪大饭店
@@ -243,14 +244,14 @@
   product_rating: 25
   environment_rating: 27
   service_rating: 24
-  recommended_products: 烤肉(26)
+  recommended_products: 烤肉
   address: 吉林大街77号
   phone: 0432-216888862168888
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：供应早餐(5)可以刷卡(4)有下午茶(4)免费停车(3)
-  characteristics: 会员贡献：米米鱼耳朵添加商户|我挡不住我发布首条点评系统在12-07-23最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 15
   shop_id: 2424508
   name: 必胜客
@@ -264,14 +265,14 @@
   product_rating: 21
   environment_rating: 22
   service_rating: 22
-  recommended_products: 意面(6)牛排(3)
+  recommended_products: 意面 牛排
   address: 河南街555号东方商厦1楼(近解放大路)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：有下午茶(8)免费停车(3)可以刷卡(3)可送外卖(3)
-  characteristics: 会员贡献：mikhail添加商户|z009发布首条点评系统在12-11-06最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 16
   shop_id: 2041120
   name: 李连贵熏肉美食酒楼
@@ -285,14 +286,14 @@
   product_rating: 25
   environment_rating: 23
   service_rating: 20
-  recommended_products: 熏肉(18)熏肉大饼(15)水煮鱼(3)
+  recommended_products: 熏肉 熏肉大饼 水煮鱼
   address: 上海路88号国贸大厦对面
   phone: 0432-62487888
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：是老字号(3)
-  characteristics: 会员贡献：食无霸添加商户|snowy_snowy发布首条点评系统在12-11-22最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 17
   shop_id: 1941646
   name: 老白肉馆
@@ -306,14 +307,14 @@
   product_rating: 21
   environment_rating: 17
   service_rating: 17
-  recommended_products: 白肉血肠(17)蒜泥白肉(17)烧灯碗(9)
+  recommended_products: 白肉血肠 蒜泥白肉 烧灯碗
   address: 船营区松江西路13-19号(临江门大桥西侧)
   phone: 0432-486066664855555
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：是老字号(5)免费停车(4)
-  characteristics: 会员贡献：mikhail添加商户|秋天收成好发布首条点评系统在13-04-02最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 18
   shop_id: 2066674
   name: 川人百味(美食城店)
@@ -327,14 +328,14 @@
   product_rating: 27
   environment_rating: 20
   service_rating: 18
-  recommended_products: 凉拌面(27)水煮肉片(15)麻辣烫(12)煎粉(8)
+  recommended_products: 凉拌面 水煮肉片 麻辣烫 煎粉
   address: 河南街东方商厦美食城(近晖春街)
   phone: ''
   description: ''
   alias: ''
   hours: 早9：00-晚7：00 随商场营业时间
-  atmosphere: 餐厅特色：是老字号(4)免费停车(2)
-  characteristics: 会员贡献：mikhail添加商户|韩小韩发布首条点评系统在09-11-16最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 20
   shop_id: 2366248
   name: 古本良田
@@ -348,14 +349,14 @@
   product_rating: 15
   environment_rating: 16
   service_rating: 14
-  recommended_products: 牛肉饭(23)招牌牛肉饭(13)鸡蛋糕(5)
+  recommended_products: 牛肉饭 招牌牛肉饭 鸡蛋糕
   address: 大东门(近恒客隆)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：可送外卖(4)无线上网(2)有下午茶(2)免费停车(2)
-  characteristics: 会员贡献：xueyun_milk添加商户|xueyun_milk发布首条点评系统在07-12-17最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 21
   shop_id: 3121606
   name: 麻辣百分百
@@ -369,14 +370,14 @@
   product_rating: 24
   environment_rating: 18
   service_rating: 17
-  recommended_products: 水煮鱼(19)酱油炒饭(11)麻辣香锅(9)酸梅汤(7)毛血旺(5)鱼香肉丝(2)
+  recommended_products: 水煮鱼 酱油炒饭 麻辣香锅 酸梅汤 毛血旺 鱼香肉丝
   address: 青岛街(近解放大路)
   phone: 0432-2051666
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(7)可以刷卡(5)
-  characteristics: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在09-04-27最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 22
   shop_id: 2448115
   name: 闫家粥铺
@@ -390,14 +391,14 @@
   product_rating: 28
   environment_rating: 19
   service_rating: 17
-  recommended_products: 皮蛋瘦肉粥(14)黑米粥(9)南瓜粥(8)八宝粥(5)
+  recommended_products: 皮蛋瘦肉粥 黑米粥 南瓜粥 八宝粥
   address: 南京街68号
   phone: 0432-2442177
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：供应早餐(8)24小时营业(3)供应夜宵(3)可送外卖(2)
-  characteristics: 会员贡献：simplyred78添加商户|simplyred78发布首条点评系统在08-03-25最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 23
   shop_id: 2448532
   name: 阿拉伯饭店
@@ -411,14 +412,14 @@
   product_rating: 27
   environment_rating: 22
   service_rating: 19
-  recommended_products: 阿拉伯牛肉(8)水爆肚(8)羊排(5)
+  recommended_products: 阿拉伯牛肉 水爆肚 羊排
   address: 松江中路95号
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(8)可以刷卡(4)有景观位(3)是老字号(3)
-  characteristics: 会员贡献：simplyred78添加商户|simplyred78发布首条点评系统在13-03-12最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 25
   shop_id: 1936363
   name: 千代田日本料理
@@ -432,14 +433,14 @@
   product_rating: 21
   environment_rating: 23
   service_rating: 17
-  recommended_products: 烤鳗鱼(11)三文鱼(3)刺身(3)
+  recommended_products: 烤鳗鱼 三文鱼 刺身
   address: 解放大路158号
   phone: 0432-20364882057488
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(7)可以刷卡(3)有露天位(2)
-  characteristics: 会员贡献：亿佳科技添加商户|亿佳科技发布首条点评系统在06-08-01最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 27
   shop_id: 2043877
   name: 东市发开封灌汤包
@@ -453,14 +454,14 @@
   product_rating: 22
   environment_rating: 15
   service_rating: 16
-  recommended_products: 灌汤包(16)
+  recommended_products: 灌汤包
   address: 重庆路1078号
   phone: 0432-2568127
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：是老字号(2)
-  characteristics: 会员贡献：食无霸添加商户|kitala发布首条点评系统在07-01-12最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 28
   shop_id: 2968795
   name: 如一坊豆捞(南京街店)
@@ -474,14 +475,14 @@
   product_rating: 23
   environment_rating: 23
   service_rating: 18
-  recommended_products: 虾滑(9)墨鱼滑(7)玉米汁(2)
+  recommended_products: 虾滑 墨鱼滑 玉米汁
   address: 南京街103号(近大东门)
   phone: 0432-62483333
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：可以刷卡(6)免费停车(5)
-  characteristics: 会员贡献：mikhail添加商户|旋转木马0发布首条点评系统在11-01-20最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 29
   shop_id: 2041144
   name: 大众饭店
@@ -495,14 +496,14 @@
   product_rating: 27
   environment_rating: 24
   service_rating: 23
-  recommended_products: 锅包肉(7)猪手(7)
+  recommended_products: 锅包肉 猪手
   address: 徐州路506号(近中兴街)
   phone: 0432-6306789863066858
   description: ''
   alias: ''
   hours: 早饭时间不开。
-  atmosphere: 餐厅特色：免费停车(4)
-  characteristics: 会员贡献：食无霸添加商户|小00发布首条点评aferl最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 30
   shop_id: 2326726
   name: 媚娘火锅
@@ -516,14 +517,14 @@
   product_rating: 19
   environment_rating: 14
   service_rating: 13
-  recommended_products: 排骨(17)肥牛(10)
+  recommended_products: 排骨 肥牛
   address: 遵义东路(化工医院对面)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：可以刷卡(2)
-  characteristics: 会员贡献：鱼小笨添加商户|鱼小笨发布首条点评系统在07-11-07最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 31
   shop_id: 566590
   name: 恒阳食街
@@ -543,8 +544,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：可办大型宴会(7)免费停车(4)
-  characteristics: 会员贡献：xiaozhou001添加商户|xiaozhou001发布首条点评柴火小妮最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 32
   shop_id: 2854819
   name: 川人百味(东市场店)
@@ -558,13 +559,13 @@
   product_rating: 16
   environment_rating: 12
   service_rating: 10
-  recommended_products: 水煮鱼(7)凉拌面(3)抄手(2)
+  recommended_products: 水煮鱼 凉拌面 抄手
   address: 东市场大富豪鞋店斜对面
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：小葵lisa添加商户|小葵lisa发布首条点评系统在08-11-19最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 33
   shop_id: 6313436
@@ -579,14 +580,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 冰酿咖啡(2)焦糖玛奇朵(2)
+  recommended_products: 冰酿咖啡 焦糖玛奇朵
   address: 常宁胡同(近工商局)
   phone: 0432-62099288
   description: 老刘的咖啡馆
   alias: 老刘的咖啡馆
   hours: ''
-  atmosphere: 餐厅氛围：情侣约会(7)休闲小憩(6)朋友聚餐(5)随便吃吃(3)
-  characteristics: 餐厅特色：有下午茶(7)无线上网(7)有景观位(4)有无烟区(3)
+  atmosphere: 情侣约会 休闲小憩 朋友聚餐 随便吃吃
+  characteristics: 有下午茶 无线上网 有景观位 有无烟区
 - rank: 34
   shop_id: 2226592
   name: 小男孩西餐厅(解放中路店)
@@ -600,13 +601,13 @@
   product_rating: 20
   environment_rating: 20
   service_rating: 14
-  recommended_products: 草莓汁(3)
+  recommended_products: 草莓汁
   address: 解放中路大东门附近
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：mikhail添加商户|jj2006发布首条点评系统在07-08-09最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 35
   shop_id: 4685322
@@ -621,14 +622,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 心管(5)
+  recommended_products: 心管
   address: 解放东路楼下(凤凰妇产医院旁)
   phone: 0432-64771888
   description: ''
   alias: ''
   hours: 早10：00——次日凌晨2：00
-  atmosphere: 餐厅特色：免费停车(3)可以刷卡(2)
-  characteristics: 会员贡献：qinmeiyin添加商户|qinmeiyin发布首条点评系统在11-02-16最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 36
   shop_id: 2085031
   name: 乌拉满族火锅(乌拉街店)
@@ -642,14 +643,14 @@
   product_rating: 23
   environment_rating: 14
   service_rating: 16
-  recommended_products: 酸菜(11)五花肉(4)锅包肉(2)
+  recommended_products: 酸菜 五花肉 锅包肉
   address: 乌拉街镇古城春酒家(近中心医院)
   phone: 0432-4910773
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(2)
-  characteristics: 会员贡献：daodao528添加商户|maggie040911发布首条点评系统在07-08-09最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 39
   shop_id: 2895238
   name: 京冠春饼
@@ -663,13 +664,13 @@
   product_rating: 23
   environment_rating: 15
   service_rating: 14
-  recommended_products: 春饼(9)土豆丝(6)
+  recommended_products: 春饼 土豆丝
   address: 大东门(杜家哥俩对面)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：小葵lisa添加商户|小葵lisa发布首条点评mikhail最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 41
   shop_id: 2054326
@@ -684,14 +685,14 @@
   product_rating: 25
   environment_rating: 23
   service_rating: 22
-  recommended_products: 羊腿(5)馅饼(4)火锅(3)
+  recommended_products: 羊腿 馅饼 火锅
   address: 解放大路吉源商城B座
   phone: 0432-20810102017999
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(3)
-  characteristics: 会员贡献：mikhail添加商户|川菜馆里吃冷面发布首条点评系统在11-05-04最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 42
   shop_id: 2743900
   name: 姐弟俩土豆粉
@@ -705,13 +706,13 @@
   product_rating: 24
   environment_rating: 19
   service_rating: 19
-  recommended_products: 两掺(3)
+  recommended_products: 两掺
   address: 东市后街小吃一条街
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：曲终人不可散添加商户|曲终人不可散发布首条点评系统在08-09-17最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 43
   shop_id: 560286
@@ -726,14 +727,14 @@
   product_rating: 19
   environment_rating: 19
   service_rating: 17
-  recommended_products: 海鲜饺子(2)
+  recommended_products: 海鲜饺子
   address: 解放大路
   phone: 0432-2081888
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(5)可以刷卡(4)是老字号(3)
-  characteristics: 会员贡献：宝贝最美添加商户|宝贝最美发布首条点评系统在05-09-23最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 44
   shop_id: 2064991
   name: 大唐食代(解放东路店)
@@ -747,14 +748,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 肥牛(7)牛排(7)特味肥牛(3)
+  recommended_products: 肥牛 牛排 特味肥牛
   address: 解放东路89号汇通名苑
   phone: 0432-2599999
   description: “每次回吉林必去”的韩国烤肉餐厅。特味牛排、五花肉、肥牛分量“十足”，调味“适中”，无论是“自己动手”还是“服务员帮忙”，味道都还“不错”。环境蛮适合“情侣约会”，只是抽烟机“稍有不足”，叫人郁闷。
   alias: “每次回吉林必去”的韩国烤肉餐厅。特味牛排、五花肉、肥牛分量“十足”，调味“适中”，无论是“自己动手”还是“服务员帮忙”，味道都还“不错”。环境蛮适合“情侣约会”，只是抽烟机“稍有不足”，叫人郁闷。
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(9)情侣约会(5)家庭聚会(5)商务宴请(4)
-  characteristics: 餐厅特色：免费停车(4)可以刷卡(3)
+  atmosphere: 朋友聚餐 情侣约会 家庭聚会 商务宴请
+  characteristics: 免费停车 可以刷卡
 - rank: 45
   shop_id: 2232427
   name: 庆岭活鱼一条街
@@ -768,13 +769,13 @@
   product_rating: 23
   environment_rating: 12
   service_rating: 16
-  recommended_products: 庆岭活鱼(4)
+  recommended_products: 庆岭活鱼
   address: 郊区
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：有时深蓝添加商户|有时深蓝发布首条点评系统在07-08-15最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 46
   shop_id: 2362678
@@ -789,13 +790,13 @@
   product_rating: 21
   environment_rating: 18
   service_rating: 15
-  recommended_products: 排骨锅(3)
+  recommended_products: 排骨锅
   address: 昌邑区解放北路274号(万达江畔人家西门)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：貪喫小豬添加商户|金维维发布首条点评系统在11-11-08最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 47
   shop_id: 2253025
@@ -810,14 +811,14 @@
   product_rating: 21
   environment_rating: 19
   service_rating: 17
-  recommended_products: 麦旋风(4)薯条(4)麦辣鸡翅(3)奶昔(2)巨无霸(2)
+  recommended_products: 麦旋风 薯条 麦辣鸡翅 奶昔 巨无霸
   address: 河南路19号大东门恒客隆
   phone: 0432-2456408
   description: McDonald's
   alias: McDonald's
   hours: ''
-  atmosphere: 餐厅氛围：情侣约会(6)休闲小憩(6)朋友聚餐(5)随便吃吃(4)
-  characteristics: 餐厅特色：可送外卖(2)
+  atmosphere: 情侣约会 休闲小憩 朋友聚餐 随便吃吃
+  characteristics: 可送外卖
 - rank: 51
   shop_id: 2883286
   name: 庄稼院
@@ -837,8 +838,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(3)
-  characteristics: 会员贡献：小葵lisa添加商户|小葵lisa发布首条点评系统在11-06-07最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 55
   shop_id: 2756812
   name: 周末喜相逢
@@ -852,13 +853,13 @@
   product_rating: 19
   environment_rating: 16
   service_rating: 14
-  recommended_products: 地瓜片(6)肉筋(4)
+  recommended_products: 地瓜片 肉筋
   address: 大东门恒克隆后面(近萍乡园)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：米菈米添加商户|lesleyowen发布首条点评系统在08-09-23最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 56
   shop_id: 4508684
@@ -879,7 +880,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：gamdouda添加商户|gamdouda发布首条点评Goxiwe最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 57
   shop_id: 5511421
@@ -900,8 +901,8 @@
   description: ''
   alias: ''
   hours: 9:00—22:00
-  atmosphere: 餐厅特色：免费停车(4)有下午茶(3)无线上网(2)
-  characteristics: 会员贡献：amanda234567添加商户|amanda234567发布首条点评amanda234567最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 58
   shop_id: 3383377
   name: 老太太煎粉
@@ -915,13 +916,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 煎粉(5)
+  recommended_products: 煎粉
   address: 十二中侧
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：旋转木马0添加商户|旋转木马0发布首条点评系统在09-09-17最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 59
   shop_id: 2057716
@@ -942,8 +943,8 @@
   description: McDonald's
   alias: McDonald's
   hours: ''
-  atmosphere: 餐厅氛围：休闲小憩(3)随便吃吃(3)朋友聚餐(3)情侣约会(2)
-  characteristics: 会员贡献：mikhail添加商户|mikhail发布首条点评doublelazy最后更新|详情»
+  atmosphere: 休闲小憩 随便吃吃 朋友聚餐 情侣约会
+  characteristics: ''
 - rank: 61
   shop_id: 3378058
   name: 顺风123
@@ -963,8 +964,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：可以刷卡(2)
-  characteristics: 会员贡献：旋转木马0添加商户|旋转木马0发布首条点评系统在09-09-14最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 62
   shop_id: 1948099
   name: 图们江餐馆
@@ -978,13 +979,13 @@
   product_rating: 21
   environment_rating: 16
   service_rating: 15
-  recommended_products: 石锅酱汤(4)冷面(2)明太鱼(2)
+  recommended_products: 石锅酱汤 冷面 明太鱼
   address: 丰满区世纪广场旁
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：秋天收成好添加商户|秋天收成好发布首条点评系统在06-08-23最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 63
   shop_id: 2211613
@@ -1005,7 +1006,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：77465306添加商户|77465306发布首条点评系统在08-09-10最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 64
   shop_id: 2928208
@@ -1026,7 +1027,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：ZYAXL添加商户|ZYAXL发布首条点评jue_jin最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 65
   shop_id: 3428632
@@ -1041,13 +1042,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 煎粉(4)茶蛋(3)
+  recommended_products: 煎粉 茶蛋
   address: 临江门百佳超市后门(近长春路)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：第三方尴尬添加商户|屋里呆不住发布首条点评系统在09-09-21最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 66
   shop_id: 5610645
@@ -1068,8 +1069,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(4)可以刷卡(3)
-  characteristics: 会员贡献：Yoyo8854添加商户|Yoyo8854发布首条点评系统在12-02-15最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 67
   shop_id: 2731135
   name: 重庆幺妹
@@ -1083,13 +1084,13 @@
   product_rating: 22
   environment_rating: 15
   service_rating: 14
-  recommended_products: 麻辣烫(9)幺妹毛血旺(5)凉拌面(4)凉拌冷面(3)酸辣粉(2)
+  recommended_products: 麻辣烫 幺妹毛血旺 凉拌面 凉拌冷面 酸辣粉
   address: 东市场小吃一条街
   phone: ''
   description: 红娟幺妹
   alias: 红娟幺妹
   hours: ''
-  atmosphere: 会员贡献：茶茶丫头添加商户|茶茶丫头发布首条点评系统在08-09-10最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 68
   shop_id: 583241
@@ -1104,13 +1105,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 香辣肉丝(6)锅包肉(2)
+  recommended_products: 香辣肉丝 锅包肉
   address: 天津街(近火车站)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：jizhuwo添加商户|jizhuwo发布首条点评系统在06-02-21最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 71
   shop_id: 2858305
@@ -1125,13 +1126,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 火锅(7)
+  recommended_products: 火锅
   address: 遵义路69号
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在08-11-22最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 72
   shop_id: 2791657
@@ -1146,13 +1147,13 @@
   product_rating: 20
   environment_rating: 15
   service_rating: 14
-  recommended_products: 1Image(040)
+  recommended_products: 1Image
   address: 朝阳街(近恒客隆对面)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：曲终人不可散添加商户|曲终人不可散发布首条点评系统在09-02-03最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 73
   shop_id: 583005
@@ -1167,7 +1168,7 @@
   product_rating: 22
   environment_rating: 14
   service_rating: 14
-  recommended_products: 锅包肉(2)
+  recommended_products: 锅包肉
   address: 江南
   phone: ''
   description: 尚无营业时间
@@ -1188,14 +1189,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 特色烤串(5)碳烤海鲜(3)韩式特色汤饭(2)烤茄子(2)
+  recommended_products: 特色烤串 碳烤海鲜 韩式特色汤饭 烤茄子
   address: 北京路水门洞(西大小区对面)
   phone: 0432-62880678
   description: ''
   alias: ''
   hours: 上午10：00-凌晨2：00
-  atmosphere: 餐厅特色：免费停车(6)供应夜宵(5)有露天位(5)
-  characteristics: 会员贡献：兜兜有糖就去飞添加商户|兜兜有糖就去飞发布首条点评系统在09-12-18最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 75
   shop_id: 3120910
   name: 乐乐小吃
@@ -1209,13 +1210,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 红烧肉(7)鸡蛋糕(3)
+  recommended_products: 红烧肉 鸡蛋糕
   address: 北京路(近珲春街)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：简木添加商户|简木发布首条点评系统在09-04-27最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 76
   shop_id: 3868978
@@ -1230,13 +1231,13 @@
   product_rating: 19
   environment_rating: 17
   service_rating: 16
-  recommended_products: 蘑菇拼盘(2)虾饼(2)昆布(2)
+  recommended_products: 蘑菇拼盘 虾饼 昆布
   address: 解放中路109号(近青岛街)
   phone: 0432-62267888
   description: ''
   alias: ''
   hours: 早:10:00至晚9:30
-  atmosphere: 会员贡献：mayihao添加商户|mayihao发布首条点评系统在10-02-08最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 77
   shop_id: 2626918
@@ -1251,14 +1252,14 @@
   product_rating: 19
   environment_rating: 20
   service_rating: 17
-  recommended_products: 冷面(3)狗肉(3)
+  recommended_products: 冷面 狗肉
   address: 解放大路
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(3)
-  characteristics: 会员贡献：yuyan1118添加商户|yuyan1118发布首条点评|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 78
   shop_id: 2410729
   name: 名盛园饭店
@@ -1272,13 +1273,13 @@
   product_rating: 22
   environment_rating: 17
   service_rating: 18
-  recommended_products: 手撕牛肉(2)
+  recommended_products: 手撕牛肉
   address: 湘潭街145号
   phone: 0432-30388883038999
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：bingshan11yu添加商户|超级无敌大蜗牛发布首条点评系统在13-02-17最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 79
   shop_id: 2085943
@@ -1293,14 +1294,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 披萨(2)
+  recommended_products: 披萨
   address: 解放大路银龙大厦商业网点8号(青岛街与牛马行之间)
   phone: 0432-62093555
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：可以刷卡(2)
-  characteristics: 会员贡献：孤星月添加商户|放浪者发布首条点评系统在11-12-12最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 81
   shop_id: 3713662
   name: 川云阁
@@ -1314,13 +1315,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 水煮鱼(2)
+  recommended_products: 水煮鱼
   address: 厦门街16号
   phone: ''
   description: ''
   alias: ''
   hours: 9：00-22：00
-  atmosphere: 会员贡献：lijunr添加商户|lijunr发布首条点评桂花糕世家最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 82
   shop_id: 585835
@@ -1335,7 +1336,7 @@
   product_rating: 18
   environment_rating: 15
   service_rating: 13
-  recommended_products: 牛肉面(6)
+  recommended_products: 牛肉面
   address: 河南街
   phone: ''
   description: 尚无营业时间
@@ -1362,7 +1363,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在09-06-15最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 85
   shop_id: 4733036
@@ -1383,8 +1384,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：有下午茶(2)
-  characteristics: 会员贡献：WWD美食探索添加商户|吉林任逍遥发布首条点评WWD美食探索最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 86
   shop_id: 5481545
   name: 黔品夜郎国
@@ -1398,14 +1399,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 酸汤鱼(8)夜郎蛙(7)阳郎鸡(2)
+  recommended_products: 酸汤鱼 夜郎蛙 阳郎鸡
   address: 青年路天江小区30-15号(合顺饭店东侧)
   phone: 0432-62458567
   description: 夜郎蛙
   alias: 夜郎蛙
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(8)家庭聚会(7)情侣约会(7)休闲小憩(3)
-  characteristics: 餐厅特色：免费停车(8)无线上网(5)可送外卖(2)
+  atmosphere: 朋友聚餐 家庭聚会 情侣约会 休闲小憩
+  characteristics: 免费停车 无线上网 可送外卖
 - rank: 87
   shop_id: 2054329
   name: 西春发
@@ -1446,8 +1447,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：有下午茶(4)免费停车(3)
-  characteristics: 会员贡献：李玖添加商户|李玖发布首条点评系统在13-02-18最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 92
   shop_id: 8845595
   name: 阿尔卑斯比萨自助西餐厅吉林店
@@ -1467,7 +1468,7 @@
   description: ''
   alias: ''
   hours: 11:00——21:00
-  atmosphere: 会员贡献：2008中华食客添加商户|弓然美丽发布首条点评系统在13-06-03最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 96
   shop_id: 2295373
@@ -1482,13 +1483,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: A级牛排(5)
+  recommended_products: A级牛排
   address: 松江中路55号紫光花园A座
   phone: 0432-2065966
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：韩小韩添加商户|韩小韩发布首条点评系统在07-10-10最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 97
   shop_id: 5618947
@@ -1509,7 +1510,7 @@
   description: ''
   alias: ''
   hours: 11:00-14:00 16:00-21:00
-  atmosphere: 会员贡献：hiphop宝宝添加商户|hiphop宝宝发布首条点评系统在12-02-20最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 98
   shop_id: 2066659
@@ -1524,7 +1525,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 干煸鱿鱼腿(2)锅包肉(2)粉皮菠菜(2)
+  recommended_products: 干煸鱿鱼腿 锅包肉 粉皮菠菜
   address: 昌邑区解放北路324号(近延安街 德威御园对过)
   phone: ''
   description: 尚无营业时间
@@ -1545,13 +1546,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 铁板牛肉(2)
+  recommended_products: 铁板牛肉
   address: 解放北路鸿博景园31号楼3号网点
   phone: 0432-62266333
   description: ''
   alias: ''
   hours: 11:00—22:00
-  atmosphere: 会员贡献：BLUEANGEL1102添加商户|hiphop宝宝发布首条点评系统在11-11-20最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 100
   shop_id: 2351110
@@ -1572,7 +1573,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：回回串店添加商户|草原2008发布首条点评系统在12-04-05最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 101
   shop_id: 2302297
@@ -1587,14 +1588,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 烤冷面(3)
+  recommended_products: 烤冷面
   address: 朝中对面
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(2)
-  characteristics: 会员贡献：鲸儿添加商户|鲸儿发布首条点评系统在07-10-11最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 103
   shop_id: 583007
   name: 八记酒楼
@@ -1614,7 +1615,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：_可添加商户|我挡不住我发布首条点评系统在06-02-20最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 104
   shop_id: 584270
@@ -1629,7 +1630,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 煎鱼(3)
+  recommended_products: 煎鱼
   address: 上海路(天津街口)
   phone: ''
   description: 尚无营业时间
@@ -1650,14 +1651,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 馅饼(5)羊汤(3)锅塌胸口(3)
+  recommended_products: 馅饼 羊汤 锅塌胸口
   address: 牛马行
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(2)
-  characteristics: 会员贡献：mikhail添加商户|ZYAXL发布首条点评|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 106
   shop_id: 8694497
   name: 彩福轩
@@ -1677,7 +1678,7 @@
   description: ''
   alias: ''
   hours: 10:00 - 11:00
-  atmosphere: 会员贡献：开白菜添加商户|开白菜发布首条点评系统在13-01-10最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 107
   shop_id: 3933679
@@ -1698,7 +1699,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：计都_cy添加商户|计都_cy发布首条点评锅锅小宝最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 110
   shop_id: 3539152
@@ -1719,7 +1720,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：壹家壹添加商户|壹家壹发布首条点评系统在12-02-07最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 111
   shop_id: 2006788
@@ -1734,7 +1735,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 酸菜(2)牛肉(2)
+  recommended_products: 酸菜 牛肉
   address: 长春路长春广场南(欢喜路口)
   phone: ''
   description: 尚无营业时间
@@ -1755,14 +1756,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 砂锅面(4)
+  recommended_products: 砂锅面
   address: 青岛街小男孩西餐厅对面
   phone: ''
   description: 晓梅肉串
   alias: 晓梅肉串
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(2)
-  characteristics: 会员贡献：哈拉哈大饼子添加商户|哈拉哈大饼子发布首条点评系统在07-11-20最后更新|详情»
+  atmosphere: 朋友聚餐
+  characteristics: ''
 - rank: 113
   shop_id: 2347072
   name: 张记涮肚
@@ -1776,13 +1777,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 涮肚(7)烤串(5)
+  recommended_products: 涮肚 烤串
   address: 中兴街53号松江2厅(近吉林大街)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：smarkjinming添加商户|smarkjinming发布首条点评系统在07-11-27最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 114
   shop_id: 2817262
@@ -1803,7 +1804,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在08-10-28最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 117
   shop_id: 5392637
@@ -1824,8 +1825,8 @@
   description: ''
   alias: ''
   hours: 10：00-21：00
-  atmosphere: 餐厅特色：免费停车(4)可以刷卡(2)无线上网(2)
-  characteristics: 会员贡献：x小吃货添加商户|黑婆婆发布首条点评系统在13-03-29最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 118
   shop_id: 6454242
   name: 辣怪鸭
@@ -1845,7 +1846,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：起司猫和小松鼠发布首条点评起司猫和小松鼠最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 120
   shop_id: 2826103
@@ -1860,7 +1861,7 @@
   product_rating: 20
   environment_rating: 14
   service_rating: 13
-  recommended_products: 珍珠奶茶(3)香芋奶茶(2)
+  recommended_products: 珍珠奶茶 香芋奶茶
   address: 河南街头
   phone: ''
   description: 尚无营业时间
@@ -1881,7 +1882,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 肥牛(3)
+  recommended_products: 肥牛
   address: 遵义路(龙潭区人民政府对面)
   phone: 0432-63422188
   description: 尚无营业时间
@@ -1908,7 +1909,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：冰糕泡汽水添加商户|BLUEANGEL1102发布首条点评系统在11-11-07最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 125
   shop_id: 2458501
@@ -1923,13 +1924,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 锅包肉(6)包子(5)
+  recommended_products: 锅包肉 包子
   address: 天津街前段(近火车站150米)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：桃花坞主添加商户|桃花坞主发布首条点评系统在08-04-03最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 126
   shop_id: 2057692
@@ -1992,8 +1993,8 @@
   description: ''
   alias: ''
   hours: 9：00——22：00
-  atmosphere: 餐厅特色：可送外卖(2)
-  characteristics: 会员贡献：艾生活艾美食添加商户|艾生活艾美食发布首条点评系统在12-05-08最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 130
   shop_id: 8693040
   name: 香猪坊
@@ -2034,7 +2035,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：米米鱼耳朵添加商户|我自轻狂发布首条点评系统在07-08-09最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 132
   shop_id: 2128102
@@ -2055,7 +2056,7 @@
   description: Gll Wonton
   alias: Gll Wonton
   hours: ''
-  atmosphere: 会员贡献：WJX19820122添加商户|WJX19820122发布首条点评DoubleLazy最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 133
   shop_id: 2226508
@@ -2076,8 +2077,8 @@
   description: U.B.C. Coffee
   alias: U.B.C. Coffee
   hours: ''
-  atmosphere: 餐厅氛围：情侣约会(2)朋友聚餐(2)
-  characteristics: 会员贡献：mikhail添加商户|mikhail发布首条点评doublelazy最后更新|详情»
+  atmosphere: 情侣约会 朋友聚餐
+  characteristics: ''
 - rank: 134
   shop_id: 2332885
   name: 千禾酒楼
@@ -2112,13 +2113,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 麻辣牛肉面(2)
+  recommended_products: 麻辣牛肉面
   address: 珲春街与解放大路交叉路(近好利来)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：小葵lisa添加商户|小葵lisa发布首条点评系统在08-12-09最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 137
   shop_id: 3380392
@@ -2139,7 +2140,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：旋转木马0添加商户|旋转木马0发布首条点评系统在09-09-17最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 138
   shop_id: 3635785
@@ -2160,8 +2161,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(2)
-  characteristics: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在09-12-23最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 139
   shop_id: 4021777
   name: 东蜀火锅城
@@ -2181,7 +2182,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：volvo714添加商户|安啦啦发布首条点评系统在10-03-30最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 140
   shop_id: 4131640
@@ -2223,7 +2224,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：WWD美食探索添加商户|WWD美食探索发布首条点评系统在11-05-24最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 144
   shop_id: 5414822
@@ -2244,7 +2245,7 @@
   description: ''
   alias: ''
   hours: 全天24小时
-  atmosphere: 会员贡献：再次蜕变添加商户|再次蜕变发布首条点评再次蜕变最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 145
   shop_id: 8076552
@@ -2286,7 +2287,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：二默添加商户|二默发布首条点评系统在11-10-20最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 148
   shop_id: 6190256
@@ -2364,14 +2365,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 锅包肉(5)龙宽蜘蛛(4)蓝莓山药(4)
+  recommended_products: 锅包肉 龙宽蜘蛛 蓝莓山药
   address: 汉阳街3号(近徐州西路)
   phone: 0432-63060769
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(6)可以刷卡(3)
-  characteristics: 会员贡献：神奇小宝宝添加商户|神奇小宝宝发布首条点评系统在12-05-21最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 155
   shop_id: 1999372
   name: 餐乐骨肉馆(天津街店)
@@ -2385,7 +2386,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 碴条(2)
+  recommended_products: 碴条
   address: 天津街
   phone: ''
   description: 尚无营业时间
@@ -2406,7 +2407,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 馅饼(3)煎粉牛肉(2)
+  recommended_products: 馅饼 煎粉牛肉
   address: 铁东立交桥加油站附近
   phone: ''
   description: 尚无营业时间
@@ -2433,7 +2434,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 159
   shop_id: 4133990
@@ -2454,7 +2455,7 @@
   description: ''
   alias: ''
   hours: ! "夏天8：00——20：00\r\n冬天8：00——18：00"
-  atmosphere: 会员贡献：DIY手工巧克力添加商户|大家都快乐发布首条点评系统在10-06-21最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 160
   shop_id: 4185762
@@ -2475,7 +2476,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：hygdx添加商户|屋里呆不住发布首条点评|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 161
   shop_id: 5149812
@@ -2490,14 +2491,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 紫菜卷(5)小鱼饼(4)泡菜饼(4)
+  recommended_products: 紫菜卷 小鱼饼 泡菜饼
   address: 园艺路教师大厦(近二中)
   phone: ''
   description: ''
   alias: ''
   hours: 早9：00--晚20：00
-  atmosphere: 餐厅特色：免费停车(4)有下午茶(2)
-  characteristics: 会员贡献：jasson919添加商户|jasson919发布首条点评系统在11-05-04最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 162
   shop_id: 5343236
   name: 几分甜西饼店
@@ -2532,14 +2533,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 烧烤串(3)生吃羊肝(2)
+  recommended_products: 烧烤串 生吃羊肝
   address: 辽北路(市人才市场西侧)
   phone: 0432-64555666
   description: ''
   alias: ''
   hours: 早10:00-次日02:00
-  atmosphere: 餐厅特色：免费停车(3)有生日优惠(2)
-  characteristics: 会员贡献：akamala添加商户|akamala发布首条点评系统在12-01-07最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 165
   shop_id: 4720883
   name: 满族凤吉园贾家馆子(据说目前没有)
@@ -2559,8 +2560,8 @@
   description: 贾家馆子
   alias: 贾家馆子
   hours: ''
-  atmosphere: 餐厅氛围：家庭聚会(2)朋友聚餐(2)随便吃吃(2)商务宴请(2)
-  characteristics: 餐厅特色：有露天位(2)是老字号(2)
+  atmosphere: 家庭聚会 朋友聚餐 随便吃吃 商务宴请
+  characteristics: 有露天位 是老字号
 - rank: 167
   shop_id: 6495674
   name: 江南煮厨
@@ -2595,14 +2596,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 关东鹿肉(2)
+  recommended_products: 关东鹿肉
   address: 解放大路西181号(近吉林七中)
   phone: 0432-6485469964864699
   description: 满族八大碗
   alias: 满族八大碗
   hours: ''
-  atmosphere: 餐厅氛围：家庭聚会(4)商务宴请(4)朋友聚餐(4)情侣约会(2)
-  characteristics: 餐厅特色：免费停车(2)
+  atmosphere: 家庭聚会 商务宴请 朋友聚餐 情侣约会
+  characteristics: 免费停车
 - rank: 169
   shop_id: 5725257
   name: 汤臣一品
@@ -2658,14 +2659,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 芝士丸(5)炸斑鱼片(4)斑鱼刺身(3)凉拌鱼皮(2)龙虾丸(2)
+  recommended_products: 芝士丸 炸斑鱼片 斑鱼刺身 凉拌鱼皮 龙虾丸
   address: 德胜路7号(近越山路)
   phone: 0432-63366789
   description: ''
   alias: ''
   hours: 9:00-21:00
-  atmosphere: 餐厅特色：无线上网(4)可以刷卡(3)免费停车(2)
-  characteristics: 会员贡献：嚡嘋添加商户|sam_tt发布首条点评系统在13-01-24最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 172
   shop_id: 585833
   name: 绿杜德
@@ -2706,7 +2707,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：mikhail添加商户|dugidugi发布首条点评系统在08-09-10最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 175
   shop_id: 4092610
@@ -2727,8 +2728,8 @@
   description: City 1+1 Pizza
   alias: City 1+1 Pizza
   hours: ''
-  atmosphere: 餐厅氛围：休闲小憩(3)朋友聚餐(3)随便吃吃(3)情侣约会(3)
-  characteristics: 会员贡献：简木添加商户|游玩的北极熊发布首条点评系统在13-05-23最后更新|详情»
+  atmosphere: 休闲小憩 朋友聚餐 随便吃吃 情侣约会
+  characteristics: ''
 - rank: 177
   shop_id: 5216512
   name: 小国骨肉馆
@@ -2748,8 +2749,8 @@
   description: 小国骨肉馆
   alias: 小国骨肉馆
   hours: ''
-  atmosphere: 餐厅氛围：商务宴请(4)朋友聚餐(4)休闲小憩(4)家庭聚会(4)
-  characteristics: 餐厅特色：免费停车(4)有露天位(3)
+  atmosphere: 商务宴请 朋友聚餐 休闲小憩 家庭聚会
+  characteristics: 免费停车 有露天位
 - rank: 178
   shop_id: 5335182
   name: 西安面庄
@@ -2784,7 +2785,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 釜山特牛(3)石锅拌饭(3)水果沙拉(3)
+  recommended_products: 釜山特牛 石锅拌饭 水果沙拉
   address: 十二中旁
   phone: 0432-3038111
   description: 尚无营业时间
@@ -2805,13 +2806,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 馇条(4)
+  recommended_products: 馇条
   address: 厦门街
   phone: ''
   description: ''
   alias: ''
   hours: 8:30-21:00
-  atmosphere: 会员贡献：mahuazhuchong添加商户|mahuazhuchong发布首条点评ljy198386最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 183
   shop_id: 2217367
@@ -2832,7 +2833,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：跳动的字符添加商户|曲终人不可散发布首条点评系统在10-06-13最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 184
   shop_id: 2225518
@@ -2874,7 +2875,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：韩小韩添加商户|好吃婧婧发布首条点评韩小韩最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 186
   shop_id: 2653036
@@ -2895,7 +2896,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：lilypanzkyu添加商户|lilypanzkyu发布首条点评系统在08-07-29最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 188
   shop_id: 2817250
@@ -2937,7 +2938,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在08-12-26最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 190
   shop_id: 2968804
@@ -2979,7 +2980,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：不止双面添加商户|不止双面发布首条点评系统在10-12-27最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 193
   shop_id: 3342700
@@ -2994,7 +2995,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 包子(2)
+  recommended_products: 包子
   address: 东北电力大学西门
   phone: ''
   description: 尚无营业时间
@@ -3042,7 +3043,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：WWD美食探索添加商户|SongGePong发布首条点评WWD美食探索最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 198
   shop_id: 5335272
@@ -3063,7 +3064,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：二默添加商户|二默发布首条点评系统在11-10-18最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 199
   shop_id: 5604819
@@ -3084,8 +3085,8 @@
   description: ''
   alias: ''
   hours: 早九点 晚九点
-  atmosphere: 餐厅特色：可送外卖(3)免费停车(2)
-  characteristics: 会员贡献：球球棍棍1987添加商户|球球棍棍1987发布首条点评系统在12-11-29最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 200
   shop_id: 5873513
   name: 巴蜀农人麻辣烫
@@ -3126,7 +3127,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：美食无国界添加商户|美食无国界发布首条点评系统在12-10-29最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 203
   shop_id: 5355205
@@ -3204,13 +3205,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 麻辣烫(2)
+  recommended_products: 麻辣烫
   address: 东市场老东市商场内
   phone: '15840404488'
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：锦瑟801110添加商户|锦瑟801110发布首条点评系统在12-02-06最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 209
   shop_id: 2225548
@@ -3231,7 +3232,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：mikhail添加商户|小CAD猪发布首条点评系统在07-08-09最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 210
   shop_id: 3270313
@@ -3252,8 +3253,8 @@
   description: 大宅门干锅鸭头
   alias: 大宅门干锅鸭头
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(2)
-  characteristics: 会员贡献：色色_猪添加商户|色色_猪发布首条点评系统在12-07-27最后更新|详情»
+  atmosphere: 朋友聚餐
+  characteristics: ''
 - rank: 212
   shop_id: 3714517
   name: 食为天蟹肉汤包(解放中路店)
@@ -3288,7 +3289,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 口水鸡(3)牛肉面(3)酱牛肉(2)炸酱面(2)
+  recommended_products: 口水鸡 牛肉面 酱牛肉 炸酱面
   address: 重庆路121号日化综合楼(近大润发)
   phone: 0432-62553535
   description: ''
@@ -3330,7 +3331,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 小炒黄(2)
+  recommended_products: 小炒黄
   address: 四川路(通江街口)
   phone: 0432-61553882787774
   description: 尚无营业时间
@@ -3378,7 +3379,7 @@
   description: K&S COFFEE HOUSE
   alias: K&S COFFEE HOUSE
   hours: ''
-  atmosphere: 会员贡献：ken123465添加商户|adoniswang发布首条点评韩小韩最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 220
   shop_id: 2364115
@@ -3399,7 +3400,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：JenniferXing添加商户|JenniferXing发布首条点评系统在07-12-14最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 221
   shop_id: 2375914
@@ -3456,13 +3457,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 冷面(2)
+  recommended_products: 冷面
   address: 北华大学南校区(近松花江中学)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在08-11-04最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 225
   shop_id: 3625822
@@ -3483,8 +3484,8 @@
   description: ''
   alias: ''
   hours: 上午10：00-凌晨12：00
-  atmosphere: 餐厅特色：免费停车(2)是老字号(2)
-  characteristics: 会员贡献：兜兜有糖就去飞添加商户|兜兜有糖就去飞发布首条点评兜兜有糖就去飞最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 226
   shop_id: 3635620
   name: 富绅酒楼
@@ -3504,7 +3505,7 @@
   description: ''
   alias: ''
   hours: 早10：00——晚21：00
-  atmosphere: 会员贡献：绝世乖宝贝添加商户|whist发布首条点评系统在09-12-23最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 227
   shop_id: 5361761
@@ -3525,7 +3526,7 @@
   description: 他她开心捞
   alias: 他她开心捞
   hours: ''
-  atmosphere: 会员贡献：二默添加商户|二默发布首条点评系统在12-05-04最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 228
   shop_id: 8026877
@@ -3567,7 +3568,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：mikhail添加商户|sammyliang发布首条点评系统在07-03-01最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 232
   shop_id: 2066650
@@ -3588,7 +3589,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：mikhail添加商户|猪哥亮5108发布首条点评系统在07-03-01最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 233
   shop_id: 2085403
@@ -3624,13 +3625,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 老虎菜(2)
+  recommended_products: 老虎菜
   address: 解放大路四川路交叉路口(顺风123对面)
   phone: 0432-6570656
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：吉林王策添加商户|带你飞翔好吗发布首条点评系统在08-02-22最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 236
   shop_id: 2253616
@@ -3651,7 +3652,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：jadou添加商户|ZYAXL发布首条点评系统在07-09-04最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 237
   shop_id: 2623102
@@ -3750,7 +3751,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 烤牛肉(2)
+  recommended_products: 烤牛肉
   address: 重庆路医学院至百货大楼中段
   phone: 0432-2430655
   description: 尚无营业时间
@@ -3777,7 +3778,7 @@
   description: 广东人之家
   alias: 广东人之家
   hours: ''
-  atmosphere: 会员贡献：食客小乃添加商户|食客小乃发布首条点评系统在09-06-11最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 245
   shop_id: 3205732
@@ -3861,7 +3862,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：简木添加商户|只爱吃好吃的发布首条点评系统在12-04-06最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 250
   shop_id: 3311986
@@ -3897,7 +3898,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 辣白菜(3)
+  recommended_products: 辣白菜
   address: 青年路
   phone: ''
   description: 尚无营业时间
@@ -3924,7 +3925,7 @@
   description: ''
   alias: ''
   hours: 10:00-21:00
-  atmosphere: 会员贡献：抹茶棒棒添加商户|抹茶棒棒发布首条点评系统在10-02-23最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 259
   shop_id: 4195702
@@ -3945,7 +3946,7 @@
   description: ''
   alias: ''
   hours: 全天
-  atmosphere: 会员贡献：水母楠楠好运又...添加商户|水母楠楠好运又...发布首条点评系统在10-07-22最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 260
   shop_id: 4200451
@@ -3987,7 +3988,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：菘蓝添加商户|菘蓝发布首条点评|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 262
   shop_id: 4655067
@@ -4023,14 +4024,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 鸭血(2)
+  recommended_products: 鸭血
   address: 铁东武汉路(近文化宫)
   phone: ''
   description: 老妈火锅
   alias: 老妈火锅
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(2)
-  characteristics: 会员贡献：约瑟果果添加商户|约瑟果果发布首条点评系统在11-04-08最后更新|详情»
+  atmosphere: 朋友聚餐
+  characteristics: ''
 - rank: 265
   shop_id: 4746649
   name: 金洲汤城
@@ -4050,7 +4051,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：lizzy99添加商户|lizzy99发布首条点评系统在11-04-19最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 267
   shop_id: 5302491
@@ -4071,8 +4072,8 @@
   description: 海鲜饺子
   alias: 海鲜饺子
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(2)
-  characteristics: 会员贡献：幸福阳光歌谣发布首条点评如意小贝贝最后更新|详情»
+  atmosphere: 朋友聚餐
+  characteristics: ''
 - rank: 268
   shop_id: 5343205
   name: 连成肉串
@@ -4149,14 +4150,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 烤明太鱼(3)酱油筋(3)
+  recommended_products: 烤明太鱼 酱油筋
   address: 光华路与青岛街交汇处
   phone: 0432-68022987
   description: ''
   alias: ''
   hours: 12:00-24:00
-  atmosphere: 餐厅特色：免费停车(4)供应夜宵(3)
-  characteristics: 会员贡献：xinxingstace添加商户|xinxingstace发布首条点评系统在12-04-28最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 274
   shop_id: 6095226
   name: 夜巴黎欢乐餐厅
@@ -4218,7 +4219,7 @@
   description: City 1+1 Pizza
   alias: City 1+1 Pizza
   hours: ''
-  atmosphere: 会员贡献：火锅9303添加商户|大眼皮儿儿发布首条点评系统在13-05-13最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 277
   shop_id: 8822403
@@ -4254,7 +4255,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 风味煎粉(3)
+  recommended_products: 风味煎粉
   address: 船营区北京路公安街 吉林银行胡同直走第一个路口右转红色牌子(吉林市公安局 吉林市中心医院 吉林市第一实验小学)
   phone: ''
   description: ''
@@ -4386,8 +4387,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(2)
-  characteristics: 会员贡献：二默添加商户|二默发布首条点评系统在11-10-18最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 290
   shop_id: 5342603
   name: 王石冷面
@@ -4428,7 +4429,7 @@
   description: ''
   alias: ''
   hours: 09：00---02：00
-  atmosphere: 会员贡献：罗圈胳膊添加商户|罗圈胳膊发布首条点评系统在11-10-19最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 292
   shop_id: 5399808
@@ -4533,7 +4534,7 @@
   description: ''
   alias: ''
   hours: 9：00-17：00
-  atmosphere: 会员贡献：蜡笔小馨爱红豆添加商户|煙雨朦胧发布首条点评系统在12-02-14最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 297
   shop_id: 5629165
@@ -4680,7 +4681,7 @@
   description: 樱花
   alias: 樱花
   hours: ''
-  atmosphere: 会员贡献：小欠巴登添加商户|小欠巴登发布首条点评系统在12-09-06最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 304
   shop_id: 8675589
@@ -4779,13 +4780,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 涮肚(3)
+  recommended_products: 涮肚
   address: 天津街(青年路口)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：系统添加|jinsimeigui发布首条点评|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 310
   shop_id: 2094643
@@ -4821,13 +4822,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 麻辣小龙虾(2)
+  recommended_products: 麻辣小龙虾
   address: 龙潭区古川路53号(清林街口)
   phone: 0432-3961981
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：芳芷幽兰添加商户|芳芷幽兰发布首条点评系统在07-04-24最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 316
   shop_id: 2253625
@@ -4848,7 +4849,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：jadou添加商户|超级无敌大蜗牛发布首条点评系统在07-09-04最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 317
   shop_id: 2338456
@@ -4884,7 +4885,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 烤羊腿(2)
+  recommended_products: 烤羊腿
   address: 四川路通江街四中东走30米
   phone: 0432-7680345
   description: 尚无营业时间
@@ -4995,7 +4996,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在08-12-24最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 325
   shop_id: 3115171
@@ -5016,7 +5017,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：逍遥的胖子添加商户|逍遥的胖子发布首条点评系统在09-04-23最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 326
   shop_id: 3193618
@@ -5115,13 +5116,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 牛肉面(2)
+  recommended_products: 牛肉面
   address: 河南街116号(近东方商厦)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：jue_jin添加商户|jue_jin发布首条点评系统在09-08-17最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 334
   shop_id: 3523768
@@ -5184,8 +5185,8 @@
   description: 二哥烤肉
   alias: 二哥烤肉
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(2)
-  characteristics: 会员贡献：下山下山添加商户|下山下山发布首条点评系统在10-01-15最后更新|详情»
+  atmosphere: 朋友聚餐
+  characteristics: ''
 - rank: 337
   shop_id: 3651361
   name: 吉祥馄饨
@@ -5247,7 +5248,7 @@
   description: Corrs
   alias: Corrs
   hours: ''
-  atmosphere: 会员贡献：niubi277添加商户|bdwz513发布首条点评系统在10-04-08最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 341
   shop_id: 4092613
@@ -5268,7 +5269,7 @@
   description: City 1+1 Pizza
   alias: City 1+1 Pizza
   hours: ''
-  atmosphere: 会员贡献：简木添加商户|屋里呆不住发布首条点评系统在10-11-25最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 346
   shop_id: 4527934
@@ -5304,13 +5305,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 铁锅炖鱼(2)
+  recommended_products: 铁锅炖鱼
   address: 清真美食街北极家园32号楼
   phone: 0432-62088877
   description: ''
   alias: ''
   hours: 全天
-  atmosphere: 会员贡献：WWD美食探索添加商户|WWD美食探索发布首条点评|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 349
   shop_id: 4659822
@@ -5352,8 +5353,8 @@
   description: 乌拉街满族火锅
   alias: 乌拉街满族火锅
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(2)家庭聚会(2)
-  characteristics: 会员贡献：绿舞风轻添加商户|绿舞风轻发布首条点评系统在11-01-26最后更新|详情»
+  atmosphere: 朋友聚餐 家庭聚会
+  characteristics: ''
 - rank: 351
   shop_id: 5159864
   name: 富翔大酒楼(厦门街店)
@@ -5415,8 +5416,8 @@
   description: 维多利亚西餐厅
   alias: 维多利亚西餐厅
   hours: ''
-  atmosphere: 餐厅氛围：朋友聚餐(2)情侣约会(2)
-  characteristics: 会员贡献：lazy笨笨添加商户|lazy笨笨发布首条点评系统在12-09-11最后更新|详情»
+  atmosphere: 朋友聚餐 情侣约会
+  characteristics: ''
 - rank: 354
   shop_id: 5335194
   name: 豆地煮压锅菜
@@ -5436,8 +5437,8 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：免费停车(2)
-  characteristics: 会员贡献：二默添加商户|二默发布首条点评系统在11-10-18最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 357
   shop_id: 5466408
   name: 艾嘉味道
@@ -5499,8 +5500,8 @@
   description: ''
   alias: ''
   hours: 09:00-23:00
-  atmosphere: 餐厅特色：免费停车(2)有下午茶(2)
-  characteristics: 会员贡献：牧猫的女孩添加商户|牧猫的女孩发布首条点评忧郁行者最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 360
   shop_id: 5542189
   name: 樱花朝族牛排火锅店
@@ -5604,7 +5605,7 @@
   description: 八道江饭店
   alias: 八道江饭店
   hours: ''
-  atmosphere: 会员贡献：ChrisKong添加商户|ChrisKong发布首条点评系统在13-02-16最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 367
   shop_id: 5694171
@@ -5772,7 +5773,7 @@
   description: ''
   alias: ''
   hours: 9:00-24:00
-  atmosphere: 会员贡献：lostin2o1o添加商户|lostin2o1o发布首条点评系统在12-09-01最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 380
   shop_id: 6230912
@@ -5829,14 +5830,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 招牌香鸡排(3)招牌盐酥鸡(3)
+  recommended_products: 招牌香鸡排 招牌盐酥鸡
   address: 解放东路吉林财富广场地下美食城(重庆街口)
   phone: 0432-65115399
   description: ''
   alias: ''
   hours: 10:00-20:00
-  atmosphere: 餐厅特色：有下午茶(2)有午市套餐(2)免费停车(2)可送外卖(2)
-  characteristics: 会员贡献：joeywu添加商户|台湾甜不辣发布首条点评joeywu最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 383
   shop_id: 8696998
   name: 昱香缘家乡鸭
@@ -5856,7 +5857,7 @@
   description: ''
   alias: ''
   hours: 9：00-22:00
-  atmosphere: 会员贡献：water227添加商户|water227发布首条点评系统在13-03-14最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 384
   shop_id: 8897091
@@ -5961,7 +5962,7 @@
   description: ''
   alias: ''
   hours: 10:00-23:00
-  atmosphere: 会员贡献：立方咖啡添加商户|小咖啡师发布首条点评系统在13-06-17最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 390
   shop_id: 5140657
@@ -6066,7 +6067,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在09-11-13最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 398
   shop_id: 5343198
@@ -6087,7 +6088,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：二默发布首条点评二默最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 402
   shop_id: 6129933
@@ -6150,7 +6151,7 @@
   description: 大连诚建肥牛
   alias: 大连诚建肥牛
   hours: ''
-  atmosphere: 会员贡献：YY爱YY添加商户|一二三加油发布首条点评系统在08-03-11最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 406
   shop_id: 2874421
@@ -6486,7 +6487,7 @@
   description: ''
   alias: ''
   hours: 10:00-22:00
-  atmosphere: 会员贡献：wzm1185添加商户|丶筱佳丶发布首条点评系统在13-01-27最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 432
   shop_id: 8312259
@@ -6528,7 +6529,7 @@
   description: Fiona coffee
   alias: Fiona coffee
   hours: ''
-  atmosphere: 会员贡献：可可可新0发布首条点评相思宁少最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 434
   shop_id: 8969707
@@ -6591,7 +6592,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：食无霸添加商户|天下馋友是一家发布首条点评系统在07-01-09最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 438
   shop_id: 2051803
@@ -6606,7 +6607,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 新西兰肥羊(2)
+  recommended_products: 新西兰肥羊
   address: 解放北路通潭西区A座29－21号(近通潭大路)
   phone: 0432-3951459
   description: 尚无营业时间
@@ -6648,7 +6649,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 烧卖(2)
+  recommended_products: 烧卖
   address: 东市场长沙街
   phone: ''
   description: 尚无营业时间
@@ -6690,7 +6691,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 烧卖(3)羊汤(3)酱牛肉(2)
+  recommended_products: 烧卖 羊汤 酱牛肉
   address: 青岛街牛马行巨龙大厦2号(解放大路口)
   phone: '13904426810'
   description: 尚无营业时间
@@ -6717,7 +6718,7 @@
   description: Gll Wonton
   alias: Gll Wonton
   hours: ''
-  atmosphere: 会员贡献：mikhail添加商户|bdwz513发布首条点评DoubleLazy最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 446
   shop_id: 2274616
@@ -6774,7 +6775,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 金牌羊肉(2)
+  recommended_products: 金牌羊肉
   address: 解放大路铁成花园13号
   phone: 0432-6570656
   description: 尚无营业时间
@@ -6969,7 +6970,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：好吃婧婧添加商户|好吃婧婧发布首条点评系统在09-02-27最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 462
   shop_id: 3132691
@@ -7404,13 +7405,13 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 酸辣粉(2)
+  recommended_products: 酸辣粉
   address: 河南街中段(近民意胡同)
   phone: ''
   description: ''
   alias: ''
   hours: 早上10点-晚上7点
-  atmosphere: 会员贡献：jinchennet添加商户|jinchennet发布首条点评系统在10-12-09最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 494
   shop_id: 4550412
@@ -7431,7 +7432,7 @@
   description: ''
   alias: ''
   hours: 早上十点，狗肉卖没关门，一般在八点半左右，
-  atmosphere: 会员贡献：我吉祥我如意添加商户|好运爱吃发布首条点评系统在10-12-13最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 496
   shop_id: 4600621
@@ -7452,7 +7453,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：WWD美食探索添加商户|凌城太守发布首条点评凌城太守最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 498
   shop_id: 4669478
@@ -7557,7 +7558,7 @@
   description: ''
   alias: ''
   hours: 10:00——22:00
-  atmosphere: 会员贡献：kiki1111213添加商户|kiki1111213发布首条点评系统在11-04-25最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 507
   shop_id: 5137208
@@ -7578,7 +7579,7 @@
   description: 粮全齐美
   alias: 粮全齐美
   hours: ''
-  atmosphere: 会员贡献：李李镝添加商户|李李镝发布首条点评系统在11-04-26最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 508
   shop_id: 5156163
@@ -7641,7 +7642,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：桂花糕世家添加商户|桂花糕世家发布首条点评系统在11-06-09最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 514
   shop_id: 5236219
@@ -7725,7 +7726,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：阳光下的美食添加商户|阳光下的美食发布首条点评系统在12-01-07最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 523
   shop_id: 5481604
@@ -7845,14 +7846,14 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 咖啡(2)水果披萨(2)
+  recommended_products: 咖啡 水果披萨
   address: 西环江路水韵名城商铺(近世纪广场)
   phone: ''
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 餐厅特色：有下午茶(2)
-  characteristics: 会员贡献：jlwjj添加商户|jlwjj发布首条点评系统在12-01-19最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 532
   shop_id: 5579477
   name: 喜家德水饺(天津街二店)
@@ -8118,7 +8119,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 红烧肉(2)
+  recommended_products: 红烧肉
   address: 北京路111-3号附近
   phone: ''
   description: 尚无营业时间
@@ -8460,8 +8461,8 @@
   description: ''
   alias: ''
   hours: 10:00-20:00
-  atmosphere: 餐厅特色：可送外卖(2)可自带酒水(2)
-  characteristics: 会员贡献：茶芯陌添加商户|茶芯陌发布首条点评系统在12-09-06最后更新|详情»
+  atmosphere: ''
+  characteristics: ''
 - rank: 589
   shop_id: 6297286
   name: 永福柒号鲍鱼火锅
@@ -8538,7 +8539,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 海中鲜(2)香辣金蚕肉(2)葱爆酱油肉(2)
+  recommended_products: 海中鲜 香辣金蚕肉 葱爆酱油肉
   address: 解放北路公交技校附近
   phone: 0432-66555228
   description: ''
@@ -8580,7 +8581,7 @@
   product_rating: 0
   environment_rating: 0
   service_rating: 0
-  recommended_products: 酱油筋(2)
+  recommended_products: 酱油筋
   address: 延安街万达附近
   phone: 0432-6802866668028777
   description: ''
@@ -9006,7 +9007,7 @@
   description: 王记烤肉
   alias: 王记烤肉
   hours: ''
-  atmosphere: 会员贡献：蜡笔小馨爱红豆添加商户|蜡笔小馨爱红豆发布首条点评系统在12-03-06最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 631
   shop_id: 5998759
@@ -9384,7 +9385,7 @@
   description: 捞中天四川巴山火锅
   alias: 捞中天四川巴山火锅
   hours: ''
-  atmosphere: 会员贡献：jamesyu1添加商户|刘仪仪发布首条点评系统在11-06-22最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 652
   shop_id: 5335209
@@ -9405,7 +9406,7 @@
   description: 长发川味麻辣鸭厦门街店
   alias: 长发川味麻辣鸭厦门街店
   hours: ''
-  atmosphere: 会员贡献：二默添加商户|二默发布首条点评系统在11-10-18最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 653
   shop_id: 5343247
@@ -9447,7 +9448,7 @@
   description: City 1+1 Pizza
   alias: City 1+1 Pizza
   hours: ''
-  atmosphere: 会员贡献：djnam2009添加商户|djnam2009发布首条点评系统在13-01-14最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 655
   shop_id: 5382621
@@ -9846,7 +9847,7 @@
   description: City 1+1 Pizza
   alias: City 1+1 Pizza
   hours: ''
-  atmosphere: 会员贡献：火锅9303添加商户|大眼皮儿儿发布首条点评系统在13-05-13最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 707
   shop_id: 8799943
@@ -9930,7 +9931,7 @@
   description: 来自意大利的爱
   alias: 来自意大利的爱
   hours: ''
-  atmosphere: 会员贡献：优西西里添加商户|脾气有点坏1155...发布首条点评系统在13-06-03最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 711
   shop_id: 8872655
@@ -9993,7 +9994,7 @@
   description: 爱锅者餐饮管理有限公司
   alias: 爱锅者餐饮管理有限公司
   hours: ''
-  atmosphere: 会员贡献：爱锅者直营添加商户|爱锅者直营发布首条点评系统在13-06-03最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 714
   shop_id: 9403585
@@ -10287,7 +10288,7 @@
   description: 尚无营业时间
   alias: 尚无营业时间
   hours: ''
-  atmosphere: 会员贡献：touch81添加商户|wawa0823发布首条点评系统在07-04-10最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 729
   shop_id: 2099713
@@ -10497,7 +10498,7 @@
   description: 咖啡语茶
   alias: 咖啡语茶
   hours: ''
-  atmosphere: 会员贡献：碧情轩添加商户|kaobaomide发布首条点评系统在12-04-16最后更新|详情»
+  atmosphere: ''
   characteristics: ''
 - rank: 744
   shop_id: 2296954
