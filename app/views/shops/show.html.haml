@@ -9,8 +9,12 @@
 .page-content
   .media#media= image_tag(@shop.thumb)
   .text
-    %p 活动时间：06月19日至06月30日
-    %p 活动商场：资和信百货 B1中厅
+    %p= "地址：#{@shop.address}"
+    %p= "电话：#{@shop.phone}"
     %br
-    %p 火爆夏日，酷我青春!青休服饰展卖开始啦，雪儿、page one、梅花、欧美蒂、夏莫尼等多品牌休闲服饰参与展卖，全场2-5折起，不论你是普文二哪一型，总有一款适合你，活动时间：6月19日至30日。
+    %p= "人均：¥#{@shop.avg_price}"
+    %p= "口味：#{@shop.product_rating}  环境：#{@shop.environment_rating}  服务：#{@shop.service_rating}"
+    %br
+    %p 推荐菜：
+    %p= "#{@shop.recommended_products}"
 
