@@ -3,5 +3,7 @@ Diamond::Application.routes.draw do
 
   resources :weixins
 
-  resources :shops
+  resources :shops do
+    get :map, :on => :collection
+  end
 end

@@ -1,0 +1,35 @@
+<script>
+    // 解决baidu地图有时候没有响应的问题，加载DOM完成后再加载地图
+    // jquery风格的不好使，不知道为什么？只能使用javascript原生的
+    //$(function(){
+    window.onload = function(){
+        var map = new BMap.Map("couponmap");
+        var point = new BMap.Point(126.593505, 43.876329);
+        map.centerAndZoom(point,13);
+        // 禁止鼠标滚动，用户体验更好
+        //map.enableScrollWheelZoom();
+        map.addControl(new BMap.NavigationControl());
+        //map.addControl(new BMap.NavigationControl({type: BMAP_NAVIGATION_CONTROL_ZOOM}));
+
+        function addMarkerContent(point, content){
+            var myIcon = new BMap.Icon("/assets/map_mark.png", new BMap.Size(11,18));
+            var marker = new BMap.Marker(point, {icon: myIcon});
+            map.addOverlay(marker);
+            var infoWindow = new BMap.InfoWindow(content);
+            marker.addEventListener("click", function(){this.openInfoWindow(infoWindow);});
+        }
+
+        <% @shops.each do |shop| %>
+            var point = new BMap.Point(<%= shop.longitude %>, <%= shop.latitude %>);
+            var content = <%= '"'.html_safe %> \
+                <%= "<div style='color:#666;line-height:20px;'>".html_safe %> \
+                <%= "<h3 style='font-size:16px;'><strong>#{shop.name}</strong></h3>".html_safe %> \
+                <%= "地址：#{shop.address}<br/>".html_safe %> \
+                <%= "电话：#{shop.phone}<br/>".html_safe %> \
+                <%= "<a target='_blank' href='#{shop_path(shop)}'>详情 »</a>".html_safe %> \
+                <%= '</div>"'.html_safe %>;
+            addMarkerContent(point, content);
+        <% end %>
+    };
+    //});
+</script>
