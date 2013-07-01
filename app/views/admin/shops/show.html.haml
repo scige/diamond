@@ -1,0 +1,72 @@
+%p#notice= notice
+
+%p
+  %b name:
+  = @shop.name
+%p
+  %b rank:
+  = @shop.rank
+%p
+  %b shop_id:
+  = @shop.shop_id
+%p
+  %b name:
+  = @shop.name
+%p
+  %b navigation:
+  = @shop.navigation
+%p
+  %b poi:
+  = @shop.poi
+%p
+  %b latitude:
+  = @shop.latitude
+%p
+  %b longitude:
+  = @shop.longitude
+%p
+  %b thumb:
+  = @shop.thumb
+%p
+  %b star:
+  = @shop.star
+%p
+  %b avg_price:
+  = @shop.avg_price
+%p
+  %b product_rating:
+  = @shop.product_rating
+%p
+  %b environment_rating:
+  = @shop.environment_rating
+%p
+  %b service_rating:
+  = @shop.service_rating
+%p
+  %b recommended_products:
+  = @shop.recommended_products
+%p
+  %b address:
+  = @shop.address
+%p
+  %b phone:
+  = @shop.phone
+%p
+  %b description:
+  = @shop.description
+%p
+  %b alias:
+  = @shop.alias
+%p
+  %b hours:
+  = @shop.hours
+%p
+  %b atmosphere:
+  = @shop.atmosphere
+%p
+  %b characteristics:
+  = @shop.characteristics
+
+= link_to 'Edit', edit_admin_shop_path(@shop)
+\|
+= link_to 'Back', admin_shops_path

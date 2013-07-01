@@ -2,7 +2,7 @@
 - rank: 1
   shop_id: 585845
   name: 福源馆(河南街店)
-  navigation: 吉林餐厅»小吃面食»福源馆(河南街店)
+  navigation: 小吃面食
   poi: HVDHGWZBAEADBAY
   latitude: 43.84843
   longitude: 126.56041
@@ -24,7 +24,7 @@
 - rank: 2
   shop_id: 2064736
   name: 大唐食代(解放中路店)
-  navigation: 吉林餐厅»船营区»韩国»大唐食代(解放中路店)
+  navigation: 船营区 韩国
   poi: HVDJVAZBAEAHSBQ
   latitude: 43.85119
   longitude: 126.5695
@@ -35,7 +35,7 @@
   environment_rating: 26
   service_rating: 24
   address: 解放中路7号(近大东门广场)
-  phone: 0432-24222222599999
+  phone: 0432-62422222 62599999
   recommended_products: 特味牛排 五花肉 肥牛 特色牛肉 牛仔骨 特味肥牛 冷面 牛排 素杂拌 黑椒牛肉 海鲜饼
   alias: ''
   description: “每次回吉林必去”的韩国烤肉餐厅。特味牛排、五花肉、肥牛分量“十足”，调味“适中”，无论是“自己动手”还是“服务员帮忙”，味道都还“不错”。环境蛮适合“情侣约会”，只是抽烟机“稍有不足”，叫人郁闷。
@@ -45,7 +45,7 @@
 - rank: 3
   shop_id: 585826
   name: 川王福(解放中路店)
-  navigation: 吉林餐厅»昌邑区»火锅»川王福(解放中路店)
+  navigation: 昌邑区 火锅
   poi: HVDHWGZBAEAEGJG
   latitude: 43.84939
   longitude: 126.5629
@@ -66,7 +66,7 @@
 - rank: 4
   shop_id: 563549
   name: 小男孩西餐厅(青岛街店)
-  navigation: 吉林餐厅»快餐简餐»小男孩西餐厅(青岛街店)
+  navigation: 快餐简餐
   poi: HVDDDHZBAEAAIII
   latitude: 43.85051
   longitude: 126.55185
@@ -87,7 +87,7 @@
 - rank: 5
   shop_id: 584896
   name: 朝鲜族饭店
-  navigation: 吉林餐厅»韩国»朝鲜族饭店
+  navigation: 韩国
   poi: HVDRBWZBAEAJWIU
   latitude: 43.85381
   longitude: 126.57271
@@ -108,7 +108,7 @@
 - rank: 6
   shop_id: 4207687
   name: 春园烤肉王
-  navigation: 吉林餐厅»船营区»烧烤»春园烤肉王
+  navigation: 船营区 烧烤
   poi: HVEFHEZBADWRGDQ
   latitude: 43.81934
   longitude: 126.56729
@@ -119,7 +119,7 @@
   environment_rating: 18
   service_rating: 16
   address: 吉林大街50号(近滔博运动城)
-  phone: 0432-6646066662433888
+  phone: 0432-66460666 62433888
   recommended_products: 烤肉 培根 韩式牛排 蛋糕 鱼丸 沙拉
   alias: ''
   description: ''
@@ -129,7 +129,7 @@
 - rank: 7
   shop_id: 2006776
   name: 牛马行牛肉饸饹铺
-  navigation: 吉林餐厅»船营区»小吃面食»牛马行牛肉饸饹铺
+  navigation: 船营区 小吃面食
   poi: HVDEGGZBAEAAIIX
   latitude: 43.84907
   longitude: 126.55329
@@ -150,7 +150,7 @@
 - rank: 8
   shop_id: 2267251
   name: 宏伟煎粉第一家
-  navigation: 吉林餐厅»小吃面食»宏伟煎粉第一家
+  navigation: 小吃面食
   poi: HVDTJCZBAEASEHS
   latitude: 43.85234
   longitude: 126.57753
@@ -171,7 +171,7 @@
 - rank: 10
   shop_id: 2180137
   name: 萍香大厨
-  navigation: 吉林餐厅»船营区»东北菜»萍香大厨
+  navigation: 船营区 东北菜
   poi: HVDIADZBAEAHFDX
   latitude: 43.85314
   longitude: 126.56661
@@ -182,7 +182,7 @@
   environment_rating: 24
   service_rating: 23
   address: 大东门信合福苑4号网点
-  phone: 0432-624884382486222
+  phone: ''
   recommended_products: 锅包肉 牛肉煎粉 水煮肉片 香辣肉丝 地三鲜
   alias: ''
   description: ''
@@ -192,7 +192,7 @@
 - rank: 11
   shop_id: 582837
   name: 萍香园
-  navigation: 吉林餐厅»昌邑区»东北菜»萍香园
+  navigation: 昌邑区 东北菜
   poi: HVDTFDZBAEARAVE
   latitude: 43.85102
   longitude: 126.57572
@@ -213,7 +213,7 @@
 - rank: 13
   shop_id: 1887808
   name: 富翔火锅店
-  navigation: 吉林餐厅»火锅»富翔火锅店
+  navigation: 火锅
   poi: HVDIRRZBAEAGCAP
   latitude: 43.85073
   longitude: 126.56595
@@ -234,7 +234,7 @@
 - rank: 14
   shop_id: 585830
   name: 世纪大饭店
-  navigation: 吉林餐厅»丰满区»西餐»世纪大饭店
+  navigation: 丰满区 西餐
   poi: HVECFAZBADWWUHA
   latitude: 43.83026
   longitude: 126.57033
@@ -245,7 +245,7 @@
   environment_rating: 27
   service_rating: 24
   address: 吉林大街77号
-  phone: 0432-216888862168888
+  phone: ''
   recommended_products: 烤肉
   alias: ''
   description: ''
@@ -255,7 +255,7 @@
 - rank: 15
   shop_id: 2424508
   name: 必胜客
-  navigation: 吉林餐厅»船营区»西餐»必胜客
+  navigation: 船营区 西餐
   poi: HVDGHAZBAEACWBO
   latitude: 43.8495
   longitude: 126.55903
@@ -276,7 +276,7 @@
 - rank: 16
   shop_id: 2041120
   name: 李连贵熏肉美食酒楼
-  navigation: 吉林餐厅»船营区»东北菜»李连贵熏肉美食酒楼
+  navigation: 船营区 东北菜
   poi: HVDRSCZBAEASBEP
   latitude: 43.85447
   longitude: 126.57489
@@ -297,7 +297,7 @@
 - rank: 17
   shop_id: 1941646
   name: 老白肉馆
-  navigation: 吉林餐厅»船营区»东北菜»老白肉馆
+  navigation: 船营区 东北菜
   poi: HVDFUFZBADWFGFL
   latitude: 43.83292
   longitude: 126.54093
@@ -308,7 +308,7 @@
   environment_rating: 17
   service_rating: 17
   address: 船营区松江西路13-19号(临江门大桥西侧)
-  phone: 0432-486066664855555
+  phone: ''
   recommended_products: 白肉血肠 蒜泥白肉 烧灯碗
   alias: ''
   description: ''
@@ -318,7 +318,7 @@
 - rank: 18
   shop_id: 2066674
   name: 川人百味(美食城店)
-  navigation: 吉林餐厅»小吃面食»川人百味(美食城店)
+  navigation: 小吃面食
   poi: HVDHBHZBAEACJCY
   latitude: 43.84824
   longitude: 126.55934
@@ -339,7 +339,7 @@
 - rank: 20
   shop_id: 2366248
   name: 古本良田
-  navigation: 吉林餐厅»快餐简餐»古本良田
+  navigation: 快餐简餐
   poi: HVDIIUZBAEAGFDD
   latitude: 43.85107
   longitude: 126.56612
@@ -360,7 +360,7 @@
 - rank: 21
   shop_id: 3121606
   name: 麻辣百分百
-  navigation: 吉林餐厅»川菜»麻辣百分百
+  navigation: 川菜
   poi: HVDDDRZBAEAAIIL
   latitude: 43.85051
   longitude: 126.55185
@@ -371,7 +371,7 @@
   environment_rating: 18
   service_rating: 17
   address: 青岛街(近解放大路)
-  phone: 0432-2051666
+  phone: 0432-62051666
   recommended_products: 水煮鱼 酱油炒饭 麻辣香锅 酸梅汤 毛血旺 鱼香肉丝
   alias: ''
   description: ''
@@ -381,7 +381,7 @@
 - rank: 22
   shop_id: 2448115
   name: 闫家粥铺
-  navigation: 吉林餐厅»小吃面食»闫家粥铺
+  navigation: 小吃面食
   poi: HVDHWBZBAEAGJRC
   latitude: 43.8522
   longitude: 126.5657
@@ -392,7 +392,7 @@
   environment_rating: 19
   service_rating: 17
   address: 南京街68号
-  phone: 0432-2442177
+  phone: 0432-62442177
   recommended_products: 皮蛋瘦肉粥 黑米粥 南瓜粥 八宝粥
   alias: ''
   description: ''
@@ -402,7 +402,7 @@
 - rank: 23
   shop_id: 2448532
   name: 阿拉伯饭店
-  navigation: 吉林餐厅»船营区»新疆/清真»阿拉伯饭店
+  navigation: 船营区 新疆/清真
   poi: HVDGAUZBADWJSVY
   latitude: 43.83827
   longitude: 126.54671
@@ -423,7 +423,7 @@
 - rank: 25
   shop_id: 1936363
   name: 千代田日本料理
-  navigation: 吉林餐厅»日本»千代田日本料理
+  navigation: 日本
   poi: HVDEGUZBADWWCIK
   latitude: 43.84721
   longitude: 126.55163
@@ -434,7 +434,7 @@
   environment_rating: 23
   service_rating: 17
   address: 解放大路158号
-  phone: 0432-20364882057488
+  phone: 0432-62036488 62057488
   recommended_products: 烤鳗鱼 三文鱼 刺身
   alias: ''
   description: ''
@@ -444,7 +444,7 @@
 - rank: 27
   shop_id: 2043877
   name: 东市发开封灌汤包
-  navigation: 吉林餐厅»小吃面食»东市发开封灌汤包
+  navigation: 小吃面食
   poi: HVDHWDZBAEAJRBV
   latitude: 43.85616
   longitude: 126.56949
@@ -455,7 +455,7 @@
   environment_rating: 15
   service_rating: 16
   address: 重庆路1078号
-  phone: 0432-2568127
+  phone: 0432-62568127
   recommended_products: 灌汤包
   alias: ''
   description: ''
@@ -465,7 +465,7 @@
 - rank: 28
   shop_id: 2968795
   name: 如一坊豆捞(南京街店)
-  navigation: 吉林餐厅»昌邑区»火锅»如一坊豆捞(南京街店)
+  navigation: 昌邑区 火锅
   poi: HVDHTUZBAEAICEY
   latitude: 43.85446
   longitude: 126.56738
@@ -486,7 +486,7 @@
 - rank: 29
   shop_id: 2041144
   name: 大众饭店
-  navigation: 吉林餐厅»龙潭区»东北菜»大众饭店
+  navigation: 龙潭区 东北菜
   poi: HVCHSSZBAEBVJVO
   latitude: 43.90375
   longitude: 126.57563
@@ -497,7 +497,7 @@
   environment_rating: 24
   service_rating: 23
   address: 徐州路506号(近中兴街)
-  phone: 0432-6306789863066858
+  phone: 0432-63067898 63066858
   recommended_products: 锅包肉 猪手
   alias: ''
   description: ''
@@ -507,7 +507,7 @@
 - rank: 30
   shop_id: 2326726
   name: 媚娘火锅
-  navigation: 吉林餐厅»火锅»媚娘火锅
+  navigation: 火锅
   poi: HVCAHJZBAECBTDV
   latitude: 43.9171
   longitude: 126.57033
@@ -528,7 +528,7 @@
 - rank: 31
   shop_id: 566590
   name: 恒阳食街
-  navigation: 吉林餐厅»其他中餐»恒阳食街
+  navigation: 其他中餐
   poi: HVEFGJZBADWRRSF
   latitude: 43.8197
   longitude: 126.56765
@@ -539,7 +539,7 @@
   environment_rating: 17
   service_rating: 16
   address: 厦门街1号(吉林大街口)
-  phone: 0432-4644777
+  phone: 0432-64644777
   recommended_products: ''
   alias: ''
   description: ''
@@ -549,7 +549,7 @@
 - rank: 32
   shop_id: 2854819
   name: 川人百味(东市场店)
-  navigation: 吉林餐厅»小吃面食»川人百味(东市场店)
+  navigation: 小吃面食
   poi: HVDJRWZBAEASHVY
   latitude: 43.85634
   longitude: 126.57408
@@ -570,7 +570,7 @@
 - rank: 33
   shop_id: 6313436
   name: 光音之翼咖啡馆
-  navigation: 吉林餐厅»船营区»咖啡厅»光音之翼咖啡馆
+  navigation: 船营区 咖啡厅
   poi: HVDHRAZBAEACHIF
   latitude: 43.84733
   longitude: 126.55999
@@ -591,7 +591,7 @@
 - rank: 34
   shop_id: 2226592
   name: 小男孩西餐厅(解放中路店)
-  navigation: 吉林餐厅»快餐简餐»小男孩西餐厅(解放中路店)
+  navigation: 快餐简餐
   poi: HVDEBHZBADWUWVU
   latitude: 43.8462
   longitude: 126.54966
@@ -612,7 +612,7 @@
 - rank: 35
   shop_id: 4685322
   name: 延吉丰茂串城
-  navigation: 吉林餐厅»昌邑区»烧烤»延吉丰茂串城
+  navigation: 昌邑区 烧烤
   poi: HVEBUUZBAEBBEHV
   latitude: 43.85326
   longitude: 126.59197
@@ -633,7 +633,7 @@
 - rank: 36
   shop_id: 2085031
   name: 乌拉满族火锅(乌拉街店)
-  navigation: 吉林餐厅»火锅»乌拉满族火锅(乌拉街店)
+  navigation: 火锅
   poi: HUSGREZBAEEDGUQ
   latitude: 44.09563
   longitude: 126.47798
@@ -644,7 +644,7 @@
   environment_rating: 14
   service_rating: 16
   address: 乌拉街镇古城春酒家(近中心医院)
-  phone: 0432-4910773
+  phone: 0432-64910773
   recommended_products: 酸菜 五花肉 锅包肉
   alias: ''
   description: ''
@@ -654,7 +654,7 @@
 - rank: 39
   shop_id: 2895238
   name: 京冠春饼
-  navigation: 吉林餐厅»小吃面食»京冠春饼
+  navigation: 小吃面食
   poi: HVDIITZBAEAGFDC
   latitude: 43.85107
   longitude: 126.56612
@@ -675,7 +675,7 @@
 - rank: 41
   shop_id: 2054326
   name: 利雅德食府(吉源商城店)
-  navigation: 吉林餐厅»船营区»新疆/清真»利雅德食府(吉源商城店)
+  navigation: 船营区 新疆/清真
   poi: HVDRASZBAEAHFTC
   latitude: 43.85048
   longitude: 126.56936
@@ -686,7 +686,7 @@
   environment_rating: 23
   service_rating: 22
   address: 解放大路吉源商城B座
-  phone: 0432-20810102017999
+  phone: 0432-62081010 62017999
   recommended_products: 羊腿 馅饼 火锅
   alias: ''
   description: ''
@@ -696,7 +696,7 @@
 - rank: 42
   shop_id: 2743900
   name: 姐弟俩土豆粉
-  navigation: 吉林餐厅»小吃面食»姐弟俩土豆粉
+  navigation: 小吃面食
   poi: HVCACJZBAECRIJH
   latitude: 43.92866
   longitude: 126.58123
@@ -717,7 +717,7 @@
 - rank: 43
   shop_id: 560286
   name: 老船长海鲜房
-  navigation: 吉林餐厅»其他中餐»老船长海鲜房
+  navigation: 其他中餐
   poi: HVDCSFZBADWIACY
   latitude: 43.84033
   longitude: 126.54021
@@ -728,7 +728,7 @@
   environment_rating: 19
   service_rating: 17
   address: 解放大路
-  phone: 0432-2081888
+  phone: 0432-62081888
   recommended_products: 海鲜饺子
   alias: ''
   description: ''
@@ -738,7 +738,7 @@
 - rank: 44
   shop_id: 2064991
   name: 大唐食代(解放东路店)
-  navigation: 吉林餐厅»韩国»大唐食代(解放东路店)
+  navigation: 韩国
   poi: HVDWUAZBAEAVHUY
   latitude: 43.85233
   longitude: 126.58576
@@ -749,7 +749,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放东路89号汇通名苑
-  phone: 0432-2599999
+  phone: 0432-62599999
   recommended_products: 肥牛 牛排 特味肥牛
   alias: ''
   description: “每次回吉林必去”的韩国烤肉餐厅。特味牛排、五花肉、肥牛分量“十足”，调味“适中”，无论是“自己动手”还是“服务员帮忙”，味道都还“不错”。环境蛮适合“情侣约会”，只是抽烟机“稍有不足”，叫人郁闷。
@@ -759,7 +759,7 @@
 - rank: 45
   shop_id: 2232427
   name: 庆岭活鱼一条街
-  navigation: 吉林餐厅»其他中餐»庆岭活鱼一条街
+  navigation: 其他中餐
   poi: HVCWTUZBAEAUWCG
   latitude: 43.87204
   longitude: 126.56466
@@ -780,7 +780,7 @@
 - rank: 46
   shop_id: 2362678
   name: 甲一方媚娘火锅(解放北路店)
-  navigation: 吉林餐厅»昌邑区»火锅»甲一方媚娘火锅(解放北路店)
+  navigation: 昌邑区 火锅
   poi: HVDTHAZBAEBHGGB
   latitude: 43.86794
   longitude: 126.59296
@@ -801,7 +801,7 @@
 - rank: 47
   shop_id: 2253025
   name: 麦当劳(大东门店)
-  navigation: 吉林餐厅»快餐简餐»麦当劳(大东门店)
+  navigation: 快餐简餐
   poi: HVDIJIZBAEAHABI
   latitude: 43.85191
   longitude: 126.56702
@@ -812,7 +812,7 @@
   environment_rating: 19
   service_rating: 17
   address: 河南路19号大东门恒客隆
-  phone: 0432-2456408
+  phone: 0432-62456408
   recommended_products: 麦旋风 薯条 麦辣鸡翅 奶昔 巨无霸
   alias: McDonald's
   description: ''
@@ -822,7 +822,7 @@
 - rank: 51
   shop_id: 2883286
   name: 庄稼院
-  navigation: 吉林餐厅»东北菜»庄稼院
+  navigation: 东北菜
   poi: HVDVIWZBAEAEGST
   latitude: 43.84102
   longitude: 126.57129
@@ -833,7 +833,7 @@
   environment_rating: 16
   service_rating: 18
   address: 吉林大街143号(近吉林二中)
-  phone: 0432-46715364678315
+  phone: 0432-64671536 64678315
   recommended_products: ''
   alias: ''
   description: ''
@@ -843,7 +843,7 @@
 - rank: 55
   shop_id: 2756812
   name: 周末喜相逢
-  navigation: 吉林餐厅»烧烤»周末喜相逢
+  navigation: 烧烤
   poi: HVDIIWZBAEAGFDF
   latitude: 43.85107
   longitude: 126.56612
@@ -864,7 +864,7 @@
 - rank: 56
   shop_id: 4508684
   name: 大草原烤肉坊
-  navigation: 吉林餐厅»龙潭区»烧烤»大草原烤肉坊
+  navigation: 龙潭区 烧烤
   poi: HVDRJSZBAECVJUN
   latitude: 43.90006
   longitude: 126.62027
@@ -885,7 +885,7 @@
 - rank: 57
   shop_id: 5511421
   name: 爵士牛扒
-  navigation: 吉林餐厅»船营区»西餐»爵士牛扒
+  navigation: 船营区 西餐
   poi: HVDFJFZBAEACUVI
   latitude: 43.85047
   longitude: 126.55787
@@ -897,7 +897,7 @@
   service_rating: 0
   address: 珲春街与解放大路交汇处(（原珲春街阁里香）)
   phone: 0432-63329999
-  recommended_products: IMG_2855IMG_2789IMG_2785<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/12046794/type"title="IMG_2788"><imgdata-src="http://i2.s1.dpfile.com/pc/6b0c08c6046f92757814342518eba217(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/12046794/type"title="IMG_2788">IMG_2788</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/12455365/type"title="IMG_2857"><imgdata-src="http://i2.s1.dpfile.com/pc/6d72260246cbe84a9a9ad49d98e70b61(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/12455365/type"title="IMG_2857">IMG_2857</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/12455332/type"title="IMG_2843"><imgdata-src="http://i1.s1.dpfile.com/pc/e0a71849041ae226f598a0ae58f67fd9(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/12455332/type"title="IMG_2843">IMG_2843</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/12455344/type"title="IMG_2845"><imgdata-src="http://i2.s1.dpfile.com/pc/aa9a862d3d4c62a864bbf31e79c94064(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/12455344/type"title="IMG_2845">IMG_2845</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/12455413/type"title="IMG_2848"><imgdata-src="http://i1.s1.dpfile.com/pc/2993a47512d5301affb19ca0601deb14(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/12455413/type"title="IMG_2848">IMG_2848</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 9:00—22:00
@@ -906,7 +906,7 @@
 - rank: 58
   shop_id: 3383377
   name: 老太太煎粉
-  navigation: 吉林餐厅»小吃面食»老太太煎粉
+  navigation: 小吃面食
   poi: HVCCSWZBAECCHAA
   latitude: 43.91495
   longitude: 126.57421
@@ -927,7 +927,7 @@
 - rank: 59
   shop_id: 2057716
   name: 麦当劳(东方商厦店)
-  navigation: 吉林餐厅»快餐简餐»麦当劳(东方商厦店)
+  navigation: 快餐简餐
   poi: HVURJDZBABUUBSD
   latitude: 42.93556
   longitude: 126.06539
@@ -938,7 +938,7 @@
   environment_rating: 17
   service_rating: 13
   address: 河南路251号(近东方商厦)
-  phone: 0432-2026379
+  phone: 0432-62026379
   recommended_products: DSC01389DSC01388
   alias: McDonald's
   description: ''
@@ -948,7 +948,7 @@
 - rank: 61
   shop_id: 3378058
   name: 顺风123
-  navigation: 吉林餐厅»川菜»顺风123
+  navigation: 川菜
   poi: HVDTGEZBAEAREFE
   latitude: 43.85121
   longitude: 126.57608
@@ -959,7 +959,7 @@
   environment_rating: 17
   service_rating: 16
   address: 解放大路四川路口
-  phone: 0432-8528418
+  phone: 0432-68528418
   recommended_products: ''
   alias: ''
   description: ''
@@ -969,7 +969,7 @@
 - rank: 62
   shop_id: 1948099
   name: 图们江餐馆
-  navigation: 吉林餐厅»丰满区»韩国»图们江餐馆
+  navigation: 丰满区 韩国
   poi: HVDWERZBAEABHFI
   latitude: 43.83624
   longitude: 126.56849
@@ -990,7 +990,7 @@
 - rank: 63
   shop_id: 2211613
   name: 杨麻子大饼(遵义路店)
-  navigation: 吉林餐厅»龙潭区»东北菜»杨麻子大饼(遵义路店)
+  navigation: 龙潭区 东北菜
   poi: HVCTCSZBAECGRBD
   latitude: 43.90827
   longitude: 126.59162
@@ -1001,7 +1001,7 @@
   environment_rating: 20
   service_rating: 20
   address: 龙潭区遵义路
-  phone: 0432-3038519
+  phone: 0432-63038519
   recommended_products: ''
   alias: ''
   description: ''
@@ -1011,7 +1011,7 @@
 - rank: 64
   shop_id: 2928208
   name: 王伟祯子
-  navigation: 吉林餐厅»其他中餐»王伟祯子
+  navigation: 其他中餐
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -1032,7 +1032,7 @@
 - rank: 65
   shop_id: 3428632
   name: 巷子煎粉
-  navigation: 吉林餐厅»小吃面食»巷子煎粉
+  navigation: 小吃面食
   poi: HVDEURZBADWEWHK
   latitude: 43.83362
   longitude: 126.53913
@@ -1053,7 +1053,7 @@
 - rank: 66
   shop_id: 5610645
   name: 紫渝江南川粤新品
-  navigation: 吉林餐厅»昌邑区»川菜»紫渝江南川粤新品
+  navigation: 昌邑区 川菜
   poi: HVDUJIZBAEBGGJE
   latitude: 43.86521
   longitude: 126.59316
@@ -1065,7 +1065,7 @@
   service_rating: 0
   address: 解放北路天硕逸景正门
   phone: 0432-62299111
-  recommended_products: iphone_upload_pic包房楼梯一景<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/12852110/type"title="楼梯一景"><imgdata-src="http://i3.s1.dpfile.com/pc/5f98522f917cfb30bf4d4034f0c2e3a2(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/12852110/type"title="楼梯一景">楼梯一景</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 尚无营业时间
@@ -1074,7 +1074,7 @@
 - rank: 67
   shop_id: 2731135
   name: 重庆幺妹
-  navigation: 吉林餐厅»快餐简餐»重庆幺妹
+  navigation: 快餐简餐
   poi: HVGJRDZBADRREBT
   latitude: 43.67047
   longitude: 126.51102
@@ -1095,7 +1095,7 @@
 - rank: 68
   shop_id: 583241
   name: 川鲁酒家
-  navigation: 吉林餐厅»川菜»川鲁酒家
+  navigation: 川菜
   poi: HVDSJAZBAEAUJCF
   latitude: 43.8565
   longitude: 126.57924
@@ -1116,7 +1116,7 @@
 - rank: 71
   shop_id: 2858305
   name: 金旺老妈火锅
-  navigation: 吉林餐厅»火锅»金旺老妈火锅
+  navigation: 火锅
   poi: HVBWFUZBAECBBJB
   latitude: 43.91757
   longitude: 126.56816
@@ -1137,7 +1137,7 @@
 - rank: 72
   shop_id: 2791657
   name: 九芳肉串府
-  navigation: 吉林餐厅»烧烤»九芳肉串府
+  navigation: 烧烤
   poi: HVDICTZBAEAJRUO
   latitude: 43.8559
   longitude: 126.56987
@@ -1158,7 +1158,7 @@
 - rank: 73
   shop_id: 583005
   name: 合顺东北菜
-  navigation: 吉林餐厅»东北菜»合顺东北菜
+  navigation: 东北菜
   poi: HVECUFZBAEAATDL
   latitude: 43.83083
   longitude: 126.57212
@@ -1179,7 +1179,7 @@
 - rank: 74
   shop_id: 3596779
   name: 上尚福烧烤
-  navigation: 吉林餐厅»船营区»烧烤»上尚福烧烤
+  navigation: 船营区 烧烤
   poi: HVDETRZBADWTDSW
   latitude: 43.84306
   longitude: 126.54829
@@ -1200,7 +1200,7 @@
 - rank: 75
   shop_id: 3120910
   name: 乐乐小吃
-  navigation: 吉林餐厅»快餐简餐»乐乐小吃
+  navigation: 快餐简餐
   poi: HVDIGUZBAEABRUV
   latitude: 43.84537
   longitude: 126.55992
@@ -1221,7 +1221,7 @@
 - rank: 76
   shop_id: 3868978
   name: 小嫩草火锅
-  navigation: 吉林餐厅»火锅»小嫩草火锅
+  navigation: 火锅
   poi: HVDESSZBAEABCGI
   latitude: 43.84936
   longitude: 126.55458
@@ -1242,7 +1242,7 @@
 - rank: 77
   shop_id: 2626918
   name: 韩庄饭店
-  navigation: 吉林餐厅»韩国»韩庄饭店
+  navigation: 韩国
   poi: HVDRBJZBAEAHFTQ
   latitude: 43.85048
   longitude: 126.56936
@@ -1263,7 +1263,7 @@
 - rank: 78
   shop_id: 2410729
   name: 名盛园饭店
-  navigation: 吉林餐厅»龙潭区»东北菜»名盛园饭店
+  navigation: 龙潭区 东北菜
   poi: HVCAHWZBAEBVVUD
   latitude: 43.91335
   longitude: 126.56682
@@ -1274,7 +1274,7 @@
   environment_rating: 17
   service_rating: 18
   address: 湘潭街145号
-  phone: 0432-30388883038999
+  phone: 0432-63038888 63038999
   recommended_products: 手撕牛肉
   alias: ''
   description: ''
@@ -1284,7 +1284,7 @@
 - rank: 79
   shop_id: 2085943
   name: 庚生世纪莱茵河咖啡语茶(庚升世纪莱茵河西餐厅)
-  navigation: 吉林餐厅»船营区»咖啡厅»庚生世纪莱茵河咖啡语茶(庚升世纪莱茵河西餐厅)
+  navigation: 船营区 咖啡厅
   poi: HVDEIWZBAEAAFBV
   latitude: 43.84858
   longitude: 126.55323
@@ -1305,7 +1305,7 @@
 - rank: 81
   shop_id: 3713662
   name: 川云阁
-  navigation: 吉林餐厅»川菜»川云阁
+  navigation: 川菜
   poi: HVEBSCZBADWSADM
   latitude: 43.82493
   longitude: 126.5633
@@ -1326,7 +1326,7 @@
 - rank: 82
   shop_id: 585835
   name: 美国加州牛肉面(河南街店)
-  navigation: 吉林餐厅»小吃面食»美国加州牛肉面(河南街店)
+  navigation: 小吃面食
   poi: HWRDHHZBAFAAERG
   latitude: 43.70651
   longitude: 127.35059
@@ -1347,7 +1347,7 @@
 - rank: 83
   shop_id: 3205699
   name: 日之船章鱼小丸子
-  navigation: 吉林餐厅»小吃面食»日之船章鱼小丸子
+  navigation: 小吃面食
   poi: HVDGTTZBAEACDIR
   latitude: 43.84813
   longitude: 126.55855
@@ -1368,7 +1368,7 @@
 - rank: 85
   shop_id: 4733036
   name: 牛巴店
-  navigation: 吉林餐厅»船营区»西餐»牛巴店
+  navigation: 船营区 西餐
   poi: HVCEGUZBAEAAEIA
   latitude: 43.86908
   longitude: 126.53264
@@ -1389,7 +1389,7 @@
 - rank: 86
   shop_id: 5481545
   name: 黔品夜郎国
-  navigation: 吉林餐厅»昌邑区»火锅»黔品夜郎国
+  navigation: 昌邑区 火锅
   poi: HVEBCCZBAEATTTF
   latitude: 43.84838
   longitude: 126.58538
@@ -1410,7 +1410,7 @@
 - rank: 87
   shop_id: 2054329
   name: 西春发
-  navigation: 吉林餐厅»小吃面食»西春发
+  navigation: 小吃面食
   poi: HVDJHBZBAEASCAC
   latitude: 43.85607
   longitude: 126.57341
@@ -1421,7 +1421,7 @@
   environment_rating: 12
   service_rating: 9
   address: 吉林大街183号
-  phone: 0432-2564638
+  phone: 0432-62564638
   recommended_products: '20101113606'
   alias: ''
   description: ''
@@ -1431,7 +1431,7 @@
 - rank: 91
   shop_id: 5149738
   name: 蛋糕物语(吉林大街店)
-  navigation: 吉林餐厅»船营区»面包甜点»蛋糕物语(吉林大街店)
+  navigation: 船营区 面包甜点
   poi: HVDIJFZBAEASSJP
   latitude: 43.858
   longitude: 126.57301
@@ -1452,7 +1452,7 @@
 - rank: 92
   shop_id: 8845595
   name: 阿尔卑斯比萨自助西餐厅吉林店
-  navigation: 吉林餐厅»丰满区»自助餐»阿尔卑斯比萨自助西餐厅吉林店
+  navigation: 丰满区 自助餐
   poi: HVEAIAZBAEACTCT
   latitude: 43.83641
   longitude: 126.57165
@@ -1464,7 +1464,7 @@
   service_rating: 0
   address: 大商新玛特4楼(近世纪广场)
   phone: ''
-  recommended_products: IMG_3715iphone_upload_picIMG_3743<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/23881301/type"title="门面"><imgdata-src="http://i3.s1.dpfile.com/pc/76fe6b7bdf81e712dfd6331c0abcfd96(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/23881301/type"title="门面">门面</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/23881331/type"title="IMG_3778"><imgdata-src="http://i1.s1.dpfile.com/pc/04e331bb62039956362d25731bac35bc(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/23881331/type"title="IMG_3778">IMG_3778</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 11:00——21:00
@@ -1473,7 +1473,7 @@
 - rank: 96
   shop_id: 2295373
   name: 领地西餐厅
-  navigation: 吉林餐厅»西餐»领地西餐厅
+  navigation: 西餐
   poi: HVDJBFZBAEABIVI
   latitude: 43.84431
   longitude: 126.56067
@@ -1484,7 +1484,7 @@
   environment_rating: 0
   service_rating: 0
   address: 松江中路55号紫光花园A座
-  phone: 0432-2065966
+  phone: 0432-62065966
   recommended_products: A级牛排
   alias: ''
   description: ''
@@ -1494,7 +1494,7 @@
 - rank: 97
   shop_id: 5618947
   name: 比尔森啤酒烤肉
-  navigation: 吉林餐厅»船营区»烧烤»比尔森啤酒烤肉
+  navigation: 船营区 烧烤
   poi: HVDGGJZBAEADSDD
   latitude: 43.85045
   longitude: 126.56002
@@ -1515,7 +1515,7 @@
 - rank: 98
   shop_id: 2066659
   name: 阁里香(解放大路二店)
-  navigation: 吉林餐厅»昌邑区»东北菜»阁里香(解放大路二店)
+  navigation: 昌邑区 东北菜
   poi: HVDTJCZBAEBHFGT
   latitude: 43.86778
   longitude: 126.59296
@@ -1536,7 +1536,7 @@
 - rank: 99
   shop_id: 5411012
   name: 大江户日本料理
-  navigation: 吉林餐厅»昌邑区»日本»大江户日本料理
+  navigation: 昌邑区 日本
   poi: HVDUBTZBAEBRRSY
   latitude: 43.87138
   longitude: 126.59789
@@ -1557,7 +1557,7 @@
 - rank: 100
   shop_id: 2351110
   name: 回回串店(北京路店)
-  navigation: 吉林餐厅»船营区»烧烤»回回串店(北京路店)
+  navigation: 船营区 烧烤
   poi: HVDEJJZBADWTATI
   latitude: 43.843
   longitude: 126.54788
@@ -1568,7 +1568,7 @@
   environment_rating: 0
   service_rating: 0
   address: 北京路175号
-  phone: 0432-3583777
+  phone: 0432-63583777
   recommended_products: ''
   alias: ''
   description: ''
@@ -1578,7 +1578,7 @@
 - rank: 101
   shop_id: 2302297
   name: 大胖烤串
-  navigation: 吉林餐厅»烧烤»大胖烤串
+  navigation: 烧烤
   poi: HVEFVRZBAEBAWSU
   latitude: 43.84769
   longitude: 126.59678
@@ -1599,7 +1599,7 @@
 - rank: 103
   shop_id: 583007
   name: 八记酒楼
-  navigation: 吉林餐厅»东北菜»八记酒楼
+  navigation: 东北菜
   poi: HVDJIBZBAEBRRGQ
   latitude: 43.87593
   longitude: 126.59329
@@ -1620,7 +1620,7 @@
 - rank: 104
   shop_id: 584270
   name: 松月汤馆
-  navigation: 吉林餐厅»韩国»松月汤馆
+  navigation: 韩国
   poi: HVDUHGZBAEAVCSS
   latitude: 43.8549
   longitude: 126.58237
@@ -1641,7 +1641,7 @@
 - rank: 105
   shop_id: 2251033
   name: 四方顺
-  navigation: 吉林餐厅»新疆/清真»四方顺
+  navigation: 新疆/清真
   poi: HVDFDJZBADWWWGC
   latitude: 43.84718
   longitude: 126.55372
@@ -1662,7 +1662,7 @@
 - rank: 106
   shop_id: 8694497
   name: 彩福轩
-  navigation: 吉林餐厅»昌邑区»川菜»彩福轩
+  navigation: 昌邑区 川菜
   poi: HVEBRUZBAEBDGSP
   latitude: 43.85621
   longitude: 126.5945
@@ -1683,7 +1683,7 @@
 - rank: 107
   shop_id: 3933679
   name: 一品面
-  navigation: 吉林餐厅»小吃面食»一品面
+  navigation: 小吃面食
   poi: HVDHWUZBAEABGAE
   latitude: 43.84546
   longitude: 126.55906
@@ -1704,7 +1704,7 @@
 - rank: 110
   shop_id: 3539152
   name: 台湾小锅饭
-  navigation: 吉林餐厅»丰满区»其他中餐»台湾小锅饭
+  navigation: 丰满区 其他中餐
   poi: HVEEBWZBADWJJTA
   latitude: 43.81997
   longitude: 126.56467
@@ -1715,7 +1715,7 @@
   environment_rating: 0
   service_rating: 0
   address: 厦门街5号楼4号网点
-  phone: 0432-6699599966528889
+  phone: 0432-66995999 66528889
   recommended_products: ''
   alias: ''
   description: ''
@@ -1725,7 +1725,7 @@
 - rank: 111
   shop_id: 2006788
   name: 金子烤牛肉
-  navigation: 吉林餐厅»船营区»烧烤»金子烤牛肉
+  navigation: 船营区 烧烤
   poi: HVCSCGZBADVEEUW
   latitude: 43.82477
   longitude: 126.50532
@@ -1746,7 +1746,7 @@
 - rank: 112
   shop_id: 2338429
   name: 晓梅砂锅面
-  navigation: 吉林餐厅»烧烤»晓梅砂锅面
+  navigation: 烧烤
   poi: HVDDDTZBAEAAIIN
   latitude: 43.85051
   longitude: 126.55185
@@ -1767,7 +1767,7 @@
 - rank: 113
   shop_id: 2347072
   name: 张记涮肚
-  navigation: 吉林餐厅»川菜»张记涮肚
+  navigation: 川菜
   poi: HVDDGBZBAEBGCRU
   latitude: 43.87805
   longitude: 126.57969
@@ -1788,7 +1788,7 @@
 - rank: 114
   shop_id: 2817262
   name: 国贸美食广场
-  navigation: 吉林餐厅»其他中餐»国贸美食广场
+  navigation: 其他中餐
   poi: HVDRWDZBAEATBFP
   latitude: 43.85543
   longitude: 126.5765
@@ -1809,7 +1809,7 @@
 - rank: 117
   shop_id: 5392637
   name: 好痴火锅
-  navigation: 吉林餐厅»船营区»火锅»好痴火锅
+  navigation: 船营区 火锅
   poi: HVDFCTZBAEABWDO
   latitude: 43.84985
   longitude: 126.55614
@@ -1830,7 +1830,7 @@
 - rank: 118
   shop_id: 6454242
   name: 辣怪鸭
-  navigation: 吉林餐厅»丰满区»小吃面食»辣怪鸭
+  navigation: 丰满区 小吃面食
   poi: HVDRTIZBAEDACRJ
   latitude: 43.9018
   longitude: 126.6225
@@ -1851,7 +1851,7 @@
 - rank: 120
   shop_id: 2826103
   name: 快客(河南街头店)
-  navigation: 吉林餐厅»面包甜点»快客(河南街头店)
+  navigation: 面包甜点
   poi: HVDFVFZBADWWCCM
   latitude: 43.84531
   longitude: 126.55347
@@ -1872,7 +1872,7 @@
 - rank: 121
   shop_id: 4180415
   name: 万力米线
-  navigation: 吉林餐厅»龙潭区»小吃面食»万力米线
+  navigation: 龙潭区 小吃面食
   poi: HVBWTUZBAECARFP
   latitude: 43.9165
   longitude: 126.56807
@@ -1893,7 +1893,7 @@
 - rank: 122
   shop_id: 5380852
   name: 北海道回转寿司
-  navigation: 吉林餐厅»昌邑区»日本»北海道回转寿司
+  navigation: 昌邑区 日本
   poi: HVDJBUZBAEAWAGK
   latitude: 43.86152
   longitude: 126.57794
@@ -1914,7 +1914,7 @@
 - rank: 125
   shop_id: 2458501
   name: 李艳包子铺
-  navigation: 吉林餐厅»小吃面食»李艳包子铺
+  navigation: 小吃面食
   poi: HVDUDRZBAEATRJQ
   latitude: 43.85326
   longitude: 126.58015
@@ -1935,7 +1935,7 @@
 - rank: 126
   shop_id: 2057692
   name: 馄饨挑(河南街店)
-  navigation: 吉林餐厅»小吃面食»馄饨挑(河南街店)
+  navigation: 小吃面食
   poi: HWRDICZBAFAAERR
   latitude: 43.70651
   longitude: 127.35059
@@ -1956,7 +1956,7 @@
 - rank: 128
   shop_id: 5236209
   name: 新兴园饺子馆
-  navigation: 吉林餐厅»昌邑区»小吃面食»新兴园饺子馆
+  navigation: 昌邑区 小吃面食
   poi: HVDGDIZBAEABHUE
   latitude: 43.84787
   longitude: 126.55694
@@ -1977,7 +1977,7 @@
 - rank: 129
   shop_id: 5746050
   name: 鱼米鲜寿司店
-  navigation: 吉林餐厅»船营区»日本»鱼米鲜寿司店
+  navigation: 船营区 日本
   poi: HVDEWEZBAEADGDE
   latitude: 43.85192
   longitude: 126.55775
@@ -1998,7 +1998,7 @@
 - rank: 130
   shop_id: 8693040
   name: 香猪坊
-  navigation: 吉林餐厅»昌邑区»韩国»香猪坊
+  navigation: 昌邑区 韩国
   poi: HVDSEIZBAEAIWWM
   latitude: 43.85104
   longitude: 126.57299
@@ -2009,7 +2009,7 @@
   environment_rating: 0
   service_rating: 0
   address: 吉林大街(近紫光苑)
-  phone: '1365442276015144281466'
+  phone: ''
   recommended_products: 内部环境
   alias: ''
   description: ''
@@ -2019,7 +2019,7 @@
 - rank: 131
   shop_id: 585832
   name: 宋记粥铺(德胜门店)
-  navigation: 吉林餐厅»小吃面食»宋记粥铺(德胜门店)
+  navigation: 小吃面食
   poi: HVDCAJZBADWUETA
   latitude: 43.84784
   longitude: 126.54624
@@ -2030,7 +2030,7 @@
   environment_rating: 0
   service_rating: 0
   address: 德胜门
-  phone: 0432-464978
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -2040,7 +2040,7 @@
 - rank: 132
   shop_id: 2128102
   name: 吉祥馄饨(江北化工店)
-  navigation: 吉林餐厅»快餐简餐»吉祥馄饨(江北化工店)
+  navigation: 快餐简餐
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -2051,7 +2051,7 @@
   environment_rating: 0
   service_rating: 0
   address: 江北化工医院斜对面(遵义东路与福洲街之间)
-  phone: 0432-39982886994255
+  phone: 0432-63998288 66994255
   recommended_products: ''
   alias: GllWonton
   description: ''
@@ -2061,7 +2061,7 @@
 - rank: 133
   shop_id: 2226508
   name: 上岛咖啡
-  navigation: 吉林餐厅»咖啡厅»上岛咖啡
+  navigation: 咖啡厅
   poi: HVDVDTZBAEBIWJE
   latitude: 43.86767
   longitude: 126.59726
@@ -2082,7 +2082,7 @@
 - rank: 134
   shop_id: 2332885
   name: 千禾酒楼
-  navigation: 吉林餐厅»川菜»千禾酒楼
+  navigation: 川菜
   poi: HVDCDUZBADWIDCM
   latitude: 43.84111
   longitude: 126.53991
@@ -2093,7 +2093,7 @@
   environment_rating: 0
   service_rating: 0
   address: 鞍山街(解放大路口)
-  phone: 0432-48587894845789
+  phone: 0432-64858789 64845789
   recommended_products: ''
   alias: ''
   description: ''
@@ -2103,7 +2103,7 @@
 - rank: 136
   shop_id: 2883229
   name: 老号川
-  navigation: 吉林餐厅»川菜»老号川
+  navigation: 川菜
   poi: HVDFEFZBAEADCDH
   latitude: 43.85121
   longitude: 126.55782
@@ -2124,7 +2124,7 @@
 - rank: 137
   shop_id: 3380392
   name: 冯家屯烤肉
-  navigation: 吉林餐厅»烧烤»冯家屯烤肉
+  navigation: 烧烤
   poi: HVDJBWZBAEAWAGM
   latitude: 43.86152
   longitude: 126.57794
@@ -2145,7 +2145,7 @@
 - rank: 138
   shop_id: 3635785
   name: 鼎鼎鲜
-  navigation: 吉林餐厅»火锅»鼎鼎鲜
+  navigation: 火锅
   poi: HVDSAGZBAECVBVP
   latitude: 43.8989
   longitude: 126.62016
@@ -2166,7 +2166,7 @@
 - rank: 139
   shop_id: 4021777
   name: 东蜀火锅城
-  navigation: 吉林餐厅»火锅»东蜀火锅城
+  navigation: 火锅
   poi: HVDDIIZBADWGVWQ
   latitude: 43.83786
   longitude: 126.53993
@@ -2187,7 +2187,7 @@
 - rank: 140
   shop_id: 4131640
   name: 峰峰大众菜馆
-  navigation: 吉林餐厅»龙潭区»峰峰大众菜馆
+  navigation: 龙潭区
   poi: HVDRUHZBAECVDVU
   latitude: 43.89932
   longitude: 126.62006
@@ -2208,7 +2208,7 @@
 - rank: 143
   shop_id: 4733087
   name: 川人百味(中东店)
-  navigation: 吉林餐厅»船营区»小吃面食»川人百味(中东店)
+  navigation: 船营区 小吃面食
   poi: HVCFUUZBAEAAFFB
   latitude: 43.86731
   longitude: 126.53454
@@ -2229,7 +2229,7 @@
 - rank: 144
   shop_id: 5414822
   name: 宏利来蛋糕店
-  navigation: 吉林餐厅»昌邑区»面包甜点»宏利来蛋糕店
+  navigation: 昌邑区 面包甜点
   poi: HVEBUGZBAEBCVJW
   latitude: 43.85539
   longitude: 126.59402
@@ -2250,7 +2250,7 @@
 - rank: 145
   shop_id: 8076552
   name: 牛魔王烤肉餐吧
-  navigation: 吉林餐厅»昌邑区»烧烤»牛魔王烤肉餐吧
+  navigation: 昌邑区 烧烤
   poi: HVEETTZBAEAVJCR
   latitude: 43.84602
   longitude: 126.59228
@@ -2261,8 +2261,8 @@
   environment_rating: 0
   service_rating: 0
   address: 江湾路(近继仁堂大药房)
-  phone: '13904406581'
-  recommended_products: 等位区包房iphone_upload_pic<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/26507657/type"title="iphone_upload_pic"><imgdata-src="http://i2.s1.dpfile.com/pc/70dcaa3aac9005a2077d567e580336ea(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/26507657/type"title="iphone_upload_pic">iphone_upload_pic</a></div></li>
+  phone: ''
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 11:30到22:00
@@ -2271,7 +2271,7 @@
 - rank: 147
   shop_id: 5361749
   name: 盛和道日式铁板烧
-  navigation: 吉林餐厅»丰满区»日本»盛和道日式铁板烧
+  navigation: 丰满区 日本
   poi: HVECGBZBADWVUCO
   latitude: 43.82894
   longitude: 126.56904
@@ -2292,7 +2292,7 @@
 - rank: 148
   shop_id: 6190256
   name: 必胜客(财富广场店)
-  navigation: 吉林餐厅»昌邑区»西餐»必胜客(财富广场店)
+  navigation: 昌邑区 西餐
   poi: HVDRCIZBAEAICBW
   latitude: 43.85142
   longitude: 126.57039
@@ -2313,7 +2313,7 @@
 - rank: 149
   shop_id: 8917424
   name: 觅思特鸡排
-  navigation: 吉林餐厅»船营区»韩国»觅思特鸡排
+  navigation: 船营区 韩国
   poi: HVDIBSZBAEAEJUV
   latitude: 43.84954
   longitude: 126.56327
@@ -2334,7 +2334,7 @@
 - rank: 151
   shop_id: 4686741
   name: 谷良筋饼豆腐脑一绝
-  navigation: 吉林餐厅»船营区»小吃面食»谷良筋饼豆腐脑一绝
+  navigation: 船营区 小吃面食
   poi: HVDDHVZBAEAEAVD
   latitude: 43.85464
   longitude: 126.55674
@@ -2355,7 +2355,7 @@
 - rank: 154
   shop_id: 5860197
   name: 龙宽酒店
-  navigation: 吉林餐厅»龙潭区»东北菜»龙宽酒店
+  navigation: 龙潭区 东北菜
   poi: HVBTWRZBAEBWSCJ
   latitude: 43.91887
   longitude: 126.56327
@@ -2376,7 +2376,7 @@
 - rank: 155
   shop_id: 1999372
   name: 餐乐骨肉馆(天津街店)
-  navigation: 吉林餐厅»东北菜»餐乐骨肉馆(天津街店)
+  navigation: 东北菜
   poi: HVDUCSZBAEATRJB
   latitude: 43.85326
   longitude: 126.58015
@@ -2397,7 +2397,7 @@
 - rank: 156
   shop_id: 2066665
   name: 利雅德食府(铁东店)
-  navigation: 吉林餐厅»新疆/清真»利雅德食府(铁东店)
+  navigation: 新疆/清真
   poi: HVDITFZBAEDAFWD
   latitude: 43.90461
   longitude: 126.62022
@@ -2418,7 +2418,7 @@
 - rank: 158
   shop_id: 3462526
   name: 姜记排骨米饭
-  navigation: 吉林餐厅»快餐简餐»姜记排骨米饭
+  navigation: 快餐简餐
   poi: HVDRWFZBAEATBFR
   latitude: 43.85543
   longitude: 126.5765
@@ -2439,7 +2439,7 @@
 - rank: 159
   shop_id: 4133990
   name: 新城市意大利冰淇淋手工巧克力店
-  navigation: 吉林餐厅»昌邑区»面包甜点»新城市意大利冰淇淋手工巧克力店
+  navigation: 昌邑区 面包甜点
   poi: HVDIVEZBAEARCBQ
   latitude: 43.85557
   longitude: 126.57136
@@ -2460,7 +2460,7 @@
 - rank: 160
   shop_id: 4185762
   name: 伟祎过桥米线‎
-  navigation: 吉林餐厅»蛟河市»小吃面食»伟祎过桥米线‎
+  navigation: 蛟河市 小吃面食
   poi: HWJVEEZBAFAGTTX
   latitude: 43.72158
   longitude: 127.35218
@@ -2481,7 +2481,7 @@
 - rank: 161
   shop_id: 5149812
   name: 韩国小鱼饼
-  navigation: 吉林餐厅»丰满区»韩国»韩国小鱼饼
+  navigation: 丰满区 韩国
   poi: HVEGDDZBADWJSBF
   latitude: 43.81744
   longitude: 126.56741
@@ -2502,7 +2502,7 @@
 - rank: 162
   shop_id: 5343236
   name: 几分甜西饼店
-  navigation: 吉林餐厅»丰满区»面包甜点»几分甜西饼店
+  navigation: 丰满区 面包甜点
   poi: HVEEBFZBADWJURS
   latitude: 43.82042
   longitude: 126.56484
@@ -2523,7 +2523,7 @@
 - rank: 163
   shop_id: 5453476
   name: 韩韵串城
-  navigation: 吉林餐厅»昌邑区»烧烤»韩韵串城
+  navigation: 昌邑区 烧烤
   poi: HVDTIVZBAEBETGT
   latitude: 43.86452
   longitude: 126.58966
@@ -2544,7 +2544,7 @@
 - rank: 165
   shop_id: 4720883
   name: 满族凤吉园贾家馆子(据说目前没有)
-  navigation: 吉林餐厅»龙潭区»火锅»满族凤吉园贾家馆子(据说目前没有)
+  navigation: 龙潭区 火锅
   poi: HUSGVHZBAEEFTCQ
   latitude: 44.09828
   longitude: 126.4813
@@ -2565,7 +2565,7 @@
 - rank: 167
   shop_id: 6495674
   name: 江南煮厨
-  navigation: 吉林餐厅»丰满区»江浙菜»江南煮厨
+  navigation: 丰满区 江浙菜
   poi: HVECIVZBADWIWJQ
   latitude: 43.82124
   longitude: 126.56177
@@ -2586,7 +2586,7 @@
 - rank: 168
   shop_id: 4229537
   name: 满汉八珍阁
-  navigation: 吉林餐厅»船营区»东北菜»满汉八珍阁
+  navigation: 船营区 东北菜
   poi: HVDDHIZBADWSVCV
   latitude: 43.8443
   longitude: 126.54616
@@ -2597,7 +2597,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路西181号(近吉林七中)
-  phone: 0432-6485469964864699
+  phone: 0432-64854699 64864699
   recommended_products: 关东鹿肉
   alias: 满族八大碗
   description: ''
@@ -2607,7 +2607,7 @@
 - rank: 169
   shop_id: 5725257
   name: 汤臣一品
-  navigation: 吉林餐厅»昌邑区»火锅»汤臣一品
+  navigation: 昌邑区 火锅
   poi: HVEAISZBAEAUJHT
   latitude: 43.85022
   longitude: 126.58557
@@ -2628,7 +2628,7 @@
 - rank: 170
   shop_id: 5619021
   name: 红伞鸡骨架
-  navigation: 吉林餐厅»蛟河市»小吃面食»红伞鸡骨架
+  navigation: 蛟河市 小吃面食
   poi: HWJJSBZBAFACWUF
   latitude: 43.72247
   longitude: 127.34154
@@ -2649,7 +2649,7 @@
 - rank: 171
   shop_id: 7376105
   name: 丽江龙记斑鱼庄
-  navigation: 吉林餐厅»船营区»火锅»丽江龙记斑鱼庄
+  navigation: 船营区 火锅
   poi: HVDCDBZBADWUJJT
   latitude: 43.84812
   longitude: 126.54673
@@ -2670,7 +2670,7 @@
 - rank: 172
   shop_id: 585833
   name: 绿杜德
-  navigation: 吉林餐厅»小吃面食»绿杜德
+  navigation: 小吃面食
   poi: HVDIDDZBAEAJRUV
   latitude: 43.8559
   longitude: 126.56987
@@ -2681,7 +2681,7 @@
   environment_rating: 0
   service_rating: 0
   address: 朝阳街
-  phone: 0432-2493738
+  phone: 0432-62493738
   recommended_products: ''
   alias: ''
   description: ''
@@ -2691,7 +2691,7 @@
 - rank: 173
   shop_id: 2225536
   name: 杨麻子大饼(解放东路店)
-  navigation: 吉林餐厅»东北菜»杨麻子大饼(解放东路店)
+  navigation: 东北菜
   poi: HVDTIAZBAEARDDE
   latitude: 43.85098
   longitude: 126.57613
@@ -2712,7 +2712,7 @@
 - rank: 175
   shop_id: 4092610
   name: 城市比萨(大东门店)
-  navigation: 吉林餐厅»船营区»西餐»城市比萨(大东门店)
+  navigation: 船营区 西餐
   poi: HVDIRCZBAEAHABS
   latitude: 43.85191
   longitude: 126.56702
@@ -2733,7 +2733,7 @@
 - rank: 177
   shop_id: 5216512
   name: 小国骨肉馆
-  navigation: 吉林餐厅»桦甸市»东北菜»小国骨肉馆
+  navigation: 桦甸市 东北菜
   poi: IACRIUZBADIFVRK
   latitude: 43.0493
   longitude: 127.03916
@@ -2754,7 +2754,7 @@
 - rank: 178
   shop_id: 5335182
   name: 西安面庄
-  navigation: 吉林餐厅»丰满区»其他中餐»西安面庄
+  navigation: 丰满区 其他中餐
   poi: HVEAARZBADWRGEP
   latitude: 43.82627
   longitude: 126.56037
@@ -2775,7 +2775,7 @@
 - rank: 180
   shop_id: 1958530
   name: 釜山人家碳火烤肉食园
-  navigation: 吉林餐厅»烧烤»釜山人家碳火烤肉食园
+  navigation: 烧烤
   poi: HVCCUEZBAECCHAV
   latitude: 43.91495
   longitude: 126.57421
@@ -2786,7 +2786,7 @@
   environment_rating: 0
   service_rating: 0
   address: 十二中旁
-  phone: 0432-3038111
+  phone: 0432-63038111
   recommended_products: 釜山特牛 石锅拌饭 水果沙拉
   alias: ''
   description: ''
@@ -2796,7 +2796,7 @@
 - rank: 181
   shop_id: 1997245
   name: 餐乐骨肉馆(厦门街店)
-  navigation: 吉林餐厅»东北菜»餐乐骨肉馆(厦门街店)
+  navigation: 东北菜
   poi: HVEFDIZBADWRRUG
   latitude: 43.81996
   longitude: 126.56741
@@ -2817,7 +2817,7 @@
 - rank: 183
   shop_id: 2217367
   name: 小俩口海鲜
-  navigation: 吉林餐厅»其他中餐»小俩口海鲜
+  navigation: 其他中餐
   poi: HVEFEDZBADWRRUR
   latitude: 43.81996
   longitude: 126.56741
@@ -2828,7 +2828,7 @@
   environment_rating: 0
   service_rating: 0
   address: 厦门街中段(近恒客隆)
-  phone: 0432-4679011
+  phone: 0432-64679011
   recommended_products: ''
   alias: ''
   description: ''
@@ -2838,7 +2838,7 @@
 - rank: 184
   shop_id: 2225518
   name: 吉林豆浆大王
-  navigation: 吉林餐厅»快餐简餐»吉林豆浆大王
+  navigation: 快餐简餐
   poi: HVDUEAZBAEATRJW
   latitude: 43.85326
   longitude: 126.58015
@@ -2859,7 +2859,7 @@
 - rank: 185
   shop_id: 2257690
   name: 小丑鱼西餐厅
-  navigation: 吉林餐厅»西餐»小丑鱼西餐厅
+  navigation: 西餐
   poi: HVDRSTZBAECURSA
   latitude: 43.89862
   longitude: 126.61929
@@ -2880,7 +2880,7 @@
 - rank: 186
   shop_id: 2653036
   name: 丰满水电站烤鱼
-  navigation: 吉林餐厅»烧烤»丰满水电站烤鱼
+  navigation: 烧烤
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -2901,7 +2901,7 @@
 - rank: 188
   shop_id: 2817250
   name: 方位运动城美食广场
-  navigation: 吉林餐厅»其他中餐»方位运动城美食广场
+  navigation: 其他中餐
   poi: HWRDHJZBAFAAERI
   latitude: 43.70651
   longitude: 127.35059
@@ -2922,7 +2922,7 @@
 - rank: 189
   shop_id: 2916613
   name: 冯家屯烤牛肉
-  navigation: 吉林餐厅»快餐简餐»冯家屯烤牛肉
+  navigation: 快餐简餐
   poi: HVDHVBZBAEDCGGE
   latitude: 43.90835
   longitude: 126.62167
@@ -2943,7 +2943,7 @@
 - rank: 190
   shop_id: 2968804
   name: 锅铁王(朝阳街店)
-  navigation: 吉林餐厅»船营区»新疆/清真»锅铁王(朝阳街店)
+  navigation: 船营区 新疆/清真
   poi: HVDICCZBAEAJRUE
   latitude: 43.8559
   longitude: 126.56987
@@ -2955,7 +2955,7 @@
   service_rating: 0
   address: 朝阳街(大东门恒客隆对面)
   phone: 0432-62432822
-  recommended_products: 一层大厅明档二层大厅<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/3363605/type"title="12-14位餐桌"><imgdata-src="http://i2.s1.dpfile.com/2009-12-18/3363605_b.jpg(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/3363605/type"title="12-14位餐桌">12-14位餐桌</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/3363596/type"title="旗舰店门脸"><imgdata-src="http://i3.s1.dpfile.com/2009-12-18/3363596_b.jpg(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/3363596/type"title="旗舰店门脸">旗舰店门脸</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 尚无营业时间
@@ -2964,7 +2964,7 @@
 - rank: 192
   shop_id: 3335776
   name: 清花缘饺子
-  navigation: 吉林餐厅»其他中餐»清花缘饺子
+  navigation: 其他中餐
   poi: HVDUCSZBAEATRJB
   latitude: 43.85326
   longitude: 126.58015
@@ -2985,7 +2985,7 @@
 - rank: 193
   shop_id: 3342700
   name: 美食每客餐厅
-  navigation: 吉林餐厅»快餐简餐»美食每客餐厅
+  navigation: 快餐简餐
   poi: HVCUETZBADVSWBY
   latitude: 43.83181
   longitude: 126.51784
@@ -3006,7 +3006,7 @@
 - rank: 194
   shop_id: 3383395
   name: 东顺发­回族小店
-  navigation: 吉林餐厅»快餐简餐»东顺发­回族小店
+  navigation: 快餐简餐
   poi: HVDTRRZBAEBJAJI
   latitude: 43.86978
   longitude: 126.59531
@@ -3027,7 +3027,7 @@
 - rank: 197
   shop_id: 4733068
   name: 麻里麻里香锅
-  navigation: 吉林餐厅»船营区»麻里麻里香锅
+  navigation: 船营区
   poi: HVCEHJZBAEAAEIM
   latitude: 43.86908
   longitude: 126.53264
@@ -3048,7 +3048,7 @@
 - rank: 198
   shop_id: 5335272
   name: 金洲汤城(江南店)
-  navigation: 吉林餐厅»丰满区»韩国»金洲汤城(江南店)
+  navigation: 丰满区 韩国
   poi: HVEAACZBADWRGEH
   latitude: 43.82627
   longitude: 126.56037
@@ -3069,7 +3069,7 @@
 - rank: 199
   shop_id: 5604819
   name: 齐先生砂锅居
-  navigation: 吉林餐厅»船营区»小吃面食»齐先生砂锅居
+  navigation: 船营区 小吃面食
   poi: HVDDJFZBADWSJBX
   latitude: 43.84376
   longitude: 126.54589
@@ -3080,7 +3080,7 @@
   environment_rating: 0
   service_rating: 0
   address: 德胜路大润发超市外廊
-  phone: '13689877188'
+  phone: ''
   recommended_products: android_upload_pic
   alias: ''
   description: ''
@@ -3090,7 +3090,7 @@
 - rank: 200
   shop_id: 5873513
   name: 巴蜀农人麻辣烫
-  navigation: 吉林餐厅»丰满区»川菜»巴蜀农人麻辣烫
+  navigation: 丰满区 川菜
   poi: HVEGAHZBADWSHDT
   latitude: 43.81998
   longitude: 126.56937
@@ -3111,7 +3111,7 @@
 - rank: 201
   shop_id: 5878521
   name: 桑格罗咖啡馆
-  navigation: 吉林餐厅»丰满区»咖啡厅»桑格罗咖啡馆
+  navigation: 丰满区 咖啡厅
   poi: HVEFWAZBAEAHHWM
   latitude: 43.83548
   longitude: 126.58471
@@ -3132,7 +3132,7 @@
 - rank: 203
   shop_id: 5355205
   name: 盛和道铁板烧
-  navigation: 吉林餐厅»丰满区»日本»盛和道铁板烧
+  navigation: 丰满区 日本
   poi: HVEIVIZBADWFUBQ
   latitude: 43.80907
   longitude: 126.56586
@@ -3153,7 +3153,7 @@
 - rank: 204
   shop_id: 5514196
   name: 萍乡大厨
-  navigation: 吉林餐厅»昌邑区»东北菜»萍乡大厨
+  navigation: 昌邑区 东北菜
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -3174,7 +3174,7 @@
 - rank: 206
   shop_id: 5899644
   name: 樱之原日本料理
-  navigation: 吉林餐厅»日本»樱之原日本料理
+  navigation: 日本
   poi: HVDUASZBAEBDHIQ
   latitude: 43.86221
   longitude: 126.58863
@@ -3195,7 +3195,7 @@
 - rank: 208
   shop_id: 5598516
   name: 名佬麻辣烫
-  navigation: 吉林餐厅»船营区»小吃面食»名佬麻辣烫
+  navigation: 船营区 小吃面食
   poi: HVDSAHZBAEASTJV
   latitude: 43.85498
   longitude: 126.57619
@@ -3206,7 +3206,7 @@
   environment_rating: 0
   service_rating: 0
   address: 东市场老东市商场内
-  phone: '15840404488'
+  phone: ''
   recommended_products: 麻辣烫
   alias: ''
   description: ''
@@ -3216,7 +3216,7 @@
 - rank: 209
   shop_id: 2225548
   name: 乌拉满族火锅(解放东路店)
-  navigation: 吉林餐厅»火锅»乌拉满族火锅(解放东路店)
+  navigation: 火锅
   poi: HVEAWHZBAEBAHTK
   latitude: 43.85334
   longitude: 126.58986
@@ -3237,7 +3237,7 @@
 - rank: 210
   shop_id: 3270313
   name: 大宅门丫头记
-  navigation: 吉林餐厅»船营区»川菜»大宅门丫头记
+  navigation: 船营区 川菜
   poi: HVDEHDZBADWWDEM
   latitude: 43.84725
   longitude: 126.55171
@@ -3258,7 +3258,7 @@
 - rank: 212
   shop_id: 3714517
   name: 食为天蟹肉汤包(解放中路店)
-  navigation: 吉林餐厅»小吃面食»食为天蟹肉汤包(解放中路店)
+  navigation: 小吃面食
   poi: HVDEVTZBADWWSVV
   latitude: 43.84738
   longitude: 126.55296
@@ -3279,7 +3279,7 @@
 - rank: 213
   shop_id: 4216846
   name: 一品面
-  navigation: 吉林餐厅»小吃面食»一品面
+  navigation: 小吃面食
   poi: HTEEFWZBACDHIRU
   latitude: 43.89902
   longitude: 125.33344
@@ -3300,7 +3300,7 @@
 - rank: 214
   shop_id: 5931630
   name: 雪国日本料理
-  navigation: 吉林餐厅»日本»雪国日本料理
+  navigation: 日本
   poi: HVDCIIZBADWHFVT
   latitude: 43.83971
   longitude: 126.53919
@@ -3321,7 +3321,7 @@
 - rank: 215
   shop_id: 2049637
   name: 一卷之春饼店
-  navigation: 吉林餐厅»东北菜»一卷之春饼店
+  navigation: 东北菜
   poi: HVDDWBZBAEBTBSN
   latitude: 43.8849
   longitude: 126.58805
@@ -3332,7 +3332,7 @@
   environment_rating: 0
   service_rating: 0
   address: 四川路(通江街口)
-  phone: 0432-61553882787774
+  phone: 0432-66155388 62787774
   recommended_products: 小炒黄
   alias: ''
   description: ''
@@ -3342,7 +3342,7 @@
 - rank: 216
   shop_id: 2066677
   name: 川人百味(大东门店)
-  navigation: 吉林餐厅»小吃面食»川人百味(大东门店)
+  navigation: 小吃面食
   poi: HVDIIUZBAEAGFDD
   latitude: 43.85107
   longitude: 126.56612
@@ -3363,7 +3363,7 @@
 - rank: 217
   shop_id: 2105164
   name: 德高汉堡咖啡
-  navigation: 吉林餐厅»龙潭区»咖啡厅»德高汉堡咖啡
+  navigation: 龙潭区 咖啡厅
   poi: HVDUJSZBAEDAAJH
   latitude: 43.89801
   longitude: 126.62596
@@ -3374,7 +3374,7 @@
   environment_rating: 0
   service_rating: 0
   address: 龙潭区武汉路14-13号
-  phone: 0432-3965622
+  phone: 0432-63965622
   recommended_products: ''
   alias: K&SCOFFEEHOUSE
   description: ''
@@ -3384,7 +3384,7 @@
 - rank: 220
   shop_id: 2364115
   name: 阿凡提鲜烤城
-  navigation: 吉林餐厅»烧烤»阿凡提鲜烤城
+  navigation: 烧烤
   poi: HTESBDZBACDDSIM
   latitude: 43.88551
   longitude: 125.33717
@@ -3395,7 +3395,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路与珲春街交汇处
-  phone: 0432-2557955
+  phone: 0432-62557955
   recommended_products: ''
   alias: ''
   description: ''
@@ -3405,7 +3405,7 @@
 - rank: 221
   shop_id: 2375914
   name: 北苑酒店
-  navigation: 吉林餐厅»昌邑区»其他中餐»北苑酒店
+  navigation: 昌邑区 其他中餐
   poi: HVDCJFZBADWDWGI
   latitude: 43.83523
   longitude: 126.53495
@@ -3426,7 +3426,7 @@
 - rank: 222
   shop_id: 2431006
   name: 丰满水库鱼
-  navigation: 吉林餐厅»东北菜»丰满水库鱼
+  navigation: 东北菜
   poi: HVSJWSZBADVTCGG
   latitude: 43.65191
   longitude: 126.69827
@@ -3447,7 +3447,7 @@
 - rank: 224
   shop_id: 2826097
   name: 樱花韩式料理
-  navigation: 吉林餐厅»韩国»樱花韩式料理
+  navigation: 韩国
   poi: HVEHIAZBADWJWDK
   latitude: 43.81613
   longitude: 126.56938
@@ -3468,7 +3468,7 @@
 - rank: 225
   shop_id: 3625822
   name: 锅铁王(青岛街店)
-  navigation: 吉林餐厅»新疆/清真»锅铁王(青岛街店)
+  navigation: 新疆/清真
   poi: HVDDCIZBAEAARHS
   latitude: 43.85079
   longitude: 126.55188
@@ -3480,7 +3480,7 @@
   service_rating: 0
   address: 青岛街河南街口(近小男孩西餐厅)
   phone: 0432-62056567
-  recommended_products: 桌子二层一层<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/3466254/type"title="门脸"><imgdata-src="http://i3.s1.dpfile.com/2010-01-04/3466254_b.jpg(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/3466254/type"title="门脸">门脸</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 上午10：00-凌晨12：00
@@ -3489,7 +3489,7 @@
 - rank: 226
   shop_id: 3635620
   name: 富绅酒楼
-  navigation: 吉林餐厅»湘菜»富绅酒楼
+  navigation: 湘菜
   poi: HVDRCBZBAEAHFTY
   latitude: 43.85048
   longitude: 126.56936
@@ -3510,7 +3510,7 @@
 - rank: 227
   shop_id: 5361761
   name: 他她开心捞时尚火锅
-  navigation: 吉林餐厅»船营区»火锅»他她开心捞时尚火锅
+  navigation: 船营区 火锅
   poi: HVDHUHZBAEARTGG
   latitude: 43.85769
   longitude: 126.57089
@@ -3522,7 +3522,7 @@
   service_rating: 0
   address: 朝阳街4号楼51号(近大东门)
   phone: 0432-66556999
-  recommended_products: iphone_upload_piciphone_upload_piciphone_upload_pic<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/14367573/type"title="2包快乐坊"><imgdata-src="http://i3.s1.dpfile.com/pc/0082df132de9ded03a7cc305a353e351(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/14367573/type"title="2包快乐坊">2包快乐坊</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/14367553/type"title="1包开心坊"><imgdata-src="http://i2.s1.dpfile.com/pc/f37ecdf3893432e3ac65bd73be84c1ee(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/14367553/type"title="1包开心坊">1包开心坊</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/14367532/type"title="iphone_upload_pic"><imgdata-src="http://i3.s1.dpfile.com/pc/a1d51d5a162fadcd8146b849acd7b936(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/14367532/type"title="iphone_upload_pic">iphone_upload_pic</a></div></li>
+  recommended_products: ''
   alias: 他她开心捞
   description: ''
   hours: 尚无营业时间
@@ -3531,7 +3531,7 @@
 - rank: 228
   shop_id: 8026877
   name: 新竹小镇台湾菜
-  navigation: 吉林餐厅»船营区»其他中餐»新竹小镇台湾菜
+  navigation: 船营区 其他中餐
   poi: HVDEFWZBAEAAEEK
   latitude: 43.8487
   longitude: 126.55298
@@ -3552,7 +3552,7 @@
 - rank: 231
   shop_id: 2065690
   name: 小胡同炒鸡
-  navigation: 吉林餐厅»昌邑区»东北菜»小胡同炒鸡
+  navigation: 昌邑区 东北菜
   poi: HVEAVSZBAEAWCTY
   latitude: 43.85179
   longitude: 126.58805
@@ -3563,7 +3563,7 @@
   environment_rating: 0
   service_rating: 0
   address: 昌邑区解放东路68号
-  phone: 0432-2529678
+  phone: 0432-62529678
   recommended_products: ''
   alias: ''
   description: ''
@@ -3573,7 +3573,7 @@
 - rank: 232
   shop_id: 2066650
   name: 阁里香(土城子店)
-  navigation: 吉林餐厅»东北菜»阁里香(土城子店)
+  navigation: 东北菜
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -3594,7 +3594,7 @@
 - rank: 233
   shop_id: 2085403
   name: 老子号燃面馆
-  navigation: 吉林餐厅»川菜»老子号燃面馆
+  navigation: 川菜
   poi: HVDIICZBAEADAWI
   latitude: 43.84697
   longitude: 126.56186
@@ -3605,7 +3605,7 @@
   environment_rating: 0
   service_rating: 0
   address: 松北二区
-  phone: 0432-20275566666123
+  phone: 0432-62027556 66666123
   recommended_products: ''
   alias: ''
   description: ''
@@ -3615,7 +3615,7 @@
 - rank: 234
   shop_id: 2130562
   name: 三小秘制烤翅
-  navigation: 吉林餐厅»烧烤»三小秘制烤翅
+  navigation: 烧烤
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -3626,7 +3626,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路四川路交叉路口(顺风123对面)
-  phone: 0432-6570656
+  phone: 0432-66570656
   recommended_products: 老虎菜
   alias: ''
   description: ''
@@ -3636,7 +3636,7 @@
 - rank: 236
   shop_id: 2253616
   name: 紫光苑大饭店
-  navigation: 吉林餐厅»昌邑区»东北菜»紫光苑大饭店
+  navigation: 昌邑区 东北菜
   poi: HVCWIGZBAEBRDEJ
   latitude: 43.8881
   longitude: 126.57998
@@ -3647,7 +3647,7 @@
   environment_rating: 0
   service_rating: 0
   address: 昌邑区中兴街136号
-  phone: 0432-2798888
+  phone: 0432-62798888
   recommended_products: 20100126044640781273890467eMo3NY1V20100506_aa4ca854cd
   alias: ''
   description: ''
@@ -3657,7 +3657,7 @@
 - rank: 237
   shop_id: 2623102
   name: 大府肥牛
-  navigation: 吉林餐厅»火锅»大府肥牛
+  navigation: 火锅
   poi: HVEIFTZBADWGHWW
   latitude: 43.81067
   longitude: 126.566
@@ -3668,7 +3668,7 @@
   environment_rating: 0
   service_rating: 0
   address: 吉林大街14号(近吉林大街和北京路的交汇处)
-  phone: 0432-2447963
+  phone: 0432-62447963
   recommended_products: 吧台酒店大厅大堂
   alias: ''
   description: ''
@@ -3678,7 +3678,7 @@
 - rank: 240
   shop_id: 2759488
   name: 凤香居鱼头馆
-  navigation: 吉林餐厅»东北菜»凤香居鱼头馆
+  navigation: 东北菜
   poi: HVEBCDZBAEBJWEU
   latitude: 43.86529
   longitude: 126.60215
@@ -3699,7 +3699,7 @@
 - rank: 241
   shop_id: 2817223
   name: 呱呱香
-  navigation: 吉林餐厅»面包甜点»呱呱香
+  navigation: 面包甜点
   poi: HWRDIAZBAFAAERP
   latitude: 43.70651
   longitude: 127.35059
@@ -3720,7 +3720,7 @@
 - rank: 242
   shop_id: 2968840
   name: 丑小鸭餐饮
-  navigation: 吉林餐厅»快餐简餐»丑小鸭餐饮
+  navigation: 快餐简餐
   poi: HVDICWZBAEAJRUR
   latitude: 43.8559
   longitude: 126.56987
@@ -3741,7 +3741,7 @@
 - rank: 243
   shop_id: 2990044
   name: 高丽烧烤
-  navigation: 吉林餐厅»韩国»高丽烧烤
+  navigation: 韩国
   poi: HVDRUDZBAEARTDP
   latitude: 43.8539
   longitude: 126.57465
@@ -3752,7 +3752,7 @@
   environment_rating: 0
   service_rating: 0
   address: 重庆路医学院至百货大楼中段
-  phone: 0432-2430655
+  phone: 0432-62430655
   recommended_products: 烤牛肉
   alias: ''
   description: ''
@@ -3762,7 +3762,7 @@
 - rank: 244
   shop_id: 3199087
   name: 小广东鸡煲店
-  navigation: 吉林餐厅»粤菜»小广东鸡煲店
+  navigation: 粤菜
   poi: HVDVVSZBAEAUJEO
   latitude: 43.85226
   longitude: 126.5835
@@ -3773,7 +3773,7 @@
   environment_rating: 0
   service_rating: 0
   address: 四川街(近解放路)
-  phone: 0432-6116111
+  phone: 0432-66116111
   recommended_products: ''
   alias: 广东人之家
   description: ''
@@ -3783,7 +3783,7 @@
 - rank: 245
   shop_id: 3205732
   name: 沈阳红香辣鸡脖
-  navigation: 吉林餐厅»快餐简餐»沈阳红香辣鸡脖
+  navigation: 快餐简餐
   poi: HVCWUJZBAEAUWCS
   latitude: 43.87204
   longitude: 126.56466
@@ -3804,7 +3804,7 @@
 - rank: 246
   shop_id: 3216385
   name: 香什锦米糕
-  navigation: 吉林餐厅»小吃面食»香什锦米糕
+  navigation: 小吃面食
   poi: HWRDIGZBAFAAERV
   latitude: 43.70651
   longitude: 127.35059
@@ -3825,7 +3825,7 @@
 - rank: 247
   shop_id: 3234037
   name: 肯德基(站前店)
-  navigation: 吉林餐厅»昌邑区»快餐简餐»肯德基(站前店)
+  navigation: 昌邑区 快餐简餐
   poi: HVDJJHZBAEBBJSR
   latitude: 43.86425
   longitude: 126.58182
@@ -3846,7 +3846,7 @@
 - rank: 248
   shop_id: 3234043
   name: 肯德基(大福源二店)
-  navigation: 吉林餐厅»昌邑区»快餐简餐»肯德基(大福源二店)
+  navigation: 昌邑区 快餐简餐
   poi: HVDRBFZBAEAHFTM
   latitude: 43.85048
   longitude: 126.56936
@@ -3867,7 +3867,7 @@
 - rank: 250
   shop_id: 3311986
   name: 合顺家常菜
-  navigation: 吉林餐厅»东北菜»合顺家常菜
+  navigation: 东北菜
   poi: HVDUDDZBAEATRJJ
   latitude: 43.85326
   longitude: 126.58015
@@ -3888,7 +3888,7 @@
 - rank: 252
   shop_id: 3635179
   name: 金刚山泡菜
-  navigation: 吉林餐厅»昌邑区»韩国»金刚山泡菜
+  navigation: 昌邑区 韩国
   poi: HVEATFZBAEATWFV
   latitude: 43.84913
   longitude: 126.58504
@@ -3909,7 +3909,7 @@
 - rank: 253
   shop_id: 3889897
   name: 帕帕斯
-  navigation: 吉林餐厅»韩国»帕帕斯
+  navigation: 韩国
   poi: HWRDHHZBAFAAERG
   latitude: 43.70651
   longitude: 127.35059
@@ -3930,7 +3930,7 @@
 - rank: 259
   shop_id: 4195702
   name: 金银铁碳烤大片肉
-  navigation: 吉林餐厅»昌邑区»烧烤»金银铁碳烤大片肉
+  navigation: 昌邑区 烧烤
   poi: HVDEJIZBAEAWFSG
   latitude: 43.86771
   longitude: 126.5726
@@ -3941,7 +3941,7 @@
   environment_rating: 0
   service_rating: 0
   address: 延安路(解放大路口)
-  phone: '13944606828'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -3951,7 +3951,7 @@
 - rank: 260
   shop_id: 4200451
   name: 大连海鲜坊
-  navigation: 吉林餐厅»船营区»咖啡厅»大连海鲜坊
+  navigation: 船营区 咖啡厅
   poi: HVDEWTZBAEADGDM
   latitude: 43.85192
   longitude: 126.55775
@@ -3972,7 +3972,7 @@
 - rank: 261
   shop_id: 4543245
   name: 东方烧烤城
-  navigation: 吉林餐厅»船营区»烧烤»东方烧烤城
+  navigation: 船营区 烧烤
   poi: HVDDIWZBAEAEAVU
   latitude: 43.85464
   longitude: 126.55674
@@ -3984,7 +3984,7 @@
   service_rating: 0
   address: 光华路
   phone: ''
-  recommended_products: 门面餐区2餐区<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/19568190/type"title="餐厅"><imgdata-src="http://i3.s1.dpfile.com/pc/c85a7ea67662c90736a7505023692b96(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/19568190/type"title="餐厅">餐厅</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/19568191/type"title="门面"><imgdata-src="http://i3.s1.dpfile.com/pc/d7e51591776c6afbce79f468cf8369ae(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/19568191/type"title="门面">门面</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/19568114/type"title="大门"><imgdata-src="http://i3.s1.dpfile.com/pc/d7e51591776c6afbce79f468cf8369ae(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/19568114/type"title="大门">大门</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/19568184/type"title="大堂"><imgdata-src="http://i1.s1.dpfile.com/pc/73a0607f89b48f2e8bb9b31c29189396(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/19568184/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/19568187/type"title="餐区6"><imgdata-src="http://i2.s1.dpfile.com/pc/7a407b8a1a6d00cfba5f18ce777f9d99(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/19568187/type"title="餐区6">餐区6</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_pic_jilin_food');"target="_blank"href="/photos/19568186/type"title="大堂"><imgdata-src="http://i2.s1.dpfile.com/pc/c24b426e942327064b5fe9978ef367a9(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_picname_jilin_food');"target="_blank"href="/photos/19568186/type"title="大堂">大堂</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 尚无营业时间
@@ -3993,7 +3993,7 @@
 - rank: 262
   shop_id: 4655067
   name: 京冠香锅王
-  navigation: 吉林餐厅»船营区»川菜»京冠香锅王
+  navigation: 船营区 川菜
   poi: HVDIJJZBAEAHRAQ
   latitude: 43.85274
   longitude: 126.56778
@@ -4004,7 +4004,7 @@
   environment_rating: 0
   service_rating: 0
   address: 大东门(恒客隆斜对面)
-  phone: 0432-6472855564728999
+  phone: 0432-64728555 64728999
   recommended_products: ''
   alias: ''
   description: ''
@@ -4014,7 +4014,7 @@
 - rank: 264
   shop_id: 4739661
   name: 川尚品概念火锅
-  navigation: 吉林餐厅»龙潭区»火锅»川尚品概念火锅
+  navigation: 龙潭区 火锅
   poi: HVDSEIZBAECVDSA
   latitude: 43.89864
   longitude: 126.62071
@@ -4035,7 +4035,7 @@
 - rank: 265
   shop_id: 4746649
   name: 金洲汤城
-  navigation: 吉林餐厅»船营区»韩国»金洲汤城
+  navigation: 船营区 韩国
   poi: HTEFAGZBACCUSUY
   latitude: 43.88566
   longitude: 125.32171
@@ -4056,7 +4056,7 @@
 - rank: 267
   shop_id: 5302491
   name: 胖子肉串
-  navigation: 吉林餐厅»永吉县»东北菜»胖子肉串
+  navigation: 永吉县 东北菜
   poi: HVGTCTZBADRRJWQ
   latitude: 43.66768
   longitude: 126.51475
@@ -4077,7 +4077,7 @@
 - rank: 268
   shop_id: 5343205
   name: 连成肉串
-  navigation: 吉林餐厅»船营区»烧烤»连成肉串
+  navigation: 船营区 烧烤
   poi: HVDFCEZBAEADDUE
   latitude: 43.85149
   longitude: 126.5578
@@ -4098,7 +4098,7 @@
 - rank: 269
   shop_id: 5468376
   name: 杨麻子大饼
-  navigation: 吉林餐厅»丰满区»杨麻子大饼
+  navigation: 丰满区
   poi: HVEDWDZBADWJHCY
   latitude: 43.8201
   longitude: 126.56412
@@ -4109,7 +4109,7 @@
   environment_rating: 0
   service_rating: 0
   address: 厦门街
-  phone: 0432-4622111
+  phone: 0432-64622111
   recommended_products: 门面
   alias: ''
   description: ''
@@ -4119,7 +4119,7 @@
 - rank: 270
   shop_id: 5635617
   name: 麻辣拌
-  navigation: 吉林餐厅»龙潭区»小吃面食»麻辣拌
+  navigation: 龙潭区 小吃面食
   poi: HVCDATZBAECCJEJ
   latitude: 43.91479
   longitude: 126.57473
@@ -4130,7 +4130,7 @@
   environment_rating: 0
   service_rating: 0
   address: 遵义东路(吉林十二中东侧)
-  phone: '13943272041'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -4140,7 +4140,7 @@
 - rank: 271
   shop_id: 5724302
   name: 小志串店
-  navigation: 吉林餐厅»船营区»烧烤»小志串店
+  navigation: 船营区 烧烤
   poi: HVDBGEZBAEAAGSA
   latitude: 43.85266
   longitude: 126.54941
@@ -4161,7 +4161,7 @@
 - rank: 274
   shop_id: 6095226
   name: 夜巴黎欢乐餐厅
-  navigation: 吉林餐厅»船营区»快餐简餐»夜巴黎欢乐餐厅
+  navigation: 船营区 快餐简餐
   poi: HVDIJEZBAEAGDBQ
   latitude: 43.85093
   longitude: 126.56592
@@ -4182,7 +4182,7 @@
 - rank: 275
   shop_id: 6856702
   name: 川奇火锅
-  navigation: 吉林餐厅»火锅»川奇火锅
+  navigation: 火锅
   poi: HVDUVSZBAEATCRG
   latitude: 43.85169
   longitude: 126.58045
@@ -4203,7 +4203,7 @@
 - rank: 276
   shop_id: 8716005
   name: 城市比萨(欧亚解放大路店)
-  navigation: 吉林餐厅»昌邑区»西餐»城市比萨(欧亚解放大路店)
+  navigation: 昌邑区 西餐
   poi: HVEBSIZBAEBDCTP
   latitude: 43.85584
   longitude: 126.59424
@@ -4224,7 +4224,7 @@
 - rank: 277
   shop_id: 8822403
   name: 彩福轩
-  navigation: 吉林餐厅»丰满区»川菜»彩福轩
+  navigation: 丰满区 川菜
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -4236,7 +4236,7 @@
   service_rating: 0
   address: 解放大陆欧亚商都东走100米
   phone: 0432-64788666
-  recommended_products: 包房包房大堂<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/23764469/type"title="大堂"><imgdata-src="http://i2.s1.dpfile.com/pc/811a840c53469b4ec14ec7b0f63337dd(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/23764469/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/23764459/type"title="门面"><imgdata-src="http://i3.s1.dpfile.com/pc/c2ab11fb4cdfd0324c9fc2a8579cea2d(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/23764459/type"title="门面">门面</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/23764478/type"title="大堂"><imgdata-src="http://i1.s1.dpfile.com/pc/164ddf7b963f8ea744da9a7cc523e5df(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/23764478/type"title="大堂">大堂</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 每天8:00--24:00
@@ -4245,7 +4245,7 @@
 - rank: 278
   shop_id: 9071789
   name: 二友风味煎粉
-  navigation: 吉林餐厅»船营区»小吃面食»二友风味煎粉
+  navigation: 船营区 小吃面食
   poi: HVDFVJZBADWRFJD
   latitude: 43.83912
   longitude: 126.54741
@@ -4266,7 +4266,7 @@
 - rank: 279
   shop_id: 10012318
   name: 小钱龙虾馆
-  navigation: 吉林餐厅»船营区»快餐简餐»小钱龙虾馆
+  navigation: 船营区 快餐简餐
   poi: HVDVUBZBAEAWRIE
   latitude: 43.855
   longitude: 126.58608
@@ -4287,7 +4287,7 @@
 - rank: 281
   shop_id: 5652987
   name: 世纪烤肉串府
-  navigation: 吉林餐厅»蛟河市»烧烤»世纪烤肉串府
+  navigation: 蛟河市 烧烤
   poi: HWJVAWZBAFAGURO
   latitude: 43.72187
   longitude: 127.35203
@@ -4299,7 +4299,7 @@
   service_rating: 0
   address: 蛟河大街(思奇手机店斜对面)
   phone: 0432-67222008
-  recommended_products: 201203094068201203094047201203094045<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/13322583/type"title="201203094049"><imgdata-src="http://i1.s1.dpfile.com/pc/e7be2b3dbb9af3c2aa67aa75f2823397(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/13322583/type"title="201203094049">201203094049</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/13322636/type"title="201203094067"><imgdata-src="http://i2.s1.dpfile.com/pc/8e71d4e1892e95772a96f9e6f47cd200(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/13322636/type"title="201203094067">201203094067</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/13322587/type"title="201203094050"><imgdata-src="http://i3.s1.dpfile.com/pc/b82475b0cc75e8ef140f27c889d3e29a(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/13322587/type"title="201203094050">201203094050</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 9：00-22：30
@@ -4308,7 +4308,7 @@
 - rank: 285
   shop_id: 2860774
   name: 馄饨挑
-  navigation: 吉林餐厅»小吃面食»馄饨挑
+  navigation: 小吃面食
   poi: HVCWUEZBAEAUWCN
   latitude: 43.87204
   longitude: 126.56466
@@ -4329,7 +4329,7 @@
 - rank: 286
   shop_id: 4131012
   name: 大宅院饭店
-  navigation: 吉林餐厅»桦甸市»东北菜»大宅院饭店
+  navigation: 桦甸市 东北菜
   poi: HWUVEJZBACWSUTO
   latitude: 42.97023
   longitude: 126.76481
@@ -4350,7 +4350,7 @@
 - rank: 287
   shop_id: 4135226
   name: 松江小吃一条街
-  navigation: 吉林餐厅»昌邑区»小吃面食»松江小吃一条街
+  navigation: 昌邑区 小吃面食
   poi: HVJVBTZBAERFBFG
   latitude: 43.9243
   longitude: 126.89931
@@ -4371,7 +4371,7 @@
 - rank: 289
   shop_id: 5335251
   name: 品味渔香
-  navigation: 吉林餐厅»丰满区»东北菜»品味渔香
+  navigation: 丰满区 东北菜
   poi: HVEDTCZBADWJFSE
   latitude: 43.82013
   longitude: 126.56386
@@ -4392,7 +4392,7 @@
 - rank: 290
   shop_id: 5342603
   name: 王石冷面
-  navigation: 吉林餐厅»船营区»快餐简餐»王石冷面
+  navigation: 船营区 快餐简餐
   poi: HVDGVFZBAEABAVW
   latitude: 43.84654
   longitude: 126.55716
@@ -4413,7 +4413,7 @@
 - rank: 291
   shop_id: 5344542
   name: 莱茵河咖啡语茶(景园店)
-  navigation: 吉林餐厅»昌邑区»咖啡厅»莱茵河咖啡语茶(景园店)
+  navigation: 昌邑区 咖啡厅
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -4434,7 +4434,7 @@
 - rank: 292
   shop_id: 5399808
   name: 土钵鸡
-  navigation: 吉林餐厅»船营区»东北菜»土钵鸡
+  navigation: 船营区 东北菜
   poi: HVDAJUZBADVWBUD
   latitude: 43.83152
   longitude: 126.52625
@@ -4455,7 +4455,7 @@
 - rank: 293
   shop_id: 5481602
   name: 蛟河大街冷面屋
-  navigation: 吉林餐厅»蛟河市»韩国»蛟河大街冷面屋
+  navigation: 蛟河市 韩国
   poi: HWRBGJZBAFAEHIQ
   latitude: 43.71454
   longitude: 127.35326
@@ -4476,7 +4476,7 @@
 - rank: 294
   shop_id: 5566684
   name: 阿超麻辣烫
-  navigation: 吉林餐厅»蛟河市»小吃面食»阿超麻辣烫
+  navigation: 蛟河市 小吃面食
   poi: HWRAEAZBAFABEAD
   latitude: 43.71184
   longitude: 127.34772
@@ -4497,7 +4497,7 @@
 - rank: 295
   shop_id: 5587161
   name: 引尚汇休闲串吧
-  navigation: 吉林餐厅»昌邑区»烧烤»引尚汇休闲串吧
+  navigation: 昌邑区 烧烤
   poi: HVDRBIZBAEAHJSQ
   latitude: 43.8508
   longitude: 126.56967
@@ -4518,7 +4518,7 @@
 - rank: 296
   shop_id: 5608454
   name: 上海面包房
-  navigation: 吉林餐厅»蛟河市»面包甜点»上海面包房
+  navigation: 蛟河市 面包甜点
   poi: HWJTGAZBAFAEFUW
   latitude: 43.72088
   longitude: 127.34665
@@ -4539,7 +4539,7 @@
 - rank: 297
   shop_id: 5629165
   name: 小锅饭
-  navigation: 吉林餐厅»船营区»川菜»小锅饭
+  navigation: 船营区 川菜
   poi: HVDDITZBADWGVWU
   latitude: 43.83786
   longitude: 126.53993
@@ -4560,7 +4560,7 @@
 - rank: 298
   shop_id: 5643542
   name: 樱花饭店
-  navigation: 吉林餐厅»船营区»韩国»樱花饭店
+  navigation: 船营区 韩国
   poi: HVDSCDZBAEATSEY
   latitude: 43.85603
   longitude: 126.57749
@@ -4581,7 +4581,7 @@
 - rank: 299
   shop_id: 5892918
   name: 木屋烧烤
-  navigation: 吉林餐厅»烧烤»木屋烧烤
+  navigation: 烧烤
   poi: HVDDUHZBADWJTJR
   latitude: 43.84112
   longitude: 126.54397
@@ -4602,7 +4602,7 @@
 - rank: 300
   shop_id: 6000620
   name: 江北牛一锅
-  navigation: 吉林餐厅»龙潭区»火锅»江北牛一锅
+  navigation: 龙潭区 火锅
   poi: HVBVBBZBAECACDD
   latitude: 43.91801
   longitude: 126.56526
@@ -4623,7 +4623,7 @@
 - rank: 301
   shop_id: 6095166
   name: 鼎鼎鲜涮肉坊(铁东店)
-  navigation: 吉林餐厅»龙潭区»火锅»鼎鼎鲜涮肉坊(铁东店)
+  navigation: 龙潭区 火锅
   poi: HVDSAUZBAECVBFP
   latitude: 43.89882
   longitude: 126.62015
@@ -4644,7 +4644,7 @@
 - rank: 302
   shop_id: 6139131
   name: 福气花雕鸡
-  navigation: 吉林餐厅»丰满区»东南亚菜»福气花雕鸡
+  navigation: 丰满区 东南亚菜
   poi: HVECEWZBADWVIWX
   latitude: 43.82874
   longitude: 126.56857
@@ -4665,7 +4665,7 @@
 - rank: 303
   shop_id: 6226304
   name: 樱花朝族风味餐馆
-  navigation: 吉林餐厅»丰满区»韩国»樱花朝族风味餐馆
+  navigation: 丰满区 韩国
   poi: HVEEVUZBADWRIEW
   latitude: 43.82021
   longitude: 126.56675
@@ -4676,7 +4676,7 @@
   environment_rating: 0
   service_rating: 0
   address: 厦门街2-7号(近恒阳大酒店)
-  phone: 0432-4955777
+  phone: 0432-64955777
   recommended_products: 门面
   alias: 樱花
   description: ''
@@ -4686,7 +4686,7 @@
 - rank: 304
   shop_id: 8675589
   name: 曹洛比童话酒店
-  navigation: 吉林餐厅»昌邑区»粤菜»曹洛比童话酒店
+  navigation: 昌邑区 粤菜
   poi: HVDIJBZBAEASSJL
   latitude: 43.858
   longitude: 126.57301
@@ -4697,7 +4697,7 @@
   environment_rating: 0
   service_rating: 0
   address: 吉林大街218号东盟大厦1楼(近儿童医院)
-  phone: 0432-6336077763360888
+  phone: 0432-63360777 63360888
   recommended_products: ''
   alias: ''
   description: ''
@@ -4707,7 +4707,7 @@
 - rank: 305
   shop_id: 8704230
   name: 延安街浓油赤酱私房莱
-  navigation: 吉林餐厅»昌邑区»东北菜»延安街浓油赤酱私房莱
+  navigation: 昌邑区 东北菜
   poi: HVDSDRZBAEBIJFK
   latitude: 43.87105
   longitude: 126.59288
@@ -4728,7 +4728,7 @@
 - rank: 306
   shop_id: 9033778
   name: 美花珲春大串
-  navigation: 吉林餐厅»蛟河市»烧烤»美花珲春大串
+  navigation: 蛟河市 烧烤
   poi: HWJWGAZBAFAFUDA
   latitude: 43.7188
   longitude: 127.35247
@@ -4749,7 +4749,7 @@
 - rank: 307
   shop_id: 560292
   name: 大韩御都
-  navigation: 吉林餐厅»韩国»大韩御都
+  navigation: 韩国
   poi: HVDEDFZBAEABHHP
   latitude: 43.85047
   longitude: 126.55428
@@ -4760,7 +4760,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路25-1号(珲春街口)
-  phone: 0432-2013555
+  phone: 0432-62013555
   recommended_products: ''
   alias: ''
   description: ''
@@ -4770,7 +4770,7 @@
 - rank: 308
   shop_id: 2031697
   name: 方记麻辣涮肚
-  navigation: 吉林餐厅»火锅»方记麻辣涮肚
+  navigation: 火锅
   poi: HVDUDAZBAEATRJG
   latitude: 43.85326
   longitude: 126.58015
@@ -4791,7 +4791,7 @@
 - rank: 310
   shop_id: 2094643
   name: 好味道西餐厅
-  navigation: 吉林餐厅»龙潭区»西餐»好味道西餐厅
+  navigation: 龙潭区 西餐
   poi: HVCTCIZBAECGRBA
   latitude: 43.90827
   longitude: 126.59162
@@ -4802,7 +4802,7 @@
   environment_rating: 0
   service_rating: 0
   address: 龙潭区遵义东路(十二中对面)
-  phone: 0432-7681843
+  phone: 0432-67681843
   recommended_products: ''
   alias: ''
   description: ''
@@ -4812,7 +4812,7 @@
 - rank: 311
   shop_id: 2102134
   name: 天使与海豚餐吧
-  navigation: 吉林餐厅»龙潭区»酒吧»天使与海豚餐吧
+  navigation: 龙潭区 酒吧
   poi: HVDVFIZBAECVWIT
   latitude: 43.89576
   longitude: 126.62548
@@ -4823,7 +4823,7 @@
   environment_rating: 0
   service_rating: 0
   address: 龙潭区古川路53号(清林街口)
-  phone: 0432-3961981
+  phone: 0432-63961981
   recommended_products: 麻辣小龙虾
   alias: ''
   description: ''
@@ -4833,7 +4833,7 @@
 - rank: 316
   shop_id: 2253625
   name: 顺风肥牛
-  navigation: 吉林餐厅»火锅»顺风肥牛
+  navigation: 火锅
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -4844,7 +4844,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路庆丰南区1号
-  phone: 0432-2055739
+  phone: 0432-62055739
   recommended_products: ''
   alias: ''
   description: ''
@@ -4854,7 +4854,7 @@
 - rank: 317
   shop_id: 2338456
   name: 金川汤馆
-  navigation: 吉林餐厅»韩国»金川汤馆
+  navigation: 韩国
   poi: HVDUDGZBAEATRJM
   latitude: 43.85326
   longitude: 126.58015
@@ -4875,7 +4875,7 @@
 - rank: 318
   shop_id: 2359999
   name: 董三肉串烧烤店
-  navigation: 吉林餐厅»烧烤»董三肉串烧烤店
+  navigation: 烧烤
   poi: HVDETWZBAECBHIC
   latitude: 43.8906
   longitude: 126.59608
@@ -4886,7 +4886,7 @@
   environment_rating: 0
   service_rating: 0
   address: 四川路通江街四中东走30米
-  phone: 0432-7680345
+  phone: 0432-67680345
   recommended_products: 烤羊腿
   alias: ''
   description: ''
@@ -4896,7 +4896,7 @@
 - rank: 319
   shop_id: 2529526
   name: 大胡子烤串
-  navigation: 吉林餐厅»烧烤»大胡子烤串
+  navigation: 烧烤
   poi: HVDIJHZBAEBSGEI
   latitude: 43.87801
   longitude: 126.59311
@@ -4917,7 +4917,7 @@
 - rank: 321
   shop_id: 2817220
   name: 老北京前门糖葫芦
-  navigation: 吉林餐厅»小吃面食»老北京前门糖葫芦
+  navigation: 小吃面食
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -4938,7 +4938,7 @@
 - rank: 322
   shop_id: 2817229
   name: 肯德基(大福源三店)
-  navigation: 吉林餐厅»昌邑区»快餐简餐»肯德基(大福源三店)
+  navigation: 昌邑区 快餐简餐
   poi: HUJGGWZBADVTGGG
   latitude: 44.02541
   longitude: 126.32541
@@ -4949,7 +4949,7 @@
   environment_rating: 0
   service_rating: 0
   address: 大福源超市三店1楼
-  phone: 0432-2076668
+  phone: 0432-62076668
   recommended_products: ''
   alias: ''
   description: ''
@@ -4959,7 +4959,7 @@
 - rank: 323
   shop_id: 2817295
   name: 西林蛋糕
-  navigation: 吉林餐厅»龙潭区»面包甜点»西林蛋糕
+  navigation: 龙潭区 面包甜点
   poi: HVDJSVZBAEAVJUY
   latitude: 43.86026
   longitude: 126.57815
@@ -4980,7 +4980,7 @@
 - rank: 324
   shop_id: 2913529
   name: 天翔特味饺子馆
-  navigation: 吉林餐厅»小吃面食»天翔特味饺子馆
+  navigation: 小吃面食
   poi: HVDRTSZBAECUUFD
   latitude: 43.89877
   longitude: 126.61956
@@ -5001,7 +5001,7 @@
 - rank: 325
   shop_id: 3115171
   name: 江瑚菜馆
-  navigation: 吉林餐厅»其他中餐»江瑚菜馆
+  navigation: 其他中餐
   poi: HVDRASZBAEAHFTC
   latitude: 43.85048
   longitude: 126.56936
@@ -5012,7 +5012,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路新胜昌街1-9号(近锦东会馆)
-  phone: 0432-2528567
+  phone: 0432-62528567
   recommended_products: ''
   alias: ''
   description: ''
@@ -5022,7 +5022,7 @@
 - rank: 326
   shop_id: 3193618
   name: 王记云南过桥米线
-  navigation: 吉林餐厅»其他中餐»王记云南过桥米线
+  navigation: 其他中餐
   poi: HVDRVUZBAEATBFJ
   latitude: 43.85543
   longitude: 126.5765
@@ -5043,7 +5043,7 @@
 - rank: 327
   shop_id: 3205678
   name: D格土司工坊
-  navigation: 吉林餐厅»面包甜点»D格土司工坊
+  navigation: 面包甜点
   poi: HVCUUTZBAEASWAP
   latitude: 43.872
   longitude: 126.55956
@@ -5064,7 +5064,7 @@
 - rank: 328
   shop_id: 3216331
   name: 甜蜜公主韩国风味冰淇淋
-  navigation: 吉林餐厅»面包甜点»甜蜜公主韩国风味冰淇淋
+  navigation: 面包甜点
   poi: HWRDHFZBAFAAERE
   latitude: 43.70651
   longitude: 127.35059
@@ -5085,7 +5085,7 @@
 - rank: 329
   shop_id: 3234034
   name: 肯德基(百货大楼店)
-  navigation: 吉林餐厅»昌邑区»快餐简餐»肯德基(百货大楼店)
+  navigation: 昌邑区 快餐简餐
   poi: HVDJBTZBAEAWAGJ
   latitude: 43.86152
   longitude: 126.57794
@@ -5106,7 +5106,7 @@
 - rank: 330
   shop_id: 3324925
   name: 李先生加州牛肉面(河南街店)
-  navigation: 吉林餐厅»小吃面食»李先生加州牛肉面(河南街店)
+  navigation: 小吃面食
   poi: HVDIAUZBAEAEFTM
   latitude: 43.84924
   longitude: 126.56292
@@ -5127,7 +5127,7 @@
 - rank: 334
   shop_id: 3523768
   name: 肯德基(大福源一店)
-  navigation: 吉林餐厅»昌邑区»快餐简餐»肯德基(大福源一店)
+  navigation: 昌邑区 快餐简餐
   poi: HVDIVGZBAEATVJW
   latitude: 43.85915
   longitude: 126.5749
@@ -5148,7 +5148,7 @@
 - rank: 335
   shop_id: 3554572
   name: 川天椒麻辣烫
-  navigation: 吉林餐厅»小吃面食»川天椒麻辣烫
+  navigation: 小吃面食
   poi: HVDWDDZBAEDBAUH
   latitude: 43.89727
   longitude: 126.6293
@@ -5169,7 +5169,7 @@
 - rank: 336
   shop_id: 3590452
   name: 小二烤肉
-  navigation: 吉林餐厅»烧烤»小二烤肉
+  navigation: 烧烤
   poi: HVDHRFZBAEBUGIS
   latitude: 43.88185
   longitude: 126.59443
@@ -5190,7 +5190,7 @@
 - rank: 337
   shop_id: 3651361
   name: 吉祥馄饨
-  navigation: 吉林餐厅»小吃面食»吉祥馄饨
+  navigation: 小吃面食
   poi: HVDUEBZBAEATRJX
   latitude: 43.85326
   longitude: 126.58015
@@ -5211,7 +5211,7 @@
 - rank: 339
   shop_id: 3991993
   name: 正阳楼红焖羊肉火锅
-  navigation: 吉林餐厅»火锅»正阳楼红焖羊肉火锅
+  navigation: 火锅
   poi: HVEAIAZBAEBAJWS
   latitude: 43.85415
   longitude: 126.5894
@@ -5232,7 +5232,7 @@
 - rank: 340
   shop_id: 4050127
   name: 克鲁斯比萨
-  navigation: 吉林餐厅»昌邑区»西餐»克鲁斯比萨
+  navigation: 昌邑区 西餐
   poi: HVDUDAZBAEATRJG
   latitude: 43.85326
   longitude: 126.58015
@@ -5253,7 +5253,7 @@
 - rank: 341
   shop_id: 4092613
   name: 城市比萨(欧亚商都店)
-  navigation: 吉林餐厅»丰满区»西餐»城市比萨(欧亚商都店)
+  navigation: 丰满区 西餐
   poi: HVECUVZBAEAATDU
   latitude: 43.83083
   longitude: 126.57212
@@ -5274,7 +5274,7 @@
 - rank: 346
   shop_id: 4527934
   name: 好利来
-  navigation: 吉林餐厅»丰满区»面包甜点»好利来
+  navigation: 丰满区 面包甜点
   poi: HVEESTZBADWREGF
   latitude: 43.82006
   longitude: 126.56628
@@ -5295,7 +5295,7 @@
 - rank: 347
   shop_id: 4534702
   name: 北关鱼窝棚
-  navigation: 吉林餐厅»船营区»东北菜»北关鱼窝棚
+  navigation: 船营区 东北菜
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -5316,7 +5316,7 @@
 - rank: 349
   shop_id: 4659822
   name: 壹加壹烤肉
-  navigation: 吉林餐厅»丰满区»烧烤»壹加壹烤肉
+  navigation: 丰满区 烧烤
   poi: HVEFDTZBADWRRUK
   latitude: 43.81996
   longitude: 126.56741
@@ -5327,7 +5327,7 @@
   environment_rating: 0
   service_rating: 0
   address: 夏门街9号楼9号(华侨医院对面)
-  phone: 0432-6605099966513999
+  phone: 0432-66050999 66513999
   recommended_products: ''
   alias: ''
   description: ''
@@ -5337,7 +5337,7 @@
 - rank: 350
   shop_id: 4674094
   name: 凤吉园贾家火锅
-  navigation: 吉林餐厅»龙潭区»火锅»凤吉园贾家火锅
+  navigation: 龙潭区 火锅
   poi: HUSGURZBAEEFTCD
   latitude: 44.09828
   longitude: 126.4813
@@ -5358,7 +5358,7 @@
 - rank: 351
   shop_id: 5159864
   name: 富翔大酒楼(厦门街店)
-  navigation: 吉林餐厅»丰满区»火锅»富翔大酒楼(厦门街店)
+  navigation: 丰满区 火锅
   poi: HVEETCZBADWREGL
   latitude: 43.82006
   longitude: 126.56628
@@ -5379,7 +5379,7 @@
 - rank: 352
   shop_id: 5166923
   name: 扒虾馆平价海鲜餐厅
-  navigation: 吉林餐厅»丰满区»其他中餐»扒虾馆平价海鲜餐厅
+  navigation: 丰满区 其他中餐
   poi: HVDJSVZBADWHETL
   latitude: 43.83035
   longitude: 126.54837
@@ -5390,7 +5390,7 @@
   environment_rating: 0
   service_rating: 0
   address: 火炬大厦(近金萍烧烤)
-  phone: '15526555678'
+  phone: ''
   recommended_products: 扒虾馆吉林1店（江南烽火）扒虾馆吉林1店（江南烽火）
   alias: ''
   description: ''
@@ -5400,7 +5400,7 @@
 - rank: 353
   shop_id: 5218047
   name: 世纪巴西烧烤餐厅
-  navigation: 吉林餐厅»丰满区»自助餐»世纪巴西烧烤餐厅
+  navigation: 丰满区 自助餐
   poi: HVECDIZBADWWRJM
   latitude: 43.83021
   longitude: 126.56992
@@ -5421,7 +5421,7 @@
 - rank: 354
   shop_id: 5335194
   name: 豆地煮压锅菜
-  navigation: 吉林餐厅»船营区»东北菜»豆地煮压锅菜
+  navigation: 船营区 东北菜
   poi: HVDDSDZBAEAAGBJ
   latitude: 43.8497
   longitude: 126.55227
@@ -5442,7 +5442,7 @@
 - rank: 357
   shop_id: 5466408
   name: 艾嘉味道
-  navigation: 吉林餐厅»蛟河市»快餐简餐»艾嘉味道
+  navigation: 蛟河市 快餐简餐
   poi: HWJRGIZBAFAEVWI
   latitude: 43.72406
   longitude: 127.34493
@@ -5463,7 +5463,7 @@
 - rank: 358
   shop_id: 5466740
   name: 李胖笨狗肉馆
-  navigation: 吉林餐厅»丰满区»快餐简餐»李胖笨狗肉馆
+  navigation: 丰满区 快餐简餐
   poi: HVEIIGZBADWUJGB
   latitude: 43.81943
   longitude: 126.57539
@@ -5474,7 +5474,7 @@
   environment_rating: 0
   service_rating: 0
   address: 江南厦门街东路新锋新村4号楼
-  phone: 0432-4686817
+  phone: 0432-64686817
   recommended_products: 门面
   alias: ''
   description: ''
@@ -5484,7 +5484,7 @@
 - rank: 359
   shop_id: 5494592
   name: 鲜来厚道
-  navigation: 吉林餐厅»龙潭区»其他中餐»鲜来厚道
+  navigation: 龙潭区 其他中餐
   poi: HVCCACZBAEBJVUY
   latitude: 43.90512
   longitude: 126.56225
@@ -5505,7 +5505,7 @@
 - rank: 360
   shop_id: 5542189
   name: 樱花朝族牛排火锅店
-  navigation: 吉林餐厅»丰满区»韩国»樱花朝族牛排火锅店
+  navigation: 丰满区 韩国
   poi: HVEDEAZBADWJGAF
   latitude: 43.82081
   longitude: 126.56323
@@ -5526,7 +5526,7 @@
 - rank: 362
   shop_id: 5635115
   name: 和美寿司
-  navigation: 吉林餐厅»船营区»日本»和美寿司
+  navigation: 船营区 日本
   poi: HVDFRSZBAEADVDR
   latitude: 43.85171
   longitude: 126.55924
@@ -5537,7 +5537,7 @@
   environment_rating: 0
   service_rating: 0
   address: 珲春街中段
-  phone: '13039157779'
+  phone: ''
   recommended_products: iphone_upload_pic
   alias: ''
   description: ''
@@ -5547,7 +5547,7 @@
 - rank: 363
   shop_id: 5640842
   name: 金簋小山城
-  navigation: 吉林餐厅»丰满区»火锅»金簋小山城
+  navigation: 丰满区 火锅
   poi: HVEDUBZBADWJSWH
   latitude: 43.82057
   longitude: 126.56442
@@ -5568,7 +5568,7 @@
 - rank: 365
   shop_id: 5645144
   name: 好滋味麻辣烫
-  navigation: 吉林餐厅»船营区»小吃面食»好滋味麻辣烫
+  navigation: 船营区 小吃面食
   poi: HVDHHTZBAEAJUIV
   latitude: 43.85703
   longitude: 126.56917
@@ -5589,7 +5589,7 @@
 - rank: 366
   shop_id: 5647237
   name: 八道江山餐厅
-  navigation: 吉林餐厅»昌邑区»东北菜»八道江山餐厅
+  navigation: 昌邑区 东北菜
   poi: HVDSEIZBAEAVCBA
   latitude: 43.85755
   longitude: 126.57962
@@ -5600,7 +5600,7 @@
   environment_rating: 0
   service_rating: 0
   address: 天津街(锦江之星对面)
-  phone: 0432-6253733666640766
+  phone: 0432-62537336 66640766
   recommended_products: ''
   alias: 八道江饭店
   description: ''
@@ -5610,7 +5610,7 @@
 - rank: 367
   shop_id: 5694171
   name: 周末喜相逢烤吧
-  navigation: 吉林餐厅»船营区»烧烤»周末喜相逢烤吧
+  navigation: 船营区 烧烤
   poi: HVDHSRZBAEAICEF
   latitude: 43.85446
   longitude: 126.56738
@@ -5631,7 +5631,7 @@
 - rank: 368
   shop_id: 5711738
   name: 冯家屯金子烤肉
-  navigation: 吉林餐厅»船营区»烧烤»冯家屯金子烤肉
+  navigation: 船营区 烧烤
   poi: HVDEEJZBADVVRUP
   latitude: 43.82632
   longitude: 126.53033
@@ -5652,7 +5652,7 @@
 - rank: 369
   shop_id: 5712100
   name: 巴水云天
-  navigation: 吉林餐厅»昌邑区»火锅»巴水云天
+  navigation: 昌邑区 火锅
   poi: HVDTTIZBAEBHBDS
   latitude: 43.86717
   longitude: 126.5929
@@ -5663,8 +5663,8 @@
   environment_rating: 0
   service_rating: 0
   address: 解放北路330号(近万达江畔人家西门)
-  phone: 0432-6368266663682999
-  recommended_products: 包房包房门面<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/13805679/type"title="门面"><imgdata-src="http://i1.s1.dpfile.com/pc/7f3e6401f496888b22b734874b621cf7(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/13805679/type"title="门面">门面</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/13805675/type"title="大堂"><imgdata-src="http://i2.s1.dpfile.com/pc/7c6be64d5b0b05fcc93fff5be79d2e41(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/13805675/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/13805670/type"title="景观位"><imgdata-src="http://i1.s1.dpfile.com/pc/7f458a1feaa4c39ec810845b60ffb8a1(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/13805670/type"title="景观位">景观位</a></div></li>
+  phone: 0432-63682666 63682999
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 10：00~22：:00
@@ -5673,7 +5673,7 @@
 - rank: 370
   shop_id: 5726873
   name: 名门贵族饭店
-  navigation: 吉林餐厅»龙潭区»东北菜»名门贵族饭店
+  navigation: 龙潭区 东北菜
   poi: HVDRHBZBAECVEGM
   latitude: 43.89983
   longitude: 126.61963
@@ -5694,7 +5694,7 @@
 - rank: 373
   shop_id: 5841439
   name: 大连海鲜坊
-  navigation: 吉林餐厅»自助餐»大连海鲜坊
+  navigation: 自助餐
   poi: HVDFABZBAECBBJT
   latitude: 43.88996
   longitude: 126.59577
@@ -5715,7 +5715,7 @@
 - rank: 376
   shop_id: 5899757
   name: 樱花朝族牛排火锅店
-  navigation: 吉林餐厅»丰满区»火锅»樱花朝族牛排火锅店
+  navigation: 丰满区 火锅
   poi: HVEDDWZBADWJGAE
   latitude: 43.82081
   longitude: 126.56323
@@ -5726,7 +5726,7 @@
   environment_rating: 0
   service_rating: 0
   address: 丰满区厦门街(近吉林银行)
-  phone: '15526522115'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -5736,7 +5736,7 @@
 - rank: 378
   shop_id: 5929780
   name: 阳光快餐
-  navigation: 吉林餐厅»快餐简餐»阳光快餐
+  navigation: 快餐简餐
   poi: HVDIHUZBAEBCSTQ
   latitude: 43.8671
   longitude: 126.58186
@@ -5757,7 +5757,7 @@
 - rank: 379
   shop_id: 6196593
   name: 北京羊蝎子火锅
-  navigation: 吉林餐厅»船营区»火锅»北京羊蝎子火锅
+  navigation: 船营区 火锅
   poi: HVDDBRZBADWDFTH
   latitude: 43.83379
   longitude: 126.53485
@@ -5778,7 +5778,7 @@
 - rank: 380
   shop_id: 6230912
   name: 第一佳大鸡排
-  navigation: 吉林餐厅»昌邑区»小吃面食»第一佳大鸡排
+  navigation: 昌邑区 小吃面食
   poi: HVDRVSZBAEATJAW
   latitude: 43.85612
   longitude: 126.57704
@@ -5799,7 +5799,7 @@
 - rank: 381
   shop_id: 6407068
   name: 那家小馆
-  navigation: 吉林餐厅»昌邑区»那家小馆
+  navigation: 昌邑区
   poi: HVEHBIZBAEAWCSC
   latitude: 43.84377
   longitude: 126.59606
@@ -5811,7 +5811,7 @@
   service_rating: 0
   address: 江湾路康庄街(近石化加油站)
   phone: 0432-65096508
-  recommended_products: 等位区门面大堂<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/20480289/type"title="门面"><imgdata-src="http://i3.s1.dpfile.com/pc/3db3a1b638bcddab7ef93bd26fed58ab(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/20480289/type"title="门面">门面</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/20480284/type"title="景观位"><imgdata-src="http://i3.s1.dpfile.com/pc/78cc81cd3602455dd2dc4ec9749bf628(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/20480284/type"title="景观位">景观位</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/20480290/type"title="6"><imgdata-src="http://i1.s1.dpfile.com/pc/73fcace8724ab3034c2a291c59cecd0e(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/20480290/type"title="6">6</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/20480292/type"title="包房"><imgdata-src="http://i3.s1.dpfile.com/pc/4c342729331c2d0736e20cafd7b442d1(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/20480292/type"title="包房">包房</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/20480296/type"title="psb"><imgdata-src="http://i2.s1.dpfile.com/pc/52881a1c205bd77b205be85ab0f9f8b8(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/20480296/type"title="psb">psb</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_pic_jilin_food');"target="_blank"href="/photos/20480285/type"title="景观位"><imgdata-src="http://i3.s1.dpfile.com/pc/5f0c085f16b75a22038acbece525eda1(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_picname_jilin_food');"target="_blank"href="/photos/20480285/type"title="景观位">景观位</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 尚无营业时间
@@ -5820,7 +5820,7 @@
 - rank: 382
   shop_id: 6603463
   name: 八里左岸台湾香鸡排
-  navigation: 吉林餐厅»昌邑区»小吃面食»八里左岸台湾香鸡排
+  navigation: 昌邑区 小吃面食
   poi: HVDSHUZBAEAJFVU
   latitude: 43.85129
   longitude: 126.57369
@@ -5841,7 +5841,7 @@
 - rank: 383
   shop_id: 8696998
   name: 昱香缘家乡鸭
-  navigation: 吉林餐厅»龙潭区»火锅»昱香缘家乡鸭
+  navigation: 龙潭区 火锅
   poi: HVBJBWZBAEBTJWH
   latitude: 43.91986
   longitude: 126.55441
@@ -5852,7 +5852,7 @@
   environment_rating: 0
   service_rating: 0
   address: 遵义西路龙新家园小区附近(加油站对面)
-  phone: '15143225366'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -5862,7 +5862,7 @@
 - rank: 384
   shop_id: 8897091
   name: 珞琪生活
-  navigation: 吉林餐厅»船营区»咖啡厅»珞琪生活
+  navigation: 船营区 咖啡厅
   poi: HVDIRVZBAEAHDDY
   latitude: 43.85213
   longitude: 126.5673
@@ -5883,7 +5883,7 @@
 - rank: 385
   shop_id: 8964135
   name: 四川乐山大佛麻辣涮串(长春路店)
-  navigation: 吉林餐厅»船营区»小吃面食»四川乐山大佛麻辣涮串(长春路店)
+  navigation: 船营区 小吃面食
   poi: HVCRBIZBADVFFTL
   latitude: 43.82742
   longitude: 126.50538
@@ -5904,7 +5904,7 @@
 - rank: 386
   shop_id: 9077063
   name: 亿隆煎粉店
-  navigation: 吉林餐厅»龙潭区»小吃面食»亿隆煎粉店
+  navigation: 龙潭区 小吃面食
   poi: HVBWVGZBAECBCGV
   latitude: 43.91705
   longitude: 126.56881
@@ -5925,7 +5925,7 @@
 - rank: 387
   shop_id: 10649129
   name: 向阳煎粉
-  navigation: 吉林餐厅»船营区»小吃面食»向阳煎粉
+  navigation: 船营区 小吃面食
   poi: HVDEHSZBAEAGCRI
   latitude: 43.8561
   longitude: 126.56068
@@ -5936,7 +5936,7 @@
   environment_rating: 0
   service_rating: 0
   address: 向阳市场光华路昆明路路口(近金色海岸)
-  phone: '15944288585'
+  phone: ''
   recommended_products: 正门iphone_upload_pic
   alias: ''
   description: ''
@@ -5946,7 +5946,7 @@
 - rank: 388
   shop_id: 10664386
   name: 立方咖啡空间
-  navigation: 吉林餐厅»昌邑区»咖啡厅»立方咖啡空间
+  navigation: 昌邑区 咖啡厅
   poi: HVDVEJZBAEBDGCQ
   latitude: 43.86051
   longitude: 126.59011
@@ -5967,7 +5967,7 @@
 - rank: 390
   shop_id: 5140657
   name: 马家小馆
-  navigation: 吉林餐厅»船营区»新疆/清真»马家小馆
+  navigation: 船营区 新疆/清真
   poi: HVDFVFZBADWWWGI
   latitude: 43.84635
   longitude: 126.55455
@@ -5988,7 +5988,7 @@
 - rank: 393
   shop_id: 8703510
   name: 70 80酒吧
-  navigation: 吉林餐厅»船营区»酒吧»70 80酒吧
+  navigation: 船营区 酒吧
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -6009,7 +6009,7 @@
 - rank: 394
   shop_id: 8786504
   name: 门里Coffee馆
-  navigation: 吉林餐厅»船营区»咖啡厅»门里Coffee馆
+  navigation: 船营区 咖啡厅
   poi: HVDICDZBAEABGTA
   latitude: 43.84531
   longitude: 126.55933
@@ -6021,7 +6021,7 @@
   service_rating: 0
   address: 北京路134-5号(近珲春街)
   phone: 0432-62045567
-  recommended_products: android_upload_pic小熊红酒会<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/24220431/type"title="android_upload_pic"><imgdata-src="http://i2.s1.dpfile.com/pc/92ecc5d92610892c1d8a68ac4af27ec0(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/24220431/type"title="android_upload_pic">android_upload_pic</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/25141177/type"title="iphone_upload_pic"><imgdata-src="http://i2.s1.dpfile.com/pc/9d0e61f68462fea2796dbf75fc68df60(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/25141177/type"title="iphone_upload_pic">iphone_upload_pic</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/23650691/type"title="换书"><imgdata-src="http://i3.s1.dpfile.com/pc/6c175cc6484357f84b4ff117bf90d3f1(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/23650691/type"title="换书">换书</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/23650545/type"title="iphone_upload_pic"><imgdata-src="http://i1.s1.dpfile.com/pc/7124a6e38b5a7a72deeb36e28b48707f(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/23650545/type"title="iphone_upload_pic">iphone_upload_pic</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/23650239/type"title="圣诞"><imgdata-src="http://i2.s1.dpfile.com/pc/24273caf3af16c67f3ebda4dda16f8b2(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/23650239/type"title="圣诞">圣诞</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_pic_jilin_food');"target="_blank"href="/photos/24250914/type"title="android_upload_pic"><imgdata-src="http://i2.s1.dpfile.com/pc/e8dd1843f46b72dfa32ec4ba9a18c993(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_picname_jilin_food');"target="_blank"href="/photos/24250914/type"title="android_upload_pic">android_upload_pic</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 每天11:00-21:00
@@ -6030,7 +6030,7 @@
 - rank: 395
   shop_id: 3205750
   name: 八珍熟食
-  navigation: 吉林餐厅»快餐简餐»八珍熟食
+  navigation: 快餐简餐
   poi: HVDUEGZBAEDCBHG
   latitude: 43.90106
   longitude: 126.62817
@@ -6051,7 +6051,7 @@
 - rank: 397
   shop_id: 3529186
   name: 甲一方媚娘火锅(武汉路店)
-  navigation: 吉林餐厅»火锅»甲一方媚娘火锅(武汉路店)
+  navigation: 火锅
   poi: HVDWDWZBAEDBAUT
   latitude: 43.89727
   longitude: 126.6293
@@ -6072,7 +6072,7 @@
 - rank: 398
   shop_id: 5343198
   name: 皇城坝成都名小吃
-  navigation: 吉林餐厅»船营区»川菜»皇城坝成都名小吃
+  navigation: 船营区 川菜
   poi: HVDEUDZBAEADRWR
   latitude: 43.85253
   longitude: 126.5579
@@ -6093,7 +6093,7 @@
 - rank: 402
   shop_id: 6129933
   name: 江南书城咖啡馆
-  navigation: 吉林餐厅»丰满区»咖啡厅»江南书城咖啡馆
+  navigation: 丰满区 咖啡厅
   poi: HVEBRVZBADWJJBE
   latitude: 43.82306
   longitude: 126.56147
@@ -6114,7 +6114,7 @@
 - rank: 403
   shop_id: 6382280
   name: 樱花墅美食
-  navigation: 吉林餐厅»船营区»韩国»樱花墅美食
+  navigation: 船营区 韩国
   poi: HVCRRHZBADWVASN
   latitude: 43.85831
   longitude: 126.53768
@@ -6135,7 +6135,7 @@
 - rank: 405
   shop_id: 2434114
   name: 东北电力大学专家招待所
-  navigation: 吉林餐厅»船营区»火锅»东北电力大学专家招待所
+  navigation: 船营区 火锅
   poi: HVCUDSZBADVSWBH
   latitude: 43.83181
   longitude: 126.51784
@@ -6146,7 +6146,7 @@
   environment_rating: 0
   service_rating: 0
   address: 船营区长春路169号东北电力大学
-  phone: 0432-4806637
+  phone: 0432-64806637
   recommended_products: ''
   alias: 大连诚建肥牛
   description: ''
@@ -6156,7 +6156,7 @@
 - rank: 406
   shop_id: 2874421
   name: 台湾手抓饼
-  navigation: 吉林餐厅»小吃面食»台湾手抓饼
+  navigation: 小吃面食
   poi: HVCWUIZBAEAUWCR
   latitude: 43.87204
   longitude: 126.56466
@@ -6177,7 +6177,7 @@
 - rank: 407
   shop_id: 4104096
   name: 樱花日本怀石料理
-  navigation: 吉林餐厅»船营区»日本»樱花日本怀石料理
+  navigation: 船营区 日本
   poi: HVDFWJZBADWFRWX
   latitude: 43.83317
   longitude: 126.54142
@@ -6198,7 +6198,7 @@
 - rank: 409
   shop_id: 4686987
   name: 东德顺
-  navigation: 吉林餐厅»船营区»新疆/清真»东德顺
+  navigation: 船营区 新疆/清真
   poi: HVDDGAZBADWURJW
   latitude: 43.8467
   longitude: 126.54831
@@ -6219,7 +6219,7 @@
 - rank: 411
   shop_id: 4991217
   name: 面对面
-  navigation: 吉林餐厅»船营区»小吃面食»面对面
+  navigation: 船营区 小吃面食
   poi: HVDDWFZBADWURCG
   latitude: 43.84584
   longitude: 126.5491
@@ -6240,7 +6240,7 @@
 - rank: 412
   shop_id: 5292025
   name: 西域楼
-  navigation: 吉林餐厅»昌邑区»新疆/清真»西域楼
+  navigation: 昌邑区 新疆/清真
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -6261,7 +6261,7 @@
 - rank: 414
   shop_id: 5394929
   name: 东市场美食街
-  navigation: 吉林餐厅»船营区»小吃面食»东市场美食街
+  navigation: 船营区 小吃面食
   poi: HVDSFJZBAEAVCBR
   latitude: 43.85755
   longitude: 126.57962
@@ -6282,7 +6282,7 @@
 - rank: 416
   shop_id: 5534907
   name: 延边冷面狗肉馆
-  navigation: 吉林餐厅»昌邑区»韩国»延边冷面狗肉馆
+  navigation: 昌邑区 韩国
   poi: HVDJURZBAEBAVHM
   latitude: 43.86299
   longitude: 126.58128
@@ -6303,7 +6303,7 @@
 - rank: 417
   shop_id: 5572979
   name: 群川灶台鱼
-  navigation: 吉林餐厅»蛟河市»东北菜»群川灶台鱼
+  navigation: 蛟河市 东北菜
   poi: IACSDCZBAFCDSCJ
   latitude: 43.57811
   longitude: 127.56963
@@ -6324,7 +6324,7 @@
 - rank: 419
   shop_id: 5598832
   name: 大宅门干锅鸭头
-  navigation: 吉林餐厅»船营区»其他中餐»大宅门干锅鸭头
+  navigation: 船营区 其他中餐
   poi: HVDEHHZBADWWBUV
   latitude: 43.84716
   longitude: 126.55157
@@ -6345,7 +6345,7 @@
 - rank: 423
   shop_id: 5905888
   name: 莱茵河西餐厅
-  navigation: 吉林餐厅»西餐»莱茵河西餐厅
+  navigation: 西餐
   poi: HVDEHGZBAEAADSG
   latitude: 43.84852
   longitude: 126.55307
@@ -6366,7 +6366,7 @@
 - rank: 425
   shop_id: 6100884
   name: 小南屯农家院
-  navigation: 吉林餐厅»龙潭区»东北菜»小南屯农家院
+  navigation: 龙潭区 东北菜
   poi: HVBVURZBAECAISI
   latitude: 43.91755
   longitude: 126.56676
@@ -6387,7 +6387,7 @@
 - rank: 426
   shop_id: 6118109
   name: 一千零一串
-  navigation: 吉林餐厅»丰满区»烧烤»一千零一串
+  navigation: 丰满区 烧烤
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -6408,7 +6408,7 @@
 - rank: 427
   shop_id: 6129945
   name: 上海往事咖啡馆
-  navigation: 吉林餐厅»丰满区»咖啡厅»上海往事咖啡馆
+  navigation: 丰满区 咖啡厅
   poi: HVDVWEZBADWTHJK
   latitude: 43.8303
   longitude: 126.56167
@@ -6429,7 +6429,7 @@
 - rank: 428
   shop_id: 6164124
   name: 鼎尚牛排
-  navigation: 吉林餐厅»昌邑区»西餐»鼎尚牛排
+  navigation: 昌邑区 西餐
   poi: HVDSSJZBAEAUWRS
   latitude: 43.85688
   longitude: 126.5799
@@ -6450,7 +6450,7 @@
 - rank: 430
   shop_id: 6601527
   name: 樽品上海菜
-  navigation: 吉林餐厅»昌邑区»江浙菜»樽品上海菜
+  navigation: 昌邑区 江浙菜
   poi: HVDWBCZBAEBEUBY
   latitude: 43.86138
   longitude: 126.59291
@@ -6471,7 +6471,7 @@
 - rank: 431
   shop_id: 8072169
   name: 铭记干锅烤鱼
-  navigation: 吉林餐厅»昌邑区»川菜»铭记干锅烤鱼
+  navigation: 昌邑区 川菜
   poi: HVDDAJZBAEBJBJF
   latitude: 43.88217
   longitude: 126.58308
@@ -6492,7 +6492,7 @@
 - rank: 432
   shop_id: 8312259
   name: 重庆泡菜鱼
-  navigation: 吉林餐厅»丰满区»火锅»重庆泡菜鱼
+  navigation: 丰满区 火锅
   poi: HVEBEAZBADWIVWS
   latitude: 43.82287
   longitude: 126.56004
@@ -6504,7 +6504,7 @@
   service_rating: 0
   address: 厦门街中段华侨医院对面
   phone: 0432-66050999
-  recommended_products: 大堂包房大堂<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/23060737/type"title="景观位"><imgdata-src="http://i3.s1.dpfile.com/pc/114b6edfeeb81650b1b88beabdf26db2(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/23060737/type"title="景观位">景观位</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/23060693/type"title="大堂"><imgdata-src="http://i1.s1.dpfile.com/pc/d740e0908233f96365187462cb06c687(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/23060693/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/22816563/type"title="iphone_upload_pic"><imgdata-src="http://i2.s1.dpfile.com/pc/a5aec23fd4e4d31bd7d29fda4c89e43d(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/22816563/type"title="iphone_upload_pic">iphone_upload_pic</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/23060771/type"title="大堂"><imgdata-src="http://i2.s1.dpfile.com/pc/5db8ae664a971bfe807e96301797ea01(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/23060771/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/23060704/type"title="景观位"><imgdata-src="http://i1.s1.dpfile.com/pc/e0d08921c4686cd4897deb36b1b4600b(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/23060704/type"title="景观位">景观位</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 11:00-22:00
@@ -6513,7 +6513,7 @@
 - rank: 433
   shop_id: 8851783
   name: 菲欧娜咖啡店
-  navigation: 吉林餐厅»昌邑区»咖啡厅»菲欧娜咖啡店
+  navigation: 昌邑区 咖啡厅
   poi: HVDSBRZBAEARRVV
   latitude: 43.85347
   longitude: 126.57487
@@ -6525,7 +6525,7 @@
   service_rating: 0
   address: 重庆路1785号(财富广场KFC 爱乐琴行旁边)
   phone: 0432-64841777
-  recommended_products: 大堂大堂大堂<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/23960387/type"title="大堂"><imgdata-src="http://i3.s1.dpfile.com/pc/07a8866579886c0b0bd259d7f2da4481(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/23960387/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/24052033/type"title="咖啡机"><imgdata-src="http://i1.s1.dpfile.com/pc/b006a5a2cb259beb6360a2d2210dec9d(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/24052033/type"title="咖啡机">咖啡机</a></div></li>
+  recommended_products: ''
   alias: Fionacoffee
   description: ''
   hours: 10:00-10:30
@@ -6534,7 +6534,7 @@
 - rank: 434
   shop_id: 8969707
   name: 牛巴店
-  navigation: 吉林餐厅»船营区»西餐»牛巴店
+  navigation: 船营区 西餐
   poi: HVDHIJZBADWWHVA
   latitude: 43.84361
   longitude: 126.55609
@@ -6555,7 +6555,7 @@
 - rank: 435
   shop_id: 2025460
   name: 泓盛锦麻辣香锅
-  navigation: 吉林餐厅»川菜»泓盛锦麻辣香锅
+  navigation: 川菜
   poi: HVEFDEZBADWRRUC
   latitude: 43.81996
   longitude: 126.56741
@@ -6566,7 +6566,7 @@
   environment_rating: 0
   service_rating: 0
   address: 厦门街
-  phone: '04324631466'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -6576,7 +6576,7 @@
 - rank: 437
   shop_id: 2041114
   name: 葡萄园西餐厅
-  navigation: 吉林餐厅»快餐简餐»葡萄园西餐厅
+  navigation: 快餐简餐
   poi: HVCBUTZBAECCBAP
   latitude: 43.91568
   longitude: 126.57252
@@ -6587,7 +6587,7 @@
   environment_rating: 0
   service_rating: 0
   address: 苏州街大棚斜对面(近遵义东路)
-  phone: 0432-3976999
+  phone: 0432-63976999
   recommended_products: ''
   alias: ''
   description: ''
@@ -6597,7 +6597,7 @@
 - rank: 438
   shop_id: 2051803
   name: 济洲园炭火烤肉
-  navigation: 吉林餐厅»烧烤»济洲园炭火烤肉
+  navigation: 烧烤
   poi: HVDDBVZBAEBVFGB
   latitude: 43.88875
   longitude: 126.58991
@@ -6608,7 +6608,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放北路通潭西区A座29－21号(近通潭大路)
-  phone: 0432-3951459
+  phone: 0432-63951459
   recommended_products: 新西兰肥羊
   alias: ''
   description: ''
@@ -6618,7 +6618,7 @@
 - rank: 439
   shop_id: 2054176
   name: 老正宗三鲜饺子馆
-  navigation: 吉林餐厅»东北菜»老正宗三鲜饺子馆
+  navigation: 东北菜
   poi: HVDRASZBAEAHFTC
   latitude: 43.85048
   longitude: 126.56936
@@ -6629,7 +6629,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路(近四川街)
-  phone: 0432-6643533
+  phone: 0432-66643533
   recommended_products: ''
   alias: ''
   description: ''
@@ -6639,7 +6639,7 @@
 - rank: 441
   shop_id: 2066668
   name: 西域烧麦馆
-  navigation: 吉林餐厅»新疆/清真»西域烧麦馆
+  navigation: 新疆/清真
   poi: HVDRWDZBAEATBFP
   latitude: 43.85543
   longitude: 126.5765
@@ -6660,7 +6660,7 @@
 - rank: 442
   shop_id: 2066671
   name: 中兴街烧烤
-  navigation: 吉林餐厅»烧烤»中兴街烧烤
+  navigation: 烧烤
   poi: HVCWSWZBAEBRBWL
   latitude: 43.88772
   longitude: 126.58015
@@ -6681,7 +6681,7 @@
 - rank: 443
   shop_id: 2075905
   name: 洪玉斋传统烧卖馆
-  navigation: 吉林餐厅»船营区»小吃面食»洪玉斋传统烧卖馆
+  navigation: 船营区 小吃面食
   poi: HVDERJZBAEAACWD
   latitude: 43.84819
   longitude: 126.55328
@@ -6692,7 +6692,7 @@
   environment_rating: 0
   service_rating: 0
   address: 青岛街牛马行巨龙大厦2号(解放大路口)
-  phone: '13904426810'
+  phone: ''
   recommended_products: 烧卖 羊汤 酱牛肉
   alias: ''
   description: ''
@@ -6702,7 +6702,7 @@
 - rank: 445
   shop_id: 2226517
   name: 吉祥馄饨(百联店)
-  navigation: 吉林餐厅»快餐简餐»吉祥馄饨(百联店)
+  navigation: 快餐简餐
   poi: HVEBUDZBAEBDDSL
   latitude: 43.85576
   longitude: 126.59447
@@ -6723,7 +6723,7 @@
 - rank: 446
   shop_id: 2274616
   name: 碳烤海鲜小厨
-  navigation: 吉林餐厅»昌邑区»其他中餐»碳烤海鲜小厨
+  navigation: 昌邑区 其他中餐
   poi: HVEAHTZBAEAUJHE
   latitude: 43.85022
   longitude: 126.58557
@@ -6734,7 +6734,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路东昌花园对面(近四川街)
-  phone: 0432-6516979
+  phone: 0432-66516979
   recommended_products: 牌匾
   alias: ''
   description: ''
@@ -6744,7 +6744,7 @@
 - rank: 447
   shop_id: 2292172
   name: 一心餐馆
-  navigation: 吉林餐厅»船营区»韩国»一心餐馆
+  navigation: 船营区 韩国
   poi: HVCUDJZBADVSWBF
   latitude: 43.83181
   longitude: 126.51784
@@ -6765,7 +6765,7 @@
 - rank: 448
   shop_id: 2330713
   name: 三小涮羊肉
-  navigation: 吉林餐厅»火锅»三小涮羊肉
+  navigation: 火锅
   poi: HVDWBVZBAEATEVJ
   latitude: 43.85035
   longitude: 126.58215
@@ -6776,7 +6776,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路铁成花园13号
-  phone: 0432-6570656
+  phone: 0432-66570656
   recommended_products: 金牌羊肉
   alias: ''
   description: ''
@@ -6786,7 +6786,7 @@
 - rank: 449
   shop_id: 2343976
   name: 鸿门烤宴
-  navigation: 吉林餐厅»烧烤»鸿门烤宴
+  navigation: 烧烤
   poi: HVDUJVZBAEBDSBQ
   latitude: 43.86176
   longitude: 126.58965
@@ -6797,7 +6797,7 @@
   environment_rating: 0
   service_rating: 0
   address: 辽宁路(近鑫港酒店)
-  phone: 0432-6998899
+  phone: 0432-66998899
   recommended_products: ''
   alias: ''
   description: ''
@@ -6807,7 +6807,7 @@
 - rank: 451
   shop_id: 2513143
   name: 铁锅靠大鹅
-  navigation: 吉林餐厅»东北菜»铁锅靠大鹅
+  navigation: 东北菜
   poi: HVECUFZBAEAATDL
   latitude: 43.83083
   longitude: 126.57212
@@ -6828,7 +6828,7 @@
 - rank: 453
   shop_id: 2667985
   name: 富强驴肉馆
-  navigation: 吉林餐厅»其他中餐»富强驴肉馆
+  navigation: 其他中餐
   poi: HVCWUFZBAEAUWCO
   latitude: 43.87204
   longitude: 126.56466
@@ -6849,7 +6849,7 @@
 - rank: 455
   shop_id: 2792620
   name: 发仔鸡煲
-  navigation: 吉林餐厅»火锅»发仔鸡煲
+  navigation: 火锅
   poi: HVDSVHZBADWSRTQ
   latitude: 43.83321
   longitude: 126.55671
@@ -6870,7 +6870,7 @@
 - rank: 456
   shop_id: 2820322
   name: 米琪
-  navigation: 吉林餐厅»面包甜点»米琪
+  navigation: 面包甜点
   poi: HVCWUFZBAEAUWCO
   latitude: 43.87204
   longitude: 126.56466
@@ -6891,7 +6891,7 @@
 - rank: 457
   shop_id: 2825551
   name: 正宗四川麻辣串
-  navigation: 吉林餐厅»小吃面食»正宗四川麻辣串
+  navigation: 小吃面食
   poi: HVDIITZBAEAGFDC
   latitude: 43.85107
   longitude: 126.56612
@@ -6912,7 +6912,7 @@
 - rank: 458
   shop_id: 2832313
   name: 日耳曼熏肉卷饼
-  navigation: 吉林餐厅»小吃面食»日耳曼熏肉卷饼
+  navigation: 小吃面食
   poi: HVDUDUZBAEATRJT
   latitude: 43.85326
   longitude: 126.58015
@@ -6933,7 +6933,7 @@
 - rank: 460
   shop_id: 2968825
   name: 乌拉满族火锅(朝阳街店)
-  navigation: 吉林餐厅»火锅»乌拉满族火锅(朝阳街店)
+  navigation: 火锅
   poi: HVDICJZBAEAJRUL
   latitude: 43.8559
   longitude: 126.56987
@@ -6954,7 +6954,7 @@
 - rank: 461
   shop_id: 3012952
   name: 扣肉王小酒馆
-  navigation: 吉林餐厅»快餐简餐»扣肉王小酒馆
+  navigation: 快餐简餐
   poi: HVDGJEZBAEBUERX
   latitude: 43.88309
   longitude: 126.59289
@@ -6975,7 +6975,7 @@
 - rank: 462
   shop_id: 3132691
   name: 开封包子
-  navigation: 吉林餐厅»小吃面食»开封包子
+  navigation: 小吃面食
   poi: HWAGWUZBAFGRUTA
   latitude: 44.04318
   longitude: 127.28674
@@ -6996,7 +6996,7 @@
 - rank: 463
   shop_id: 3133966
   name: 俏香锅
-  navigation: 吉林餐厅»其他中餐»俏香锅
+  navigation: 其他中餐
   poi: HVDIARZBAEAJVHE
   latitude: 43.85631
   longitude: 126.57004
@@ -7017,7 +7017,7 @@
 - rank: 464
   shop_id: 3169576
   name: 好又杂酸辣粉丝
-  navigation: 吉林餐厅»小吃面食»好又杂酸辣粉丝
+  navigation: 小吃面食
   poi: HVDIJSZBAEAFTSV
   latitude: 43.85041
   longitude: 126.56542
@@ -7038,7 +7038,7 @@
 - rank: 465
   shop_id: 3174691
   name: 江城饺子酒楼
-  navigation: 吉林餐厅»东北菜»江城饺子酒楼
+  navigation: 东北菜
   poi: HVDIJBZBAEAFRDX
   latitude: 43.85027
   longitude: 126.56516
@@ -7049,7 +7049,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路68-3号(近天津街)
-  phone: 0432-2438333
+  phone: 0432-62438333
   recommended_products: ''
   alias: ''
   description: ''
@@ -7059,7 +7059,7 @@
 - rank: 470
   shop_id: 3363661
   name: 正宗杂粮煎饼
-  navigation: 吉林餐厅»龙潭区»小吃面食»正宗杂粮煎饼
+  navigation: 龙潭区 小吃面食
   poi: HVDRGTZBAEDCFHQ
   latitude: 43.90508
   longitude: 126.62479
@@ -7080,7 +7080,7 @@
 - rank: 471
   shop_id: 3372466
   name: 百合饭包
-  navigation: 吉林餐厅»快餐简餐»百合饭包
+  navigation: 快餐简餐
   poi: HVDSFCZBAECARGR
   latitude: 43.88129
   longitude: 126.60329
@@ -7101,7 +7101,7 @@
 - rank: 472
   shop_id: 3380029
   name: 大草屋
-  navigation: 吉林餐厅»烧烤»大草屋
+  navigation: 烧烤
   poi: HVDTCWZBAEARATW
   latitude: 43.85128
   longitude: 126.57544
@@ -7122,7 +7122,7 @@
 - rank: 473
   shop_id: 3645178
   name: 川王福(厦门街店)
-  navigation: 吉林餐厅»火锅»川王福(厦门街店)
+  navigation: 火锅
   poi: HVEAVJZBADWJAVM
   latitude: 43.82343
   longitude: 126.55979
@@ -7143,7 +7143,7 @@
 - rank: 475
   shop_id: 3664507
   name: 东德顺烧卖馆
-  navigation: 吉林餐厅»火锅»东德顺烧卖馆
+  navigation: 火锅
   poi: HVDIHUZBAEADAWD
   latitude: 43.84697
   longitude: 126.56186
@@ -7164,7 +7164,7 @@
 - rank: 477
   shop_id: 4024144
   name: 华尝客香肠透明工坊
-  navigation: 吉林餐厅»东北菜»华尝客香肠透明工坊
+  navigation: 东北菜
   poi: HVDDDJZBAEBRBBD
   latitude: 43.88316
   longitude: 126.58457
@@ -7185,7 +7185,7 @@
 - rank: 481
   shop_id: 4131648
   name: 馨乐肉骨小吃
-  navigation: 吉林餐厅»昌邑区»馨乐肉骨小吃
+  navigation: 昌邑区
   poi: HVDSTGZBAEAIERT
   latitude: 43.84954
   longitude: 126.57268
@@ -7206,7 +7206,7 @@
 - rank: 482
   shop_id: 4131652
   name: 大胡子串店
-  navigation: 吉林餐厅»龙潭区»烧烤»大胡子串店
+  navigation: 龙潭区 烧烤
   poi: HVDRTVZBAECUUFG
   latitude: 43.89877
   longitude: 126.61956
@@ -7227,7 +7227,7 @@
 - rank: 483
   shop_id: 4132985
   name: 社会主义新农村(北京路店)
-  navigation: 吉林餐厅»船营区»社会主义新农村(北京路店)
+  navigation: 船营区
   poi: HVDHRCZBAEAARFI
   latitude: 43.845
   longitude: 126.55765
@@ -7238,7 +7238,7 @@
   environment_rating: 0
   service_rating: 0
   address: 北京路(近越山路)
-  phone: 0432-6486889964860499
+  phone: 0432-64868899 64860499
   recommended_products: ''
   alias: ''
   description: ''
@@ -7248,7 +7248,7 @@
 - rank: 484
   shop_id: 4135752
   name: 洋洋煎粉
-  navigation: 吉林餐厅»小吃面食»洋洋煎粉
+  navigation: 小吃面食
   poi: HVDJDJZBAEAIARU
   latitude: 43.85249
   longitude: 126.56909
@@ -7269,7 +7269,7 @@
 - rank: 486
   shop_id: 4175566
   name: 哈尔滨刘记涮毛肚
-  navigation: 吉林餐厅»丰满区»其他中餐»哈尔滨刘记涮毛肚
+  navigation: 丰满区 其他中餐
   poi: HVEESWZBADWREGI
   latitude: 43.82006
   longitude: 126.56628
@@ -7290,7 +7290,7 @@
 - rank: 487
   shop_id: 4206443
   name: 爱锅者
-  navigation: 吉林餐厅»丰满区»火锅»爱锅者
+  navigation: 丰满区 火锅
   poi: HVECHIZBADWJBIF
   latitude: 43.82145
   longitude: 126.56187
@@ -7311,7 +7311,7 @@
 - rank: 489
   shop_id: 4294211
   name: 福膳坊滋补酒楼
-  navigation: 吉林餐厅»昌邑区»东北菜»福膳坊滋补酒楼
+  navigation: 昌邑区 东北菜
   poi: HVDWUEZBAEBRRTB
   latitude: 43.86779
   longitude: 126.60149
@@ -7332,7 +7332,7 @@
 - rank: 490
   shop_id: 4533293
   name: 尚记风味儿涮鱼
-  navigation: 吉林餐厅»船营区»其他中餐»尚记风味儿涮鱼
+  navigation: 船营区 其他中餐
   poi: HTEFABZBACCUSUT
   latitude: 43.88566
   longitude: 125.32171
@@ -7353,7 +7353,7 @@
 - rank: 491
   shop_id: 4543159
   name: 徐师傅太子锅
-  navigation: 吉林餐厅»丰满区»烧烤»徐师傅太子锅
+  navigation: 丰满区 烧烤
   poi: HVEETRZBADWREGT
   latitude: 43.82006
   longitude: 126.56628
@@ -7374,7 +7374,7 @@
 - rank: 492
   shop_id: 4543224
   name: 赤牛烧肉
-  navigation: 吉林餐厅»丰满区»烧烤»赤牛烧肉
+  navigation: 丰满区 烧烤
   poi: HVEETRZBADWREGT
   latitude: 43.82006
   longitude: 126.56628
@@ -7395,7 +7395,7 @@
 - rank: 493
   shop_id: 4547859
   name: 好又来酸辣粉
-  navigation: 吉林餐厅»船营区»川菜»好又来酸辣粉
+  navigation: 船营区 川菜
   poi: HVDGVIZBAEACGFO
   latitude: 43.8482
   longitude: 126.55893
@@ -7416,7 +7416,7 @@
 - rank: 494
   shop_id: 4550412
   name: 春英朝族狗肉馆
-  navigation: 吉林餐厅»船营区»韩国»春英朝族狗肉馆
+  navigation: 船营区 韩国
   poi: HVDEGDZBAEACVCI
   latitude: 43.85202
   longitude: 126.55636
@@ -7437,7 +7437,7 @@
 - rank: 496
   shop_id: 4600621
   name: 天天美食广场
-  navigation: 吉林餐厅»船营区»快餐简餐»天天美食广场
+  navigation: 船营区 快餐简餐
   poi: HVCEGWZBAEAAEIC
   latitude: 43.86908
   longitude: 126.53264
@@ -7458,7 +7458,7 @@
 - rank: 498
   shop_id: 4669478
   name: 新罗韩食馆
-  navigation: 吉林餐厅»昌邑区»韩国»新罗韩食馆
+  navigation: 昌邑区 韩国
   poi: HVDRVEZBAEATITR
   latitude: 43.85611
   longitude: 126.57701
@@ -7470,7 +7470,7 @@
   service_rating: 0
   address: 兰州街8号楼 (美邦购物街斜对面)
   phone: 0432-63379999
-  recommended_products: 二楼雅间宽敞明亮的二楼大厅优雅整洁的一楼大厅<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/6537011/type"title="新罗韩食馆"><imgdata-src="http://i1.s1.dpfile.com/2011-01-18/6537011_b.jpg(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/6537011/type"title="新罗韩食馆">新罗韩食馆</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 9:00--21:00
@@ -7479,7 +7479,7 @@
 - rank: 499
   shop_id: 4677532
   name: 川妹子麻辣烫
-  navigation: 吉林餐厅»昌邑区»小吃面食»川妹子麻辣烫
+  navigation: 昌邑区 小吃面食
   poi: HWAHAAZBAFGRUTD
   latitude: 44.04318
   longitude: 127.28674
@@ -7500,7 +7500,7 @@
 - rank: 500
   shop_id: 4678738
   name: 聚点龙虾川味菜馆
-  navigation: 吉林餐厅»昌邑区»川菜»聚点龙虾川味菜馆
+  navigation: 昌邑区 川菜
   poi: HVEEHRZBAEAVWET
   latitude: 43.84693
   longitude: 126.59235
@@ -7521,7 +7521,7 @@
 - rank: 501
   shop_id: 4688523
   name: 宇洋粥铺
-  navigation: 吉林餐厅»桦甸市»快餐简餐»宇洋粥铺
+  navigation: 桦甸市 快餐简餐
   poi: HWUIUAZBACWHFRX
   latitude: 42.97151
   longitude: 126.75199
@@ -7542,7 +7542,7 @@
 - rank: 505
   shop_id: 5125520
   name: 天翔特味饺子馆
-  navigation: 吉林餐厅»龙潭区»小吃面食»天翔特味饺子馆
+  navigation: 龙潭区 小吃面食
   poi: HVBWUAZBAECBUWE
   latitude: 43.918
   longitude: 126.56971
@@ -7563,7 +7563,7 @@
 - rank: 507
   shop_id: 5137208
   name: 台湾手抓饼
-  navigation: 吉林餐厅»昌邑区»小吃面食»台湾手抓饼
+  navigation: 昌邑区 小吃面食
   poi: HUJGHFZBADVTGGM
   latitude: 44.02541
   longitude: 126.32541
@@ -7574,7 +7574,7 @@
   environment_rating: 0
   service_rating: 0
   address: 东市小吃一条街中段(近汇龙东门)
-  phone: '15044294006'
+  phone: ''
   recommended_products: ''
   alias: 粮全齐美
   description: ''
@@ -7584,7 +7584,7 @@
 - rank: 508
   shop_id: 5156163
   name: 富翔大酒楼(解放中路店)
-  navigation: 吉林餐厅»船营区»火锅»富翔大酒楼(解放中路店)
+  navigation: 船营区 火锅
   poi: HVDITWZBAEAGBVG
   latitude: 43.85049
   longitude: 126.56617
@@ -7605,7 +7605,7 @@
 - rank: 509
   shop_id: 5158283
   name: 品味串屋
-  navigation: 吉林餐厅»昌邑区»烧烤»品味串屋
+  navigation: 昌邑区 烧烤
   poi: HVDWHHZBAEAWBHP
   latitude: 43.8535
   longitude: 126.58613
@@ -7626,7 +7626,7 @@
 - rank: 511
   shop_id: 5215183
   name: 士景碳烤大片肉
-  navigation: 吉林餐厅»船营区»烧烤»士景碳烤大片肉
+  navigation: 船营区 烧烤
   poi: HVDFHDZBADWVEHJ
   latitude: 43.84477
   longitude: 126.55182
@@ -7647,7 +7647,7 @@
 - rank: 514
   shop_id: 5236219
   name: 东港小渔湾
-  navigation: 吉林餐厅»龙潭区»其他中餐»东港小渔湾
+  navigation: 龙潭区 其他中餐
   poi: HVDTSVZBAEDBRUQ
   latitude: 43.90126
   longitude: 126.62691
@@ -7668,7 +7668,7 @@
 - rank: 517
   shop_id: 5275015
   name: 回回串店(延安街店)
-  navigation: 吉林餐厅»昌邑区»烧烤»回回串店(延安街店)
+  navigation: 昌邑区 烧烤
   poi: HVDGGIZBAEBDASQ
   latitude: 43.87016
   longitude: 126.57959
@@ -7689,7 +7689,7 @@
 - rank: 518
   shop_id: 5374281
   name: 牛一锅
-  navigation: 吉林餐厅»昌邑区»火锅»牛一锅
+  navigation: 昌邑区 火锅
   poi: HVEAWHZBAEAWBJX
   latitude: 43.85163
   longitude: 126.58802
@@ -7710,7 +7710,7 @@
 - rank: 521
   shop_id: 5454504
   name: 吉林丰园私房菜
-  navigation: 吉林餐厅»龙潭区»东北菜»吉林丰园私房菜
+  navigation: 龙潭区 东北菜
   poi: HVETFDZBAEBEWTK
   latitude: 43.84456
   longitude: 126.61016
@@ -7721,7 +7721,7 @@
   environment_rating: 0
   service_rating: 0
   address: 滨江东路
-  phone: 0432-6888555563336888
+  phone: 0432-68885555 63336888
   recommended_products: ''
   alias: ''
   description: ''
@@ -7731,7 +7731,7 @@
 - rank: 523
   shop_id: 5481604
   name: 四川乐山大佛麻辣涮串
-  navigation: 吉林餐厅»龙潭区»川菜»四川乐山大佛麻辣涮串
+  navigation: 龙潭区 川菜
   poi: HVCFWVZBAEBWTBS
   latitude: 43.90745
   longitude: 126.57484
@@ -7752,7 +7752,7 @@
 - rank: 524
   shop_id: 5491110
   name: 悦达食府
-  navigation: 吉林餐厅»龙潭区»湘菜»悦达食府
+  navigation: 龙潭区 湘菜
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -7773,7 +7773,7 @@
 - rank: 525
   shop_id: 5507664
   name: 喜家德水饺(天津街一店)
-  navigation: 吉林餐厅»昌邑区»其他中餐»喜家德水饺(天津街一店)
+  navigation: 昌邑区 其他中餐
   poi: HVDJIFZBAEAWSAK
   latitude: 43.86185
   longitude: 126.57931
@@ -7794,7 +7794,7 @@
 - rank: 527
   shop_id: 5537639
   name: 川奇火锅楼
-  navigation: 吉林餐厅»龙潭区»火锅»川奇火锅楼
+  navigation: 龙潭区 火锅
   poi: HVDDWJZBAEDAGRU
   latitude: 43.91089
   longitude: 126.61405
@@ -7815,7 +7815,7 @@
 - rank: 529
   shop_id: 5555029
   name: 东北家宴
-  navigation: 吉林餐厅»桦甸市»东北菜»东北家宴
+  navigation: 桦甸市 东北菜
   poi: HWUEJFZBACWEJDD
   latitude: 42.97327
   longitude: 126.74312
@@ -7836,7 +7836,7 @@
 - rank: 531
   shop_id: 5579095
   name: 西堤岛咖啡
-  navigation: 吉林餐厅»丰满区»咖啡厅»西堤岛咖啡
+  navigation: 丰满区 咖啡厅
   poi: HVDTAWZBADWWTJN
   latitude: 43.83826
   longitude: 126.56219
@@ -7857,7 +7857,7 @@
 - rank: 532
   shop_id: 5579477
   name: 喜家德水饺(天津街二店)
-  navigation: 吉林餐厅»昌邑区»其他中餐»喜家德水饺(天津街二店)
+  navigation: 昌邑区 其他中餐
   poi: HVDVHVZBAEATDRX
   latitude: 43.85112
   longitude: 126.58118
@@ -7878,7 +7878,7 @@
 - rank: 536
   shop_id: 5608211
   name: 燕川豆花
-  navigation: 吉林餐厅»船营区»川菜»燕川豆花
+  navigation: 船营区 川菜
   poi: HVDCCDZBAEABUBV
   latitude: 43.8536
   longitude: 126.55205
@@ -7899,7 +7899,7 @@
 - rank: 537
   shop_id: 5611128
   name: 东方饺子王
-  navigation: 吉林餐厅»船营区»东北菜»东方饺子王
+  navigation: 船营区 东北菜
   poi: HVCEGUZBAEAAEIA
   latitude: 43.86908
   longitude: 126.53264
@@ -7911,7 +7911,7 @@
   service_rating: 0
   address: 越山路378号中东新生活购物乐园1楼美食街(近17.5影城)
   phone: 0432-66986900
-  recommended_products: 一角一角一角<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/12821439/type"title="门面"><imgdata-src="http://i2.s1.dpfile.com/pc/b4d9358a3c3d421d8d832728e0ec4f86(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/12821439/type"title="门面">门面</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/12821444/type"title="侧门"><imgdata-src="http://i1.s1.dpfile.com/pc/a27db705f0126ceb36ce9a64cde17c9c(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/12821444/type"title="侧门">侧门</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/12821470/type"title="隔断装饰"><imgdata-src="http://i1.s1.dpfile.com/pc/e6a5889bad644fb59a5e7acc229fec2d(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/12821470/type"title="隔断装饰">隔断装饰</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 9:00-20:00
@@ -7920,7 +7920,7 @@
 - rank: 538
   shop_id: 5614609
   name: 冠春园烤肉王
-  navigation: 吉林餐厅»船营区»烧烤»冠春园烤肉王
+  navigation: 船营区 烧烤
   poi: HVDDISZBADWGVWT
   latitude: 43.83786
   longitude: 126.53993
@@ -7941,7 +7941,7 @@
 - rank: 539
   shop_id: 5624345
   name: 艺品牛排
-  navigation: 吉林餐厅»船营区»西餐»艺品牛排
+  navigation: 船营区 西餐
   poi: HVDEHWZBADWWGFL
   latitude: 43.84743
   longitude: 126.55202
@@ -7952,8 +7952,8 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路158-5号(人力资源市场对面)
-  phone: 0432-6640988868768999
-  recommended_products: 二楼二楼美女演唱<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/12966407/type"title="门口"><imgdata-src="http://i2.s1.dpfile.com/pc/0f1b9b1e00e43af4503d9ba999d856dd(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/12966407/type"title="门口">门口</a></div></li>
+  phone: 0432-66409888 68768999
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 10:00-24:00
@@ -7962,7 +7962,7 @@
 - rank: 540
   shop_id: 5626136
   name: 丰源肉联
-  navigation: 吉林餐厅»蛟河市»其他中餐»丰源肉联
+  navigation: 蛟河市 其他中餐
   poi: HWJVDCZBAFAEVFS
   latitude: 43.71921
   longitude: 127.34968
@@ -7974,7 +7974,7 @@
   service_rating: 0
   address: 永安路12-12号(在中医院对面)
   phone: ''
-  recommended_products: 丰源肉联201202233762201202233755<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/12986579/type"title="201202233754"><imgdata-src="http://i2.s1.dpfile.com/pc/9a5afeb9d2ffb3bf5009ecf832ccfaff(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/12986579/type"title="201202233754">201202233754</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/12986593/type"title="201202233756"><imgdata-src="http://i2.s1.dpfile.com/pc/72b7dc9616eb0cb670b3d9f9cb3e7151(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/12986593/type"title="201202233756">201202233756</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/12986612/type"title="201202233761"><imgdata-src="http://i3.s1.dpfile.com/pc/a1d01f687fad9d10af8a2dcdcc44aa66(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/12986612/type"title="201202233761">201202233761</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/12986610/type"title="201202233759"><imgdata-src="http://i1.s1.dpfile.com/pc/948faf4e71bfa2b0ec3a967ed58ed3d9(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/12986610/type"title="201202233759">201202233759</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/12986570/type"title="201202233753"><imgdata-src="http://i3.s1.dpfile.com/pc/059c66e3c95d3e566c4bfc7ef9b43c4f(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/12986570/type"title="201202233753">201202233753</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 9：00-19：00
@@ -7983,7 +7983,7 @@
 - rank: 541
   shop_id: 5629272
   name: 仙林铁板烧
-  navigation: 吉林餐厅»昌邑区»烧烤»仙林铁板烧
+  navigation: 昌邑区 烧烤
   poi: HVDIGHZBAEAUDJR
   latitude: 43.86016
   longitude: 126.57469
@@ -8004,7 +8004,7 @@
 - rank: 542
   shop_id: 5674428
   name: 樽品上海莱
-  navigation: 吉林餐厅»昌邑区»江浙菜»樽品上海莱
+  navigation: 昌邑区 江浙菜
   poi: HVDBCFZBADWUIVS
   latitude: 43.8494
   longitude: 126.54534
@@ -8015,7 +8015,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路昌邑分局西侧
-  phone: 0432-6808033368088823
+  phone: 0432-68080333 68088823
   recommended_products: upload_pic
   alias: ''
   description: ''
@@ -8025,7 +8025,7 @@
 - rank: 543
   shop_id: 5685654
   name: 得利重庆烤全鱼
-  navigation: 吉林餐厅»船营区»川菜»得利重庆烤全鱼
+  navigation: 船营区 川菜
   poi: HVDUJAZBADWDRJS
   latitude: 43.82084
   longitude: 126.54857
@@ -8046,7 +8046,7 @@
 - rank: 545
   shop_id: 5704852
   name: 庄稼院
-  navigation: 吉林餐厅»船营区»东北菜»庄稼院
+  navigation: 船营区 东北菜
   poi: HVECIVZBADWIWJQ
   latitude: 43.82124
   longitude: 126.56177
@@ -8067,7 +8067,7 @@
 - rank: 546
   shop_id: 5714766
   name: 艾拉米苏
-  navigation: 吉林餐厅»昌邑区»艾拉米苏
+  navigation: 昌邑区
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -8088,7 +8088,7 @@
 - rank: 547
   shop_id: 5740021
   name: 厨房
-  navigation: 吉林餐厅»昌邑区»东北菜»厨房
+  navigation: 昌邑区 东北菜
   poi: HVDRSSZBAEBJUDH
   latitude: 43.87326
   longitude: 126.59385
@@ -8109,7 +8109,7 @@
 - rank: 550
   shop_id: 5798114
   name: 乐乐小吃
-  navigation: 吉林餐厅»小吃面食»乐乐小吃
+  navigation: 小吃面食
   poi: HVDIFVZBAEABRUG
   latitude: 43.84537
   longitude: 126.55992
@@ -8130,7 +8130,7 @@
 - rank: 552
   shop_id: 5799656
   name: 于记咖啡冷饮店
-  navigation: 吉林餐厅»咖啡厅»于记咖啡冷饮店
+  navigation: 咖啡厅
   poi: HVUEUUZBABUVEEI
   latitude: 42.94438
   longitude: 126.05954
@@ -8151,7 +8151,7 @@
 - rank: 554
   shop_id: 5812327
   name: 刘记涮毛肚烧烤店
-  navigation: 吉林餐厅»丰满区»烧烤»刘记涮毛肚烧烤店
+  navigation: 丰满区 烧烤
   poi: HVEAHCZBADWJTDO
   latitude: 43.82494
   longitude: 126.56009
@@ -8172,7 +8172,7 @@
 - rank: 557
   shop_id: 5822759
   name: 吉林乌拉满族火锅
-  navigation: 吉林餐厅»昌邑区»火锅»吉林乌拉满族火锅
+  navigation: 昌邑区 火锅
   poi: HVDWSVZBAEATRVV
   latitude: 43.85009
   longitude: 126.58337
@@ -8183,7 +8183,7 @@
   environment_rating: 0
   service_rating: 0
   address: 东昌花园对面(近顺风123)
-  phone: 0432-6611151966117333
+  phone: 0432-66111519 66117333
   recommended_products: ''
   alias: ''
   description: ''
@@ -8193,7 +8193,7 @@
 - rank: 560
   shop_id: 5861757
   name: 春泉冷面
-  navigation: 吉林餐厅»永吉县»小吃面食»春泉冷面
+  navigation: 永吉县 小吃面食
   poi: HVGHWCZBADRREFI
   latitude: 43.6726
   longitude: 126.50893
@@ -8214,7 +8214,7 @@
 - rank: 561
   shop_id: 5876672
   name: 小红帽西餐厅
-  navigation: 吉林餐厅»丰满区»西餐»小红帽西餐厅
+  navigation: 丰满区 西餐
   poi: HVEFJTZBADWJEWW
   latitude: 43.81779
   longitude: 126.56608
@@ -8235,7 +8235,7 @@
 - rank: 562
   shop_id: 5893456
   name: 李胖子肉串烧烤城江南分店
-  navigation: 吉林餐厅»烧烤»李胖子肉串烧烤城江南分店
+  navigation: 烧烤
   poi: HVEFHRZBADWSEUA
   latitude: 43.8204
   longitude: 126.56857
@@ -8256,7 +8256,7 @@
 - rank: 566
   shop_id: 5916105
   name: 清花阁乌拉满族火锅
-  navigation: 吉林餐厅»永吉县»火锅»清花阁乌拉满族火锅
+  navigation: 永吉县 火锅
   poi: HVDACHZBAEBRHRQ
   latitude: 43.88768
   longitude: 126.5811
@@ -8277,7 +8277,7 @@
 - rank: 570
   shop_id: 5924515
   name: 甲一方媚娘火锅
-  navigation: 吉林餐厅»火锅»甲一方媚娘火锅
+  navigation: 火锅
   poi: HVDDRFZBADVVERA
   latitude: 43.82657
   longitude: 126.52909
@@ -8298,7 +8298,7 @@
 - rank: 571
   shop_id: 5925077
   name: 顶好西蛋糕面包三品店
-  navigation: 吉林餐厅»面包甜点»顶好西蛋糕面包三品店
+  navigation: 面包甜点
   poi: HVDGFRZBAEBCTRD
   latitude: 43.86984
   longitude: 126.57926
@@ -8319,7 +8319,7 @@
 - rank: 579
   shop_id: 6042089
   name: 小白私房菜
-  navigation: 吉林餐厅»桦甸市»东北菜»小白私房菜
+  navigation: 桦甸市 东北菜
   poi: HWUDSCZBACWEDUG
   latitude: 42.97399
   longitude: 126.74154
@@ -8340,7 +8340,7 @@
 - rank: 580
   shop_id: 6043709
   name: 聚丰阁
-  navigation: 吉林餐厅»丰满区»东北菜»聚丰阁
+  navigation: 丰满区 东北菜
   poi: HVJFBBZBAEAHAVG
   latitude: 43.7336
   longitude: 126.68546
@@ -8361,7 +8361,7 @@
 - rank: 581
   shop_id: 6075765
   name: 好实惠特色饭店
-  navigation: 吉林餐厅»舒兰市»快餐简餐»好实惠特色饭店
+  navigation: 舒兰市 快餐简餐
   poi: HUVFAGZBAFBEEHY
   latitude: 44.30363
   longitude: 126.80464
@@ -8382,7 +8382,7 @@
 - rank: 583
   shop_id: 6101926
   name: 鞠香圆乌拉满族火锅
-  navigation: 吉林餐厅»昌邑区»火锅»鞠香圆乌拉满族火锅
+  navigation: 昌邑区 火锅
   poi: HVEABIZBAEAVRJE
   latitude: 43.85209
   longitude: 126.58644
@@ -8403,7 +8403,7 @@
 - rank: 584
   shop_id: 6161922
   name: 喔依嘻回转寿司
-  navigation: 吉林餐厅»船营区»日本»喔依嘻回转寿司
+  navigation: 船营区 日本
   poi: HVCEIAZBAEAAEIT
   latitude: 43.86908
   longitude: 126.53264
@@ -8424,7 +8424,7 @@
 - rank: 585
   shop_id: 6166331
   name: 吃小吃春饼店(大东门店)
-  navigation: 吉林餐厅»丰满区»小吃面食»吃小吃春饼店(大东门店)
+  navigation: 丰满区 小吃面食
   poi: HVDIIRZBAEAIBSU
   latitude: 43.85345
   longitude: 126.5683
@@ -8445,7 +8445,7 @@
 - rank: 588
   shop_id: 6230977
   name: 台湾牛肉面
-  navigation: 吉林餐厅»昌邑区»小吃面食»台湾牛肉面
+  navigation: 昌邑区 小吃面食
   poi: HVDTVFZBAEAGVJN
   latitude: 43.84631
   longitude: 126.57238
@@ -8456,7 +8456,7 @@
   environment_rating: 0
   service_rating: 0
   address: 吉林大街沃尔玛美食城V001-V006号
-  phone: '13844636157'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -8466,7 +8466,7 @@
 - rank: 589
   shop_id: 6297286
   name: 永福柒号鲍鱼火锅
-  navigation: 吉林餐厅»丰满区»火锅»永福柒号鲍鱼火锅
+  navigation: 丰满区 火锅
   poi: HVEFVAZBADWDEWK
   latitude: 43.80971
   longitude: 126.5588
@@ -8487,7 +8487,7 @@
 - rank: 590
   shop_id: 6301814
   name: 大江户日本料理(大东门店)
-  navigation: 吉林餐厅»船营区»日本»大江户日本料理(大东门店)
+  navigation: 船营区 日本
   poi: HVDHSGZBAEAFHFO
   latitude: 43.85109
   longitude: 126.56388
@@ -8508,7 +8508,7 @@
 - rank: 591
   shop_id: 6346850
   name: 何鲜菇养生火锅
-  navigation: 吉林餐厅»昌邑区»火锅»何鲜菇养生火锅
+  navigation: 昌邑区 火锅
   poi: HVDJUFZBAEBFWRA
   latitude: 43.86945
   longitude: 126.58781
@@ -8529,7 +8529,7 @@
 - rank: 592
   shop_id: 6600375
   name: 百饺源
-  navigation: 吉林餐厅»昌邑区»东北菜»百饺源
+  navigation: 昌邑区 东北菜
   poi: HVDFTFZBAEBVRWV
   latitude: 43.8859
   longitude: 126.59365
@@ -8550,7 +8550,7 @@
 - rank: 593
   shop_id: 8010464
   name: 吉盛园
-  navigation: 吉林餐厅»船营区»东北菜»吉盛园
+  navigation: 船营区 东北菜
   poi: HVCSVFZBADVFUWN
   latitude: 43.82578
   longitude: 126.50833
@@ -8561,7 +8561,7 @@
   environment_rating: 0
   service_rating: 0
   address: 长春路长春广场
-  phone: 0432-6801011
+  phone: 0432-66801011
   recommended_products: 餐具
   alias: ''
   description: ''
@@ -8571,7 +8571,7 @@
 - rank: 594
   shop_id: 8052692
   name: 星晟烧烤海鲜加工厂
-  navigation: 吉林餐厅»昌邑区»烧烤»星晟烧烤海鲜加工厂
+  navigation: 昌邑区 烧烤
   poi: HVDVHBZBAEBRTGS
   latitude: 43.86978
   longitude: 126.59976
@@ -8582,7 +8582,7 @@
   environment_rating: 0
   service_rating: 0
   address: 延安街万达附近
-  phone: 0432-6802866668028777
+  phone: 0432-68028666 68028777
   recommended_products: 酱油筋
   alias: ''
   description: ''
@@ -8592,7 +8592,7 @@
 - rank: 595
   shop_id: 8074351
   name: 鑫来源石锅烤牛肉(长春路店)
-  navigation: 吉林餐厅»船营区»烧烤»鑫来源石锅烤牛肉(长春路店)
+  navigation: 船营区 烧烤
   poi: HVCUDDZBADVJCHN
   latitude: 43.82831
   longitude: 126.5142
@@ -8603,7 +8603,7 @@
   environment_rating: 0
   service_rating: 0
   address: 长春路金岸名苑22号楼17号(近东北电力大学)
-  phone: '15044278622'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -8613,7 +8613,7 @@
 - rank: 596
   shop_id: 8368787
   name: 小湘香湖南土菜馆
-  navigation: 吉林餐厅»昌邑区»其他中餐»小湘香湖南土菜馆
+  navigation: 昌邑区 其他中餐
   poi: HVDUSVZBAEBFWFK
   latitude: 43.86447
   longitude: 126.59274
@@ -8634,7 +8634,7 @@
 - rank: 597
   shop_id: 8369034
   name: 塞纳左岸咖啡
-  navigation: 吉林餐厅»昌邑区»咖啡厅»塞纳左岸咖啡
+  navigation: 昌邑区 咖啡厅
   poi: HVEBIVZBAEBDJID
   latitude: 43.85653
   longitude: 126.59463
@@ -8655,7 +8655,7 @@
 - rank: 598
   shop_id: 8369127
   name: 天府水煮鱼
-  navigation: 吉林餐厅»船营区»川菜»天府水煮鱼
+  navigation: 船营区 川菜
   poi: HVDJTDZBAEAHSBH
   latitude: 43.85129
   longitude: 126.5694
@@ -8676,7 +8676,7 @@
 - rank: 601
   shop_id: 8866052
   name: 仙竽传奇
-  navigation: 吉林餐厅»昌邑区»其他中餐»仙竽传奇
+  navigation: 昌邑区 其他中餐
   poi: HVDSCAZBAEARHRR
   latitude: 43.85316
   longitude: 126.57466
@@ -8697,7 +8697,7 @@
 - rank: 603
   shop_id: 8953393
   name: 川人百味江南新玛特店
-  navigation: 吉林餐厅»丰满区»川菜»川人百味江南新玛特店
+  navigation: 丰满区 川菜
   poi: HVEAAUZBAEACSTC
   latitude: 43.83687
   longitude: 126.57113
@@ -8718,7 +8718,7 @@
 - rank: 604
   shop_id: 8961429
   name: 哈哈镜鸭脖
-  navigation: 吉林餐厅»船营区»小吃面食»哈哈镜鸭脖
+  navigation: 船营区 小吃面食
   poi: HVDWGBZBAEARCIY
   latitude: 43.84734
   longitude: 126.57966
@@ -8739,7 +8739,7 @@
 - rank: 605
   shop_id: 8974236
   name: 全家福饺子馆
-  navigation: 吉林餐厅»昌邑区»小吃面食»全家福饺子馆
+  navigation: 昌邑区 小吃面食
   poi: HVECIEZBAEBGJCN
   latitude: 43.85916
   longitude: 126.59962
@@ -8760,7 +8760,7 @@
 - rank: 606
   shop_id: 9315851
   name: 盛烤城
-  navigation: 吉林餐厅»船营区»烧烤»盛烤城
+  navigation: 船营区 烧烤
   poi: HVDEARZBADVSVRF
   latitude: 43.82305
   longitude: 126.52653
@@ -8781,7 +8781,7 @@
 - rank: 607
   shop_id: 9831297
   name: 庆岭盛运活鱼老店
-  navigation: 吉林餐厅»蛟河市»其他中餐»庆岭盛运活鱼老店
+  navigation: 蛟河市 其他中餐
   poi: HWHJGWZBAFCWVJP
   latitude: 43.82131
   longitude: 127.3577
@@ -8792,7 +8792,7 @@
   environment_rating: 0
   service_rating: 0
   address: 珲乌高速蛟河服务区
-  phone: '1350475407013304441668'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -8802,7 +8802,7 @@
 - rank: 608
   shop_id: 9957208
   name: 吉顺麻辣香锅
-  navigation: 吉林餐厅»船营区»川菜»吉顺麻辣香锅
+  navigation: 船营区 川菜
   poi: HVECRJZBADWJCBN
   latitude: 43.82129
   longitude: 126.56212
@@ -8823,7 +8823,7 @@
 - rank: 609
   shop_id: 9978639
   name: 聚鲜桥过桥米线
-  navigation: 吉林餐厅»昌邑区»快餐简餐»聚鲜桥过桥米线
+  navigation: 昌邑区 快餐简餐
   poi: HVDJHDZBAEBWBUH
   latitude: 43.88167
   longitude: 126.59898
@@ -8834,7 +8834,7 @@
   environment_rating: 0
   service_rating: 0
   address: 二道江市场南段
-  phone: '15567555922'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -8844,7 +8844,7 @@
 - rank: 612
   shop_id: 10763444
   name: 俊俊烧烤
-  navigation: 吉林餐厅»船营区»烧烤»俊俊烧烤
+  navigation: 船营区 烧烤
   poi: HVDEFTZBAEAGTGR
   latitude: 43.85708
   longitude: 126.56126
@@ -8855,7 +8855,7 @@
   environment_rating: 0
   service_rating: 0
   address: 向阳市场(近桃园路)
-  phone: '13029158517'
+  phone: ''
   recommended_products: '333'
   alias: ''
   description: ''
@@ -8865,7 +8865,7 @@
 - rank: 614
   shop_id: 5603130
   name: 午夜88
-  navigation: 吉林餐厅»昌邑区»酒吧»午夜88
+  navigation: 昌邑区 酒吧
   poi: HVDRSJZBAEBGWCW
   latitude: 43.86966
   longitude: 126.59008
@@ -8886,7 +8886,7 @@
 - rank: 619
   shop_id: 5140511
   name: 建星米线
-  navigation: 吉林餐厅»船营区»小吃面食»建星米线
+  navigation: 船营区 小吃面食
   poi: HVDVTIZBAEARTWM
   latitude: 43.84888
   longitude: 126.57979
@@ -8907,7 +8907,7 @@
 - rank: 621
   shop_id: 5232377
   name: 喜相逢烤涮坊
-  navigation: 吉林餐厅»蛟河市»火锅»喜相逢烤涮坊
+  navigation: 蛟河市 火锅
   poi: HWJVDDZBAFAEJJJ
   latitude: 43.71878
   longitude: 127.34935
@@ -8928,7 +8928,7 @@
 - rank: 623
   shop_id: 5581525
   name: 宴宾饭店
-  navigation: 吉林餐厅»蛟河市»东北菜»宴宾饭店
+  navigation: 蛟河市 东北菜
   poi: IACIRJZBAFCCVRY
   latitude: 43.58043
   longitude: 127.56531
@@ -8949,7 +8949,7 @@
 - rank: 624
   shop_id: 5597087
   name: 德克士
-  navigation: 吉林餐厅»蛟河市»快餐简餐»德克士
+  navigation: 蛟河市 快餐简餐
   poi: HWJUSWZBAFAFCAA
   latitude: 43.71999
   longitude: 127.34949
@@ -8970,7 +8970,7 @@
 - rank: 625
   shop_id: 5608447
   name: 嗝里香
-  navigation: 吉林餐厅»蛟河市»其他中餐»嗝里香
+  navigation: 蛟河市 其他中餐
   poi: HWJHGWZBAFAETIO
   latitude: 43.7277
   longitude: 127.3409
@@ -8982,7 +8982,7 @@
   service_rating: 0
   address: 新华大街3-15号(近建设局)
   phone: 0432-67266877
-  recommended_products: 餐具201202093315201202093319<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/12798442/type"title="201202093327"><imgdata-src="http://i2.s1.dpfile.com/pc/c00783ee41415d5923c08fedef4e9576(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/12798442/type"title="201202093327">201202093327</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/12798398/type"title="201202093314"><imgdata-src="http://i1.s1.dpfile.com/pc/06bf84ddec09a859209ee040e7d517eb(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/12798398/type"title="201202093314">201202093314</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/12798427/type"title="餐具"><imgdata-src="http://i3.s1.dpfile.com/pc/506f2c661cad6bbef46b37ee0563d59a(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/12798427/type"title="餐具">餐具</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/12798369/type"title="嗝里香"><imgdata-src="http://i3.s1.dpfile.com/pc/a787e273724d7c6c1a9d847c81b160b2(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/12798369/type"title="嗝里香">嗝里香</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/12798438/type"title="暖炉"><imgdata-src="http://i1.s1.dpfile.com/pc/7893fc3198b72acbd66aae1125e5696a(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/12798438/type"title="暖炉">暖炉</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_pic_jilin_food');"target="_blank"href="/photos/12798422/type"title="餐具"><imgdata-src="http://i2.s1.dpfile.com/pc/70ec0d7a2799f3b42b70919fca7ac9d2(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_picname_jilin_food');"target="_blank"href="/photos/12798422/type"title="餐具">餐具</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 9：00-23：00
@@ -8991,7 +8991,7 @@
 - rank: 626
   shop_id: 5641411
   name: 烤滋味
-  navigation: 吉林餐厅»蛟河市»烧烤»烤滋味
+  navigation: 蛟河市 烧烤
   poi: HWJIIJZBAFABEUB
   latitude: 43.72177
   longitude: 127.33792
@@ -9012,7 +9012,7 @@
 - rank: 631
   shop_id: 5998759
   name: 圣鑫庄园
-  navigation: 吉林餐厅»丰满区»东北菜»圣鑫庄园
+  navigation: 丰满区 东北菜
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -9023,7 +9023,7 @@
   environment_rating: 0
   service_rating: 0
   address: 孟家村七队五家山(近巨佛路)
-  phone: '13844219920'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -9033,7 +9033,7 @@
 - rank: 632
   shop_id: 6165327
   name: 金筷子海鲜自助
-  navigation: 吉林餐厅»船营区»自助餐»金筷子海鲜自助
+  navigation: 船营区 自助餐
   poi: HVDFABZBADWTJBP
   latitude: 43.84318
   longitude: 126.54903
@@ -9054,7 +9054,7 @@
 - rank: 633
   shop_id: 8696498
   name: 双元自助活鱼锅
-  navigation: 吉林餐厅»船营区»自助餐»双元自助活鱼锅
+  navigation: 船营区 自助餐
   poi: HVCRUBZBADVDWDT
   latitude: 43.82473
   longitude: 126.50446
@@ -9065,8 +9065,8 @@
   environment_rating: 0
   service_rating: 0
   address: 冯家屯转盘南侧
-  phone: 0432-6657559913159557700
-  recommended_products: 大堂大堂大堂<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/23300974/type"title="大堂"><imgdata-src="http://i3.s1.dpfile.com/pc/a698e3abb0542199074a6a1bd7d8909f(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/23300974/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_pic_jilin_food');"target="_blank"href="/photos/23300953/type"title="大堂"><imgdata-src="http://i1.s1.dpfile.com/pc/737a0a367dec775040afac1bcfe86fc6(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing5_picname_jilin_food');"target="_blank"href="/photos/23300953/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_pic_jilin_food');"target="_blank"href="/photos/23300931/type"title="大堂"><imgdata-src="http://i3.s1.dpfile.com/pc/031af80e1b59d42d2de0e4caa0523d23(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing6_picname_jilin_food');"target="_blank"href="/photos/23300931/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_pic_jilin_food');"target="_blank"href="/photos/23300859/type"title="大堂"><imgdata-src="http://i1.s1.dpfile.com/pc/8626728961a9b916eba4280fdfe3d73a(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing7_picname_jilin_food');"target="_blank"href="/photos/23300859/type"title="大堂">大堂</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_pic_jilin_food');"target="_blank"href="/photos/23300869/type"title="门面"><imgdata-src="http://i3.s1.dpfile.com/pc/b9050bff8a579c9503953b4a364a7af9(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing8_picname_jilin_food');"target="_blank"href="/photos/23300869/type"title="门面">门面</a></div></li><liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_pic_jilin_food');"target="_blank"href="/photos/23300881/type"title="门面"><imgdata-src="http://i3.s1.dpfile.com/pc/c97e63433bf071b0f65acf5a61e9ad86(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing9_picname_jilin_food');"target="_blank"href="/photos/23300881/type"title="门面">门面</a></div></li>
+  phone: ''
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 9：00—21：00
@@ -9075,7 +9075,7 @@
 - rank: 634
   shop_id: 9566701
   name: 味千拉面
-  navigation: 吉林餐厅»船营区»日本»味千拉面
+  navigation: 船营区 日本
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -9096,7 +9096,7 @@
 - rank: 635
   shop_id: 2060578
   name: 仁顺朝族饭店
-  navigation: 吉林餐厅»东北菜»仁顺朝族饭店
+  navigation: 东北菜
   poi: HVDGAIZBAEBCVSK
   latitude: 43.87045
   longitude: 126.57898
@@ -9117,7 +9117,7 @@
 - rank: 636
   shop_id: 2129038
   name: 冬冬泥烧鸽子
-  navigation: 吉林餐厅»昌邑区»冬冬泥烧鸽子
+  navigation: 昌邑区
   poi: HVDIWBZBAEBFTCW
   latitude: 43.87042
   longitude: 126.58628
@@ -9138,7 +9138,7 @@
 - rank: 637
   shop_id: 2251024
   name: 乌拉满族火锅(牛马行店)
-  navigation: 吉林餐厅»火锅»乌拉满族火锅(牛马行店)
+  navigation: 火锅
   poi: HVDFDVZBADWWWGH
   latitude: 43.84718
   longitude: 126.55372
@@ -9159,7 +9159,7 @@
 - rank: 638
   shop_id: 2832301
   name: 锅仔面吧
-  navigation: 吉林餐厅»小吃面食»锅仔面吧
+  navigation: 小吃面食
   poi: HVDUCUZBAEATRJD
   latitude: 43.85326
   longitude: 126.58015
@@ -9180,7 +9180,7 @@
 - rank: 639
   shop_id: 2852386
   name: 百香园
-  navigation: 吉林餐厅»面包甜点»百香园
+  navigation: 面包甜点
   poi: HVCWTWZBAEAUWCI
   latitude: 43.87204
   longitude: 126.56466
@@ -9201,7 +9201,7 @@
 - rank: 640
   shop_id: 2975845
   name: 兰桂坊
-  navigation: 吉林餐厅»咖啡厅»兰桂坊
+  navigation: 咖啡厅
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -9212,7 +9212,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放路人力资源市场旁(近解放路与青岛街交叉路口)
-  phone: 0432-2087789
+  phone: 0432-62087789
   recommended_products: ''
   alias: ''
   description: ''
@@ -9222,7 +9222,7 @@
 - rank: 641
   shop_id: 3195883
   name: 川奇火锅店
-  navigation: 吉林餐厅»火锅»川奇火锅店
+  navigation: 火锅
   poi: HVCWTSZBAEAUWCE
   latitude: 43.87204
   longitude: 126.56466
@@ -9243,7 +9243,7 @@
 - rank: 642
   shop_id: 3205756
   name: 清一色面食
-  navigation: 吉林餐厅»小吃面食»清一色面食
+  navigation: 小吃面食
   poi: HVDUERZBAEDCBHK
   latitude: 43.90106
   longitude: 126.62817
@@ -9264,7 +9264,7 @@
 - rank: 643
   shop_id: 3349147
   name: 德旺小吃部
-  navigation: 吉林餐厅»小吃面食»德旺小吃部
+  navigation: 小吃面食
   poi: HVDUEHZBAEDCBHH
   latitude: 43.90106
   longitude: 126.62817
@@ -9285,7 +9285,7 @@
 - rank: 644
   shop_id: 3994948
   name: 美国加州牛肉面(东市场店)
-  navigation: 吉林餐厅»小吃面食»美国加州牛肉面(东市场店)
+  navigation: 小吃面食
   poi: HVDJCUZBAEATTWP
   latitude: 43.85863
   longitude: 126.57516
@@ -9306,7 +9306,7 @@
 - rank: 646
   shop_id: 4530253
   name: 樱の原
-  navigation: 吉林餐厅»昌邑区»日本»樱の原
+  navigation: 昌邑区 日本
   poi: HUJGGWZBADVTGGG
   latitude: 44.02541
   longitude: 126.32541
@@ -9327,7 +9327,7 @@
 - rank: 647
   shop_id: 4553132
   name: 铁锅炖鱼
-  navigation: 吉林餐厅»丰满区»东北菜»铁锅炖鱼
+  navigation: 丰满区 东北菜
   poi: HVEHRHZBADVUARM
   latitude: 43.79942
   longitude: 126.55304
@@ -9348,7 +9348,7 @@
 - rank: 648
   shop_id: 4688768
   name: 一路顺小吃部
-  navigation: 吉林餐厅»桦甸市»小吃面食»一路顺小吃部
+  navigation: 桦甸市 小吃面食
   poi: HWUHFJZBACWHDGY
   latitude: 42.97321
   longitude: 126.74993
@@ -9369,7 +9369,7 @@
 - rank: 649
   shop_id: 5236972
   name: 捞中天火锅
-  navigation: 吉林餐厅»昌邑区»火锅»捞中天火锅
+  navigation: 昌邑区 火锅
   poi: HVDUGCZBAEBGRBS
   latitude: 43.86583
   longitude: 126.5931
@@ -9390,7 +9390,7 @@
 - rank: 652
   shop_id: 5335209
   name: 长发川味
-  navigation: 吉林餐厅»丰满区»川菜»长发川味
+  navigation: 丰满区 川菜
   poi: HVEDVWZBADWRGVA
   latitude: 43.82126
   longitude: 126.56548
@@ -9411,7 +9411,7 @@
 - rank: 653
   shop_id: 5343247
   name: 蒸膳香新加坡小吃
-  navigation: 吉林餐厅»丰满区»东南亚菜»蒸膳香新加坡小吃
+  navigation: 丰满区 东南亚菜
   poi: HVECATZBADWJAHU
   latitude: 43.82198
   longitude: 126.56117
@@ -9432,7 +9432,7 @@
 - rank: 654
   shop_id: 5381411
   name: 城市比萨(中东新生活店)
-  navigation: 吉林餐厅»船营区»西餐»城市比萨(中东新生活店)
+  navigation: 船营区 西餐
   poi: HVCEHHZBAEAAEIK
   latitude: 43.86908
   longitude: 126.53264
@@ -9453,7 +9453,7 @@
 - rank: 655
   shop_id: 5382621
   name: 天府水煮鱼
-  navigation: 吉林餐厅»昌邑区»川菜»天府水煮鱼
+  navigation: 昌邑区 川菜
   poi: HTEFAGZBACCUSUY
   latitude: 43.88566
   longitude: 125.32171
@@ -9474,7 +9474,7 @@
 - rank: 658
   shop_id: 5514078
   name: 吃小吃春饼店
-  navigation: 吉林餐厅»丰满区»小吃面食»吃小吃春饼店
+  navigation: 丰满区 小吃面食
   poi: HVEDBGZBADWJEVJ
   latitude: 43.82095
   longitude: 126.56291
@@ -9495,7 +9495,7 @@
 - rank: 659
   shop_id: 5566561
   name: 金三顺紫菜包饭
-  navigation: 吉林餐厅»昌邑区»韩国»金三顺紫菜包饭
+  navigation: 昌邑区 韩国
   poi: HUJGHVZBADVTGGV
   latitude: 44.02541
   longitude: 126.32541
@@ -9516,7 +9516,7 @@
 - rank: 660
   shop_id: 5572953
   name: 星星美食城
-  navigation: 吉林餐厅»蛟河市»东北菜»星星美食城
+  navigation: 蛟河市 东北菜
   poi: IACSDCZBAFCDSCJ
   latitude: 43.57811
   longitude: 127.56963
@@ -9537,7 +9537,7 @@
 - rank: 662
   shop_id: 5640036
   name: 小老郭食品
-  navigation: 吉林餐厅»蛟河市»面包甜点»小老郭食品
+  navigation: 蛟河市 面包甜点
   poi: HWJITGZBAFABWGN
   latitude: 43.72237
   longitude: 127.33901
@@ -9558,7 +9558,7 @@
 - rank: 663
   shop_id: 5641418
   name: 宝利来蛋糕店
-  navigation: 吉林餐厅»蛟河市»面包甜点»宝利来蛋糕店
+  navigation: 蛟河市 面包甜点
   poi: HWJIIJZBAFABEUB
   latitude: 43.72177
   longitude: 127.33792
@@ -9579,7 +9579,7 @@
 - rank: 664
   shop_id: 5645689
   name: 张记包子
-  navigation: 吉林餐厅»昌邑区»小吃面食»张记包子
+  navigation: 昌邑区 小吃面食
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -9590,7 +9590,7 @@
   environment_rating: 0
   service_rating: 0
   address: 天津街文庙早市
-  phone: '13596352588'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -9600,7 +9600,7 @@
 - rank: 665
   shop_id: 5647653
   name: 小碗肉
-  navigation: 吉林餐厅»昌邑区»其他中餐»小碗肉
+  navigation: 昌邑区 其他中餐
   poi: HVDBGFZBAEAAGFX
   latitude: 43.85274
   longitude: 126.54927
@@ -9621,7 +9621,7 @@
 - rank: 666
   shop_id: 5679265
   name: 蛋糕王
-  navigation: 吉林餐厅»船营区»面包甜点»蛋糕王
+  navigation: 船营区 面包甜点
   poi: HVDFRGZBAEADBCJ
   latitude: 43.85065
   longitude: 126.55821
@@ -9642,7 +9642,7 @@
 - rank: 667
   shop_id: 5701341
   name: 电力宾馆餐饮部
-  navigation: 吉林餐厅»昌邑区»其他中餐»电力宾馆餐饮部
+  navigation: 昌邑区 其他中餐
   poi: HVDTWDZBAEAIUTA
   latitude: 43.84867
   longitude: 126.57501
@@ -9663,7 +9663,7 @@
 - rank: 675
   shop_id: 5787276
   name: 万兴隆小吃
-  navigation: 吉林餐厅»永吉县»小吃面食»万兴隆小吃
+  navigation: 永吉县 小吃面食
   poi: HVGISHZBADSSFBX
   latitude: 43.69351
   longitude: 126.53166
@@ -9684,7 +9684,7 @@
 - rank: 677
   shop_id: 5789395
   name: 上岛咖啡西餐厅
-  navigation: 吉林餐厅»昌邑区»咖啡厅»上岛咖啡西餐厅
+  navigation: 昌邑区 咖啡厅
   poi: HVDVVEZBAEBRWHC
   latitude: 43.86937
   longitude: 126.60066
@@ -9705,7 +9705,7 @@
 - rank: 679
   shop_id: 5790942
   name: 东北老字号东市参茸行
-  navigation: 吉林餐厅»船营区»东北菜»东北老字号东市参茸行
+  navigation: 船营区 东北菜
   poi: HVDRJCZBAEAUBIH
   latitude: 43.85717
   longitude: 126.57735
@@ -9717,7 +9717,7 @@
   service_rating: 0
   address: 吉林省吉林市船营区
   phone: ''
-  recommended_products: 大堂大堂门面<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/19957282/type"title="大堂"><imgdata-src="http://i3.s1.dpfile.com/pc/ef18ce5f11afabd9ca95abb3554051de(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/19957282/type"title="大堂">大堂</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 尚无营业时间
@@ -9726,7 +9726,7 @@
 - rank: 690
   shop_id: 5905873
   name: 莱茵河咖啡语茶
-  navigation: 吉林餐厅»船营区»咖啡厅»莱茵河咖啡语茶
+  navigation: 船营区 咖啡厅
   poi: HVDITEZBAEABIIN
   latitude: 43.84471
   longitude: 126.56021
@@ -9747,7 +9747,7 @@
 - rank: 694
   shop_id: 5920289
   name: 爱锅者养生火锅厦门街店
-  navigation: 吉林餐厅»丰满区»火锅»爱锅者养生火锅厦门街店
+  navigation: 丰满区 火锅
   poi: HVECHVZBADWJBIL
   latitude: 43.82145
   longitude: 126.56187
@@ -9768,7 +9768,7 @@
 - rank: 703
   shop_id: 6095217
   name: 两岸咖啡
-  navigation: 吉林餐厅»昌邑区»咖啡厅»两岸咖啡
+  navigation: 昌邑区 咖啡厅
   poi: HVDUTRZBAEBGFDU
   latitude: 43.86493
   longitude: 126.59322
@@ -9780,7 +9780,7 @@
   service_rating: 0
   address: 解放北路天硕逸景332号(万达小正门旁)
   phone: 0432-63320999
-  recommended_products: android_upload_picandroid_upload_picandroid_upload_pic<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/19781823/type"title="android_upload_pic"><imgdata-src="http://i1.s1.dpfile.com/pc/e38057252d142ef7e99f867009268f87(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/19781823/type"title="android_upload_pic">android_upload_pic</a></div></li>
+  recommended_products: ''
   alias: ''
   description: ''
   hours: 10:00-22:00
@@ -9789,7 +9789,7 @@
 - rank: 704
   shop_id: 6214158
   name: 甲一方媚娘火锅(政务店)
-  navigation: 吉林餐厅»昌邑区»火锅»甲一方媚娘火锅(政务店)
+  navigation: 昌邑区 火锅
   poi: HVDDRCZBADVVCTJ
   latitude: 43.82648
   longitude: 126.52888
@@ -9810,7 +9810,7 @@
 - rank: 705
   shop_id: 6455198
   name: 红旭吃小吃春饼店
-  navigation: 吉林餐厅»昌邑区»东北菜»红旭吃小吃春饼店
+  navigation: 昌邑区 东北菜
   poi: HVDDHGZBAEAUUFI
   latitude: 43.86722
   longitude: 126.56919
@@ -9831,7 +9831,7 @@
 - rank: 706
   shop_id: 8716041
   name: 城市比萨(大润发东市场店)
-  navigation: 吉林餐厅»船营区»西餐»城市比萨(大润发东市场店)
+  navigation: 船营区 西餐
   poi: HVDJBVZBAEATTWA
   latitude: 43.85863
   longitude: 126.57516
@@ -9852,7 +9852,7 @@
 - rank: 707
   shop_id: 8799943
   name: 柴火炖
-  navigation: 吉林餐厅»昌邑区»东北菜»柴火炖
+  navigation: 昌邑区 东北菜
   poi: HVCTAEZBAEBEEVP
   latitude: 43.88507
   longitude: 126.56791
@@ -9863,7 +9863,7 @@
   environment_rating: 0
   service_rating: 0
   address: 哈达湾街25号(近铜材市场六号门)
-  phone: '13620753337'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -9873,7 +9873,7 @@
 - rank: 708
   shop_id: 8825492
   name: 黑牛访
-  navigation: 吉林餐厅»船营区»火锅»黑牛访
+  navigation: 船营区 火锅
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -9894,7 +9894,7 @@
 - rank: 709
   shop_id: 8829548
   name: 沙华多利意大利餐厅
-  navigation: 吉林餐厅»船营区»西餐»沙华多利意大利餐厅
+  navigation: 船营区 西餐
   poi: HVDIHTZBAEADAWC
   latitude: 43.84697
   longitude: 126.56186
@@ -9915,7 +9915,7 @@
 - rank: 710
   shop_id: 8863407
   name: 优茜茜里.最好吃的冰淇淋
-  navigation: 吉林餐厅»丰满区»面包甜点»优茜茜里.最好吃的冰淇淋
+  navigation: 丰满区 面包甜点
   poi: HVEAGCZBAEACFBA
   latitude: 43.8359
   longitude: 126.57103
@@ -9927,7 +9927,7 @@
   service_rating: 0
   address: 新玛特南侧外廊(近世纪广场)
   phone: ''
-  recommended_products: 门面大堂大堂<liclass="HideJ_toggle_Hide"data-target=".pic-listul"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_pic_jilin_food');"target="_blank"href="/photos/24157970/type"title="等位区"><imgdata-src="http://i2.s1.dpfile.com/pc/5fe72a44399c0cf66df67350e9a157bc(240c180)/thumb.jpg"/></a><divclass="pic-name"><aonclick="pageTracker._trackPageview('dp_test_shop_xinxi_huanjing4_picname_jilin_food');"target="_blank"href="/photos/24157970/type"title="等位区">等位区</a></div></li>
+  recommended_products: ''
   alias: 来自意大利的爱
   description: ''
   hours: 10.00-21.00
@@ -9936,7 +9936,7 @@
 - rank: 711
   shop_id: 8872655
   name: 乐巢
-  navigation: 吉林餐厅»昌邑区»酒吧»乐巢
+  navigation: 昌邑区 酒吧
   poi: HVEBGHZBAEAJCTI
   latitude: 43.84341
   longitude: 126.58107
@@ -9957,7 +9957,7 @@
 - rank: 712
   shop_id: 8936150
   name: 炉鼎记创意餐饮
-  navigation: 吉林餐厅»船营区»其他中餐»炉鼎记创意餐饮
+  navigation: 船营区 其他中餐
   poi: HVDHUDZBAEAHAUR
   latitude: 43.853
   longitude: 126.56605
@@ -9978,7 +9978,7 @@
 - rank: 713
   shop_id: 8972926
   name: 爱锅者养生火锅店
-  navigation: 吉林餐厅»昌邑区»火锅»爱锅者养生火锅店
+  navigation: 昌邑区 火锅
   poi: HVEATBZBAEAVVHR
   latitude: 43.85162
   longitude: 126.58753
@@ -9999,7 +9999,7 @@
 - rank: 714
   shop_id: 9403585
   name: (蛟河服务区)万里顺活鱼馆
-  navigation: 吉林餐厅»蛟河市»其他中餐»(蛟河服务区)万里顺活鱼馆
+  navigation: 蛟河市 其他中餐
   poi: HWHSRGZBAFDAURP
   latitude: 43.81968
   longitude: 127.36174
@@ -10020,7 +10020,7 @@
 - rank: 715
   shop_id: 9405956
   name: 艾拉米苏面包坊
-  navigation: 吉林餐厅»昌邑区»面包甜点»艾拉米苏面包坊
+  navigation: 昌邑区 面包甜点
   poi: HVDJGVZBAEBWAWQ
   latitude: 43.88167
   longitude: 126.59884
@@ -10041,7 +10041,7 @@
 - rank: 716
   shop_id: 9407429
   name: 峰峰菜馆
-  navigation: 吉林餐厅»昌邑区»船营区»其他中餐»峰峰菜馆
+  navigation: 昌邑区 船营区 其他中餐
   poi: HVEAWUZBAEATWSR
   latitude: 43.84886
   longitude: 126.58537
@@ -10062,7 +10062,7 @@
 - rank: 717
   shop_id: 2041135
   name: 聚宾楼
-  navigation: 吉林餐厅»东北菜»聚宾楼
+  navigation: 东北菜
   poi: HVEFEFZBADWRRUT
   latitude: 43.81996
   longitude: 126.56741
@@ -10073,7 +10073,7 @@
   environment_rating: 0
   service_rating: 0
   address: 厦门街中段
-  phone: 0432-6550999
+  phone: 0432-66550999
   recommended_products: ''
   alias: ''
   description: ''
@@ -10083,7 +10083,7 @@
 - rank: 718
   shop_id: 2041150
   name: 老村长家
-  navigation: 吉林餐厅»东北菜»老村长家
+  navigation: 东北菜
   poi: HVCUHJZBAECDFST
   latitude: 43.90249
   longitude: 126.58902
@@ -10104,7 +10104,7 @@
 - rank: 719
   shop_id: 2050198
   name: 小华兴园豆腐脑
-  navigation: 吉林餐厅»船营区»小吃面食»小华兴园豆腐脑
+  navigation: 船营区 小吃面食
   poi: HUITBEZBACWFUTR
   latitude: 43.72315
   longitude: 125.99653
@@ -10125,7 +10125,7 @@
 - rank: 720
   shop_id: 2051317
   name: 新新园饺子馆
-  navigation: 吉林餐厅»小吃面食»新新园饺子馆
+  navigation: 小吃面食
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -10146,7 +10146,7 @@
 - rank: 721
   shop_id: 2052439
   name: 龙都大众菜馆
-  navigation: 吉林餐厅»东北菜»龙都大众菜馆
+  navigation: 东北菜
   poi: HVDRDDZBAEAIDGY
   latitude: 43.85148
   longitude: 126.57054
@@ -10157,7 +10157,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路67号(近珲春街)
-  phone: 0432-2072688
+  phone: 0432-62072688
   recommended_products: ''
   alias: ''
   description: ''
@@ -10167,7 +10167,7 @@
 - rank: 722
   shop_id: 2058094
   name: 东来顺
-  navigation: 吉林餐厅»火锅»东来顺
+  navigation: 火锅
   poi: HVDHRIZBAEAARFO
   latitude: 43.845
   longitude: 126.55765
@@ -10188,7 +10188,7 @@
 - rank: 723
   shop_id: 2058109
   name: 无腿将军砂锅粥
-  navigation: 吉林餐厅»粤菜»无腿将军砂锅粥
+  navigation: 粤菜
   poi: HVDFEGZBAEADCDI
   latitude: 43.85121
   longitude: 126.55782
@@ -10209,7 +10209,7 @@
 - rank: 725
   shop_id: 2069668
   name: 站前烧麦馆
-  navigation: 吉林餐厅»新疆/清真»站前烧麦馆
+  navigation: 新疆/清真
   poi: HVDJUTZBAEBHDUE
   latitude: 43.87105
   longitude: 126.58944
@@ -10220,7 +10220,7 @@
   environment_rating: 0
   service_rating: 0
   address: 中兴街客运站
-  phone: 0432-30267003026700
+  phone: 0432-63026700 63026700
   recommended_products: ''
   alias: ''
   description: ''
@@ -10230,7 +10230,7 @@
 - rank: 726
   shop_id: 2078437
   name: 醉高楼
-  navigation: 吉林餐厅»江浙菜»醉高楼
+  navigation: 江浙菜
   poi: HVCUURZBAEASWAN
   latitude: 43.872
   longitude: 126.55956
@@ -10251,7 +10251,7 @@
 - rank: 727
   shop_id: 2085406
   name: 江南长乐酒家
-  navigation: 吉林餐厅»其他中餐»江南长乐酒家
+  navigation: 其他中餐
   poi: HVCWTWZBAEAUWCI
   latitude: 43.87204
   longitude: 126.56466
@@ -10262,7 +10262,7 @@
   environment_rating: 0
   service_rating: 0
   address: 世纪饭店对面
-  phone: 0432-4616699
+  phone: 0432-64616699
   recommended_products: ''
   alias: ''
   description: ''
@@ -10272,7 +10272,7 @@
 - rank: 728
   shop_id: 2091340
   name: 原味饺子王
-  navigation: 吉林餐厅»龙潭区»东北菜»原味饺子王
+  navigation: 龙潭区 东北菜
   poi: HVCEWDZBAECRFJN
   latitude: 43.92232
   longitude: 126.58709
@@ -10283,7 +10283,7 @@
   environment_rating: 0
   service_rating: 0
   address: 龙潭区遵义东路
-  phone: 0432-3090789
+  phone: 0432-63090789
   recommended_products: ''
   alias: ''
   description: ''
@@ -10293,7 +10293,7 @@
 - rank: 729
   shop_id: 2099713
   name: 吴记酱骨头
-  navigation: 吉林餐厅»东北菜»吴记酱骨头
+  navigation: 东北菜
   poi: HVDBFCZBAEBEJBQ
   latitude: 43.87862
   longitude: 126.57503
@@ -10314,7 +10314,7 @@
 - rank: 730
   shop_id: 2200636
   name: 汤记道口烧烤
-  navigation: 吉林餐厅»船营区»烧烤»汤记道口烧烤
+  navigation: 船营区 烧烤
   poi: HVDJSAZBAEAVJVL
   latitude: 43.86027
   longitude: 126.57815
@@ -10335,7 +10335,7 @@
 - rank: 731
   shop_id: 2206378
   name: 草原情火锅城
-  navigation: 吉林餐厅»火锅»草原情火锅城
+  navigation: 火锅
   poi: HVEFEHZBADWRRUV
   latitude: 43.81996
   longitude: 126.56741
@@ -10346,7 +10346,7 @@
   environment_rating: 0
   service_rating: 0
   address: 厦门街中段(富翔酒楼对面)
-  phone: 0432-4667935
+  phone: 0432-64667935
   recommended_products: ''
   alias: ''
   description: ''
@@ -10356,7 +10356,7 @@
 - rank: 736
   shop_id: 2226547
   name: 宋记粥铺(解放东路店)
-  navigation: 吉林餐厅»小吃面食»宋记粥铺(解放东路店)
+  navigation: 小吃面食
   poi: HVEAWAZBAEBAHTD
   latitude: 43.85334
   longitude: 126.58986
@@ -10377,7 +10377,7 @@
 - rank: 737
   shop_id: 2226571
   name: 勃萝叶饽饽
-  navigation: 吉林餐厅»小吃面食»勃萝叶饽饽
+  navigation: 小吃面食
   poi: 
   latitude: 0.0059
   longitude: 0.0015
@@ -10398,7 +10398,7 @@
 - rank: 739
   shop_id: 2236201
   name: 蓝湾快餐
-  navigation: 吉林餐厅»自助餐»蓝湾快餐
+  navigation: 自助餐
   poi: IDDRJFZBADVTFTW
   latitude: 42.17693
   longitude: 128.17379
@@ -10419,7 +10419,7 @@
 - rank: 740
   shop_id: 2239261
   name: 天发正宗活鱼酒楼
-  navigation: 吉林餐厅»东北菜»天发正宗活鱼酒楼
+  navigation: 东北菜
   poi: HVUWERZBAEIIBEJ
   latitude: 43.80376
   longitude: 126.9456
@@ -10440,7 +10440,7 @@
 - rank: 741
   shop_id: 2249854
   name: 三东排骨包
-  navigation: 吉林餐厅»小吃面食»三东排骨包
+  navigation: 小吃面食
   poi: HVEATAZBAEATWFQ
   latitude: 43.84913
   longitude: 126.58504
@@ -10451,7 +10451,7 @@
   environment_rating: 0
   service_rating: 0
   address: 青年路(四川街路口)
-  phone: 0432-7700059
+  phone: 0432-67700059
   recommended_products: ''
   alias: ''
   description: ''
@@ -10461,7 +10461,7 @@
 - rank: 742
   shop_id: 2253619
   name: 富味园饺子馆
-  navigation: 吉林餐厅»东北菜»富味园饺子馆
+  navigation: 东北菜
   poi: HVEASJZBADWJVFP
   latitude: 43.82476
   longitude: 126.56061
@@ -10472,7 +10472,7 @@
   environment_rating: 0
   service_rating: 0
   address: 高新区厦门街48号1-2楼
-  phone: 0432-4689233
+  phone: 0432-64689233
   recommended_products: ''
   alias: ''
   description: ''
@@ -10482,7 +10482,7 @@
 - rank: 743
   shop_id: 2274613
   name: 碧情轩
-  navigation: 吉林餐厅»昌邑区»咖啡厅»碧情轩
+  navigation: 昌邑区 咖啡厅
   poi: HVEAIGZBAEAUJHO
   latitude: 43.85022
   longitude: 126.58557
@@ -10493,7 +10493,7 @@
   environment_rating: 0
   service_rating: 0
   address: 解放大路东昌花园大门对面(近四川街)
-  phone: 0432-6117888
+  phone: 0432-66117888
   recommended_products: 环境碧情轩咖啡语茶
   alias: 咖啡语茶
   description: ''
@@ -10503,7 +10503,7 @@
 - rank: 744
   shop_id: 2296954
   name: 四川麻辣串
-  navigation: 吉林餐厅»小吃面食»四川麻辣串
+  navigation: 小吃面食
   poi: HVJVBVZBAERFBFI
   latitude: 43.9243
   longitude: 126.89931
@@ -10524,7 +10524,7 @@
 - rank: 746
   shop_id: 2353573
   name: 正记初乳羔羊肉
-  navigation: 吉林餐厅»新疆/清真»正记初乳羔羊肉
+  navigation: 新疆/清真
   poi: HVDIIHZBAEADAWN
   latitude: 43.84697
   longitude: 126.56186
@@ -10535,7 +10535,7 @@
   environment_rating: 0
   service_rating: 0
   address: 松北二区23号楼(河南街沛客鞋城对面)
-  phone: 0432-20202686640916
+  phone: 0432-62020268 66640916
   recommended_products: ''
   alias: ''
   description: ''
@@ -10545,7 +10545,7 @@
 - rank: 747
   shop_id: 2354860
   name: 宴宾园饺子馆
-  navigation: 吉林餐厅»东北菜»宴宾园饺子馆
+  navigation: 东北菜
   poi: HVDUHAZBAEAVCSM
   latitude: 43.8549
   longitude: 126.58237
@@ -10556,7 +10556,7 @@
   environment_rating: 0
   service_rating: 0
   address: 上海路与四川街交汇处
-  phone: '04326956288'
+  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -10566,7 +10566,7 @@
 - rank: 748
   shop_id: 2357488
   name: 大牛骨头
-  navigation: 吉林餐厅»昌邑区»其他中餐»大牛骨头
+  navigation: 昌邑区 其他中餐
   poi: HVEASFZBAEATWFF
   latitude: 43.84913
   longitude: 126.58504
@@ -10577,7 +10577,7 @@
   environment_rating: 0
   service_rating: 0
   address: 昌邑区青年路(近四川街)
-  phone: 0432-7700059
+  phone: 0432-67700059
   recommended_products: ''
   alias: ''
   description: ''
@@ -10587,7 +10587,7 @@
 - rank: 749
   shop_id: 2385292
   name: 阿婆家火锅
-  navigation: 吉林餐厅»火锅»阿婆家火锅
+  navigation: 火锅
   poi: HVDJAHZBAEBFJUP
   latitude: 43.87009
   longitude: 126.58624
@@ -10598,7 +10598,7 @@
   environment_rating: 0
   service_rating: 0
   address: 延安街(近王伟贞子)
-  phone: 0432-6957000
+  phone: 0432-66957000
   recommended_products: ''
   alias: ''
   description: ''

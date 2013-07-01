@@ -6,4 +6,8 @@ Diamond::Application.routes.draw do
   resources :shops do
     get :map, :on => :collection
   end
+
+  namespace :admin do
+    resources :shops
+  end
 end

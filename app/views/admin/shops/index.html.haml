@@ -1,0 +1,36 @@
+%h1 Listing shops
+
+%table
+  %tr
+    %th id
+    %th shop_id
+    %th name
+    %th navigation
+    %th latitude
+    %th longitude
+    %th thumb
+    %th address
+    %th phone
+    %th
+    %th
+    %th
+
+  - @shops.each do |shop|
+    %tr
+      %td= shop.id
+      %td= shop.shop_id
+      %td= shop.name
+      %td= shop.navigation
+      %td= shop.latitude
+      %td= shop.longitude
+      %td= shop.thumb
+      %td= shop.address
+      %td= shop.phone
+      %td= link_to 'Show', shop
+      %td= link_to 'Show', admin_shop_path(shop)
+      %td= link_to 'Edit', edit_admin_shop_path(shop)
+      %td= link_to 'Destroy', shop, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Shop', new_admin_shop_path

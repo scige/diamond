@@ -1,0 +1,74 @@
+= form_for @shop do |f|
+  - if @shop.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@shop.errors.count, "error")} prohibited this shop from being saved:"
+      %ul
+        - @shop.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :rank
+    = f.text_field :rank
+  .field
+    = f.label :shop_id
+    = f.text_field :shop_id
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :navigation
+    = f.text_field :navigation
+  .field
+    = f.label :poi
+    = f.text_field :poi
+  .field
+    = f.label :latitude
+    = f.text_field :latitude
+  .field
+    = f.label :longitude
+    = f.text_field :longitude
+  .field
+    = f.label :thumb
+    = f.text_field :thumb
+  .field
+    = f.label :star
+    = f.text_field :star
+  .field
+    = f.label :avg_price
+    = f.text_field :avg_price
+  .field
+    = f.label :product_rating
+    = f.text_field :product_rating
+  .field
+    = f.label :environment_rating
+    = f.text_field :environment_rating
+  .field
+    = f.label :service_rating
+    = f.text_field :service_rating
+  .field
+    = f.label :recommended_products
+    = f.text_field :recommended_products
+  .field
+    = f.label :address
+    = f.text_field :address
+  .field
+    = f.label :phone
+    = f.text_field :phone
+  .field
+    = f.label :description
+    = f.text_field :description
+  .field
+    = f.label :alias
+    = f.text_field :alias
+  .field
+    = f.label :hours
+    = f.text_field :hours
+  .field
+    = f.label :atmosphere
+    = f.text_field :atmosphere
+  .field
+    = f.label :characteristics
+    = f.text_field :characteristics
+
+  .actions
+    = f.submit 'Save'
