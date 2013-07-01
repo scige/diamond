@@ -11,22 +11,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="format-detection" content="telephone=no" />
 
-  %body
-    .navbar.navbar-inverse.navbar-fixed-top
-      .navbar-inner
-        .container
-          .nav-collapse.collapse
-            .row
-              .span6
-                %ul.nav
-                  %li.active= link_to "首页", root_path
-                  %li= link_to "优惠折扣", root_path
-                  %li= link_to "商家信息", root_path
-
-    .container
-      = yield
-
-    .footer
-      .container
-        %p © Jilinmei 2013
+  %body#activity-detail
+    = yield
 
