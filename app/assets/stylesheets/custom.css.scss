@@ -4,3 +4,7 @@ $iconWhiteSpritePath: image-path('glyphicons-halflings-white.png');
 @import "bootstrap";
 @import "bootstrap-responsive";
 
+body {
+    position: relative;
+    padding-top: 40px;
+}
