@@ -1,5 +1,5 @@
 class ShopsController < ApplicationController
-  layout "weixins_layout", :only => [:show]
+  layout "application_mobile", :only => [:show]
 
   def show
     @shop = Shop.find_by_id(params[:id])
