@@ -1,4 +1,4 @@
-= form_for @shop do |f|
+= form_for @shop, :html => {:class=>"form-horizontal"} do |f|
   - if @shop.errors.any?
     #error_explanation
       %h2= "#{pluralize(@shop.errors.count, "error")} prohibited this shop from being saved:"
@@ -6,69 +6,93 @@
         - @shop.errors.full_messages.each do |msg|
           %li= msg
 
-  .field
-    = f.label :rank
-    = f.text_field :rank
-  .field
-    = f.label :shop_id
-    = f.text_field :shop_id
-  .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :navigation
-    = f.text_field :navigation
-  .field
-    = f.label :poi
-    = f.text_field :poi
-  .field
-    = f.label :latitude
-    = f.text_field :latitude
-  .field
-    = f.label :longitude
-    = f.text_field :longitude
-  .field
-    = f.label :thumb
-    = f.text_field :thumb
-  .field
-    = f.label :star
-    = f.text_field :star
-  .field
-    = f.label :avg_price
-    = f.text_field :avg_price
-  .field
-    = f.label :product_rating
-    = f.text_field :product_rating
-  .field
-    = f.label :environment_rating
-    = f.text_field :environment_rating
-  .field
-    = f.label :service_rating
-    = f.text_field :service_rating
-  .field
-    = f.label :recommended_products
-    = f.text_field :recommended_products
-  .field
-    = f.label :address
-    = f.text_field :address
-  .field
-    = f.label :phone
-    = f.text_field :phone
-  .field
-    = f.label :description
-    = f.text_field :description
-  .field
-    = f.label :alias
-    = f.text_field :alias
-  .field
-    = f.label :hours
-    = f.text_field :hours
-  .field
-    = f.label :atmosphere
-    = f.text_field :atmosphere
-  .field
-    = f.label :characteristics
-    = f.text_field :characteristics
+  .control-group
+    = f.label :rank, :class=>"control-label"
+    .controls
+      = f.text_field :rank, :class=>"input-xxlarge"
+  .control-group
+    = f.label :shop_id, :class=>"control-label"
+    .controls
+      = f.text_field :shop_id, :class=>"input-xxlarge"
+  .control-group
+    = f.label :name, :class=>"control-label"
+    .controls
+      = f.text_field :name, :class=>"input-xxlarge"
+  .control-group
+    = f.label :navigation, :class=>"control-label"
+    .controls
+      = f.text_field :navigation, :class=>"input-xxlarge"
+  .control-group
+    = f.label :poi, :class=>"control-label"
+    .controls
+      = f.text_field :poi, :class=>"input-xxlarge"
+  .control-group
+    = f.label :latitude, :class=>"control-label"
+    .controls
+      = f.text_field :latitude, :class=>"input-xxlarge"
+  .control-group
+    = f.label :longitude, :class=>"control-label"
+    .controls
+      = f.text_field :longitude, :class=>"input-xxlarge"
+  .control-group
+    = f.label :thumb, :class=>"control-label"
+    .controls
+      = f.text_field :thumb, :class=>"input-xxlarge"
+  .control-group
+    = f.label :star, :class=>"control-label"
+    .controls
+      = f.text_field :star, :class=>"input-xxlarge"
+  .control-group
+    = f.label :avg_price, :class=>"control-label"
+    .controls
+      = f.text_field :avg_price, :class=>"input-xxlarge"
+  .control-group
+    = f.label :product_rating, :class=>"control-label"
+    .controls
+      = f.text_field :product_rating, :class=>"input-xxlarge"
+  .control-group
+    = f.label :environment_rating, :class=>"control-label"
+    .controls
+      = f.text_field :environment_rating, :class=>"input-xxlarge"
+  .control-group
+    = f.label :service_rating, :class=>"control-label"
+    .controls
+      = f.text_field :service_rating, :class=>"input-xxlarge"
+  .control-group
+    = f.label :recommended_products, :class=>"control-label"
+    .controls
+      = f.text_field :recommended_products, :class=>"input-xxlarge"
+  .control-group
+    = f.label :address, :class=>"control-label"
+    .controls
+      = f.text_field :address, :class=>"input-xxlarge"
+  .control-group
+    = f.label :phone, :class=>"control-label"
+    .controls
+      = f.text_field :phone, :class=>"input-xxlarge"
+  .control-group
+    = f.label :description, :class=>"control-label"
+    .controls
+      = f.text_field :description, :class=>"input-xxlarge"
+  .control-group
+    = f.label :alias, :class=>"control-label"
+    .controls
+      = f.text_field :alias, :class=>"input-xxlarge"
+  .control-group
+    = f.label :hours, :class=>"control-label"
+    .controls
+      = f.text_field :hours, :class=>"input-xxlarge"
+  .control-group
+    = f.label :atmosphere, :class=>"control-label"
+    .controls
+      = f.text_field :atmosphere, :class=>"input-xxlarge"
+  .control-group
+    = f.label :characteristics, :class=>"control-label"
+    .controls
+      = f.text_field :characteristics, :class=>"input-xxlarge"
 
-  .actions
-    = f.submit 'Save'
+  .control-group
+    .controls
+      = f.submit :class=>"btn btn-success"
+      = link_to 'Back', admin_shops_path, :class=>"btn"
+

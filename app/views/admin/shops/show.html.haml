@@ -1,72 +1,95 @@
+%h2 Show shop
+
 %p#notice= notice
 
-%p
-  %b name:
-  = @shop.name
-%p
-  %b rank:
-  = @shop.rank
-%p
-  %b shop_id:
-  = @shop.shop_id
-%p
-  %b name:
-  = @shop.name
-%p
-  %b navigation:
-  = @shop.navigation
-%p
-  %b poi:
-  = @shop.poi
-%p
-  %b latitude:
-  = @shop.latitude
-%p
-  %b longitude:
-  = @shop.longitude
-%p
-  %b thumb:
-  = @shop.thumb
-%p
-  %b star:
-  = @shop.star
-%p
-  %b avg_price:
-  = @shop.avg_price
-%p
-  %b product_rating:
-  = @shop.product_rating
-%p
-  %b environment_rating:
-  = @shop.environment_rating
-%p
-  %b service_rating:
-  = @shop.service_rating
-%p
-  %b recommended_products:
-  = @shop.recommended_products
-%p
-  %b address:
-  = @shop.address
-%p
-  %b phone:
-  = @shop.phone
-%p
-  %b description:
-  = @shop.description
-%p
-  %b alias:
-  = @shop.alias
-%p
-  %b hours:
-  = @shop.hours
-%p
-  %b atmosphere:
-  = @shop.atmosphere
-%p
-  %b characteristics:
-  = @shop.characteristics
+= form_for @shop, :html => {:class=>"form-horizontal"} do |f|
+  .control-group
+    = f.label :rank, :class=>"control-label"
+    .controls
+      = f.text_field :rank, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :shop_id, :class=>"control-label"
+    .controls
+      = f.text_field :shop_id, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :name, :class=>"control-label"
+    .controls
+      = f.text_field :name, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :navigation, :class=>"control-label"
+    .controls
+      = f.text_field :navigation, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :poi, :class=>"control-label"
+    .controls
+      = f.text_field :poi, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :latitude, :class=>"control-label"
+    .controls
+      = f.text_field :latitude, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :longitude, :class=>"control-label"
+    .controls
+      = f.text_field :longitude, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :thumb, :class=>"control-label"
+    .controls
+      = f.text_field :thumb, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :star, :class=>"control-label"
+    .controls
+      = f.text_field :star, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :avg_price, :class=>"control-label"
+    .controls
+      = f.text_field :avg_price, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :product_rating, :class=>"control-label"
+    .controls
+      = f.text_field :product_rating, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :environment_rating, :class=>"control-label"
+    .controls
+      = f.text_field :environment_rating, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :service_rating, :class=>"control-label"
+    .controls
+      = f.text_field :service_rating, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :recommended_products, :class=>"control-label"
+    .controls
+      = f.text_field :recommended_products, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :address, :class=>"control-label"
+    .controls
+      = f.text_field :address, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :phone, :class=>"control-label"
+    .controls
+      = f.text_field :phone, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :description, :class=>"control-label"
+    .controls
+      = f.text_field :description, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :alias, :class=>"control-label"
+    .controls
+      = f.text_field :alias, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :hours, :class=>"control-label"
+    .controls
+      = f.text_field :hours, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :atmosphere, :class=>"control-label"
+    .controls
+      = f.text_field :atmosphere, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :characteristics, :class=>"control-label"
+    .controls
+      = f.text_field :characteristics, :class=>"input-xxlarge", :disabled=>"disabled"
 
-= link_to 'Edit', edit_admin_shop_path(@shop)
-\|
-= link_to 'Back', admin_shops_path
+  .control-group
+    .controls
+      = link_to 'Edit', edit_admin_shop_path(@shop), :class=>"btn btn-info"
+      = link_to 'Back', admin_shops_path, :class=>"btn"
+
