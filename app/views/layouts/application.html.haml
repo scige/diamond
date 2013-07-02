@@ -23,6 +23,7 @@
                   %li= link_to "商家信息", admin_shops_path
 
     .container
+      = render "layouts/flash_messages"
       = yield
 
     .footer

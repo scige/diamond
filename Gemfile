@@ -43,6 +43,10 @@ gem 'bootstrap-sass', '~> 2.3.2.0'
 
 gem 'haml-rails'
 
+gem 'devise'
+
+gem 'kaminari'
+
 gem 'annotate'
 
 gem 'rest-client'

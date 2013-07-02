@@ -1,4 +1,6 @@
 class Admin::ShopsController < ApplicationController
+  before_filter :authenticate_super!
+
   def index
     @shops = Shop.all
   end
