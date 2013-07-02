@@ -21,6 +21,11 @@
                 %ul.nav
                   %li.active= link_to "首页", root_path
                   %li= link_to "商家信息", admin_shops_path
+              - if super_signed_in?
+                .offset5.span1
+                  %ul.nav
+                    %li= link_to "退出", destroy_super_session_path, :method => :delete
+                  
 
     .container
       = render "layouts/flash_messages"
