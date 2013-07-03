@@ -14,5 +14,4 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require home
-//= require shops
 //= require admin/shops

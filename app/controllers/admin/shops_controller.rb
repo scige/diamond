@@ -43,4 +43,9 @@ class Admin::ShopsController < ApplicationController
 
     redirect_to admin_shops_url
   end
+
+  def map
+    @shops = Shop.all
+    #@shops = Shop.limit(10)
+  end
 end

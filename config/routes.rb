@@ -5,11 +5,13 @@ Diamond::Application.routes.draw do
 
   resources :weixins
 
-  resources :shops do
-    get :map, :on => :collection
-  end
+  resources :shops
+
+  resources :promos
 
   namespace :admin do
-    resources :shops
+    resources :shops do
+      get :map, :on => :collection
+    end
   end
 end
