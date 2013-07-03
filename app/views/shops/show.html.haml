@@ -12,9 +12,17 @@
     %p= "地址：#{@shop.address}"
     %p= "电话：#{@shop.phone}"
     %br
+
+    - if @shop.promos.size > 0
+      %p 优惠券：
+      - @shop.promos.each do |promo|
+        %p= link_to promo.name, promo_path(promo)
+      %br
+
     %p= "人均：¥#{@shop.avg_price}"
     %p= "口味：#{@shop.product_rating}  环境：#{@shop.environment_rating}  服务：#{@shop.service_rating}"
     %br
+
     %p 推荐菜：
     %p= "#{@shop.recommended_products}"
 

@@ -1,0 +1,16 @@
+- provide(:title, @promo.name)
+
+.page-bizinfo
+  .header
+    %h1#activity-name= @promo.name
+    %p.activity-info
+      %span#post-date.activity-meta.no-extra= Time.now.strftime('%Y-%m-%d')
+
+.page-content
+  - if @promo.thumb and !@promo.thumb.empty?
+    .media#media= image_tag(@promo.thumb)
+  .text
+    %p= @promo.content
+    %br
+    %p= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
+
