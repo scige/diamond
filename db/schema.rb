@@ -11,7 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130702002620) do
+ActiveRecord::Schema.define(:version => 20130703132920) do
+
+  create_table "promos", :force => true do |t|
+    t.string   "name"
+    t.text     "content"
+    t.datetime "begin_at"
+    t.datetime "end_at"
+    t.string   "thumb"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "shop_promo_relationships", :force => true do |t|
+    t.integer  "shop_id"
+    t.integer  "promo_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "shops", :force => true do |t|
     t.integer  "rank"

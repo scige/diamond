@@ -1,19 +1,16 @@
 # == Schema Information
 #
-# Table name: promos
+# Table name: shop_promo_relationships
 #
 #  id         :integer          not null, primary key
-#  name       :string(255)
-#  content    :text
-#  begin_at   :datetime
-#  end_at     :datetime
-#  thumb      :string(255)
+#  shop_id    :integer
+#  promo_id   :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 
 require 'spec_helper'
 
-describe Promo do
+describe ShopPromoRelationship do
   pending "add some examples to (or delete) #{__FILE__}"
 end
