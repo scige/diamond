@@ -15,5 +15,7 @@ Diamond::Application.routes.draw do
     end
 
     resources :promos
+
+    resources :shop_promo_relationships
   end
 end

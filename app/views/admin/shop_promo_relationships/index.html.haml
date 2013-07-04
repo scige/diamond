@@ -1,0 +1,27 @@
+.row
+  .span3
+    %h2 List relationships
+  .offset7.span2
+    .new-shop-button
+      = link_to 'New Relationship', new_admin_shop_promo_relationship_path, :class=>"btn btn-primary"
+
+%table.table.table-striped
+  %tr
+    %th shop_id
+    %th promo_id
+    %th created_at
+    %th updated_at
+    %th{:width=>"250"} operation
+
+  - @shop_promo_relationships.each do |shop_promo_relationship|
+    %tr
+      %td= shop_promo_relationship.shop_id
+      %td= shop_promo_relationship.promo_id
+      %td= shop_promo_relationship.created_at
+      %td= shop_promo_relationship.updated_at
+      %td
+        = link_to 'Show', admin_shop_promo_relationship_path(shop_promo_relationship), :class=>"btn btn-small btn-warning"
+        = link_to 'Edit', edit_admin_shop_promo_relationship_path(shop_promo_relationship), :class=>"btn btn-small btn-info"
+        = link_to 'Destroy', admin_shop_promo_relationship_path(shop_promo_relationship), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+
+

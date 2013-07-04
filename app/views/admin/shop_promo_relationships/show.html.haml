@@ -1,0 +1,18 @@
+%h2 Show relationship
+
+= form_for [:admin, @shop_promo_relationship], :html => {:class=>"form-horizontal"} do |f|
+  .control-group
+    = f.label :shop_id, :class=>"control-label"
+    .controls
+      = f.text_field :shop_id, :class=>"input-xxlarge", :disabled=>"disabled"
+
+  .control-group
+    = f.label :promo_id, :class=>"control-label"
+    .controls
+      = f.text_field :promo_id, :class=>"input-xxlarge", :disabled=>"disabled"
+
+  .control-group
+    .controls
+      = link_to 'Edit', edit_admin_shop_promo_relationship_path(@shop_promo_relationship), :class=>"btn btn-info"
+      = link_to 'Back', admin_shop_promo_relationships_path, :class=>"btn"
+
