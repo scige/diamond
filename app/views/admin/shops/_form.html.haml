@@ -61,7 +61,7 @@
   .control-group
     = f.label :recommended_products, :class=>"control-label"
     .controls
-      = f.text_field :recommended_products, :class=>"input-xxlarge"
+      = f.text_area :recommended_products, :rows=>6, :class=>"input-xxlarge"
   .control-group
     = f.label :address, :class=>"control-label"
     .controls
@@ -73,7 +73,7 @@
   .control-group
     = f.label :description, :class=>"control-label"
     .controls
-      = f.text_field :description, :class=>"input-xxlarge"
+      = f.text_area :description, :rows=>6, :class=>"input-xxlarge"
   .control-group
     = f.label :alias, :class=>"control-label"
     .controls
