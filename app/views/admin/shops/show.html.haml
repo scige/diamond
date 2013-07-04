@@ -87,6 +87,12 @@
       = f.text_field :characteristics, :class=>"input-xxlarge", :disabled=>"disabled"
 
   .control-group
+    = f.label "打折", :class=>"control-label"
+    .controls
+      - @shop.promos.each do |promo|
+        %p= link_to promo.name, admin_promo_path(promo), :target=>"_blank", :class=>"btn btn-danger"
+
+  .control-group
     .controls
       = link_to 'Edit', edit_admin_shop_path(@shop), :class=>"btn btn-info"
       = link_to 'Back', admin_shops_path, :class=>"btn"

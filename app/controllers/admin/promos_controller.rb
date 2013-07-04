@@ -7,7 +7,6 @@ class Admin::PromosController < ApplicationController
 
   def show
     @promo = Promo.find(params[:id])
-    @shops = Shop.all
   end
 
   def new

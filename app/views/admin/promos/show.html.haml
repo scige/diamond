@@ -25,7 +25,8 @@
   .control-group
     = f.label "商家", :class=>"control-label"
     .controls
-      = select_tag "shops", options_for_select(@shops.map{|c| [c.name, c.id]}, @promo.shops.map{|c| c.id}), {:multiple=>true, :size=>10, :class=>"input-xxlarge", :disabled=>"disabled"}
+      - @promo.shops.each do |shop|
+        %p= link_to shop.name, admin_shop_path(shop), :target=>"_blank", :class=>"btn btn-danger"
 
   .control-group
     .controls
