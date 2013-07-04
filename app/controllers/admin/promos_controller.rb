@@ -7,14 +7,18 @@ class Admin::PromosController < ApplicationController
 
   def show
     @promo = Promo.find(params[:id])
+    @shops = Shop.all
   end
 
   def new
     @promo = Promo.new
+    @shops = Shop.all
   end
 
   def edit
     @promo = Promo.find(params[:id])
+    @shops = Shop.all
+    #@shops = Shop.order("name")
   end
 
   def create
@@ -22,6 +26,9 @@ class Admin::PromosController < ApplicationController
 
     if @promo.save
       redirect_to admin_promo_url(@promo)
+      params[:shops].each do |shop_id|
+        ShopPromoRelationship.create!(:shop_id=>shop_id, :promo_id=>@promo.id)
+      end
     else
       render action: "new"
     end
@@ -31,6 +38,9 @@ class Admin::PromosController < ApplicationController
     @promo = Promo.find(params[:id])
 
     if @promo.update_attributes(params[:promo])
+      params[:shops].each do |shop_id|
+        ShopPromoRelationship.create!(:shop_id=>shop_id, :promo_id=>@promo.id)
+      end
       redirect_to admin_promo_url(@promo)
     else
       render action: "edit"
