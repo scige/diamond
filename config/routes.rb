@@ -13,5 +13,7 @@ Diamond::Application.routes.draw do
     resources :shops do
       get :map, :on => :collection
     end
+
+    resources :promos
   end
 end

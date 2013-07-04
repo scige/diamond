@@ -1,0 +1,32 @@
+.row
+  .span2
+    %h2 List promos
+  .offset8.span2
+    .new-shop-button
+      = link_to 'New Promo', new_admin_promo_path, :class=>"btn btn-primary"
+
+%table.table.table-striped
+  %tr
+    %th id
+    %th name
+    %th content
+    %th begin_at
+    %th end_at
+    %th thumb
+    %th{:width=>"250"} operation
+
+  - @promos.each do |promo|
+    %tr
+      %td= promo.id
+      %td= promo.name
+      %td= promo.content
+      %td= promo.begin_at
+      %td= promo.end_at
+      %td= image_tag(promo.thumb, :height => "40")
+      %td
+        = link_to 'Show', promo, :target=>"_blank", :class=>"btn btn-small"
+        = link_to 'Show', admin_promo_path(promo), :class=>"btn btn-small btn-warning"
+        = link_to 'Edit', edit_admin_promo_path(promo), :class=>"btn btn-small btn-info"
+        = link_to 'Destroy', admin_promo_path(promo), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+
+

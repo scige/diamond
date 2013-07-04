@@ -15,3 +15,4 @@
 //= require bootstrap
 //= require home
 //= require admin/shops
+//= require admin/promos

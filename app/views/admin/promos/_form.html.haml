@@ -1,0 +1,34 @@
+= form_for [:admin, @promo], :html => {:class=>"form-horizontal"} do |f|
+  - if @promo.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@promo.errors.count, "error")} prohibited this promo from being saved:"
+      %ul
+        - @promo.errors.full_messages.each do |msg|
+          %li= msg
+
+  .control-group
+    = f.label :name, :class=>"control-label"
+    .controls
+      = f.text_field :name, :class=>"input-xxlarge"
+  .control-group
+    = f.label :content, :class=>"control-label"
+    .controls
+      = f.text_field :content, :class=>"input-xxlarge"
+  .control-group
+    = f.label :begin_at, :class=>"control-label"
+    .controls
+      = f.text_field :begin_at, :class=>"input-xxlarge"
+  .control-group
+    = f.label :end_at, :class=>"control-label"
+    .controls
+      = f.text_field :end_at, :class=>"input-xxlarge"
+  .control-group
+    = f.label :thumb, :class=>"control-label"
+    .controls
+      = f.text_field :thumb, :class=>"input-xxlarge"
+
+  .control-group
+    .controls
+      = f.submit :class=>"btn btn-success"
+      = link_to 'Back', admin_promos_path, :class=>"btn"
+

@@ -21,7 +21,7 @@ class Admin::ShopsController < ApplicationController
     @shop = Shop.new(params[:shop])
 
     if @shop.save
-      redirect_to @shop, notice: 'Shop was successfully created.'
+      redirect_to admin_shop_url(@shop)
     else
       render action: "new"
     end
@@ -31,7 +31,7 @@ class Admin::ShopsController < ApplicationController
     @shop = Shop.find(params[:id])
 
     if @shop.update_attributes(params[:shop])
-      redirect_to @shop, notice: 'Shop was successfully updated.'
+      redirect_to admin_shop_url(@shop)
     else
       render action: "edit"
     end

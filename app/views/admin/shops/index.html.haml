@@ -33,6 +33,6 @@
         = link_to 'Show', shop, :target=>"_blank", :class=>"btn btn-small"
         = link_to 'Show', admin_shop_path(shop), :class=>"btn btn-small btn-warning"
         = link_to 'Edit', edit_admin_shop_path(shop), :class=>"btn btn-small btn-info"
-        = link_to 'Destroy', shop, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+        = link_to 'Destroy', admin_shop_path(shop), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
 
 
