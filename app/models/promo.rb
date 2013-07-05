@@ -21,4 +21,6 @@ class Promo < ActiveRecord::Base
   attr_accessible :begin_at
   attr_accessible :end_at
   attr_accessible :thumb
+
+  validates_presence_of :name, :begin_at, :end_at
 end

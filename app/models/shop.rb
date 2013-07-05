@@ -53,4 +53,6 @@ class Shop < ActiveRecord::Base
   attr_accessible :hours
   attr_accessible :atmosphere
   attr_accessible :characteristics
+
+  validates_presence_of :name, :latitude, :longitude, :address
 end

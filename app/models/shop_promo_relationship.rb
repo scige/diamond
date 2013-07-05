@@ -15,4 +15,11 @@ class ShopPromoRelationship < ActiveRecord::Base
 
   attr_accessible :shop_id
   attr_accessible :promo_id
+
+  validates :shop_id,  :presence => true,
+                       :numericality => {:only_integer => true}
+  validates :promo_id, :presence => true,
+                       :numericality => {:only_integer => true}
+
+  validates :shop_id,  :uniqueness => {:scope => :promo_id}
 end
