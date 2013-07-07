@@ -7,6 +7,10 @@ defaults: &defaults
     status_off_shelf: 0
     status_on_shelf: 1
 
+  coupon:
+    status_unused: 0
+    status_used: 1
+
   weixin_user:
     status_unsubscribe: 0
     status_subscribe: 1

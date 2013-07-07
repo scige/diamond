@@ -56,5 +56,11 @@ class Shop < ActiveRecord::Base
   attr_accessible :atmosphere
   attr_accessible :characteristics
 
-  validates_presence_of :name, :latitude, :longitude, :address
+  validates :status,    :presence => true,
+                        :numericality => {:only_integer => true}
+  validates :name,      :presence => true,
+                        :uniqueness => {:case_sensitive => false}
+  validates :latitude,  :presence => true
+  validates :longitude, :presence => true
+  validates :address,   :presence => true
 end

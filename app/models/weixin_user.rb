@@ -24,6 +24,8 @@
 #
 
 class WeixinUser < ActiveRecord::Base
+  has_many :coupons
+
   attr_accessible :status
   attr_accessible :open_id
   attr_accessible :fake_id
@@ -43,5 +45,8 @@ class WeixinUser < ActiveRecord::Base
   attr_accessible :birthyear
   attr_accessible :thumb
 
-  validates_presence_of :open_id
+  validates :status,  :presence => true,
+                      :numericality => {:only_integer => true}
+  validates :open_id, :presence => true,
+                      :uniqueness => {:case_sensitive => true}
 end

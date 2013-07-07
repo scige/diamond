@@ -11,7 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130707083840) do
+ActiveRecord::Schema.define(:version => 20130707124035) do
+
+  create_table "coupons", :force => true do |t|
+    t.integer  "status",         :default => 0
+    t.string   "code"
+    t.integer  "promo_id"
+    t.integer  "weixin_user_id"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+  end
+
+  add_index "coupons", ["code"], :name => "index_coupons_on_code"
+  add_index "coupons", ["promo_id"], :name => "index_coupons_on_promo_id"
+  add_index "coupons", ["weixin_user_id"], :name => "index_coupons_on_weixin_user_id"
 
   create_table "promos", :force => true do |t|
     t.string   "name"

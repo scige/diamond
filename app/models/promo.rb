@@ -14,6 +14,7 @@
 #
 
 class Promo < ActiveRecord::Base
+  has_many :coupons
   has_many :shop_promo_relationships
   has_many :shops, :through => :shop_promo_relationships
 
@@ -24,5 +25,10 @@ class Promo < ActiveRecord::Base
   attr_accessible :end_at
   attr_accessible :thumb
 
-  validates_presence_of :name, :begin_at, :end_at
+  validates :status,   :presence => true,
+                       :numericality => {:only_integer => true}
+  validates :name,     :presence => true,
+                       :uniqueness => {:case_sensitive => false}
+  validates :begin_at, :presence => true
+  validates :end_at,   :presence => true
 end
