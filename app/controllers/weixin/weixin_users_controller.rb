@@ -1,5 +1,5 @@
 class Weixin::WeixinUsersController < Weixin::ApplicationController
-  before_filter :sync_weixin_user_status, :only => [:subscirbe]
+  before_filter :sync_weixin_user_status, :only => [:subscribe]
 
   def subscribe
     render "subscribe"
@@ -16,5 +16,7 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
         #更新失败需要记录一条错误日志
       end
     end
+
+    render :text => ""
   end
 end
