@@ -1,4 +1,4 @@
-class Weixin::ShopsController < ApplicationController
+class Weixin::ShopsController < Weixin::ApplicationController
   def index
     content = params[:xml][:Content][1..-1]
     @shops = Shop.where("name like '%s'" % "%#{content}%").limit(3)
