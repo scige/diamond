@@ -20,9 +20,11 @@
 #  thumb       :string(255)
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  status      :integer          default(0)
 #
 
 class WeixinUser < ActiveRecord::Base
+  attr_accessible :status
   attr_accessible :open_id
   attr_accessible :fake_id
   attr_accessible :user_name

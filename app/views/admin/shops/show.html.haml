@@ -2,6 +2,10 @@
 
 = form_for [:admin, @shop], :html => {:class=>"form-horizontal"} do |f|
   .control-group
+    = f.label :status, :class=>"control-label"
+    .controls
+      = f.text_field :status, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
     = f.label :rank, :class=>"control-label"
     .controls
       = f.text_field :rank, :class=>"input-xxlarge", :disabled=>"disabled"

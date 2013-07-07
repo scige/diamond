@@ -26,12 +26,14 @@
 #  characteristics      :string(255)
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
+#  status               :integer          default(0)
 #
 
 class Shop < ActiveRecord::Base
   has_many :shop_promo_relationships
   has_many :promos, :through => :shop_promo_relationships
 
+  attr_accessible :status
   attr_accessible :rank
   attr_accessible :shop_id
   attr_accessible :name

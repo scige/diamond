@@ -1,0 +1,21 @@
+defaults: &defaults
+  shop:
+    status_off_shelf: 0
+    status_on_shelf: 1
+
+  promo:
+    status_off_shelf: 0
+    status_on_shelf: 1
+
+  weixin_user:
+    status_unsubscribe: 0
+    status_subscribe: 1
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

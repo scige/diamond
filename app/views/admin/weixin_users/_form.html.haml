@@ -7,6 +7,10 @@
           %li= msg
 
   .control-group
+    = f.label :status, :class=>"control-label"
+    .controls
+      = f.text_field :status, :class=>"input-xxlarge"
+  .control-group
     = f.label :open_id, :class=>"control-label"
     .controls
       = f.text_field :open_id, :class=>"input-xxlarge"

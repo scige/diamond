@@ -8,6 +8,7 @@
 %table.table.table-striped
   %tr
     %th id
+    %th status
     %th open_id
     %th fake_id
     %th user_name
@@ -20,6 +21,7 @@
   - @weixin_users.each do |weixin_user|
     %tr
       %td= weixin_user.id
+      %td= weixin_user.status
       %td= weixin_user.open_id
       %td= weixin_user.fake_id
       %td= weixin_user.user_name

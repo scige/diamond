@@ -8,6 +8,7 @@
 %table.table.table-striped
   %tr
     %th id
+    %th status
     %th name
     %th content
     %th begin_at
@@ -18,6 +19,7 @@
   - @promos.each do |promo|
     %tr
       %td= promo.id
+      %td= promo.status
       %td= promo.name
       %td= promo.content
       %td= promo.begin_at

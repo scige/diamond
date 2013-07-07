@@ -8,6 +8,7 @@
 %table.table.table-striped
   %tr
     %th id
+    %th status
     %th shop_id
     %th name
     %th navigation
@@ -21,6 +22,7 @@
   - @shops.each do |shop|
     %tr
       %td= shop.id
+      %td= shop.status
       %td= shop.shop_id
       %td= shop.name
       %td= shop.navigation
