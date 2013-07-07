@@ -1,4 +1,6 @@
 class Weixin::ShopsController < Weixin::ApplicationController
+  before_filter :sync_weixin_user_status
+
   def index
     content = params[:xml][:Content][1..-1]
     @shops = Shop.where("name like '%s'" % "%#{content}%").limit(3)

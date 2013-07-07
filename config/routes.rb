@@ -22,6 +22,10 @@ Diamond::Application.routes.draw do
   scope :path => "/weixin", :via => :post, :defaults => {:format => 'xml'} do
     #root :to => 'weixin/home#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' }
 
+    root :to => 'weixin/weixin_users#subscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Content] == "subscribe" }
+
+    root :to => 'weixin/weixin_users#unsubscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Content] == "unsubscribe" }
+
     root :to => 'weixin/shops#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content].start_with?('@') }
   end
 
