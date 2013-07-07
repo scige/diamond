@@ -20,10 +20,10 @@ Diamond::Application.routes.draw do
   end
 
   scope :path => "/weixin", :via => :post, :defaults => {:format => 'xml'} do
-    root :to => 'weixin/home#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' }
+    #root :to => 'weixin/home#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' }
 
     root :to => 'weixin/shops#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content].start_with?('@') }
   end
 
-  get "/weixin" => "weixin/home#show"
+  get "/weixin" => "weixin/home#index"
 end
