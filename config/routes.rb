@@ -17,5 +17,7 @@ Diamond::Application.routes.draw do
     resources :promos
 
     resources :shop_promo_relationships
+
+    resources :weixin_users
   end
 end

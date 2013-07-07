@@ -1,0 +1,37 @@
+.row
+  .span3
+    %h2 List users
+  .offset7.span2
+    .new-shop-button
+      = link_to 'New User', new_admin_weixin_user_path, :class=>"btn btn-primary"
+
+%table.table.table-striped
+  %tr
+    %th id
+    %th open_id
+    %th fake_id
+    %th user_name
+    %th nick_name
+    %th group_id
+    %th city
+    %th thumb
+    %th{:width=>"250"} operation
+
+  - @weixin_users.each do |weixin_user|
+    %tr
+      %td= weixin_user.id
+      %td= weixin_user.open_id
+      %td= weixin_user.fake_id
+      %td= weixin_user.user_name
+      %td= weixin_user.nick_name
+      %td= weixin_user.group_id
+      %td= weixin_user.city
+      - if weixin_user.thumb and !weixin_user.thumb.empty?
+        %td= image_tag(weixin_user.thumb, :height => "40")
+      - else
+        %td
+      %td
+        = link_to 'Show', admin_weixin_user_path(weixin_user), :class=>"btn btn-small btn-warning"
+        = link_to 'Edit', edit_admin_weixin_user_path(weixin_user), :class=>"btn btn-small btn-info"
+        = link_to 'Destroy', admin_weixin_user_path(weixin_user), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+
