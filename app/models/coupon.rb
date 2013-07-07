@@ -18,6 +18,10 @@ class Coupon < ActiveRecord::Base
   attr_accessible :status
   attr_accessible :code
 
+  # maybe dangerous?
+  attr_accessible :promo_id
+  attr_accessible :weixin_user_id
+
   validates :status, :presence => true,
                      :numericality => {:only_integer => true}
   validates :code,   :presence => true,

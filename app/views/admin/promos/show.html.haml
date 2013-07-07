@@ -27,7 +27,7 @@
       = f.text_field :thumb, :class=>"input-xxlarge", :disabled=>"disabled"
 
   .control-group
-    = f.label "商家", :class=>"control-label"
+    = f.label "商家信息", :class=>"control-label"
     .controls
       - @promo.shops.each do |shop|
         %p= link_to shop.name, admin_shop_path(shop), :target=>"_blank", :class=>"btn btn-danger"

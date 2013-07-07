@@ -1,0 +1,30 @@
+= form_for [:admin, @coupon], :html => {:class=>"form-horizontal"} do |f|
+  - if @coupon.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@coupon.errors.count, "error")} prohibited this coupon from being saved:"
+      %ul
+        - @coupon.errors.full_messages.each do |msg|
+          %li= msg
+
+  .control-group
+    = f.label :status, :class=>"control-label"
+    .controls
+      = f.text_field :status, :class=>"input-xxlarge"
+  .control-group
+    = f.label :code, :class=>"control-label"
+    .controls
+      = f.text_field :code, :class=>"input-xxlarge"
+  .control-group
+    = f.label :promo_id, :class=>"control-label"
+    .controls
+      = f.text_field :promo_id, :class=>"input-xxlarge"
+  .control-group
+    = f.label :weixin_user_id, :class=>"control-label"
+    .controls
+      = f.text_field :weixin_user_id, :class=>"input-xxlarge"
+
+  .control-group
+    .controls
+      = f.submit :class=>"btn btn-success"
+      = link_to 'Back', admin_coupons_path, :class=>"btn"
+

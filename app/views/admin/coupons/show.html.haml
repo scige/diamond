@@ -1,0 +1,26 @@
+%h2 Show coupon
+
+= form_for [:admin, @coupon], :html => {:class=>"form-horizontal"} do |f|
+  .control-group
+    = f.label :status, :class=>"control-label"
+    .controls
+      = f.text_field :status, :class=>"input-xxlarge", :disabled=>"disabled"
+  .control-group
+    = f.label :code, :class=>"control-label"
+    .controls
+      = f.text_field :code, :class=>"input-xxlarge", :disabled=>"disabled"
+
+  .control-group
+    = f.label "打折信息", :class=>"control-label"
+    .controls
+      = link_to @coupon.promo.name, admin_promo_path(@coupon.promo), :target=>"_blank", :class=>"btn btn-danger"
+  .control-group
+    = f.label "用户信息", :class=>"control-label"
+    .controls
+      = link_to @coupon.weixin_user.open_id, admin_weixin_user_path(@coupon.weixin_user), :target=>"_blank", :class=>"btn btn-danger"
+
+  .control-group
+    .controls
+      = link_to 'Edit', edit_admin_coupon_path(@coupon), :class=>"btn btn-info"
+      = link_to 'Back', admin_coupons_path, :class=>"btn"
+

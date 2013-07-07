@@ -1,0 +1,29 @@
+.row
+  .span3
+    %h2 List coupons
+  .offset7.span2
+    .new-shop-button
+      = link_to 'New Coupon', new_admin_coupon_path, :class=>"btn btn-primary"
+
+%table.table.table-striped
+  %tr
+    %th id
+    %th status
+    %th code
+    %th promo_id
+    %th weixin_user_id
+    %th{:width=>"250"} operation
+
+  - @coupons.each do |coupon|
+    %tr
+      %td= coupon.id
+      %td= coupon.status
+      %td= coupon.code
+      %td= coupon.promo_id
+      %td= coupon.weixin_user_id
+      %td
+        = link_to 'Show', admin_coupon_path(coupon), :class=>"btn btn-small btn-warning"
+        = link_to 'Edit', edit_admin_coupon_path(coupon), :class=>"btn btn-small btn-info"
+        = link_to 'Destroy', admin_coupon_path(coupon), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+
+
