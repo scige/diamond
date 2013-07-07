@@ -26,7 +26,7 @@
 class WeixinUser < ActiveRecord::Base
   has_many :coupons
 
-  before_create :compute_guid
+  before_validation :compute_guid
 
   attr_accessible :status
   attr_accessible :guid

@@ -29,7 +29,7 @@ class Admin::PromosController < ApplicationController
         ShopPromoRelationship.create!(:shop_id=>shop_id, :promo_id=>@promo.id)
       end
     else
-      render action: "new"
+      redirect_to new_admin_promo_url
     end
   end
 
@@ -42,7 +42,7 @@ class Admin::PromosController < ApplicationController
       end
       redirect_to admin_promo_url(@promo)
     else
-      render action: "edit"
+      redirect_to edit_admin_promo_url(@promo)
     end
   end
 

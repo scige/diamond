@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class CouponsController < ApplicationController
   layout "application_mobile"
 
