@@ -3,8 +3,6 @@ Diamond::Application.routes.draw do
 
   devise_for :supers
 
-  resources :weixins
-
   resources :shops
 
   resources :promos
@@ -20,4 +18,12 @@ Diamond::Application.routes.draw do
 
     resources :weixin_users
   end
+
+  scope :path => "/weixin", :via => :post, :defaults => {:format => 'xml'} do
+    root :to => 'weixin/home#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' }
+
+    root :to => 'weixin/shops#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content].start_with?('@') }
+  end
+
+  get "/weixin" => "weixin/home#show"
 end
