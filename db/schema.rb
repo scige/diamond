@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130707124035) do
+ActiveRecord::Schema.define(:version => 20130707141526) do
 
   create_table "coupons", :force => true do |t|
     t.integer  "status",         :default => 0
@@ -108,6 +108,9 @@ ActiveRecord::Schema.define(:version => 20130707124035) do
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
     t.integer  "status",      :default => 0
+    t.string   "guid"
   end
+
+  add_index "weixin_users", ["guid"], :name => "index_weixin_users_on_guid"
 
 end

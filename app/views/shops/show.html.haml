@@ -16,7 +16,7 @@
     - if @shop.promos.size > 0
       %p 优惠券：
       - @shop.promos.each do |promo|
-        %p= link_to promo.name, promo_path(promo)
+        %p= link_to promo.name, promo_path(promo, :spm=>@guid)
       %br
 
     %p= "人均：¥#{@shop.avg_price}"

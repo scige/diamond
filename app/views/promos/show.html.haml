@@ -13,4 +13,6 @@
     %p= @promo.content
     %br
     %p= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
+    %br
+    %p= link_to "发送到手机", coupons_path(:spm=>@guid), :method => :post
 

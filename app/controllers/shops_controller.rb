@@ -3,5 +3,6 @@ class ShopsController < ApplicationController
 
   def show
     @shop = Shop.find_by_id(params[:id])
+    @guid = params[:spm]
   end
 end

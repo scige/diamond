@@ -3,5 +3,6 @@ class PromosController < ApplicationController
 
   def show
     @promo = Promo.find_by_id(params[:id])
+    @guid = params[:spm]
   end
 end

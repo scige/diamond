@@ -26,7 +26,10 @@
 class WeixinUser < ActiveRecord::Base
   has_many :coupons
 
+  before_create :compute_guid
+
   attr_accessible :status
+  attr_accessible :guid
   attr_accessible :open_id
   attr_accessible :fake_id
   attr_accessible :user_name
@@ -47,6 +50,12 @@ class WeixinUser < ActiveRecord::Base
 
   validates :status,  :presence => true,
                       :numericality => {:only_integer => true}
+  validates :guid,    :presence => true,
+                      :uniqueness => {:case_sensitive => true}
   validates :open_id, :presence => true,
                       :uniqueness => {:case_sensitive => true}
+
+  def compute_guid
+    self.guid = Digest::SHA1.hexdigest(self.open_id)
+  end
 end

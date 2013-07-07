@@ -7,6 +7,8 @@ Diamond::Application.routes.draw do
 
   resources :promos
 
+  resources :coupons
+
   namespace :admin do
     resources :shops do
       get :map, :on => :collection
