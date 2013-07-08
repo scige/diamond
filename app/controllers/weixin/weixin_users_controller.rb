@@ -11,6 +11,7 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
       @weixin_user = WeixinUser.create(:status=>Setting.weixin_user.status_unsubscribe, :open_id=>params[:xml][:FromUserName])
       if !@weixin_user
         #创建失败需要记录一条错误日志
+        #create的返回值可能永远都不是nil
       end
     else
       if !@weixin_user.update_attributes(:status=>Setting.weixin_user.status_unsubscribe)

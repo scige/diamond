@@ -13,6 +13,17 @@
     %p= @promo.content
     %br
     %p= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
-    %br
-    %p= link_to "发送到手机", coupons_path(:spm=>@guid), :method => :post
+
+  %br
+  %p 发送到手机
+  = form_tag coupons_path(:spm=>@guid) do |f|
+    %p
+      = hidden_field_tag :shop_id, @shop_id
+      = hidden_field_tag :promo_id, @promo.id
+    %p
+      = label_tag :mobile, "手机"
+      = text_field_tag :mobile, @weixin_user ? @weixin_user.mobile : ""
+    %p
+      = submit_tag "确定"
+      %input#cancel{:type=>"button", :value=>"取消", :name=>"cancel"}
 
