@@ -9,6 +9,7 @@
 #  weixin_user_id :integer
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
+#  shop_id        :integer
 #
 
 require 'spec_helper'

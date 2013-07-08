@@ -11,6 +11,10 @@
       = f.text_field :code, :class=>"input-xxlarge", :disabled=>"disabled"
 
   .control-group
+    = f.label "商家信息", :class=>"control-label"
+    .controls
+      = link_to @coupon.shop.name, admin_promo_path(@coupon.shop), :target=>"_blank", :class=>"btn btn-danger"
+  .control-group
     = f.label "打折信息", :class=>"control-label"
     .controls
       = link_to @coupon.promo.name, admin_promo_path(@coupon.promo), :target=>"_blank", :class=>"btn btn-danger"

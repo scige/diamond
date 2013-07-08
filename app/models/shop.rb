@@ -30,6 +30,7 @@
 #
 
 class Shop < ActiveRecord::Base
+  has_many :coupons
   has_many :shop_promo_relationships
   has_many :promos, :through => :shop_promo_relationships
 

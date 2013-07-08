@@ -21,6 +21,7 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  status      :integer          default(0)
+#  guid        :string(255)
 #
 
 class WeixinUser < ActiveRecord::Base
