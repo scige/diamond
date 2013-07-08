@@ -821,7 +821,7 @@
   characteristics: 可送外卖
 - rank: 51
   shop_id: 2883286
-  name: 庄稼院
+  name: 庄稼院(总店)
   navigation: 东北菜
   poi: HVDVIWZBAEAEGST
   latitude: 43.84102
@@ -1367,7 +1367,7 @@
   characteristics: ''
 - rank: 85
   shop_id: 4733036
-  name: 牛巴店
+  name: 牛巴店(中东店)
   navigation: 船营区 西餐
   poi: HVCEGUZBAEAAEIA
   latitude: 43.86908
@@ -1682,7 +1682,7 @@
   characteristics: 无线上网
 - rank: 107
   shop_id: 3933679
-  name: 一品面
+  name: 一品面(河南街店)
   navigation: 小吃面食
   poi: HVDHWUZBAEABGAE
   latitude: 43.84546
@@ -3278,7 +3278,7 @@
   characteristics: ''
 - rank: 213
   shop_id: 4216846
-  name: 一品面
+  name: 一品面(东市场店)
   navigation: 小吃面食
   poi: HTEEFWZBACDHIRU
   latitude: 43.89902
@@ -3950,7 +3950,7 @@
   characteristics: ''
 - rank: 260
   shop_id: 4200451
-  name: 大连海鲜坊
+  name: 大连海鲜坊(珲春街店)
   navigation: 船营区 咖啡厅
   poi: HVDEWTZBAEADGDM
   latitude: 43.85192
@@ -4219,27 +4219,6 @@
   alias: City1+1Pizza
   description: ''
   hours: 9:00-17:30
-  atmosphere: ''
-  characteristics: ''
-- rank: 277
-  shop_id: 8822403
-  name: 彩福轩
-  navigation: 丰满区 川菜
-  poi: 
-  latitude: 0.0059
-  longitude: 0.0015
-  thumb: /uploads/shops/thumbs/thumb_8822403.jpg
-  star: 0
-  avg_price: 0
-  product_rating: 0
-  environment_rating: 0
-  service_rating: 0
-  address: 解放大陆欧亚商都东走100米
-  phone: 0432-64788666
-  recommended_products: ''
-  alias: ''
-  description: ''
-  hours: 每天8:00--24:00
   atmosphere: ''
   characteristics: ''
 - rank: 278
@@ -5505,7 +5484,7 @@
 - rank: 360
   shop_id: 5542189
   name: 樱花朝族牛排火锅店
-  navigation: 丰满区 韩国
+  navigation: 丰满区 火锅
   poi: HVEDEAZBADWJGAF
   latitude: 43.82081
   longitude: 126.56323
@@ -5693,7 +5672,7 @@
   characteristics: ''
 - rank: 373
   shop_id: 5841439
-  name: 大连海鲜坊
+  name: 大连海鲜坊(通潭店)
   navigation: 自助餐
   poi: HVDFABZBAECBBJT
   latitude: 43.88996
@@ -5706,27 +5685,6 @@
   service_rating: 0
   address: 通潭东区南侧
   phone: 0432-66395000
-  recommended_products: ''
-  alias: ''
-  description: ''
-  hours: 尚无营业时间
-  atmosphere: ''
-  characteristics: ''
-- rank: 376
-  shop_id: 5899757
-  name: 樱花朝族牛排火锅店
-  navigation: 丰满区 火锅
-  poi: HVEDDWZBADWJGAE
-  latitude: 43.82081
-  longitude: 126.56323
-  thumb: /uploads/shops/thumbs/thumb_5899757.jpg
-  star: 0
-  avg_price: 0
-  product_rating: 0
-  environment_rating: 0
-  service_rating: 0
-  address: 丰满区厦门街(近吉林银行)
-  phone: ''
   recommended_products: ''
   alias: ''
   description: ''
@@ -6533,7 +6491,7 @@
   characteristics: ''
 - rank: 434
   shop_id: 8969707
-  name: 牛巴店
+  name: 牛巴店(江南店)
   navigation: 船营区 西餐
   poi: HVDHIJZBADWWHVA
   latitude: 43.84361
@@ -7541,7 +7499,7 @@
   characteristics: ''
 - rank: 505
   shop_id: 5125520
-  name: 天翔特味饺子馆
+  name: 天翔特味饺子馆(二店)
   navigation: 龙潭区 小吃面食
   poi: HVBWUAZBAECBUWE
   latitude: 43.918
@@ -7562,7 +7520,7 @@
   characteristics: ''
 - rank: 507
   shop_id: 5137208
-  name: 台湾手抓饼
+  name: 台湾手抓饼(二店)
   navigation: 昌邑区 小吃面食
   poi: HUJGHFZBADVTGGM
   latitude: 44.02541
@@ -8045,7 +8003,7 @@
   characteristics: ''
 - rank: 545
   shop_id: 5704852
-  name: 庄稼院
+  name: 庄稼院(厦门街店)
   navigation: 船营区 东北菜
   poi: HVECIVZBADWIWJQ
   latitude: 43.82124
@@ -8101,27 +8059,6 @@
   address: 雾凇东路(近解放北路)
   phone: ''
   recommended_products: ''
-  alias: ''
-  description: ''
-  hours: 尚无营业时间
-  atmosphere: ''
-  characteristics: ''
-- rank: 550
-  shop_id: 5798114
-  name: 乐乐小吃
-  navigation: 小吃面食
-  poi: HVDIFVZBAEABRUG
-  latitude: 43.84537
-  longitude: 126.55992
-  thumb: /uploads/shops/thumbs/thumb_no_photo.jpg
-  star: 0
-  avg_price: 0
-  product_rating: 0
-  environment_rating: 0
-  service_rating: 0
-  address: 北京路111-3号附近
-  phone: ''
-  recommended_products: 红烧肉
   alias: ''
   description: ''
   hours: 尚无营业时间
@@ -9448,27 +9385,6 @@
   alias: City1+1Pizza
   description: ''
   hours: 9：00--15：00
-  atmosphere: ''
-  characteristics: ''
-- rank: 655
-  shop_id: 5382621
-  name: 天府水煮鱼
-  navigation: 昌邑区 川菜
-  poi: HTEFAGZBACCUSUY
-  latitude: 43.88566
-  longitude: 125.32171
-  thumb: /uploads/shops/thumbs/thumb_no_photo.jpg
-  star: 0
-  avg_price: 0
-  product_rating: 0
-  environment_rating: 0
-  service_rating: 0
-  address: 解放大路(近大唐时代)
-  phone: ''
-  recommended_products: ''
-  alias: ''
-  description: ''
-  hours: 尚无营业时间
   atmosphere: ''
   characteristics: ''
 - rank: 658

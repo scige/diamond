@@ -60,7 +60,7 @@ class Shop < ActiveRecord::Base
                         :numericality => {:only_integer => true}
   validates :name,      :presence => true,
                         :uniqueness => {:case_sensitive => false}
-  validates :latitude,  :presence => true
-  validates :longitude, :presence => true
-  validates :address,   :presence => true
+  #validates :latitude,  :presence => true
+  #validates :longitude, :presence => true
+  #validates :address,   :presence => true
 end

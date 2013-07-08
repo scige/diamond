@@ -9,7 +9,11 @@ namespace :db do
     index_end = ENV['index_end'].to_i
     shop_data = YAML.load_file("lib/tasks/jilin_shop.yaml")
     shop_data[index_begin..index_end].each do |item|
-      Shop.create!(item)
+      begin
+        Shop.create!(item)
+      rescue
+        puts item
+      end
     end
   end
 end
