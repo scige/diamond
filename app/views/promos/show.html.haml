@@ -1,21 +1,28 @@
-- provide(:title, @promo.name)
+%section.shop-promo
+  .promo-details
+    %h6= @promo.name
+    - if @promo.thumb and !@promo.thumb.empty?
+      .media#media= image_tag(@promo.thumb)
+    .promo-txt= @promo.content
+    %p.promo-time= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
 
-.page-bizinfo
-  .header
-    %h1#activity-name= @promo.name
-    %p.activity-info
-      %span#post-date.activity-meta.no-extra= Time.now.strftime('%Y-%m-%d')
+  %a{:class=>"icon-btn", :href=>"javascript:;"}
+    发送到手机
+    %i.client
 
-.page-content
-  - if @promo.thumb and !@promo.thumb.empty?
-    .media#media= image_tag(@promo.thumb)
-  .text
-    %p= @promo.content
-    %br
-    %p= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
+  .promo-suit
+    %h6 适用商户
+    .coupon-list.coupon-list-m
+      %ul
+        - @promo.shops.each do |shop|
+          %li
+            %a
+              %p.tit
+                = shop.name
+                %em.tips &lt;100m
+                %p.explai= shop.address
 
   %br
-  %p 发送到手机
   = form_tag coupons_path(:spm=>@guid) do |f|
     %p
       = hidden_field_tag :shop_id, @shop_id

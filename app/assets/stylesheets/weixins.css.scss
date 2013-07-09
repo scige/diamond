@@ -1,3 +1,6 @@
+/****************************
+    global style
+*****************************/
 * {
 	margin:0;
 	padding:0;
@@ -23,8 +26,60 @@ a:hover {
 ul,ol {
 	list-style:none
 }
+em {
+	font-style:normal
+}
 
 
+/****************************
+    icon style
+*****************************/
+.home-search .search-icon,.classify li i,.return-txt,.search-icon,.shop_list li .distance,.icon-address,.icon-call,.address-igroup,.address-inpromo,.address-card,.address-sign,.address-vip,.mycomm-frame .comm-star,.mycomm-frame .star-cur,.photo-list li .pic,.coupon-clip .clip-shop,.stick,.pop-close .close,.fruitless .icon-fruit,.head-collect,.head-comm,.igroup,.inpromo,.icard,.isign,.ivip,.head-already,.head-err,.irevise,.bar .pic,.bar .bar-str,.bar-box .bar-close,.scroll-top,.add-icon {
+	background-image:url(/assets/sprite.4a6ee9ab009bab0d424035b90855a3b6.png);
+	background-repeat:no-repeat;
+	background-size:250px auto
+}
+.icon-address,.icon-call,.address-igroup,.address-inpromo,.address-card,.address-sign,.address-vip {
+	width:21px;
+	height:27px;
+	position:absolute;
+	top:14px;
+	left:10px;
+	background-position:0 -170px;
+	background-size:220px auto
+}
+.icon-call {
+	background-position:-22px -170px
+}
+.shop-lay .shop-nearby .nearby-up,.shop-lay .shop-nearby .nearby-down,.arrow-ent {
+	width:8px;
+	height:8px;
+	position:absolute;
+	top:22px;
+	border-right:2px solid #bab5ad;
+	border-bottom:2px solid #bab5ad;
+	right:10px;
+	cursor:pointer;
+	-webkit-transform:rotate(-135deg);
+	-moz-transform:rotate(-135deg)
+}
+.arrow-ent {
+	right:15px;
+	top:20px;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg)
+}
+.address-igroup,.address-inpromo,.address-card,.address-sign,.address-vip {
+  background-size:250px auto
+}
+.address-inpromo {
+	background-position:-22px -299px
+}
+
+
+/****************************
+    shop/show style
+*****************************/
 section {
 	padding:10px;
 	overflow:hidden;
@@ -218,44 +273,103 @@ section {
 }
 
 
-.home-search .search-icon,.classify li i,.return-txt,.search-icon,.shop_list li .distance,.icon-address,.icon-call,.address-igroup,.address-inpromo,.address-card,.address-sign,.address-vip,.mycomm-frame .comm-star,.mycomm-frame .star-cur,.photo-list li .pic,.coupon-clip .clip-shop,.stick,.pop-close .close,.fruitless .icon-fruit,.head-collect,.head-comm,.igroup,.inpromo,.icard,.isign,.ivip,.head-already,.head-err,.irevise,.bar .pic,.bar .bar-str,.bar-box .bar-close,.scroll-top,.add-icon {
-	background-image:url(/assets/sprite.4a6ee9ab009bab0d424035b90855a3b6.png);
-	background-repeat:no-repeat;
-	background-size:250px auto
+/****************************
+    promo/show style
+*****************************/
+.shop-promo {
+	border-top:0
 }
-.icon-address,.icon-call,.address-igroup,.address-inpromo,.address-card,.address-sign,.address-vip {
-	width:21px;
-	height:27px;
+.promo-details h6 {
+	font-size:18px;
+	padding:6px 0;
+	color:#696969;
+	font-weight:normal
+}
+.promo-details .promo-txt {
+	line-height:25px;
+	padding-bottom:5px;
+	color:#696969;
+	font-size:14px
+}
+.promo-details .promo-time {
+	color:#9d9992;
+	padding-bottom:20px;
+	font-size:14px;
+	color:#9d9992
+}
+.coupon-list {
+	margin:0 -10px
+}
+.coupon-list-m {
+	margin:0
+}
+.coupon-list li a {
+	padding:10px;
+	border-bottom:1px solid #ededed;
+	font-size:14px;
+	display:block
+}
+.coupon-list li .tit {
+	position:relative;
+	padding-bottom:10px;
+	font-size:18px;
+	color:#696969
+}
+.coupon-list li .tit .tips {
 	position:absolute;
-	top:14px;
-	left:10px;
-	background-position:0 -170px;
-	background-size:220px auto
+	right:0;
+	top:0;
+	font-size:14px;
+	color:#9d9992
 }
-.icon-call {
-	background-position:-22px -170px
+.coupon-list li .explai {
+	color:#9d9992
 }
-.shop-lay .shop-nearby .nearby-up,.shop-lay .shop-nearby .nearby-down,.arrow-ent {
-	width:8px;
-	height:8px;
-	position:absolute;
-	top:22px;
-	border-right:2px solid #bab5ad;
-	border-bottom:2px solid #bab5ad;
-	right:10px;
-	cursor:pointer;
-	-webkit-transform:rotate(-135deg);
-	-moz-transform:rotate(-135deg)
+.coupon-list li .explai-info {
+	color:#f15009
 }
-.arrow-ent {
-	right:15px;
-	top:20px;
-	-webkit-transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg)
+.coupon-list li .explai-info .time {
+	float:right;
+	color:#9d9992
 }
-.address-igroup,.address-inpromo,.address-card,.address-sign,.address-vip {
-  background-size:250px auto
+.promo-suit {
+	padding-top:20px
 }
-.address-inpromo {
-	background-position:-22px -299px
+.promo-suit h6 {
+	color:#696969;
+	font-size:14px;
+	padding-bottom:5px
 }
+.promo-suit .coupon-list {
+	border:1px solid #ededed;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	overflow:hidden;
+	zoom:1;
+	background:#f9f9f9
+}
+.promo-suit .coupon-list li {
+	margin-top:-1px
+}
+.promo-suit .coupon-list li .tit a,.promo-suit .coupon-list li .tit a:visited,.my-home .home-fun li a:visited,.my-comm .tit a:visited {
+	color:#323232
+}
+.icon-btn {
+	display:block;
+	color:#6c6c6c;
+	padding:10px 0;
+	text-align:center;
+	font-size:14px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#ddd #cdcdcd #c0c0c0 #cdcdcd;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	background:-moz-linear-gradient(top,#fcfcfc,#f0f0f0);
+	background:-webkit-gradient(linear,0 0,0 100%,from(#fcfcfc),to(#f0f0f0));
+	-moz-box-shadow:0 1px 1px 0 white inset;
+	-webkit-box-shadow:0 1px 1px 0 white inset;
+	box-shadow:0 1px 1px 0 white inset
+}
+
