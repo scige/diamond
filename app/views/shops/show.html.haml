@@ -1,28 +1,51 @@
-- provide(:title, @shop.name)
+%section.shop-details
+  .details-mode.shop-info
+    .shop-name
+      %h1= @shop.name
+    .pic-txt
+      .pic
+        %a{:href=>@shop.thumb}
+          = image_tag(@shop.thumb)
+      %p
+        %span.item-rank-rst{:class=>"irr-star#{@shop.star}"}
+      %p= "人均:¥#{@shop.avg_price}"
+      .desc
+        %span= "口味:#{@shop.product_rating}"
+        %span= "环境:#{@shop.environment_rating}"
+        %span= "服务:#{@shop.service_rating}"
 
-.page-bizinfo
-  .header
-    %h1#activity-name= @shop.name
-    %p.activity-info
-      %span#post-date.activity-meta.no-extra= Time.now.strftime('%Y-%m-%d')
+  .details-mode.info-address
+    .info-list
+      %ul
+        %li
+          %a{:href=>"javascript:window.location.href='/shop/7992674/map'"}
+            %i.icon-address
+            = @shop.address
+            %i.arrow-ent
+        %li
+          %a{:href=>"tel:#{@shop.phone}"}
+            %i.icon-call
+            = @shop.phone
+            %i.arrow-ent
 
-.page-content
-  .media#media= image_tag(@shop.thumb)
-  .text
-    %p= "地址：#{@shop.address}"
-    %p= "电话：#{@shop.phone}"
-    %br
+  .details-mode.promo-info
+    .info-list
+      %ul
+        - @shop.promos.each do |promo|
+          %li
+            %a{:href=>promo_path(promo, :shop_id=>@shop.id, :spm=>@guid)}
+              %i.address-inpromo
+              = promo.name
+              %i.arrow-ent
 
-    - if @shop.promos.size > 0
-      %p 优惠券：
-      - @shop.promos.each do |promo|
-        %p= link_to promo.name, promo_path(promo, :shop_id=>@shop.id, :spm=>@guid)
-      %br
-
-    %p= "人均：¥#{@shop.avg_price}"
-    %p= "口味：#{@shop.product_rating}  环境：#{@shop.environment_rating}  服务：#{@shop.service_rating}"
-    %br
-
-    %p 推荐菜：
-    %p= "#{@shop.recommended_products}"
+  .modebox.top-dishes
+    .hd
+      %h6 推荐菜
+    - @recommended_products.each do |group|
+      .dp-3gcon-index
+        - group.each do |p|
+          .dish
+            %a
+              = p
+            .sx
 
