@@ -37,8 +37,16 @@ class Admin::PromosController < ApplicationController
     @promo = Promo.find(params[:id])
 
     if @promo.update_attributes(params[:promo])
-      params[:shops].each do |shop_id|
-        ShopPromoRelationship.create!(:shop_id=>shop_id, :promo_id=>@promo.id)
+      @promo.shops.each do |shop|
+        relations = ShopPromoRelationship.where(:shop_id=>shop.id, :promo_id=>@promo.id)
+        relations.each do |relation|
+          relation.destroy
+        end
+      end
+      if params[:shops]
+        params[:shops].each do |shop_id|
+          ShopPromoRelationship.create!(:shop_id=>shop_id, :promo_id=>@promo.id)
+        end
       end
       redirect_to admin_promo_url(@promo)
     else
