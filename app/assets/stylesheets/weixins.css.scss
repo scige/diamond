@@ -373,3 +373,67 @@ section {
 	box-shadow:0 1px 1px 0 white inset
 }
 
+/****************************
+    pop-main style
+*****************************/
+.pop-main {
+  position: absolute;
+  opacity: 1;
+  top: 63.5px;
+  left: 580px;
+  display:none;
+}
+.pop-con {
+  background-color: rgba(23, 23, 23, 0.9);
+  text-align: center;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+.pop-con .warn {
+  color: white;
+  padding: 0;
+  font-size: 13px;
+  text-shadow: 0 1px 1px #505050;
+  text-align: left;
+}
+.inp-stor {
+  border: 1px solid #BBB;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 25px;
+  margin-top: 10px;
+  padding: 0 5px;
+}
+textarea, input {
+  resize: none;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-appearance: none;
+}
+.msg-holder {
+  color: #FC7708;
+  line-height: 20px;
+}
+.pop-btn {
+  margin-top: 5px;
+  text-align: center;
+}
+.pop-btn input {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  color: #444;
+  font-size: 14px;
+  border: 0;
+  border-radius: 2px;
+  margin: 10px 5px 0;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#EEE),color-stop(100%,#999));
+}
+input {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+

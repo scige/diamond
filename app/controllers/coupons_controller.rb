@@ -6,25 +6,25 @@ class CouponsController < ApplicationController
   def create
     shop = Shop.find(params[:shop_id])
     if !shop
-      render :text => "商家不存在。"
+      #render :text => "商家不存在。"
       return
     end
 
     promo = Promo.find(params[:promo_id])
     if !promo
-      render :text => "打折信息不存在。"
+      #render :text => "打折信息不存在。"
       return
     end
 
     weixin_user = WeixinUser.find_by_guid(params[:spm])
     if !weixin_user
-      render :text => "微信用户不存在。"
+      #render :text => "微信用户不存在。"
       return
     end
 
     mobile = params[:mobile]
     if !check_mobile?(mobile)
-      render :text => "您输入的手机号码 [#{mobile}] 有误，请重新输入。"
+      #render :text => "您输入的手机号码 [#{mobile}] 有误，请重新输入。"
       return
     end
 
@@ -41,15 +41,20 @@ class CouponsController < ApplicationController
         if ret_code == "0"
           if mobile != weixin_user.mobile
             if !weixin_user.update_attributes(:mobile=>mobile)
-              #更新失败需要记录一条错误日志
+              #TODO: 更新失败需要记录一条错误日志
             end
           end
-          render :text => "优惠券已经发送到您的手机中！短信可能有延迟，请您耐心等待。"
+          #TODO: 显示发送成功消息，2秒钟后自动消失
+          respond_to do |format|
+            format.js {render :layout => false}
+          end
+          #render :text => "优惠券已经发送到您的手机中！短信可能有延迟，请您耐心等待。"
           return
         end
       end
     end
-    render :text => "优惠券在发送到您的手机时发生了错误！您可以尝试重新发送。"
+
+    #render :text => "优惠券在发送到您的手机时发生了错误！您可以尝试重新发送。"
   end
 
   private
