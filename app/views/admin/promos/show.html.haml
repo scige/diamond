@@ -21,10 +21,11 @@
     = f.label :end_at, :class=>"control-label"
     .controls
       = f.text_field :end_at, :class=>"input-xxlarge", :disabled=>"disabled"
+
   .control-group
     = f.label :thumb, :class=>"control-label"
     .controls
-      = f.text_field :thumb, :class=>"input-xxlarge", :disabled=>"disabled"
+      = image_tag @promo.thumb_url(:normal)
 
   .control-group
     = f.label "商家信息", :class=>"control-label"

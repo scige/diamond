@@ -19,7 +19,7 @@
             .row
               .span6
                 %ul.nav
-                  %li{:class => (controller_name=="home"?"active":nil)}= link_to "首页", root_path
+                  %li{:class => (controller_name=="home"?"active":nil)}= link_to "首页", "/"
                   %li{:class => (controller_name=="shops"?"active":nil)}= link_to "商家管理", admin_shops_path
                   %li{:class => (controller_name=="promos"?"active":nil)}= link_to "打折管理", admin_promos_path
                   %li{:class => (controller_name=="shop_promo_relationships"?"active":nil)}= link_to "关系管理", admin_shop_promo_relationships_path

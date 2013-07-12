@@ -1,8 +1,8 @@
 %section.shop-promo
   .promo-details
     %h6= @promo.name
-    - if @promo.thumb and !@promo.thumb.empty?
-      .media#media= image_tag(@promo.thumb)
+    - if @promo.thumb and @promo.thumb.to_s != "/images/fallback/default.png"
+      = image_tag(@promo.thumb_url(:small))
     .promo-txt= @promo.content
     %p.promo-time= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
 

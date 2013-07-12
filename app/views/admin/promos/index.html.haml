@@ -24,10 +24,7 @@
       %td= promo.content
       %td= promo.begin_at
       %td= promo.end_at
-      - if promo.thumb and !promo.thumb.empty?
-        %td= image_tag(promo.thumb, :height => "40")
-      - else
-        %td
+      %td= image_tag(promo.thumb_url(:thumb), :height => "40")
       %td
         = link_to 'Show', promo, :target=>"_blank", :class=>"btn btn-small"
         = link_to 'Show', admin_promo_path(promo), :class=>"btn btn-small btn-warning"

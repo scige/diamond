@@ -31,4 +31,6 @@ class Promo < ActiveRecord::Base
                        :uniqueness => {:case_sensitive => false}
   validates :begin_at, :presence => true
   validates :end_at,   :presence => true
+
+  mount_uploader :thumb, PromoThumbUploader
 end

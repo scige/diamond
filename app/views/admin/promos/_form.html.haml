@@ -26,10 +26,13 @@
     = f.label :end_at, :class=>"control-label"
     .controls
       = f.text_field :end_at, :class=>"input-xxlarge"
+
   .control-group
     = f.label :thumb, :class=>"control-label"
     .controls
-      = f.text_field :thumb, :class=>"input-xxlarge"
+      = image_tag @promo.thumb_url(:normal)
+    .controls
+      = f.file_field :thumb
 
   .control-group
     = f.label "商家", :class=>"control-label"
