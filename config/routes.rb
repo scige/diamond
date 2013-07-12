@@ -1,6 +1,4 @@
 Diamond::Application.routes.draw do
-  root :to => 'home#index'
-
   devise_for :supers
 
   resources :shops
@@ -36,4 +34,6 @@ Diamond::Application.routes.draw do
   end
 
   get "/weixin" => "weixin/home#index"
+
+  root :to => 'home#index'
 end
