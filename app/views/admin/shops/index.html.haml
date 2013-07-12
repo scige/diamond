@@ -28,10 +28,7 @@
       %td= shop.navigation
       %td= shop.latitude
       %td= shop.longitude
-      - if shop.thumb and !shop.thumb.empty?
-        %td= image_tag(shop.thumb, :height => "40")
-      - else
-        %td
+      %td= image_tag(shop.thumb_url(:thumb), :height => "40")
       %td= shop.address
       %td= shop.phone
       %td

@@ -64,4 +64,6 @@ class Shop < ActiveRecord::Base
   #validates :latitude,  :presence => true
   #validates :longitude, :presence => true
   #validates :address,   :presence => true
+
+  mount_uploader :thumb, ShopThumbUploader
 end

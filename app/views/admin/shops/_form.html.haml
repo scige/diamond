@@ -39,10 +39,6 @@
     .controls
       = f.text_field :longitude, :class=>"input-xxlarge"
   .control-group
-    = f.label :thumb, :class=>"control-label"
-    .controls
-      = f.text_field :thumb, :class=>"input-xxlarge"
-  .control-group
     = f.label :star, :class=>"control-label"
     .controls
       = f.text_field :star, :class=>"input-xxlarge"
@@ -94,6 +90,13 @@
     = f.label :characteristics, :class=>"control-label"
     .controls
       = f.text_field :characteristics, :class=>"input-xxlarge"
+
+  .control-group
+    = f.label :thumb, :class=>"control-label"
+    .controls
+      = image_tag @shop.thumb_url(:normal)
+    .controls
+      = f.file_field :thumb
 
   .control-group
     .controls

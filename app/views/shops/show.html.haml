@@ -5,7 +5,7 @@
     .pic-txt
       .pic
         %a{:href=>@shop.thumb}
-          = image_tag(@shop.thumb)
+          = image_tag(@shop.thumb_url(:small))
       %p
         %span.item-rank-rst{:class=>"irr-star#{@shop.star}"}
       %p= "人均:¥#{@shop.avg_price}"

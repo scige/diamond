@@ -34,10 +34,6 @@
     .controls
       = f.text_field :longitude, :class=>"input-xxlarge", :disabled=>"disabled"
   .control-group
-    = f.label :thumb, :class=>"control-label"
-    .controls
-      = f.text_field :thumb, :class=>"input-xxlarge", :disabled=>"disabled"
-  .control-group
     = f.label :star, :class=>"control-label"
     .controls
       = f.text_field :star, :class=>"input-xxlarge", :disabled=>"disabled"
@@ -89,6 +85,11 @@
     = f.label :characteristics, :class=>"control-label"
     .controls
       = f.text_field :characteristics, :class=>"input-xxlarge", :disabled=>"disabled"
+
+  .control-group
+    = f.label :thumb, :class=>"control-label"
+    .controls
+      = image_tag @shop.thumb_url(:normal)
 
   .control-group
     = f.label "打折信息", :class=>"control-label"

@@ -45,6 +45,9 @@ gem 'haml-rails'
 
 gem 'devise'
 
+gem 'mini_magick'
+gem 'carrierwave'
+
 gem 'kaminari'
 
 gem 'annotate'
