@@ -22,14 +22,27 @@
                   %li{:class => (controller_name=="home"?"active":nil)}= link_to "首页", root_path
                   %li{:class => (controller_name=="shops"?"active":nil)}= link_to "商家管理", admin_shops_path
                   %li{:class => (controller_name=="promos"?"active":nil)}= link_to "打折管理", admin_promos_path
-                  %li{:class => (controller_name=="shop_promo_relationships"?"active":nil)}= link_to "关系管理", admin_shop_promo_relationships_path
-                  %li{:class => (controller_name=="coupons"?"active":nil)}= link_to "优惠券管理", admin_coupons_path
-                  %li{:class => (controller_name=="weixin_users"?"active":nil)}= link_to "用户管理", admin_weixin_users_path
+                  - if super_signed_in?
+                    %li{:class => (controller_name=="shop_promo_relationships"?"active":nil)}= link_to "关系管理", admin_shop_promo_relationships_path
+                  - if super_signed_in?
+                    %li{:class => (controller_name=="coupons"?"active":nil)}= link_to "优惠券管理", admin_coupons_path
+                  - if super_signed_in?
+                    %li{:class => (controller_name=="weixin_users"?"active":nil)}= link_to "用户管理", admin_weixin_users_path
+
               - if super_signed_in?
                 .offset5.span1
                   %ul.nav
                     %li= link_to "退出", destroy_super_session_path, :method => :delete
-                  
+              - else
+                - if editor_signed_in?
+                  .offset3.span3
+                    %ul.nav
+                      %li= link_to "欢迎您，#{current_editor.email}", "#"
+                      %li= link_to "退出", destroy_editor_session_path, :method => :delete
+                - else
+                  .offset5.span1
+                    %ul.nav
+                      %li= link_to "登录", new_editor_session_path
 
     .container
       = render "layouts/flash_messages"

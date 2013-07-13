@@ -1,5 +1,9 @@
+# coding: utf-8
+
 Diamond::Application.routes.draw do
   devise_for :supers
+
+  devise_for :editors
 
   resources :shops
 
@@ -35,5 +39,6 @@ Diamond::Application.routes.draw do
 
   get "/weixin" => "weixin/home#index"
 
+  # root要放在最后
   root :to => 'home#index'
 end

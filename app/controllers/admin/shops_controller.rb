@@ -1,5 +1,5 @@
 class Admin::ShopsController < ApplicationController
-  before_filter :authenticate_super!
+  before_filter :deny_to_visitors
 
   def index
     @shops = Shop.all

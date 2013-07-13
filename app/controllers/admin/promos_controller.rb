@@ -1,5 +1,5 @@
 class Admin::PromosController < ApplicationController
-  before_filter :authenticate_super!
+  before_filter :deny_to_visitors
 
   def index
     @promos = Promo.all
