@@ -31,4 +31,5 @@
         = link_to 'Edit', edit_admin_promo_path(promo), :class=>"btn btn-small btn-info"
         = link_to 'Destroy', admin_promo_path(promo), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
 
-
+.page-nav-wrapper
+  = paginate @promos

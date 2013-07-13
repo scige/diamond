@@ -2,7 +2,7 @@ class Admin::PromosController < ApplicationController
   before_filter :deny_to_visitors
 
   def index
-    @promos = Promo.all
+    @promos = Promo.page(params[:page])
   end
 
   def show
