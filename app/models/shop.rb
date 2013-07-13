@@ -27,6 +27,7 @@
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
 #  status               :integer          default(0)
+#  editor               :string(255)
 #
 
 class Shop < ActiveRecord::Base
@@ -56,6 +57,7 @@ class Shop < ActiveRecord::Base
   attr_accessible :hours
   attr_accessible :atmosphere
   attr_accessible :characteristics
+  attr_accessible :editor
 
   validates :status,    :presence => true,
                         :numericality => {:only_integer => true}

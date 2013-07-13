@@ -19,6 +19,10 @@ class Admin::ShopsController < ApplicationController
 
   def create
     @shop = Shop.new(params[:shop])
+    if editor_signed_in?
+      @shop.editor = current_editor.email
+      @shop.status = Setting.shop.status_not_verify
+    end
 
     if @shop.save
       redirect_to admin_shop_url(@shop)
@@ -29,8 +33,13 @@ class Admin::ShopsController < ApplicationController
 
   def update
     @shop = Shop.find(params[:id])
+    attributes = params[:shop]
+    if editor_signed_in?
+      attributes[:editor] = current_editor.email
+      attributes[:status] = Setting.shop.status_not_verify
+    end
 
-    if @shop.update_attributes(params[:shop])
+    if @shop.update_attributes(attributes)
       redirect_to admin_shop_url(@shop)
     else
       render action: "edit"

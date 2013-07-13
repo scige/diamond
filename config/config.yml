@@ -2,10 +2,12 @@ defaults: &defaults
   shop:
     status_off_shelf: 0
     status_on_shelf: 1
+    status_not_verify: 2
 
   promo:
     status_off_shelf: 0
     status_on_shelf: 1
+    status_not_verify: 2
 
   coupon:
     status_unused: 0

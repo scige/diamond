@@ -11,12 +11,14 @@
     %th status
     %th name
     %th navigation
-    %th latitude
-    %th longitude
     %th thumb
     %th address
     %th phone
-    %th{:width=>"250"} operation
+    %th editor
+    - if super_signed_in?
+      %th{:width=>"250"} operation
+    - else
+      %th{:width=>"120"} operation
 
   - @shops.each do |shop|
     %tr
@@ -24,16 +26,17 @@
       %td= shop.status
       %td= shop.name
       %td= shop.navigation
-      %td= shop.latitude
-      %td= shop.longitude
       %td= image_tag(shop.thumb_url(:thumb), :height => "40")
       %td= shop.address
       %td= shop.phone
+      %td= shop.editor
       %td
-        = link_to 'Show', shop, :target=>"_blank", :class=>"btn btn-small"
+        - if super_signed_in?
+          = link_to 'Show', shop, :target=>"_blank", :class=>"btn btn-small"
         = link_to 'Show', admin_shop_path(shop), :class=>"btn btn-small btn-warning"
         = link_to 'Edit', edit_admin_shop_path(shop), :class=>"btn btn-small btn-info"
-        = link_to 'Destroy', admin_shop_path(shop), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+        - if super_signed_in?
+          = link_to 'Destroy', admin_shop_path(shop), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
 
 .page-nav-wrapper
   = paginate @shops

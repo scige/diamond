@@ -6,10 +6,11 @@
         - @shop.errors.full_messages.each do |msg|
           %li= msg
 
-  .control-group
-    = f.label :status, :class=>"control-label"
-    .controls
-      = f.text_field :status, :class=>"input-xxlarge"
+  - if super_signed_in?
+    .control-group
+      = f.label :status, :class=>"control-label"
+      .controls
+        = f.text_field :status, :class=>"input-xxlarge"
   .control-group
     = f.label :name, :class=>"control-label"
     .controls

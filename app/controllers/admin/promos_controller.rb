@@ -22,6 +22,10 @@ class Admin::PromosController < ApplicationController
 
   def create
     @promo = Promo.new(params[:promo])
+    if editor_signed_in?
+      @promo.editor = current_editor.email
+      @promo.status = Setting.promo.status_not_verify
+    end
 
     if @promo.save
       redirect_to admin_promo_url(@promo)
@@ -35,8 +39,13 @@ class Admin::PromosController < ApplicationController
 
   def update
     @promo = Promo.find(params[:id])
+    attributes = params[:promo]
+    if editor_signed_in?
+      attributes[:editor] = current_editor.email
+      attributes[:status] = Setting.promo.status_not_verify
+    end
 
-    if @promo.update_attributes(params[:promo])
+    if @promo.update_attributes(attributes)
       @promo.shops.each do |shop|
         relations = ShopPromoRelationship.where(:shop_id=>shop.id, :promo_id=>@promo.id)
         relations.each do |relation|

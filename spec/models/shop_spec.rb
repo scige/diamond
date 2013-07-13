@@ -27,6 +27,7 @@
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
 #  status               :integer          default(0)
+#  editor               :string(255)
 #
 
 require 'spec_helper'

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130712225452) do
+ActiveRecord::Schema.define(:version => 20130713121746) do
 
   create_table "coupons", :force => true do |t|
     t.integer  "status",         :default => 0
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20130712225452) do
 
   add_index "coupons", ["code"], :name => "index_coupons_on_code"
   add_index "coupons", ["promo_id"], :name => "index_coupons_on_promo_id"
+  add_index "coupons", ["shop_id"], :name => "index_coupons_on_shop_id"
   add_index "coupons", ["weixin_user_id"], :name => "index_coupons_on_weixin_user_id"
 
   create_table "editors", :force => true do |t|
@@ -54,6 +55,7 @@ ActiveRecord::Schema.define(:version => 20130712225452) do
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
     t.integer  "status",     :default => 0
+    t.string   "editor"
   end
 
   create_table "shop_promo_relationships", :force => true do |t|
@@ -88,6 +90,7 @@ ActiveRecord::Schema.define(:version => 20130712225452) do
     t.datetime "created_at",                          :null => false
     t.datetime "updated_at",                          :null => false
     t.integer  "status",               :default => 0
+    t.string   "editor"
   end
 
   create_table "supers", :force => true do |t|
