@@ -35,4 +35,6 @@
         = link_to 'Edit', edit_admin_shop_path(shop), :class=>"btn btn-small btn-info"
         = link_to 'Destroy', admin_shop_path(shop), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
 
+.page-nav-wrapper
+  = paginate @shops
 
