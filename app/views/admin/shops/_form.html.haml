@@ -12,80 +12,83 @@
       .controls
         = f.text_field :status, :class=>"input-xxlarge"
   .control-group
-    = f.label :name, :class=>"control-label"
+    = f.label :name, "名称", :class=>"control-label"
     .controls
       = f.text_field :name, :class=>"input-xxlarge"
   .control-group
-    = f.label :navigation, :class=>"control-label"
+    = f.label :navigation, "分类", :class=>"control-label"
     .controls
       = f.text_field :navigation, :class=>"input-xxlarge"
+  - if super_signed_in?
+    .control-group
+      = f.label :poi, :class=>"control-label"
+      .controls
+        = f.text_field :poi, :class=>"input-xxlarge"
   .control-group
-    = f.label :poi, :class=>"control-label"
-    .controls
-      = f.text_field :poi, :class=>"input-xxlarge"
-  .control-group
-    = f.label :latitude, :class=>"control-label"
+    = f.label :latitude, "纬度", :class=>"control-label"
     .controls
       = f.text_field :latitude, :class=>"input-xxlarge"
   .control-group
-    = f.label :longitude, :class=>"control-label"
+    = f.label :longitude, "经度", :class=>"control-label"
     .controls
       = f.text_field :longitude, :class=>"input-xxlarge"
   .control-group
-    = f.label :star, :class=>"control-label"
+    = f.label :star, "评分", :class=>"control-label"
     .controls
       = f.text_field :star, :class=>"input-xxlarge"
   .control-group
-    = f.label :avg_price, :class=>"control-label"
+    = f.label :avg_price, "人均消费", :class=>"control-label"
     .controls
       = f.text_field :avg_price, :class=>"input-xxlarge"
+  - if super_signed_in?
+    .control-group
+      = f.label :product_rating, :class=>"control-label"
+      .controls
+        = f.text_field :product_rating, :class=>"input-xxlarge"
+    .control-group
+      = f.label :environment_rating, :class=>"control-label"
+      .controls
+        = f.text_field :environment_rating, :class=>"input-xxlarge"
+    .control-group
+      = f.label :service_rating, :class=>"control-label"
+      .controls
+        = f.text_field :service_rating, :class=>"input-xxlarge"
   .control-group
-    = f.label :product_rating, :class=>"control-label"
-    .controls
-      = f.text_field :product_rating, :class=>"input-xxlarge"
-  .control-group
-    = f.label :environment_rating, :class=>"control-label"
-    .controls
-      = f.text_field :environment_rating, :class=>"input-xxlarge"
-  .control-group
-    = f.label :service_rating, :class=>"control-label"
-    .controls
-      = f.text_field :service_rating, :class=>"input-xxlarge"
-  .control-group
-    = f.label :recommended_products, :class=>"control-label"
+    = f.label :recommended_products, "经营内容", :class=>"control-label"
     .controls
       = f.text_area :recommended_products, :rows=>6, :class=>"input-xxlarge"
   .control-group
-    = f.label :address, :class=>"control-label"
+    = f.label :address, "地址", :class=>"control-label"
     .controls
       = f.text_field :address, :class=>"input-xxlarge"
   .control-group
-    = f.label :phone, :class=>"control-label"
+    = f.label :phone, "电话", :class=>"control-label"
     .controls
       = f.text_field :phone, :class=>"input-xxlarge"
   .control-group
-    = f.label :description, :class=>"control-label"
+    = f.label :description, "描述", :class=>"control-label"
     .controls
       = f.text_area :description, :rows=>6, :class=>"input-xxlarge"
-  .control-group
-    = f.label :alias, :class=>"control-label"
-    .controls
-      = f.text_field :alias, :class=>"input-xxlarge"
-  .control-group
-    = f.label :hours, :class=>"control-label"
-    .controls
-      = f.text_field :hours, :class=>"input-xxlarge"
-  .control-group
-    = f.label :atmosphere, :class=>"control-label"
-    .controls
-      = f.text_field :atmosphere, :class=>"input-xxlarge"
-  .control-group
-    = f.label :characteristics, :class=>"control-label"
-    .controls
-      = f.text_field :characteristics, :class=>"input-xxlarge"
+  - if super_signed_in?
+    .control-group
+      = f.label :alias, :class=>"control-label"
+      .controls
+        = f.text_field :alias, :class=>"input-xxlarge"
+    .control-group
+      = f.label :hours, :class=>"control-label"
+      .controls
+        = f.text_field :hours, :class=>"input-xxlarge"
+    .control-group
+      = f.label :atmosphere, :class=>"control-label"
+      .controls
+        = f.text_field :atmosphere, :class=>"input-xxlarge"
+    .control-group
+      = f.label :characteristics, :class=>"control-label"
+      .controls
+        = f.text_field :characteristics, :class=>"input-xxlarge"
 
   .control-group
-    = f.label :thumb, :class=>"control-label"
+    = f.label :thumb, "照片", :class=>"control-label"
     .controls
       = image_tag @shop.thumb_url(:normal)
     .controls

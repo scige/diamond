@@ -1,29 +1,29 @@
-%h2 Show promo
+%h2 打折详情
 
 = form_for [:admin, @promo], :html => {:class=>"form-horizontal"} do |f|
   .control-group
-    = f.label :status, :class=>"control-label"
+    = f.label :status, "状态", :class=>"control-label"
     .controls
       = f.text_field :status, :class=>"input-xxlarge", :disabled=>"disabled"
   .control-group
-    = f.label :name, :class=>"control-label"
+    = f.label :name, "名称", :class=>"control-label"
     .controls
       = f.text_field :name, :class=>"input-xxlarge", :disabled=>"disabled"
   .control-group
-    = f.label :content, :class=>"control-label"
+    = f.label :content, "内容", :class=>"control-label"
     .controls
       = f.text_area :content, :rows=>6, :class=>"input-xxlarge", :disabled=>"disabled"
   .control-group
-    = f.label :begin_at, :class=>"control-label"
+    = f.label :begin_at, "开始日期", :class=>"control-label"
     .controls
       = f.text_field :begin_at, :class=>"input-xxlarge", :disabled=>"disabled"
   .control-group
-    = f.label :end_at, :class=>"control-label"
+    = f.label :end_at, "结束日期", :class=>"control-label"
     .controls
       = f.text_field :end_at, :class=>"input-xxlarge", :disabled=>"disabled"
 
   .control-group
-    = f.label :thumb, :class=>"control-label"
+    = f.label :thumb, "照片", :class=>"control-label"
     .controls
       = image_tag @promo.thumb_url(:normal)
 

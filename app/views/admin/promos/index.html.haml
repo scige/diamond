@@ -1,24 +1,24 @@
 .row
   .span3
-    %h2 List promos
+    %h2 打折列表
   .offset7.span2
     .new-shop-button
-      = link_to 'New Promo', new_admin_promo_path, :class=>"btn btn-primary"
+      = link_to '新增打折', new_admin_promo_path, :class=>"btn btn-primary"
 
 %table.table.table-striped
   %tr
-    %th id
-    %th status
-    %th name
-    %th content
-    %th begin_at
-    %th end_at
-    %th thumb
-    %th editor
+    %th 编号
+    %th 状态
+    %th 名称
+    %th 内容
+    %th 开始日期
+    %th 结束日期
+    %th 照片
+    %th 编辑
     - if super_signed_in?
-      %th{:width=>"250"} operation
+      %th{:width=>"250"} 操作
     - else
-      %th{:width=>"120"} operation
+      %th{:width=>"120"} 操作
 
   - @promos.each do |promo|
     %tr
@@ -26,8 +26,8 @@
       %td= promo.status
       %td= promo.name
       %td= promo.content
-      %td= promo.begin_at
-      %td= promo.end_at
+      %td= get_format_date(promo.begin_at)
+      %td= get_format_date(promo.end_at)
       %td= image_tag(promo.thumb_url(:thumb), :height => "40")
       %td= promo.editor
       %td
