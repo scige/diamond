@@ -24,4 +24,8 @@ class ShopsController < ApplicationController
       @recommended_products << item
     end
   end
+
+  def map
+    @shop = Shop.find_by_id(params[:id])
+  end
 end

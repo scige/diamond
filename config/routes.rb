@@ -7,6 +7,8 @@ Diamond::Application.routes.draw do
 
   resources :shops
 
+  get "shops/map/:id" => "shops#map"
+
   resources :promos
 
   resources :coupons
