@@ -103,10 +103,14 @@
             %tr
               %th 名称
               %th 价格
+              %th{:width=>"120"} 操作
             - @shop.products.each do |p|
               %tr
                 %td= p.name
                 %td= p.price
+                %td
+                  = link_to 'Edit', "#", :class=>"btn btn-small btn-info"
+                  = link_to 'Destroy', admin_product_path(p), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
 
       .control-group
         .controls
