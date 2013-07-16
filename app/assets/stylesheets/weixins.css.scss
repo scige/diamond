@@ -272,6 +272,38 @@ section {
 	width:33.3%
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+.standard-table {
+	margin-top:10px;
+	width:100%;
+  font-size: 14px;
+}
+.standard-table .center {
+	text-align:center
+}
+.standard-table .right {
+	text-align:right
+}
+.standard-table th {
+	padding:3px 2px;
+	background-color:#d2e8f9;
+	color:#333;
+	border:1px solid #c0dcf3
+}
+.standard-table td {
+	padding:3px 2px;
+	word-break:break-all;
+	word-wrap:break-word;
+	border:1px solid #c0dcf3
+}
+.standard-table tr.normal {
+	background-color:#fff;
+	color:#666
+}
+
 
 /****************************
     promo/show style
