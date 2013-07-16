@@ -57,13 +57,14 @@
   .modebox.top-dishes
     - if @shop.products.size > 0
       .hd
-        %h6 特色商品
-      %table.standard-table
-        %tr
-          %th 名称
-          %th 价格
-        - @shop.products.each do |product|
-          %tr.normal
-            %td= product.name
-            %td.center= "#{product.price} 元"
+        %h6 订餐菜单
+      %table.table.table-striped
+        %tbody
+          %tr
+            %th 名称
+            %th 价格
+          - @shop.products.each do |product|
+            %tr
+              %td= product.name
+              %td= "#{product.price} 元"
 
