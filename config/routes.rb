@@ -22,6 +22,8 @@ Diamond::Application.routes.draw do
 
     resources :coupons
 
+    resources :products
+
     resources :shop_promo_relationships
 
     resources :weixin_users

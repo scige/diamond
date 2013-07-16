@@ -84,7 +84,7 @@
             = f.text_field :characteristics, :class=>"input-xxlarge", :disabled=>"disabled"
 
       .control-group
-        = f.label :thumb, "招聘", :class=>"control-label"
+        = f.label :thumb, "照片", :class=>"control-label"
         .controls
           = image_tag @shop.thumb_url(:normal)
 
@@ -95,10 +95,54 @@
             %p= link_to promo.name, admin_promo_path(promo), :target=>"_blank", :class=>"btn btn-danger"
 
       .control-group
+        = f.label "商品", :class=>"control-label"
+        .controls
+          %a{:href=>"#myModal", "data-toggle"=>"modal", :class=>"btn btn-primary"} 新增商品
+          %p
+          %table.table.table-striped
+            %tr
+              %th 名称
+              %th 价格
+            - @shop.products.each do |p|
+              %tr
+                %td= p.name
+                %td= p.price
+
+      .control-group
         .controls
           = link_to 'Edit', edit_admin_shop_path(@shop), :class=>"btn btn-info"
           = link_to 'Back', admin_shops_path, :class=>"btn"
     .span4
       = javascript_include_tag "http://api.map.baidu.com/api?v=1.3"
       #mapbox{"data-latitude"=>@shop.latitude, "data-longitude"=>@shop.longitude}
+
+#myModal.modal.hide.fade{:tabindex=>"-1", :role=>"dialog", "aria-labelledby"=>"myModalLabel", "aria-hidden"=>"true"}
+  .modal-header
+    %button.close{:type=>"button", "data-dismiss"=>"modal", "aria-hidden"=>"true"} &times;
+    %h3#myModalLabel 新增商品
+
+  .modal-body
+    = form_for [:admin, @product], :html => {:class=>"form-horizontal"} do |f|
+      = hidden_field_tag :shop_id, @shop.id
+      .control-group
+        = f.label :name, "名称", :class=>"control-label"
+        .controls
+          = f.text_field :name
+      .control-group
+        = f.label :price, "价格", :class=>"control-label"
+        .controls
+          = f.text_field :price
+      .control-group
+        = f.label :sales, "销量", :class=>"control-label"
+        .controls
+          = f.text_field :sales
+      .control-group
+        = f.label :star, "评分", :class=>"control-label"
+        .controls
+          = f.text_field :star
+
+      .control-group
+        .controls
+          = f.submit :class=>"btn btn-success"
+          %button.btn{"data-dismiss"=>"modal", "aria-hidden"=>"true"} Close
 
