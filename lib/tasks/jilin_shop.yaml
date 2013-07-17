@@ -322,7 +322,7 @@
   poi: HVDHBHZBAEACJCY
   latitude: 43.84824
   longitude: 126.55934
-  thumb: no_photo.jpg
+  thumb: ''
   star: 40
   avg_price: 24
   product_rating: 27
@@ -385,7 +385,7 @@
   poi: HVDHWBZBAEAGJRC
   latitude: 43.8522
   longitude: 126.5657
-  thumb: no_photo.jpg
+  thumb: ''
   star: 40
   avg_price: 15
   product_rating: 28
@@ -511,7 +511,7 @@
   poi: HVCAHJZBAECBTDV
   latitude: 43.9171
   longitude: 126.57033
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 27
   product_rating: 19
@@ -679,7 +679,7 @@
   poi: HVDRASZBAEAHFTC
   latitude: 43.85048
   longitude: 126.56936
-  thumb: no_photo.jpg
+  thumb: ''
   star: 40
   avg_price: 57
   product_rating: 25
@@ -721,7 +721,7 @@
   poi: HVDCSFZBADWIACY
   latitude: 43.84033
   longitude: 126.54021
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 108
   product_rating: 19
@@ -847,7 +847,7 @@
   poi: HVDIIWZBAEAGFDF
   latitude: 43.85107
   longitude: 126.56612
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 30
   product_rating: 19
@@ -1162,7 +1162,7 @@
   poi: HVECUFZBAEAATDL
   latitude: 43.83083
   longitude: 126.57212
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 25
   product_rating: 22
@@ -1204,7 +1204,7 @@
   poi: HVDIGUZBAEABRUV
   latitude: 43.84537
   longitude: 126.55992
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 21
   product_rating: 0
@@ -1288,7 +1288,7 @@
   poi: HVDEIWZBAEAAFBV
   latitude: 43.84858
   longitude: 126.55323
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 50
   product_rating: 0
@@ -1330,7 +1330,7 @@
   poi: HWRDHHZBAFAAERG
   latitude: 43.70651
   longitude: 127.35059
-  thumb: no_photo.jpg
+  thumb: ''
   star: 20
   avg_price: 14
   product_rating: 18
@@ -1351,7 +1351,7 @@
   poi: HVDGTTZBAEACDIR
   latitude: 43.84813
   longitude: 126.55855
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 5
   product_rating: 22
@@ -1498,7 +1498,7 @@
   poi: HVDGGJZBAEADSDD
   latitude: 43.85045
   longitude: 126.56002
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 49
   product_rating: 0
@@ -1603,7 +1603,7 @@
   poi: HVDJIBZBAEBRRGQ
   latitude: 43.87593
   longitude: 126.59329
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 41
   product_rating: 0
@@ -1624,7 +1624,7 @@
   poi: HVDUHGZBAEAVCSS
   latitude: 43.8549
   longitude: 126.58237
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 32
   product_rating: 0
@@ -1645,7 +1645,7 @@
   poi: HVDFDJZBADWWWGC
   latitude: 43.84718
   longitude: 126.55372
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 24
   product_rating: 0
@@ -1687,7 +1687,7 @@
   poi: HVDHWUZBAEABGAE
   latitude: 43.84546
   longitude: 126.55906
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 18
   product_rating: 0
@@ -1750,7 +1750,7 @@
   poi: HVDDDTZBAEAAIIN
   latitude: 43.85051
   longitude: 126.55185
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 22
   product_rating: 0
@@ -1771,7 +1771,7 @@
   poi: HVDDGBZBAEBGCRU
   latitude: 43.87805
   longitude: 126.57969
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 25
   product_rating: 0
@@ -1792,7 +1792,7 @@
   poi: HVDRWDZBAEATBFP
   latitude: 43.85543
   longitude: 126.5765
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 12
   product_rating: 20
@@ -1855,7 +1855,7 @@
   poi: HVDFVFZBADWWCCM
   latitude: 43.84531
   longitude: 126.55347
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 4
   product_rating: 20
@@ -1918,7 +1918,7 @@
   poi: HVDUDRZBAEATRJQ
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 24
   product_rating: 0
@@ -1939,7 +1939,7 @@
   poi: HWRDICZBAFAAERR
   latitude: 43.70651
   longitude: 127.35059
-  thumb: no_photo.jpg
+  thumb: ''
   star: 30
   avg_price: 11
   product_rating: 20
@@ -1981,7 +1981,7 @@
   poi: HVDEWEZBAEADGDE
   latitude: 43.85192
   longitude: 126.55775
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2023,7 +2023,7 @@
   poi: HVDCAJZBADWUETA
   latitude: 43.84784
   longitude: 126.54624
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2065,7 +2065,7 @@
   poi: HVDVDTZBAEBIWJE
   latitude: 43.86767
   longitude: 126.59726
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2086,7 +2086,7 @@
   poi: HVDCDUZBADWIDCM
   latitude: 43.84111
   longitude: 126.53991
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 57
   product_rating: 0
@@ -2107,7 +2107,7 @@
   poi: HVDFEFZBAEADCDH
   latitude: 43.85121
   longitude: 126.55782
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 12
   product_rating: 0
@@ -2128,7 +2128,7 @@
   poi: HVDJBWZBAEAWAGM
   latitude: 43.86152
   longitude: 126.57794
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 28
   product_rating: 0
@@ -2338,7 +2338,7 @@
   poi: HVDDHVZBAEAEAVD
   latitude: 43.85464
   longitude: 126.55674
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2422,7 +2422,7 @@
   poi: HVDRWFZBAEATBFR
   latitude: 43.85543
   longitude: 126.5765
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 13
   product_rating: 0
@@ -2506,7 +2506,7 @@
   poi: HVEEBFZBADWJURS
   latitude: 43.82042
   longitude: 126.56484
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2674,7 +2674,7 @@
   poi: HVDIDDZBAEAJRUV
   latitude: 43.8559
   longitude: 126.56987
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2695,7 +2695,7 @@
   poi: HVDTIAZBAEARDDE
   latitude: 43.85098
   longitude: 126.57613
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2758,7 +2758,7 @@
   poi: HVEAARZBADWRGEP
   latitude: 43.82627
   longitude: 126.56037
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2779,7 +2779,7 @@
   poi: HVCCUEZBAECCHAV
   latitude: 43.91495
   longitude: 126.57421
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2821,7 +2821,7 @@
   poi: HVEFEDZBADWRRUR
   latitude: 43.81996
   longitude: 126.56741
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2842,7 +2842,7 @@
   poi: HVDUEAZBAEATRJW
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2884,7 +2884,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2926,7 +2926,7 @@
   poi: HVDHVBZBAEDCGGE
   latitude: 43.90835
   longitude: 126.62167
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2968,7 +2968,7 @@
   poi: HVDUCSZBAEATRJB
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -2989,7 +2989,7 @@
   poi: HVCUETZBADVSWBY
   latitude: 43.83181
   longitude: 126.51784
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3052,7 +3052,7 @@
   poi: HVEAACZBADWRGEH
   latitude: 43.82627
   longitude: 126.56037
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3157,7 +3157,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3304,7 +3304,7 @@
   poi: HVDCIIZBADWHFVT
   latitude: 43.83971
   longitude: 126.53919
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3325,7 +3325,7 @@
   poi: HVDDWBZBAEBTBSN
   latitude: 43.8849
   longitude: 126.58805
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3346,7 +3346,7 @@
   poi: HVDIIUZBAEAGFDD
   latitude: 43.85107
   longitude: 126.56612
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3367,7 +3367,7 @@
   poi: HVDUJSZBAEDAAJH
   latitude: 43.89801
   longitude: 126.62596
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3430,7 +3430,7 @@
   poi: HVSJWSZBADVTCGG
   latitude: 43.65191
   longitude: 126.69827
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3451,7 +3451,7 @@
   poi: HVEHIAZBADWJWDK
   latitude: 43.81613
   longitude: 126.56938
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3556,7 +3556,7 @@
   poi: HVEAVSZBAEAWCTY
   latitude: 43.85179
   longitude: 126.58805
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3598,7 +3598,7 @@
   poi: HVDIICZBAEADAWI
   latitude: 43.84697
   longitude: 126.56186
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3619,7 +3619,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3724,7 +3724,7 @@
   poi: HVDICWZBAEAJRUR
   latitude: 43.8559
   longitude: 126.56987
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3766,7 +3766,7 @@
   poi: HVDVVSZBAEAUJEO
   latitude: 43.85226
   longitude: 126.5835
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3787,7 +3787,7 @@
   poi: HVCWUJZBAEAUWCS
   latitude: 43.87204
   longitude: 126.56466
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3808,7 +3808,7 @@
   poi: HWRDIGZBAFAAERV
   latitude: 43.70651
   longitude: 127.35059
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3871,7 +3871,7 @@
   poi: HVDUDDZBAEATRJJ
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3892,7 +3892,7 @@
   poi: HVEATFZBAEATWFV
   latitude: 43.84913
   longitude: 126.58504
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3934,7 +3934,7 @@
   poi: HVDEJIZBAEAWFSG
   latitude: 43.86771
   longitude: 126.5726
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3955,7 +3955,7 @@
   poi: HVDEWTZBAEADGDM
   latitude: 43.85192
   longitude: 126.55775
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -3997,7 +3997,7 @@
   poi: HVDIJJZBAEAHRAQ
   latitude: 43.85274
   longitude: 126.56778
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4081,7 +4081,7 @@
   poi: HVDFCEZBAEADDUE
   latitude: 43.85149
   longitude: 126.5578
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4144,7 +4144,7 @@
   poi: HVDBGEZBAEAAGSA
   latitude: 43.85266
   longitude: 126.54941
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4312,7 +4312,7 @@
   poi: HWUVEJZBACWSUTO
   latitude: 42.97023
   longitude: 126.76481
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4333,7 +4333,7 @@
   poi: HVJVBTZBAERFBFG
   latitude: 43.9243
   longitude: 126.89931
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4354,7 +4354,7 @@
   poi: HVEDTCZBADWJFSE
   latitude: 43.82013
   longitude: 126.56386
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4396,7 +4396,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4417,7 +4417,7 @@
   poi: HVDAJUZBADVWBUD
   latitude: 43.83152
   longitude: 126.52625
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4438,7 +4438,7 @@
   poi: HWRBGJZBAFAEHIQ
   latitude: 43.71454
   longitude: 127.35326
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4459,7 +4459,7 @@
   poi: HWRAEAZBAFABEAD
   latitude: 43.71184
   longitude: 127.34772
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4522,7 +4522,7 @@
   poi: HVDDITZBADWGVWU
   latitude: 43.83786
   longitude: 126.53993
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4606,7 +4606,7 @@
   poi: HVDSAUZBAECVBFP
   latitude: 43.89882
   longitude: 126.62015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4732,7 +4732,7 @@
   poi: HVDEDFZBAEABHHP
   latitude: 43.85047
   longitude: 126.55428
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4753,7 +4753,7 @@
   poi: HVDUDAZBAEATRJG
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4795,7 +4795,7 @@
   poi: HVDVFIZBAECVWIT
   latitude: 43.89576
   longitude: 126.62548
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4816,7 +4816,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4837,7 +4837,7 @@
   poi: HVDUDGZBAEATRJM
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4858,7 +4858,7 @@
   poi: HVDETWZBAECBHIC
   latitude: 43.8906
   longitude: 126.59608
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4879,7 +4879,7 @@
   poi: HVDIJHZBAEBSGEI
   latitude: 43.87801
   longitude: 126.59311
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4900,7 +4900,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4942,7 +4942,7 @@
   poi: HVDJSVZBAEAVJUY
   latitude: 43.86026
   longitude: 126.57815
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4963,7 +4963,7 @@
   poi: HVDRTSZBAECUUFD
   latitude: 43.89877
   longitude: 126.61956
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -4984,7 +4984,7 @@
   poi: HVDRASZBAEAHFTC
   latitude: 43.85048
   longitude: 126.56936
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5005,7 +5005,7 @@
   poi: HVDRVUZBAEATBFJ
   latitude: 43.85543
   longitude: 126.5765
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5026,7 +5026,7 @@
   poi: HVCUUTZBAEASWAP
   latitude: 43.872
   longitude: 126.55956
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5131,7 +5131,7 @@
   poi: HVDWDDZBAEDBAUH
   latitude: 43.89727
   longitude: 126.6293
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5173,7 +5173,7 @@
   poi: HVDUEBZBAEATRJX
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5194,7 +5194,7 @@
   poi: HVEAIAZBAEBAJWS
   latitude: 43.85415
   longitude: 126.5894
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5236,7 +5236,7 @@
   poi: HVECUVZBAEAATDU
   latitude: 43.83083
   longitude: 126.57212
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5257,7 +5257,7 @@
   poi: HVEESTZBADWREGF
   latitude: 43.82006
   longitude: 126.56628
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5341,7 +5341,7 @@
   poi: HVEETCZBADWREGL
   latitude: 43.82006
   longitude: 126.56628
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5404,7 +5404,7 @@
   poi: HVDDSDZBAEAAGBJ
   latitude: 43.8497
   longitude: 126.55227
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5530,7 +5530,7 @@
   poi: HVEDUBZBADWJSWH
   latitude: 43.82057
   longitude: 126.56442
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5572,7 +5572,7 @@
   poi: HVDSEIZBAEAVCBA
   latitude: 43.85755
   longitude: 126.57962
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5593,7 +5593,7 @@
   poi: HVDHSRZBAEAICEF
   latitude: 43.85446
   longitude: 126.56738
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5614,7 +5614,7 @@
   poi: HVDEEJZBADVVRUP
   latitude: 43.82632
   longitude: 126.53033
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5677,7 +5677,7 @@
   poi: HVDFABZBAECBBJT
   latitude: 43.88996
   longitude: 126.59577
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5719,7 +5719,7 @@
   poi: HVDDBRZBADWDFTH
   latitude: 43.83379
   longitude: 126.53485
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5803,7 +5803,7 @@
   poi: HVBJBWZBAEBTJWH
   latitude: 43.91986
   longitude: 126.55441
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5866,7 +5866,7 @@
   poi: HVBWVGZBAECBCGV
   latitude: 43.91705
   longitude: 126.56881
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -5992,7 +5992,7 @@
   poi: HVDUEGZBAEDCBHG
   latitude: 43.90106
   longitude: 126.62817
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6013,7 +6013,7 @@
   poi: HVDWDWZBAEDBAUT
   latitude: 43.89727
   longitude: 126.6293
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6034,7 +6034,7 @@
   poi: HVDEUDZBAEADRWR
   latitude: 43.85253
   longitude: 126.5579
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6055,7 +6055,7 @@
   poi: HVEBRVZBADWJJBE
   latitude: 43.82306
   longitude: 126.56147
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6097,7 +6097,7 @@
   poi: HVCUDSZBADVSWBH
   latitude: 43.83181
   longitude: 126.51784
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6181,7 +6181,7 @@
   poi: HVDDWFZBADWURCG
   latitude: 43.84584
   longitude: 126.5491
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6202,7 +6202,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6223,7 +6223,7 @@
   poi: HVDSFJZBAEAVCBR
   latitude: 43.85755
   longitude: 126.57962
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6349,7 +6349,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6496,7 +6496,7 @@
   poi: HVDHIJZBADWWHVA
   latitude: 43.84361
   longitude: 126.55609
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6517,7 +6517,7 @@
   poi: HVEFDEZBADWRRUC
   latitude: 43.81996
   longitude: 126.56741
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6538,7 +6538,7 @@
   poi: HVCBUTZBAECCBAP
   latitude: 43.91568
   longitude: 126.57252
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6559,7 +6559,7 @@
   poi: HVDDBVZBAEBVFGB
   latitude: 43.88875
   longitude: 126.58991
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6580,7 +6580,7 @@
   poi: HVDRASZBAEAHFTC
   latitude: 43.85048
   longitude: 126.56936
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6601,7 +6601,7 @@
   poi: HVDRWDZBAEATBFP
   latitude: 43.85543
   longitude: 126.5765
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6622,7 +6622,7 @@
   poi: HVCWSWZBAEBRBWL
   latitude: 43.88772
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6664,7 +6664,7 @@
   poi: HVEBUDZBAEBDDSL
   latitude: 43.85576
   longitude: 126.59447
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6706,7 +6706,7 @@
   poi: HVCUDJZBADVSWBF
   latitude: 43.83181
   longitude: 126.51784
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6727,7 +6727,7 @@
   poi: HVDWBVZBAEATEVJ
   latitude: 43.85035
   longitude: 126.58215
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6748,7 +6748,7 @@
   poi: HVDUJVZBAEBDSBQ
   latitude: 43.86176
   longitude: 126.58965
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6769,7 +6769,7 @@
   poi: HVECUFZBAEAATDL
   latitude: 43.83083
   longitude: 126.57212
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6790,7 +6790,7 @@
   poi: HVCWUFZBAEAUWCO
   latitude: 43.87204
   longitude: 126.56466
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6832,7 +6832,7 @@
   poi: HVCWUFZBAEAUWCO
   latitude: 43.87204
   longitude: 126.56466
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6853,7 +6853,7 @@
   poi: HVDIITZBAEAGFDC
   latitude: 43.85107
   longitude: 126.56612
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6874,7 +6874,7 @@
   poi: HVDUDUZBAEATRJT
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6916,7 +6916,7 @@
   poi: HVDGJEZBAEBUERX
   latitude: 43.88309
   longitude: 126.59289
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6937,7 +6937,7 @@
   poi: HWAGWUZBAFGRUTA
   latitude: 44.04318
   longitude: 127.28674
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6958,7 +6958,7 @@
   poi: HVDIARZBAEAJVHE
   latitude: 43.85631
   longitude: 126.57004
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -6979,7 +6979,7 @@
   poi: HVDIJSZBAEAFTSV
   latitude: 43.85041
   longitude: 126.56542
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7000,7 +7000,7 @@
   poi: HVDIJBZBAEAFRDX
   latitude: 43.85027
   longitude: 126.56516
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7021,7 +7021,7 @@
   poi: HVDRGTZBAEDCFHQ
   latitude: 43.90508
   longitude: 126.62479
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7063,7 +7063,7 @@
   poi: HVDTCWZBAEARATW
   latitude: 43.85128
   longitude: 126.57544
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7084,7 +7084,7 @@
   poi: HVEAVJZBADWJAVM
   latitude: 43.82343
   longitude: 126.55979
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7126,7 +7126,7 @@
   poi: HVDDDJZBAEBRBBD
   latitude: 43.88316
   longitude: 126.58457
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7147,7 +7147,7 @@
   poi: HVDSTGZBAEAIERT
   latitude: 43.84954
   longitude: 126.57268
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7168,7 +7168,7 @@
   poi: HVDRTVZBAECUUFG
   latitude: 43.89877
   longitude: 126.61956
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7189,7 +7189,7 @@
   poi: HVDHRCZBAEAARFI
   latitude: 43.845
   longitude: 126.55765
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7210,7 +7210,7 @@
   poi: HVDJDJZBAEAIARU
   latitude: 43.85249
   longitude: 126.56909
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7231,7 +7231,7 @@
   poi: HVEESWZBADWREGI
   latitude: 43.82006
   longitude: 126.56628
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7252,7 +7252,7 @@
   poi: HVECHIZBADWJBIF
   latitude: 43.82145
   longitude: 126.56187
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7294,7 +7294,7 @@
   poi: HTEFABZBACCUSUT
   latitude: 43.88566
   longitude: 125.32171
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7315,7 +7315,7 @@
   poi: HVEETRZBADWREGT
   latitude: 43.82006
   longitude: 126.56628
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7336,7 +7336,7 @@
   poi: HVEETRZBADWREGT
   latitude: 43.82006
   longitude: 126.56628
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7378,7 +7378,7 @@
   poi: HVDEGDZBAEACVCI
   latitude: 43.85202
   longitude: 126.55636
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7441,7 +7441,7 @@
   poi: HWAHAAZBAFGRUTD
   latitude: 44.04318
   longitude: 127.28674
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7483,7 +7483,7 @@
   poi: HWUIUAZBACWHFRX
   latitude: 42.97151
   longitude: 126.75199
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7504,7 +7504,7 @@
   poi: HVBWUAZBAECBUWE
   latitude: 43.918
   longitude: 126.56971
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7567,7 +7567,7 @@
   poi: HVDWHHZBAEAWBHP
   latitude: 43.8535
   longitude: 126.58613
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7588,7 +7588,7 @@
   poi: HVDFHDZBADWVEHJ
   latitude: 43.84477
   longitude: 126.55182
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7609,7 +7609,7 @@
   poi: HVDTSVZBAEDBRUQ
   latitude: 43.90126
   longitude: 126.62691
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7651,7 +7651,7 @@
   poi: HVEAWHZBAEAWBJX
   latitude: 43.85163
   longitude: 126.58802
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7672,7 +7672,7 @@
   poi: HVETFDZBAEBEWTK
   latitude: 43.84456
   longitude: 126.61016
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7714,7 +7714,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7777,7 +7777,7 @@
   poi: HWUEJFZBACWEJDD
   latitude: 42.97327
   longitude: 126.74312
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7798,7 +7798,7 @@
   poi: HVDTAWZBADWWTJN
   latitude: 43.83826
   longitude: 126.56219
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7840,7 +7840,7 @@
   poi: HVDCCDZBAEABUBV
   latitude: 43.8536
   longitude: 126.55205
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -7882,7 +7882,7 @@
   poi: HVDDISZBADWGVWT
   latitude: 43.83786
   longitude: 126.53993
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8008,7 +8008,7 @@
   poi: HVECIVZBADWIWJQ
   latitude: 43.82124
   longitude: 126.56177
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8071,7 +8071,7 @@
   poi: HVUEUUZBABUVEEI
   latitude: 42.94438
   longitude: 126.05954
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8113,7 +8113,7 @@
   poi: HVDWSVZBAEATRVV
   latitude: 43.85009
   longitude: 126.58337
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8155,7 +8155,7 @@
   poi: HVEFJTZBADWJEWW
   latitude: 43.81779
   longitude: 126.56608
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8176,7 +8176,7 @@
   poi: HVEFHRZBADWSEUA
   latitude: 43.8204
   longitude: 126.56857
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8197,7 +8197,7 @@
   poi: HVDACHZBAEBRHRQ
   latitude: 43.88768
   longitude: 126.5811
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8218,7 +8218,7 @@
   poi: HVDDRFZBADVVERA
   latitude: 43.82657
   longitude: 126.52909
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8239,7 +8239,7 @@
   poi: HVDGFRZBAEBCTRD
   latitude: 43.86984
   longitude: 126.57926
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8323,7 +8323,7 @@
   poi: HVEABIZBAEAVRJE
   latitude: 43.85209
   longitude: 126.58644
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8386,7 +8386,7 @@
   poi: HVDTVFZBAEAGVJN
   latitude: 43.84631
   longitude: 126.57238
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8407,7 +8407,7 @@
   poi: HVEFVAZBADWDEWK
   latitude: 43.80971
   longitude: 126.5588
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8470,7 +8470,7 @@
   poi: HVDFTFZBAEBVRWV
   latitude: 43.8859
   longitude: 126.59365
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8533,7 +8533,7 @@
   poi: HVCUDDZBADVJCHN
   latitude: 43.82831
   longitude: 126.5142
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8554,7 +8554,7 @@
   poi: HVDUSVZBAEBFWFK
   latitude: 43.86447
   longitude: 126.59274
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8575,7 +8575,7 @@
   poi: HVEBIVZBAEBDJID
   latitude: 43.85653
   longitude: 126.59463
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8596,7 +8596,7 @@
   poi: HVDJTDZBAEAHSBH
   latitude: 43.85129
   longitude: 126.5694
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8638,7 +8638,7 @@
   poi: HVEAAUZBAEACSTC
   latitude: 43.83687
   longitude: 126.57113
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8701,7 +8701,7 @@
   poi: HVDEARZBADVSVRF
   latitude: 43.82305
   longitude: 126.52653
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8722,7 +8722,7 @@
   poi: HWHJGWZBAFCWVJP
   latitude: 43.82131
   longitude: 127.3577
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8848,7 +8848,7 @@
   poi: HWJVDDZBAFAEJJJ
   latitude: 43.71878
   longitude: 127.34935
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8869,7 +8869,7 @@
   poi: IACIRJZBAFCCVRY
   latitude: 43.58043
   longitude: 127.56531
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8890,7 +8890,7 @@
   poi: HWJUSWZBAFAFCAA
   latitude: 43.71999
   longitude: 127.34949
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8932,7 +8932,7 @@
   poi: HWJIIJZBAFABEUB
   latitude: 43.72177
   longitude: 127.33792
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -8974,7 +8974,7 @@
   poi: HVDFABZBADWTJBP
   latitude: 43.84318
   longitude: 126.54903
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9037,7 +9037,7 @@
   poi: HVDGAIZBAEBCVSK
   latitude: 43.87045
   longitude: 126.57898
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9058,7 +9058,7 @@
   poi: HVDIWBZBAEBFTCW
   latitude: 43.87042
   longitude: 126.58628
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9079,7 +9079,7 @@
   poi: HVDFDVZBADWWWGH
   latitude: 43.84718
   longitude: 126.55372
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9100,7 +9100,7 @@
   poi: HVDUCUZBAEATRJD
   latitude: 43.85326
   longitude: 126.58015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9121,7 +9121,7 @@
   poi: HVCWTWZBAEAUWCI
   latitude: 43.87204
   longitude: 126.56466
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9142,7 +9142,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9163,7 +9163,7 @@
   poi: HVCWTSZBAEAUWCE
   latitude: 43.87204
   longitude: 126.56466
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9184,7 +9184,7 @@
   poi: HVDUERZBAEDCBHK
   latitude: 43.90106
   longitude: 126.62817
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9205,7 +9205,7 @@
   poi: HVDUEHZBAEDCBHH
   latitude: 43.90106
   longitude: 126.62817
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9226,7 +9226,7 @@
   poi: HVDJCUZBAEATTWP
   latitude: 43.85863
   longitude: 126.57516
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9247,7 +9247,7 @@
   poi: HUJGGWZBADVTGGG
   latitude: 44.02541
   longitude: 126.32541
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9289,7 +9289,7 @@
   poi: HWUHFJZBACWHDGY
   latitude: 42.97321
   longitude: 126.74993
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9331,7 +9331,7 @@
   poi: HVEDVWZBADWRGVA
   latitude: 43.82126
   longitude: 126.56548
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9373,7 +9373,7 @@
   poi: HVCEHHZBAEAAEIK
   latitude: 43.86908
   longitude: 126.53264
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9415,7 +9415,7 @@
   poi: HUJGHVZBADVTGGV
   latitude: 44.02541
   longitude: 126.32541
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9436,7 +9436,7 @@
   poi: IACSDCZBAFCDSCJ
   latitude: 43.57811
   longitude: 127.56963
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9499,7 +9499,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9562,7 +9562,7 @@
   poi: HVDTWDZBAEAIUTA
   latitude: 43.84867
   longitude: 126.57501
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9583,7 +9583,7 @@
   poi: HVGISHZBADSSFBX
   latitude: 43.69351
   longitude: 126.53166
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9604,7 +9604,7 @@
   poi: HVDVVEZBAEBRWHC
   latitude: 43.86937
   longitude: 126.60066
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9646,7 +9646,7 @@
   poi: HVDITEZBAEABIIN
   latitude: 43.84471
   longitude: 126.56021
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9667,7 +9667,7 @@
   poi: HVECHVZBADWJBIL
   latitude: 43.82145
   longitude: 126.56187
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9709,7 +9709,7 @@
   poi: HVDDRCZBADVVCTJ
   latitude: 43.82648
   longitude: 126.52888
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9793,7 +9793,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9814,7 +9814,7 @@
   poi: HVDIHTZBAEADAWC
   latitude: 43.84697
   longitude: 126.56186
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9856,7 +9856,7 @@
   poi: HVEBGHZBAEAJCTI
   latitude: 43.84341
   longitude: 126.58107
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9940,7 +9940,7 @@
   poi: HVDJGVZBAEBWAWQ
   latitude: 43.88167
   longitude: 126.59884
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9961,7 +9961,7 @@
   poi: HVEAWUZBAEATWSR
   latitude: 43.84886
   longitude: 126.58537
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -9982,7 +9982,7 @@
   poi: HVEFEFZBADWRRUT
   latitude: 43.81996
   longitude: 126.56741
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10003,7 +10003,7 @@
   poi: HVCUHJZBAECDFST
   latitude: 43.90249
   longitude: 126.58902
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10024,7 +10024,7 @@
   poi: HUITBEZBACWFUTR
   latitude: 43.72315
   longitude: 125.99653
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10066,7 +10066,7 @@
   poi: HVDRDDZBAEAIDGY
   latitude: 43.85148
   longitude: 126.57054
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10087,7 +10087,7 @@
   poi: HVDHRIZBAEAARFO
   latitude: 43.845
   longitude: 126.55765
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10108,7 +10108,7 @@
   poi: HVDFEGZBAEADCDI
   latitude: 43.85121
   longitude: 126.55782
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10150,7 +10150,7 @@
   poi: HVCUURZBAEASWAN
   latitude: 43.872
   longitude: 126.55956
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10171,7 +10171,7 @@
   poi: HVCWTWZBAEAUWCI
   latitude: 43.87204
   longitude: 126.56466
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10192,7 +10192,7 @@
   poi: HVCEWDZBAECRFJN
   latitude: 43.92232
   longitude: 126.58709
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10213,7 +10213,7 @@
   poi: HVDBFCZBAEBEJBQ
   latitude: 43.87862
   longitude: 126.57503
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10234,7 +10234,7 @@
   poi: HVDJSAZBAEAVJVL
   latitude: 43.86027
   longitude: 126.57815
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10255,7 +10255,7 @@
   poi: HVEFEHZBADWRRUV
   latitude: 43.81996
   longitude: 126.56741
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10276,7 +10276,7 @@
   poi: HVEAWAZBAEBAHTD
   latitude: 43.85334
   longitude: 126.58986
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10297,7 +10297,7 @@
   poi: 
   latitude: 0.0059
   longitude: 0.0015
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10339,7 +10339,7 @@
   poi: HVUWERZBAEIIBEJ
   latitude: 43.80376
   longitude: 126.9456
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10360,7 +10360,7 @@
   poi: HVEATAZBAEATWFQ
   latitude: 43.84913
   longitude: 126.58504
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10381,7 +10381,7 @@
   poi: HVEASJZBADWJVFP
   latitude: 43.82476
   longitude: 126.56061
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10423,7 +10423,7 @@
   poi: HVJVBVZBAERFBFI
   latitude: 43.9243
   longitude: 126.89931
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10444,7 +10444,7 @@
   poi: HVDIIHZBAEADAWN
   latitude: 43.84697
   longitude: 126.56186
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10465,7 +10465,7 @@
   poi: HVDUHAZBAEAVCSM
   latitude: 43.8549
   longitude: 126.58237
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
@@ -10486,7 +10486,7 @@
   poi: HVEASFZBAEATWFF
   latitude: 43.84913
   longitude: 126.58504
-  thumb: no_photo.jpg
+  thumb: ''
   star: 0
   avg_price: 0
   product_rating: 0
