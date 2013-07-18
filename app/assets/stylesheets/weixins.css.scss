@@ -251,16 +251,13 @@ section {
 	width:25%;
 	padding:13px 10px
 }
-.dp-3gcon-index a,.dp-3gcon-index a:visited {
+.dp-3gcon-index .dish {
 	display:block;
 	text-align:center;
 	text-decoration:none;
 	width:100%;
 	color:#323232;
 	word-wrap:break-word
-}
-.dp-3gcon-index .shop-match-keywords a,.dp-3gcon-index .shop-match-keywords a:visited {
-    color: red;
 }
 .sx {
 	background:#ededed;
@@ -270,9 +267,6 @@ section {
 	top:0;
 	right:0;
 	overflow:hidden
-}
-.dp-3gcon-index>div.dish {
-	width:33.3%
 }
 
 table {

@@ -75,7 +75,7 @@ class CouponsController < ApplicationController
     if code.size != 12
       return "-1"
     end
-    detail = "密码#{code[0..3]} #{code[4..7]} #{code[8..11]}"
+    detail = "优惠码#{code[0..3]} #{code[4..7]} #{code[8..11]}"
     tail = "【吉林美打折网】"
     content = head + body + detail + tail
     ret_code = "0"

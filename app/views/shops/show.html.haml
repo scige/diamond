@@ -51,9 +51,9 @@
           - group.each do |p|
             .dish
               - if p.index(@keywords)
-                %a.shop-match-keywords= p
+                .shop-match-keywords= p
               - else
-                %a= p
+                = p
               .sx
 
   .modebox.top-dishes
