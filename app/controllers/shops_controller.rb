@@ -23,6 +23,7 @@ class ShopsController < ApplicationController
       end
       @recommended_products << item
     end
+    @recommended_products = @recommended_products[0..2]
   end
 
   def map

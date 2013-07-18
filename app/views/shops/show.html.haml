@@ -58,11 +58,8 @@
     - if @shop.products.size > 0
       .hd
         %h6 订餐菜单
-      %table.table.table-striped
+      %table.table
         %tbody
-          %tr
-            %th 名称
-            %th 价格
           - @shop.products.each do |product|
             %tr
               %td= product.name
