@@ -2,13 +2,20 @@ class ShopsController < ApplicationController
   layout "application_mobile"
 
   def show
+    @keywords = params[:keywords]
     @shop = Shop.find_by_id(params[:id])
     @guid = params[:spm]
-    part = @shop.recommended_products.split
+    parts = @shop.recommended_products.split
+    pos = parts.index{|x| x.index(@keywords)}
+    if pos != nil
+      match = parts[pos]
+      parts.delete(match)
+      parts.insert(0, match)
+    end
     @recommended_products = []
     cur = 0
     item = []
-    part.each do |p|
+    parts.each do |p|
       cur += 1
       item << p
       if cur == 4

@@ -50,8 +50,10 @@
         .dp-3gcon-index
           - group.each do |p|
             .dish
-              %a
-                = p
+              - if p.index(@keywords)
+                %a.shop-match-keywords= p
+              - else
+                %a= p
               .sx
 
   .modebox.top-dishes
@@ -62,6 +64,10 @@
         %tbody
           - @shop.products.each do |product|
             %tr
-              %td= product.name
-              %td= "#{product.price} 元"
+              - if product.name.index(@keywords)
+                %td.shop-match-keywords= product.name
+                %td.shop-match-keywords= "#{product.price} 元"
+              - else
+                %td= product.name
+                %td= "#{product.price} 元"
 

@@ -259,6 +259,9 @@ section {
 	color:#323232;
 	word-wrap:break-word
 }
+.dp-3gcon-index .shop-match-keywords a,.dp-3gcon-index .shop-match-keywords a:visited {
+    color: red;
+}
 .sx {
 	background:#ededed;
 	width:1px;
@@ -311,6 +314,9 @@ table {
 }
 .table-hover tbody tr:hover>td,.table-hover tbody tr:hover>th {
 	background-color:#f5f5f5
+}
+.shop-match-keywords {
+    color: red;
 }
 
 

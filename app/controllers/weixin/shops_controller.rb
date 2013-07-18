@@ -7,6 +7,10 @@ class Weixin::ShopsController < Weixin::ApplicationController
     if @shops.size < 6
       @shops += Shop.where("navigation like '%s'" % "%#{@content}%").limit(6-@shops.size)
     end
+    if @shops.size < 6
+      @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%").limit(6-@shops.size)
+    end
+
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
