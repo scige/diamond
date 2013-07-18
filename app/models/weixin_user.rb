@@ -22,6 +22,7 @@
 #  updated_at  :datetime         not null
 #  status      :integer          default(0)
 #  guid        :string(255)
+#  gh_id       :string(255)
 #
 
 class WeixinUser < ActiveRecord::Base
@@ -33,6 +34,7 @@ class WeixinUser < ActiveRecord::Base
   attr_accessible :guid
   attr_accessible :open_id
   attr_accessible :fake_id
+  attr_accessible :gh_id
   attr_accessible :user_name
   attr_accessible :nick_name
   attr_accessible :remark_name
