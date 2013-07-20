@@ -33,7 +33,7 @@
                     %li= link_to "退出", destroy_super_session_path, :method => :delete
               - else
                 - if editor_signed_in?
-                  .offset3.span3
+                  .offset2.span4
                     %ul.nav
                       %li= link_to "欢迎您，#{current_editor.email}", "#"
                       %li= link_to "退出", destroy_editor_session_path, :method => :delete

@@ -6,11 +6,13 @@ class ShopsController < ApplicationController
     @shop = Shop.find_by_id(params[:id])
     @guid = params[:spm]
     parts = @shop.recommended_products.split
-    pos = parts.index{|x| x.index(@keywords)}
-    if pos != nil
-      match = parts[pos]
-      parts.delete(match)
-      parts.insert(0, match)
+    if @keywords and !@keywords.empty?
+      pos = parts.index{|x| x.index(@keywords)}
+      if pos != nil
+        match = parts[pos]
+        parts.delete(match)
+        parts.insert(0, match)
+      end
     end
     @recommended_products = []
     cur = 0
