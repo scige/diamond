@@ -15,6 +15,8 @@ class Weixin::ShopsController < Weixin::ApplicationController
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
+      redis_session[:keywords] = @content
       #清除存储的上次搜索结果
       redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
       redis_shops.clear
@@ -53,6 +55,8 @@ class Weixin::ShopsController < Weixin::ApplicationController
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
+      redis_session[:keywords] = @content
       #清除存储的上次搜索结果
       redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
       redis_shops.clear
@@ -68,6 +72,8 @@ class Weixin::ShopsController < Weixin::ApplicationController
   end
 
   def more
+    redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
+    @content = redis_session[:keywords]
     redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
     if redis_shops.nil? or redis_shops.size == 0
       render "weixin/shared/no_more_result"
