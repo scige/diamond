@@ -1,0 +1,18 @@
+<xml>
+    <ToUserName><![CDATA[<%= params[:xml][:FromUserName] %>]]></ToUserName>
+    <FromUserName><![CDATA[<%= params[:xml][:ToUserName] %>]]></FromUserName>
+    <CreateTime><%= Time.now.to_i %></CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[【使用帮助】
+
+● 找商家
+发送您感兴趣的关键词给小美，比如火锅，河南街，小美会为您找到最相关的商家。
+发送【m】查看更多商家。
+
+● 找订餐商家
+发送【dc 关键词】给小美，比如【dc 盖饭】，小美会为您找到符合条件的订餐商家。
+发送【m】查看更多商家。
+
+您在使用中有任何问题或建议，欢迎告诉小美。]]></Content>
+    <FuncFlag>0</FuncFlag>
+</xml>

@@ -37,6 +37,8 @@ Diamond::Application.routes.draw do
 
     root :to => 'weixin/weixin_users#unsubscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Event] == "unsubscribe" }
 
+    root :to => 'weixin/home#help', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && (request.params[:xml][:Content] == 'help' || request.params[:xml][:Content] == 'h') }
+
     root :to => 'weixin/shops#more', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content] == 'm' }
 
     root :to => 'weixin/shops#dingcan', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content].start_with?('dc ') }
