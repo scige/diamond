@@ -58,4 +58,8 @@ class Admin::ShopsController < ApplicationController
     @shops = Shop.all
     #@shops = Shop.limit(10)
   end
+
+  def search
+    @shops = Shop.where("name like '%s'" % "%#{params[:keywords]}%")
+  end
 end

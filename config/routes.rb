@@ -16,6 +16,7 @@ Diamond::Application.routes.draw do
   namespace :admin do
     resources :shops do
       get :map, :on => :collection
+      get :search, :on => :collection
     end
 
     resources :promos
