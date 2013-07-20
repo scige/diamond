@@ -39,11 +39,19 @@ class Weixin::ShopsController < Weixin::ApplicationController
         @shops << product.shop
       end
     end
-    @shops = @shops[0..MAX_SHOPS_NUM-1]
 
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      more_shops = @shops[MAX_SHOPS_NUM..-1]
+      if more_shops.size > 0
+        redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
+        redis_shops.clear
+        more_shops.each do |shop|
+          redis_shops << shop
+        end
+      end
+      @shops = @shops[0..MAX_SHOPS_NUM-1]
       render "index"
     end
   end
