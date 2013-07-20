@@ -2,7 +2,8 @@ class ShopsController < ApplicationController
   layout "application_mobile"
 
   def show
-    @keywords = params[:keywords]
+    redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
+    @keywords = redis_session[:keywords]
     @shop = Shop.find_by_id(params[:id])
     @guid = params[:spm]
     parts = @shop.recommended_products.split

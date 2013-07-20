@@ -72,8 +72,6 @@ class Weixin::ShopsController < Weixin::ApplicationController
   end
 
   def more
-    redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
-    @content = redis_session[:keywords]
     redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
     if redis_shops.nil? or redis_shops.size == 0
       render "weixin/shared/no_more_result"
