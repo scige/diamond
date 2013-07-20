@@ -1,19 +1,26 @@
 class Weixin::ShopsController < Weixin::ApplicationController
   before_filter :sync_weixin_user_status
 
+  MAX_SHOPS_NUM = 6
+
   def index
     @content = params[:xml][:Content]
-    @shops = Shop.where("name like '%s'" % "%#{@content}%").limit(6)
-    if @shops.size < 6
-      @shops += Shop.where("navigation like '%s'" % "%#{@content}%").limit(6-@shops.size)
-    end
-    if @shops.size < 6
-      @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%").limit(6-@shops.size)
-    end
+
+    @shops = Shop.where("name like '%s'" % "%#{@content}%")
+    @shops += Shop.where("navigation like '%s'" % "%#{@content}%")
+    @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%")
 
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      more_shops = @shops[MAX_SHOPS_NUM..-1]
+      if more_shops.size > 0
+        redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
+        more_shop.each do |shop|
+          redis_shops << shop
+        end
+      end
+      @shops = @shops[0..MAX_SHOPS_NUM-1]
       render "index"
     end
   end
@@ -31,11 +38,24 @@ class Weixin::ShopsController < Weixin::ApplicationController
         @shops << product.shop
       end
     end
-    @shops = @shops[0..5]
+    @shops = @shops[0..MAX_SHOPS_NUM-1]
 
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      render "index"
+    end
+  end
+
+  def more
+    redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
+    if redis_shops.nil?
+      render "weixin/shared/noresult"
+    else
+      @shops = []
+      (1..MAX_SHOPS_NUM).each do |id|
+        @shops << redis_shops.shift
+      end
       render "index"
     end
   end

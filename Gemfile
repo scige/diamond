@@ -54,5 +54,7 @@ gem 'annotate'
 
 gem 'rest-client'
 
+gem 'redis-objects'
+
 gem 'settingslogic'
 
