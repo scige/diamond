@@ -31,7 +31,13 @@ class Weixin::ShopsController < Weixin::ApplicationController
 
   def dingcan
     @content = params[:xml][:Content][2..-1].strip
-    @products = Product.where("name like '%s'" % "%#{@content}%")
+    #TODO: 这种实现[dc]的方式性能比较低, 以后需要改掉
+    if @content and !@content.empty?
+      @products = Product.where("name like '%s'" % "%#{@content}%")
+    else
+      @products = Product.all
+    end
+
     shops_hash = {}
     @shops = []
     @products.each do |product|
