@@ -50,7 +50,7 @@
         .dp-3gcon-index
           - group.each do |p|
             .dish
-              - if @keywords and p.index(@keywords)
+              - if @keywords and !@keywords.empty? and p.index(@keywords)
                 .shop-match-keywords= p
               - else
                 = p
@@ -64,7 +64,7 @@
         %tbody
           - @shop.products.each do |product|
             %tr
-              - if @keywords and product.name.index(@keywords)
+              - if @keywords and !@keywords.empty? and product.name.index(@keywords)
                 %td.shop-match-keywords= product.name
                 %td.shop-match-keywords= "#{product.price} 元"
               - else
