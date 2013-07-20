@@ -6,8 +6,12 @@ class Weixin::ShopsController < Weixin::ApplicationController
   MAX_SHOPS_NUM = 6
 
   def index
-    @content = params[:xml][:Content]
-
+    @content = params[:xml][:Content].strip
+    #参数非法性检查
+    if !@content or @content.empty?
+      render "weixin/shared/noresult"
+      return
+    end
     @shops = Shop.where("name like '%s'" % "%#{@content}%")
     @shops += Shop.where("navigation like '%s'" % "%#{@content}%")
     @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%")
@@ -72,6 +76,8 @@ class Weixin::ShopsController < Weixin::ApplicationController
   end
 
   def more
+    redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
+    @content = redis_session[:keywords]
     redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
     if redis_shops.nil? or redis_shops.size == 0
       render "weixin/shared/no_more_result"

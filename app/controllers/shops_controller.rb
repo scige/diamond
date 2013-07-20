@@ -2,11 +2,12 @@ class ShopsController < ApplicationController
   layout "application_mobile"
 
   def show
+    @keywords = params[:keywords]
     @shop = Shop.find_by_id(params[:id])
     @guid = params[:spm]
-    @weixin_user = WeixinUser.find_by_guid(@guid)
-    redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
-    @keywords = redis_session[:keywords]
+    #@weixin_user = WeixinUser.find_by_guid(@guid)
+    #redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
+    #@keywords = redis_session[:keywords]
     parts = @shop.recommended_products.split
     if @keywords and !@keywords.empty?
       pos = parts.index{|x| x.index(@keywords)}
