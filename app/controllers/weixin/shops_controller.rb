@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class Weixin::ShopsController < Weixin::ApplicationController
   before_filter :sync_weixin_user_status
 
@@ -13,10 +15,11 @@ class Weixin::ShopsController < Weixin::ApplicationController
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      #清除存储的上次搜索结果
+      redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
+      redis_shops.clear
       more_shops = @shops[MAX_SHOPS_NUM..-1]
-      if more_shops.size > 0
-        redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
-        redis_shops.clear
+      if more_shops and more_shops.size > 0
         more_shops.each do |shop|
           redis_shops << shop
         end
@@ -43,10 +46,11 @@ class Weixin::ShopsController < Weixin::ApplicationController
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      #清除存储的上次搜索结果
+      redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
+      redis_shops.clear
       more_shops = @shops[MAX_SHOPS_NUM..-1]
-      if more_shops.size > 0
-        redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
-        redis_shops.clear
+      if more_shops and more_shops.size > 0
         more_shops.each do |shop|
           redis_shops << shop
         end
@@ -59,7 +63,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
   def more
     redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
     if redis_shops.nil? or redis_shops.size == 0
-      render "weixin/shared/noresult"
+      render "weixin/shared/no_more_result"
     else
       @shops = redis_shops[0..MAX_SHOPS_NUM-1]
       (1..MAX_SHOPS_NUM).each do |id|
