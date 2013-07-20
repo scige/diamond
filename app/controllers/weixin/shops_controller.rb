@@ -35,6 +35,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
     if @content and !@content.empty?
       @products = Product.where("name like '%s'" % "%#{@content}%")
     else
+      @content = nil
       @products = Product.all
     end
 
