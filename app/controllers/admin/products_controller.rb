@@ -21,6 +21,27 @@ class Admin::ProductsController < ApplicationController
     redirect_to admin_shop_url(@product.shop)
   end
 
+  def batch_create
+    @shop = Shop.find(params[:shop_id])
+    if !@shop
+      #render :text => "商家不存在。"
+      return
+    end
+
+    raw_products = params[:attributes].strip.split("\r\n")
+    raw_products.each do |rp|
+      raw_product = rp.strip.split("\t")
+      if raw_product.size != 2
+        #数据格式错误
+        return
+      end
+      @product = Product.new(:name=>raw_product[0], :price=>raw_product[1])
+      @product.shop = @shop
+      @product.save
+    end
+    redirect_to admin_shop_url(@shop)
+  end
+
   def update
     @product = Product.find(params[:id])
     @shop = Shop.find(params[:shop_id])

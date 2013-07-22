@@ -23,7 +23,9 @@ Diamond::Application.routes.draw do
 
     resources :coupons
 
-    resources :products
+    resources :products do
+      post :batch_create, :on => :collection
+    end
 
     resources :shop_promo_relationships
 

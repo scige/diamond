@@ -98,6 +98,7 @@
         = f.label "商品", :class=>"control-label"
         .controls
           %a{:href=>"#myModal", "data-toggle"=>"modal", :class=>"btn btn-primary"} 新增商品
+          %a{:href=>"#myBatchModal", "data-toggle"=>"modal", :class=>"btn btn-primary"} 批量新增商品
           %p
           %table.table.table-striped
             %tr
@@ -150,3 +151,20 @@
           = f.submit :class=>"btn btn-success"
           %button.btn{"data-dismiss"=>"modal", "aria-hidden"=>"true"} Close
 
+#myBatchModal.modal.hide.fade{:tabindex=>"-1", :role=>"dialog", "aria-labelledby"=>"myModalLabel", "aria-hidden"=>"true"}
+  .modal-header
+    %button.close{:type=>"button", "data-dismiss"=>"modal", "aria-hidden"=>"true"} &times;
+    %h3#myModalLabel 新增商品
+
+  .modal-body
+    = form_tag batch_create_admin_products_path, :methods=>:post, :class=>"form-horizontal" do
+      = hidden_field_tag :shop_id, @shop.id
+      .control-group
+        = label_tag :attributes, "属性", :class=>"control-label"
+        .controls
+          = text_area_tag :attributes, nil, :rows=>16, :class=>"input-xlarge"
+
+      .control-group
+        .controls
+          = submit_tag "Batch Create Products", :class=>"btn btn-success"
+          %button.btn{"data-dismiss"=>"modal", "aria-hidden"=>"true"} Close
