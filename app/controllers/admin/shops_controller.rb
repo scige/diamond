@@ -2,7 +2,7 @@ class Admin::ShopsController < ApplicationController
   before_filter :deny_to_visitors
 
   def index
-    @shops = Shop.page(params[:page])
+    @shops = Shop.order("id DESC").page(params[:page])
   end
 
   def show

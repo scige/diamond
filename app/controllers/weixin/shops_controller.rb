@@ -59,6 +59,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
+      @shops.shuffle!
       redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
       redis_session[:keywords] = @content
       #清除存储的上次搜索结果
