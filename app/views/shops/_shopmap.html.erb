@@ -1,5 +1,4 @@
 <script>
-$(function(){
   var pos_lati = $("#map-container").attr("data-latitude");
   var pos_longti = $("#map-container").attr("data-longitude");
   
@@ -13,5 +12,4 @@ $(function(){
   map.enableScrollWheelZoom();
   map.addControl(new BMap.NavigationControl({type: BMAP_NAVIGATION_CONTROL_ZOOM}));
   map.addControl(new BMap.OverviewMapControl());
-});
 </script>
