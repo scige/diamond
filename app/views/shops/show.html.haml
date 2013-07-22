@@ -26,11 +26,12 @@
               = @shop.address
               %i.arrow-ent
         - if !@shop.phone.empty?
-          %li
-            %a{:href=>"tel:#{@shop.phone}"}
-              %i.icon-call
-              = @shop.phone
-              %i.arrow-ent
+          - get_phones(@shop.phone).each do |phone|
+            %li
+              %a{:href=>"tel:#{phone}"}
+                %i.icon-call
+                = phone
+                %i.arrow-ent
 
   .details-mode.promo-info
     .info-list
