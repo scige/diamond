@@ -6,7 +6,7 @@
       %h1= @shop.name
     .pic-txt
       .pic
-        %a{:href=>@shop.thumb}
+        %a{:href=>"weixin://viewimage/http://wx.jilinmei.com#{@shop.thumb_url(:normal)}"}
           = image_tag(@shop.thumb_url(:small))
       %p
         %span.item-rank-rst{:class=>"irr-star#{@shop.star}"}
