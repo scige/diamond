@@ -46,20 +46,26 @@ class Weixin::ShopsController < Weixin::ApplicationController
     end
 
     shops_hash = {}
-    @shops = []
+    shop_objs_hash = []
     @products.each do |product|
       if shops_hash.has_key?(product.shop_id)
         shops_hash[product.shop_id] += 1
       else
         shops_hash[product.shop_id] = 1
-        @shops << product.shop
+        shop_objs_hash[product.shop_id] = product.shop
       end
+    end
+
+    shops_sorted = shops_hash.sort_by {|id, count| -count}
+
+    @shops = []
+    shops_sorted.each do |item|
+      @shops << shop_objs_hash[item[0]]
     end
 
     if @shops.size == 0
       render "weixin/shared/noresult"
     else
-      @shops.shuffle!
       redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
       redis_session[:keywords] = @content
       #清除存储的上次搜索结果
