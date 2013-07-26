@@ -28,7 +28,7 @@
         - if !@shop.phone.empty?
           - get_phones(@shop.phone).each do |phone|
             %li
-              %a{:href=>"tel:#{phone}"}
+              %a#click-phone{:href=>shops_phone_path(:phone=>phone, :shop_id=>@shop.id, :keywords=>@keywords, :spm=>@guid)}
                 %i.icon-call
                 = phone
                 %i.arrow-ent
@@ -73,4 +73,17 @@
                 %td= "#{product.price} 元"
 
 = render "shared/weixin_tail"
+
+-#
+  <script>
+  $(function(){
+  $("#click-phone").click(function() {
+  var url = "http://log.jilinmei.com/test.html";
+  var Img = document.createElement("img");
+  Img.src = url;
+  document.body.appendChild(Img);
+  document.body.removeChild(Img);
+  });
+  });
+  </script>
 

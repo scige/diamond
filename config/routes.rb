@@ -5,9 +5,11 @@ Diamond::Application.routes.draw do
 
   devise_for :editors
 
-  resources :shops
-
   get "shops/map/:id" => "shops#map"
+
+  get "shops/phone" => "shops#phone"
+
+  resources :shops
 
   resources :promos
 

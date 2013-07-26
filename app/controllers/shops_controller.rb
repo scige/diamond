@@ -41,4 +41,8 @@ class ShopsController < ApplicationController
   def map
     @shop = Shop.find_by_id(params[:id])
   end
+
+  def phone
+    redirect_to "tel:#{params[:phone]}"
+  end
 end
