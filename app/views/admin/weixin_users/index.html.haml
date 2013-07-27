@@ -14,8 +14,7 @@
     %th user_name
     %th nick_name
     %th group_id
-    %th city
-    %th thumb
+    %th updated_at
     %th{:width=>"250"} operation
 
   - @weixin_users.each do |weixin_user|
@@ -27,11 +26,7 @@
       %td= weixin_user.user_name
       %td= weixin_user.nick_name
       %td= weixin_user.group_id
-      %td= weixin_user.city
-      - if weixin_user.thumb and !weixin_user.thumb.empty?
-        %td= image_tag(weixin_user.thumb, :height => "40")
-      - else
-        %td
+      %td= weixin_user.updated_at
       %td
         = link_to 'Show', admin_weixin_user_path(weixin_user), :class=>"btn btn-small btn-warning"
         = link_to 'Edit', edit_admin_weixin_user_path(weixin_user), :class=>"btn btn-small btn-info"

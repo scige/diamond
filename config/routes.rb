@@ -43,7 +43,7 @@ Diamond::Application.routes.draw do
 
     root :to => 'weixin/home#help', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && (request.params[:xml][:Content] == 'help' || request.params[:xml][:Content] == 'h') }
 
-    root :to => 'weixin/shops#more', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content] == 'm' }
+    root :to => 'weixin/shops#more', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && (request.params[:xml][:Content] == 'm' || request.params[:xml][:Content] == 'M') }
 
     root :to => 'weixin/shops#dingcan', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content].index(/^[Dd][Cc]/) }
 

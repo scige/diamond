@@ -54,8 +54,10 @@ class Weixin::ShopsController < Weixin::ApplicationController
       if shops_hash.has_key?(product.shop_id)
         shops_hash[product.shop_id] += 1
       else
-        shops_hash[product.shop_id] = 1
-        shop_objs_hash[product.shop_id] = product.shop
+        if product.shop.status == Setting.shop.status_on_shelf
+          shops_hash[product.shop_id] = 1
+          shop_objs_hash[product.shop_id] = product.shop
+        end
       end
     end
 
