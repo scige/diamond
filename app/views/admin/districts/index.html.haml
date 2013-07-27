@@ -1,0 +1,56 @@
+.row
+  .span3
+    %h2 List districts
+  .offset7.span2
+    .new-shop-button
+      = link_to 'New District', new_admin_district_path, :class=>"btn btn-primary"
+
+%table.table.table-striped
+  %tr
+    %th id
+    %th name
+    %th parent
+    %th{:width=>"250"} operation
+
+  - @districts.each do |district|
+    %tr
+      %td= district.id
+      %td= district.name
+      - if district.parent
+        %td= district.parent.name
+      - else
+        %td
+      %td
+        = link_to 'Child', new_admin_district_path(:parent_id=>district.id), :class=>"btn btn-small"
+        = link_to 'Show', admin_district_path(district), :class=>"btn btn-small btn-warning"
+        = link_to 'Edit', edit_admin_district_path(district), :class=>"btn btn-small btn-info"
+        = link_to 'Destroy', admin_district_path(district), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+
+    - district.children.each do |child|
+      %tr
+        %td= child.id
+        %td= "&nbsp'--&nbsp#{child.name}".html_safe
+        - if child.parent
+          %td= child.parent.name
+        - else
+          %td
+        %td
+          = link_to 'Child', new_admin_district_path(:parent_id=>child.id), :class=>"btn btn-small"
+          = link_to 'Show', admin_district_path(child), :class=>"btn btn-small btn-warning"
+          = link_to 'Edit', edit_admin_district_path(child), :class=>"btn btn-small btn-info"
+          = link_to 'Destroy', admin_district_path(child), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+
+      - child.children.each do |grandchild|
+        %tr
+          %td= grandchild.id
+          %td= "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'--&nbsp#{grandchild.name}".html_safe
+          - if grandchild.parent
+            %td= grandchild.parent.name
+          - else
+            %td
+          %td
+            = link_to 'Child', new_admin_district_path(:parent_id=>grandchild.id), :class=>"btn btn-small"
+            = link_to 'Show', admin_district_path(grandchild), :class=>"btn btn-small btn-warning"
+            = link_to 'Edit', edit_admin_district_path(grandchild), :class=>"btn btn-small btn-info"
+            = link_to 'Destroy', admin_district_path(grandchild), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
+

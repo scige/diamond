@@ -22,9 +22,11 @@ class Admin::CategoriesController < ApplicationController
     @category = Category.new(params[:category])
 
     if @category.save
-      @parent_category = Category.find(params[:parent_id])
-      @category.move_to_child_of(@parent_category)
-      redirect_to admin_category_url(@category)
+      if params[:parent_id] and !params[:parent_id].empty?
+        @parent_category = Category.find(params[:parent_id])
+        @category.move_to_child_of(@parent_category)
+      end
+      redirect_to admin_categories_url
     else
       render action: "new"
     end
@@ -34,7 +36,7 @@ class Admin::CategoriesController < ApplicationController
     @category = Category.find(params[:id])
 
     if @category.update_attributes(params[:category])
-      redirect_to admin_category_url(@category)
+      redirect_to admin_categories_url
     else
       render action: "edit"
     end

@@ -15,6 +15,10 @@
         = f.label :navigation, "分类", :class=>"control-label"
         .controls
           = f.text_field :navigation, :class=>"input-xxlarge", :disabled=>"disabled"
+      .control-group
+        = f.label :districts, "区域", :class=>"control-label"
+        .controls
+          = f.text_field :districts, :class=>"input-xxlarge", :disabled=>"disabled"
       - if super_signed_in?
         .control-group
           = f.label :poi, :class=>"control-label"

@@ -15,6 +15,7 @@
     = f.label :name, "名称", :class=>"control-label"
     .controls
       = f.text_field :name, :class=>"input-xxlarge"
+
   .control-group
     = f.label :navigation, "分类", :class=>"control-label"
     .controls
@@ -27,6 +28,19 @@
           .label.category-label= child.name
     .controls
       .label.label-warning.category-input-clear 清除所有分类
+
+  .control-group
+    = f.label :districts, "区域", :class=>"control-label"
+    .controls
+      = f.text_field :districts, :class=>"district-input input-xxlarge"
+    - @districts.each do |district|
+      .controls
+        .label.district-label= district.name
+        = ":&nbsp".html_safe
+        - district.children.each do |child|
+          .label.district-label= child.name
+    .controls
+      .label.label-warning.district-input-clear 清除所有区域
 
   - if super_signed_in?
     .control-group

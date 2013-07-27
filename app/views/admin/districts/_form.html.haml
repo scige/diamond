@@ -1,0 +1,19 @@
+= form_for [:admin, @district], :html => {:class=>"form-horizontal"} do |f|
+  - if @district.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@district.errors.count, "error")} prohibited this district from being saved:"
+      %ul
+        - @district.errors.full_messages.each do |msg|
+          %li= msg
+
+  = hidden_field_tag :parent_id, @parent_id
+  .control-group
+    = f.label :name, :class=>"control-label"
+    .controls
+      = f.text_field :name, :class=>"input-xxlarge"
+
+  .control-group
+    .controls
+      = f.submit :class=>"btn btn-success"
+      = link_to 'Back', admin_districts_path, :class=>"btn"
+

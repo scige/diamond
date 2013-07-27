@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130727084805) do
+ActiveRecord::Schema.define(:version => 20130727142155) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -37,6 +37,16 @@ ActiveRecord::Schema.define(:version => 20130727084805) do
   add_index "coupons", ["promo_id"], :name => "index_coupons_on_promo_id"
   add_index "coupons", ["shop_id"], :name => "index_coupons_on_shop_id"
   add_index "coupons", ["weixin_user_id"], :name => "index_coupons_on_weixin_user_id"
+
+  create_table "districts", :force => true do |t|
+    t.string   "name"
+    t.integer  "parent_id"
+    t.integer  "lft"
+    t.integer  "rgt"
+    t.integer  "depth"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "editors", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -111,6 +121,7 @@ ActiveRecord::Schema.define(:version => 20130727084805) do
     t.datetime "updated_at",                          :null => false
     t.integer  "status",               :default => 0
     t.string   "editor"
+    t.string   "districts"
   end
 
   create_table "supers", :force => true do |t|

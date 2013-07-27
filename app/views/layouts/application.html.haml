@@ -27,6 +27,7 @@
                     %li{:class => (controller_name=="coupons"?"active":nil)}= link_to "优惠券管理", admin_coupons_path
                     %li{:class => (controller_name=="weixin_users"?"active":nil)}= link_to "用户管理", admin_weixin_users_path
                     %li{:class => (controller_name=="categories"?"active":nil)}= link_to "类别管理", admin_categories_path
+                    %li{:class => (controller_name=="districts"?"active":nil)}= link_to "区域管理", admin_districts_path
 
               - if super_signed_in?
                 .offset3.span1
