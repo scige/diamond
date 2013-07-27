@@ -16,6 +16,7 @@ class Admin::ShopsController < ApplicationController
 
   def edit
     @shop = Shop.find(params[:id])
+    @categories = Category.roots
   end
 
   def create

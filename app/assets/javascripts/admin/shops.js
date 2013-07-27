@@ -1,16 +1,14 @@
 $(function(){
-  var pos_lati = $("#mapbox").attr("data-latitude");
-  var pos_longti = $("#mapbox").attr("data-longitude");
-  
-  var map = new BMap.Map("mapbox");
-  var point = new BMap.Point(pos_longti, pos_lati);
-  
-  var marker1 = new BMap.Marker(new BMap.Point(pos_longti, pos_lati));
-  map.addOverlay(marker1);
-  
-  map.centerAndZoom(point,17);
-  //map.enableScrollWheelZoom();
-  map.addControl(new BMap.NavigationControl({type: BMAP_NAVIGATION_CONTROL_ZOOM}));
-  //map.addControl(new BMap.OverviewMapControl());
+  $(".category-label").click(function(e){
+    var value = $(e.target).text();
+    $(e.target).addClass("label-important");
+
+    var old_value = $(".category-input").val();
+    $(".category-input").val(old_value + " " + value);
+  });
+
+  $(".category-input-clear").click(function(){
+    $(".category-input").val("");
+  });
 });
 

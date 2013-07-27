@@ -120,6 +120,7 @@
     .span4
       = javascript_include_tag "http://api.map.baidu.com/api?v=1.5&ak=64b4ea83fa9a6402adedc205f77a146b"
       #mapbox{"data-latitude"=>@shop.latitude, "data-longitude"=>@shop.longitude}
+      = render "shop_map"
 
 #myModal.modal.hide.fade{:tabindex=>"-1", :role=>"dialog", "aria-labelledby"=>"myModalLabel", "aria-hidden"=>"true"}
   .modal-header

@@ -32,6 +32,8 @@ Diamond::Application.routes.draw do
     resources :shop_promo_relationships
 
     resources :weixin_users
+
+    resources :categories
   end
 
   scope :path => "/weixin", :via => :post, :defaults => {:format => 'xml'} do

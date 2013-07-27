@@ -1,0 +1,19 @@
+= form_for [:admin, @category], :html => {:class=>"form-horizontal"} do |f|
+  - if @category.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@category.errors.count, "error")} prohibited this category from being saved:"
+      %ul
+        - @category.errors.full_messages.each do |msg|
+          %li= msg
+
+  = hidden_field_tag :parent_id, @parent_id
+  .control-group
+    = f.label :name, :class=>"control-label"
+    .controls
+      = f.text_field :name, :class=>"input-xxlarge"
+
+  .control-group
+    .controls
+      = f.submit :class=>"btn btn-success"
+      = link_to 'Back', admin_categories_path, :class=>"btn"
+

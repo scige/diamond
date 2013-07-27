@@ -18,7 +18,16 @@
   .control-group
     = f.label :navigation, "分类", :class=>"control-label"
     .controls
-      = f.text_field :navigation, :class=>"input-xxlarge"
+      = f.text_field :navigation, :class=>"category-input input-xxlarge"
+    - @categories.each do |category|
+      .controls
+        .label.category-label= category.name
+        = ":&nbsp".html_safe
+        - category.children.each do |child|
+          .label.category-label= child.name
+    .controls
+      .label.label-warning.category-input-clear 清除所有分类
+
   - if super_signed_in?
     .control-group
       = f.label :poi, :class=>"control-label"

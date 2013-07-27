@@ -58,3 +58,5 @@ gem 'redis-objects'
 
 gem 'settingslogic'
 
+gem 'awesome_nested_set'
+
