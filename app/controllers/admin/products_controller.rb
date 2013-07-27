@@ -42,6 +42,11 @@ class Admin::ProductsController < ApplicationController
     redirect_to admin_shop_url(@shop)
   end
 
+  def edit
+    @product = Product.find(params[:id])
+    @shop = Shop.find(params[:shop_id])
+  end
+
   def update
     @product = Product.find(params[:id])
     @shop = Shop.find(params[:shop_id])

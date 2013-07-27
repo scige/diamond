@@ -13,6 +13,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
       return
     end
     @shops = Shop.where("name like '%s'" % "%#{@content}%")
+    @shops += Shop.where("address like '%s'" % "%#{@content}%")
     @shops += Shop.where("navigation like '%s'" % "%#{@content}%")
     @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%")
 
