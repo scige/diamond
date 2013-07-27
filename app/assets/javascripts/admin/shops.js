@@ -1,5 +1,10 @@
 $(function(){
   $(".category-label").click(function(e){
+    if ($(e.target).hasClass("label-important"))
+    {
+      return;
+    }
+
     var value = $(e.target).text();
     $(e.target).addClass("label-important");
 
@@ -10,11 +15,17 @@ $(function(){
       $(".category-input").val(old_value + " " + value);
   });
 
-  $(".category-input-clear").click(function(){
+  $(".category-input-clear").click(function(e){
     $(".category-input").val("");
+    $(".category-label").removeClass("label-important");
   });
 
   $(".district-label").click(function(e){
+    if ($(e.target).hasClass("label-important"))
+    {
+      return;
+    }
+
     var value = $(e.target).text();
     $(e.target).addClass("label-important");
 
@@ -27,6 +38,7 @@ $(function(){
 
   $(".district-input-clear").click(function(){
     $(".district-input").val("");
+    $(".district-label").removeClass("label-important");
   });
 });
 
