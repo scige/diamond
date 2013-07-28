@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130727142155) do
+ActiveRecord::Schema.define(:version => 20130728014103) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(:version => 20130727142155) do
   add_index "coupons", ["code"], :name => "index_coupons_on_code"
   add_index "coupons", ["promo_id"], :name => "index_coupons_on_promo_id"
   add_index "coupons", ["shop_id"], :name => "index_coupons_on_shop_id"
+  add_index "coupons", ["status"], :name => "index_coupons_on_status"
   add_index "coupons", ["weixin_user_id"], :name => "index_coupons_on_weixin_user_id"
 
   create_table "districts", :force => true do |t|
@@ -76,6 +77,9 @@ ActiveRecord::Schema.define(:version => 20130727142155) do
     t.datetime "updated_at",                 :null => false
   end
 
+  add_index "products", ["name"], :name => "index_products_on_name"
+  add_index "products", ["shop_id"], :name => "index_products_on_shop_id"
+
   create_table "promos", :force => true do |t|
     t.string   "name"
     t.text     "content"
@@ -88,12 +92,18 @@ ActiveRecord::Schema.define(:version => 20130727142155) do
     t.string   "editor"
   end
 
+  add_index "promos", ["name"], :name => "index_promos_on_name"
+  add_index "promos", ["status"], :name => "index_promos_on_status"
+
   create_table "shop_promo_relationships", :force => true do |t|
     t.integer  "shop_id"
     t.integer  "promo_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  add_index "shop_promo_relationships", ["promo_id"], :name => "index_shop_promo_relationships_on_promo_id"
+  add_index "shop_promo_relationships", ["shop_id"], :name => "index_shop_promo_relationships_on_shop_id"
 
   create_table "shops", :force => true do |t|
     t.integer  "rank"
@@ -123,6 +133,13 @@ ActiveRecord::Schema.define(:version => 20130727142155) do
     t.string   "editor"
     t.string   "districts"
   end
+
+  add_index "shops", ["address"], :name => "index_shops_on_address"
+  add_index "shops", ["districts"], :name => "index_shops_on_districts"
+  add_index "shops", ["name"], :name => "index_shops_on_name"
+  add_index "shops", ["navigation"], :name => "index_shops_on_navigation"
+  add_index "shops", ["recommended_products"], :name => "index_shops_on_recommended_products"
+  add_index "shops", ["status"], :name => "index_shops_on_status"
 
   create_table "supers", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -165,6 +182,9 @@ ActiveRecord::Schema.define(:version => 20130727142155) do
     t.string   "gh_id"
   end
 
+  add_index "weixin_users", ["gh_id"], :name => "index_weixin_users_on_gh_id"
   add_index "weixin_users", ["guid"], :name => "index_weixin_users_on_guid"
+  add_index "weixin_users", ["open_id"], :name => "index_weixin_users_on_open_id"
+  add_index "weixin_users", ["status"], :name => "index_weixin_users_on_status"
 
 end
