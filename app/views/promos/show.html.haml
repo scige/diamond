@@ -28,7 +28,7 @@
   .pop-main
     .pop-con
       = form_tag coupons_path(:spm=>@guid), :remote=>true do |f|
-        = hidden_field_tag :shop_id, @shop_id
+        = hidden_field_tag :shop_id, @shop.id
         = hidden_field_tag :promo_id, @promo.id
         .warn
           %p 请输入手机号

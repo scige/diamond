@@ -44,6 +44,9 @@ class CouponsController < ApplicationController
               #TODO: 更新失败需要记录一条错误日志
             end
           end
+
+          STAT_LOG.info "[coupons/create]\t#{weixin_user.open_id}\t#{mobile}\t#{@coupon.id}\t#{@coupon.code}\t#{promo.id}\t#{promo.name}\t#{shop.id}\t#{shop.name}"
+
           #TODO: 显示发送成功消息，2秒钟后自动消失
           respond_to do |format|
             format.js {render :layout => false}

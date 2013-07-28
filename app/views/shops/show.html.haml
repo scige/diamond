@@ -21,14 +21,14 @@
       %ul
         - if !@shop.address.empty?
           %li
-            %a{:href=>"/shops/map/#{@shop.id}"}
+            %a{:href=>map_shops_path(:shop_id=>@shop.id, :keywords=>@keywords, :spm=>@guid)}
               %i.icon-address
               = @shop.address
               %i.arrow-ent
         - if !@shop.phone.empty?
           - get_phones(@shop.phone).each do |phone|
             %li
-              %a#click-phone{:href=>shops_phone_path(:phone=>phone, :shop_id=>@shop.id, :keywords=>@keywords, :spm=>@guid)}
+              %a#click-phone{:href=>phone_shops_path(:phone=>phone, :shop_id=>@shop.id, :keywords=>@keywords, :spm=>@guid)}
                 %i.icon-call
                 = phone
                 %i.arrow-ent

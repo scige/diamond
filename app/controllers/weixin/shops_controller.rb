@@ -18,7 +18,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
     @shops += Shop.where("districts like '%s'" % "%#{@content}%")
     @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%")
 
-    logger.info "#{Time.now}\t[search]\t#{@content}\t#{@shops.size}\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{request.remote_ip}\t#{request.user_agent}"
+    STAT_LOG.info "[search]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
 
     if @shops.size == 0
       render "weixin/shared/noresult"
@@ -69,7 +69,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
       @shops << shop_objs_hash[item[0]]
     end
 
-    logger.info "#{Time.now}\t[dingcan]\t#{@content}\t#{@shops.size}\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{request.remote_ip}\t#{request.user_agent}"
+    STAT_LOG.info "[dingcan]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
 
     if @shops.size == 0
       render "weixin/shared/noresult"
@@ -94,6 +94,9 @@ class Weixin::ShopsController < Weixin::ApplicationController
     redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
     @content = redis_session[:keywords]
     redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
+
+    STAT_LOG.info "[more]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{redis_shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
+
     if redis_shops.nil? or redis_shops.size == 0
       render "weixin/shared/no_more_result"
     else

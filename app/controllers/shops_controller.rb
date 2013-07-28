@@ -5,9 +5,13 @@ class ShopsController < ApplicationController
     @keywords = params[:keywords]
     @shop = Shop.find_by_id(params[:id])
     @guid = params[:spm]
-    #@weixin_user = WeixinUser.find_by_guid(@guid)
+    @weixin_user = WeixinUser.find_by_guid(@guid)
+
     #redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
     #@keywords = redis_session[:keywords]
+
+    STAT_LOG.info "[shops/show]\t#{@weixin_user ? @weixin_user.open_id : ''}\t#{@keywords}\t#{@shop.id}\t#{@shop.name}"
+
     parts = @shop.recommended_products.split
     if @keywords and !@keywords.empty?
       pos = parts.index{|x| x.index(@keywords)}
@@ -39,10 +43,23 @@ class ShopsController < ApplicationController
   end
 
   def map
-    @shop = Shop.find_by_id(params[:id])
+    @shop = Shop.find_by_id(params[:shop_id])
+    @keywords = params[:keywords]
+    @guid = params[:spm]
+    @weixin_user = WeixinUser.find_by_guid(@guid)
+
+    STAT_LOG.info "[shops/map]\t#{@weixin_user ? @weixin_user.open_id : ''}\t#{@keywords}\t#{@shop.id}\t#{@shop.name}"
   end
 
   def phone
-    redirect_to "tel:#{params[:phone]}"
+    phone = params[:phone]
+    shop_id = params[:shop_id]
+    keywords = params[:keywords]
+    guid = params[:spm]
+    weixin_user = WeixinUser.find_by_guid(guid)
+
+    STAT_LOG.info "[shops/phone]\t#{weixin_user ? weixin_user.open_id : ''}\t#{keywords}\t#{shop_id}\t#{shop.name}\t#{phone}"
+
+    redirect_to "tel:#{phone}"
   end
 end
