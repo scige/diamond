@@ -2,6 +2,7 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
   before_filter :sync_weixin_user_status, :only => [:subscribe]
 
   def subscribe
+    STAT_LOG.info "[weixins/user]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{params[:xml][:Event]}"
     render "subscribe"
   end
 
@@ -19,6 +20,7 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
       end
     end
 
+    STAT_LOG.info "[weixins/user]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{params[:xml][:Event]}"
     render :text => ""
   end
 end

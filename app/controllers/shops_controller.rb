@@ -53,12 +53,12 @@ class ShopsController < ApplicationController
 
   def phone
     phone = params[:phone]
-    shop_id = params[:shop_id]
     keywords = params[:keywords]
+    shop = Shop.find_by_id(params[:shop_id])
     guid = params[:spm]
     weixin_user = WeixinUser.find_by_guid(guid)
 
-    STAT_LOG.info "[shops/phone]\t#{weixin_user ? weixin_user.open_id : ''}\t#{keywords}\t#{shop_id}\t#{shop.name}\t#{phone}"
+    STAT_LOG.info "[shops/phone]\t#{weixin_user ? weixin_user.open_id : ''}\t#{keywords}\t#{shop.id}\t#{shop.name}\t#{phone}"
 
     redirect_to "tel:#{phone}"
   end
