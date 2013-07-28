@@ -12,6 +12,8 @@ class Admin::ShopsController < ApplicationController
 
   def new
     @shop = Shop.new
+    @categories = Category.roots
+    @districts = District.roots
   end
 
   def edit
