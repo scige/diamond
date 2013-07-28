@@ -15,7 +15,8 @@
   - @districts.each do |district|
     %tr
       %td= district.id
-      %td= district.name
+      %td
+        %strong= district.name
       - if district.parent
         %td= district.parent.name
       - else

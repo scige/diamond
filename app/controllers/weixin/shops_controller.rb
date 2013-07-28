@@ -15,6 +15,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
     @shops = Shop.where("name like '%s'" % "%#{@content}%")
     @shops += Shop.where("address like '%s'" % "%#{@content}%")
     @shops += Shop.where("navigation like '%s'" % "%#{@content}%")
+    @shops += Shop.where("districts like '%s'" % "%#{@content}%")
     @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%")
 
     logger.info "#{Time.now}\t[search]\t#{@content}\t#{@shops.size}\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{request.remote_ip}\t#{request.user_agent}"

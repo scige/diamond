@@ -15,7 +15,8 @@
   - @categories.each do |category|
     %tr
       %td= category.id
-      %td= category.name
+      %td
+        %strong= category.name
       - if category.parent
         %td= category.parent.name
       - else
