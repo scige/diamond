@@ -5,10 +5,18 @@
     .new-shop-button
       = form_tag search_admin_shops_path, :method=>"get", :class=>"form-search" do |f|
         = text_field_tag :keywords, nil, {:autocomplete=>"off", :placeholder=>"请输入商家名称", :class=>"input-large search-query"}
-        = submit_tag "搜索", {:hidefocus=>"true", :class=>"btn"}
-  .offset2.span2
-    .new-shop-button
-      = link_to '新增商家', new_admin_shop_path, :class=>"btn btn-primary"
+        = submit_tag "搜索", {:hidefocus=>"true", :class=>"btn btn-info"}
+  - if super_signed_in?
+    .span4
+      .new-shop-button
+        = link_to '全部', admin_shops_path, :class=>"btn"
+        = link_to '待审核', not_verify_admin_shops_path, :class=>"btn"
+        = link_to '能订餐', can_dingcan_admin_shops_path, :class=>"btn"
+        = link_to '新增商家', new_admin_shop_path, :class=>"btn btn-primary"
+  - else
+    .offset2.span2
+      .new-shop-button
+        = link_to '新增商家', new_admin_shop_path, :class=>"btn btn-primary"
 
 %table.table.table-striped
   %tr
@@ -43,6 +51,7 @@
         - if super_signed_in?
           = link_to 'Destroy', admin_shop_path(shop), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class=>"btn btn-small btn-danger"
 
-.page-nav-wrapper
-  = paginate @shops
+- if action_name != "can_dingcan"
+  .page-nav-wrapper
+    = paginate @shops
 

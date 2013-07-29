@@ -66,4 +66,29 @@ class Admin::ShopsController < ApplicationController
   def search
     @shops = Shop.where("name like '%s'" % "%#{params[:keywords]}%")
   end
+
+  def not_verify
+    @shops = Shop.where("id=#{Setting.shop.status_not_verify}").order("id DESC").page(params[:page])
+    render "admin/shops/index"
+  end
+
+  def can_dingcan
+    @shops = []
+    shops_hash = {}
+    products = Product.all
+    products.each do |product|
+      if shops_hash.has_key?(product.shop_id)
+        shops_hash[product.shop_id] += 1
+      else
+        shops_hash[product.shop_id] = 1
+        @shops << product.shop
+      end
+    end
+
+    @shops.sort! do |a, b|
+      a <=> b
+    end
+
+    render "admin/shops/index"
+  end
 end

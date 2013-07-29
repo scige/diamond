@@ -18,6 +18,8 @@ Diamond::Application.routes.draw do
     resources :shops do
       get :map, :on => :collection
       get :search, :on => :collection
+      get :not_verify, :on => :collection
+      get :can_dingcan, :on => :collection
     end
 
     resources :promos
