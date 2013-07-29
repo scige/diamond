@@ -12,11 +12,22 @@ class Weixin::ShopsController < Weixin::ApplicationController
       render "weixin/shared/noresult"
       return
     end
-    @shops = Shop.where("name like '%s'" % "%#{@content}%")
-    @shops += Shop.where("address like '%s'" % "%#{@content}%")
-    @shops += Shop.where("navigation like '%s'" % "%#{@content}%")
-    @shops += Shop.where("districts like '%s'" % "%#{@content}%")
-    @shops += Shop.where("recommended_products like '%s'" % "%#{@content}%")
+
+    words = @content.split(/ +|, *|， +/)
+    if words.size > 2
+      words = words[0..1]
+    end
+
+    if words.size != 2
+      query = words[0]
+      @shops = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("star DESC")
+    else
+      query = words[0]
+      shops0 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
+      query = words[1]
+      shops1 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
+      @shops = merge_shops(shop0, shop1)
+    end
 
     STAT_LOG.info "[weixins/search]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
 
@@ -106,5 +117,24 @@ class Weixin::ShopsController < Weixin::ApplicationController
       end
       render "index"
     end
+  end
+
+  #private
+  def merge_shops(shops0, shops1)
+    intersection = shops0 & shops1
+    union = shop0 | shop1
+
+    hit_two_shops = intersection
+    hit_one_shops = union - intersection
+
+    hit_two_shops.sort! do |a, b|
+      a.star <=> b.star
+    end
+
+    hit_one_shops.sort! do |a, b|
+      a.star <=> b.star
+    end
+
+    return hit_two_shops + hit_one_shops
   end
 end
