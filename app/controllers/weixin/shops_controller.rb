@@ -13,7 +13,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
       return
     end
 
-    words = @content.split(/ +|, *|， +/)
+    words = @content.split(/ +|, *|， */)
     if words.size > 2
       words = words[0..1]
     end
@@ -26,7 +26,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
       shops0 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
       query = words[1]
       shops1 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
-      @shops = merge_shops(shop0, shop1)
+      @shops = merge_shops(shops0, shops1)
     end
 
     STAT_LOG.info "[weixins/search]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
@@ -119,22 +119,39 @@ class Weixin::ShopsController < Weixin::ApplicationController
     end
   end
 
-  #private
+  private
   def merge_shops(shops0, shops1)
     intersection = shops0 & shops1
-    union = shop0 | shop1
+    #union = shops0 | shops1
 
     hit_two_shops = intersection
-    hit_one_shops = union - intersection
+    #hit_one_shops = union - intersection
 
     hit_two_shops.sort! do |a, b|
-      a.star <=> b.star
+      if b.star and a.star
+        b.star <=> a.star
+      elsif b.star
+        1
+      elsif a.star
+        -1
+      else
+        0
+      end
     end
 
-    hit_one_shops.sort! do |a, b|
-      a.star <=> b.star
-    end
+    #hit_one_shops.sort! do |a, b|
+    #  if b.star and a.star
+    #    b.star <=> a.star
+    #  elsif b.star
+    #    1
+    #  elsif a.star
+    #    -1
+    #  else
+    #    0
+    #  end
+    #end
 
-    return hit_two_shops + hit_one_shops
+    return hit_two_shops
+    #return hit_two_shops + hit_one_shops
   end
 end
