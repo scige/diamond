@@ -37,6 +37,10 @@ Diamond::Application.routes.draw do
     resources :districts
   end
 
+  resources :notices do
+    get :help, :on => :collection
+  end
+
   scope :path => "/weixin", :via => :post, :defaults => {:format => 'xml'} do
     #root :to => 'weixin/home#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' }
 
