@@ -175,4 +175,8 @@ class Weixin::ShopsController < Weixin::ApplicationController
     return hit_two_shops
     #return hit_two_shops + hit_one_shops
   end
+
+  def near
+    render "weixin/shared/noresult"
+  end
 end
