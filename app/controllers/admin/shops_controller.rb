@@ -59,7 +59,8 @@ class Admin::ShopsController < ApplicationController
   end
 
   def map
-    @shops = Shop.all
+    @shops = Shop.where("editor is not null")
+    #@shops = Shop.where("status=#{Setting.shop.status_not_verify}")
     #@shops = Shop.limit(10)
   end
 
@@ -68,7 +69,7 @@ class Admin::ShopsController < ApplicationController
   end
 
   def not_verify
-    @shops = Shop.where("id=#{Setting.shop.status_not_verify}").order("id DESC").page(params[:page])
+    @shops = Shop.where("status=#{Setting.shop.status_not_verify}").order("id DESC").page(params[:page])
     render "admin/shops/index"
   end
 

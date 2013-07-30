@@ -3,7 +3,7 @@
 class Weixin::ShopsController < Weixin::ApplicationController
   before_filter :sync_weixin_user_status
 
-  MAX_SHOPS_NUM = 6
+  MAX_SHOPS_NUM = 5
 
   def index
     @content = params[:xml][:Content].strip
@@ -14,6 +14,15 @@ class Weixin::ShopsController < Weixin::ApplicationController
     end
 
     words = @content.split(/ +|, *|， */)
+
+    #如果是用户对话则直接退出
+    words.each do |word|
+      if word.size > 6
+        return
+      end
+    end
+
+    #不处理三个关键词的情况
     if words.size > 2
       words = words[0..1]
     end
@@ -46,6 +55,10 @@ class Weixin::ShopsController < Weixin::ApplicationController
         end
       end
       @shops = @shops[0..MAX_SHOPS_NUM-1]
+      @more_size = 0
+      if more_shops
+        @more_size = more_shops.size
+      end
       render "index"
     end
   end
@@ -97,6 +110,10 @@ class Weixin::ShopsController < Weixin::ApplicationController
         end
       end
       @shops = @shops[0..MAX_SHOPS_NUM-1]
+      @more_size = 0
+      if @more_shops
+        @more_size = more_shops.size
+      end
       render "index"
     end
   end
@@ -114,6 +131,10 @@ class Weixin::ShopsController < Weixin::ApplicationController
       @shops = redis_shops[0..MAX_SHOPS_NUM-1]
       (1..MAX_SHOPS_NUM).each do |id|
         redis_shops.shift
+      end
+      @more_size = 0
+      if redis_shops
+        @more_size = redis_shops.size
       end
       render "index"
     end

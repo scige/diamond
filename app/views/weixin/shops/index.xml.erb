@@ -3,7 +3,11 @@
   <FromUserName><![CDATA[<%= params[:xml][:ToUserName] %>]]></FromUserName>
   <CreateTime><%= Time.now.to_i %></CreateTime>
   <MsgType><![CDATA[news]]></MsgType>
-  <ArticleCount><%= @shops.size %></ArticleCount>
+  <% if @more_size > 0 %>
+    <ArticleCount><%= @shops.size + 1 %></ArticleCount>
+  <% else %>
+    <ArticleCount><%= @shops.size %></ArticleCount>
+  <% end %>
   <Articles>
     <% @shops.each do |shop| %>
       <item>
@@ -11,6 +15,14 @@
         <Description><![CDATA[<%= shop.name %>]]></Description>
         <PicUrl><![CDATA[<%= "http://wx.jilinmei.com" + shop.thumb_url(:normal) %>]]></PicUrl>
         <Url><![CDATA[<%= shop_url(shop, :keywords=>@content, :spm=>@weixin_user.guid) %>]]></Url>
+      </item>
+    <% end %>
+    <% if @more_size > 0 %>
+      <item>
+        <Title><![CDATA[后面还有 <%= @more_size %> 个商家哦，发送【m】查看更多商家]]></Title> 
+        <Description><![CDATA[后面还有 <%= @more_size %> 个商家哦，发送【m】查看更多商家]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
       </item>
     <% end %>
   </Articles>
