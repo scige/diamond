@@ -44,6 +44,13 @@
               %i.arrow-ent
 
   .modebox.top-dishes
+    - if @shop.description and !@shop.description.empty?
+      .hd
+        %h6 商家介绍
+      .shop-description
+        %p= @shop.description
+
+  .modebox.top-dishes
     - if @recommended_products.size > 0
       .hd
         %h6 推荐菜
