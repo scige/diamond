@@ -140,6 +140,10 @@ class Weixin::ShopsController < Weixin::ApplicationController
     end
   end
 
+  def near
+    render "weixin/shared/noresult"
+  end
+
   private
   def merge_shops(shops0, shops1)
     intersection = shops0 & shops1
@@ -174,9 +178,5 @@ class Weixin::ShopsController < Weixin::ApplicationController
 
     return hit_two_shops
     #return hit_two_shops + hit_one_shops
-  end
-
-  def near
-    render "weixin/shared/noresult"
   end
 end
