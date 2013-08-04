@@ -97,6 +97,18 @@ em {
 .address-inpromo {
 	background-position:-22px -299px
 }
+.head-collect,.head-comm,.head-already,.head-err {
+  width:30px;
+  height:30px;
+	position:absolute;
+	top:10px;
+	left:5px;
+  background-position:-2px -454px;
+  background-size:220px auto;
+}
+.head-already {
+  background-position:-74px -454px
+}
 
 
 /****************************

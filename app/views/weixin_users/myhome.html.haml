@@ -17,26 +17,34 @@
       %p 白领消费观，购物新主张
 
   .modebox.top-dishes
-    - if @weixin_user.shops.size > 0
-      .hd
-        %h6 今日优惠
-      %table.table
-        %tbody
+    .hd
+      %h6 今日优惠
+
+  .details-mode.promo-info
+    .info-list
+      %ul
+        - if @weixin_user.shops.size > 0
           - @weixin_user.shops.each do |shop|
             - if shop.promos.size > 0
               - shop.promos.each do |promo|
-                %tr
-                  %td= promo.name
-                  %td
+                %li
+                  %a{:href=>promo_path(promo, :shop_id=>shop.id, :spm=>@weixin_user.guid)}
+                    %i.address-inpromo
+                    = "【#{shop.name}】#{promo.name}"
+                    %i.arrow-ent
 
   .modebox.top-dishes
-    - if @weixin_user.shops.size > 0
-      .hd
-        %h6 关注商家
-      %table.table
-        %tbody
+    .hd
+      %h6 关注商家
+
+  .details-mode.promo-info
+    .info-list
+      %ul
+        - if @weixin_user.shops.size > 0
           - @weixin_user.shops.each do |shop|
-            %tr
-              %td= shop.name
-              %td
+            %li
+              %a{:href=>shop_url(shop, :spm=>@weixin_user.guid)}
+                %i.head-already
+                = shop.name
+                %i.arrow-ent
 
