@@ -1,5 +1,5 @@
 class Weixin::WeixinUsersController < Weixin::ApplicationController
-  before_filter :sync_weixin_user_status, :only => [:subscribe]
+  before_filter :sync_weixin_user_status, :only => [:subscribe, :myhome]
 
   def subscribe
     STAT_LOG.info "[weixins/user]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{params[:xml][:Event]}"
