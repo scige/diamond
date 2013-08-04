@@ -2,6 +2,7 @@ class Admin::ShopsController < ApplicationController
   before_filter :deny_to_visitors
 
   def index
+    #@shops = Shop.order("editor DESC").page(params[:page])
     @shops = Shop.order("id DESC").page(params[:page])
   end
 
@@ -59,7 +60,8 @@ class Admin::ShopsController < ApplicationController
   end
 
   def map
-    @shops = Shop.where("editor is not null")
+    @shops = Shop.all
+    #@shops = Shop.where("editor is not null")
     #@shops = Shop.where("status=#{Setting.shop.status_not_verify}")
     #@shops = Shop.limit(10)
   end

@@ -342,11 +342,12 @@ table {
 
 .shop-button {
   float: right;
-  margin-right: 30px;
+  margin-right: 10px;
+  font-size: 16px;
 }
 .btnGreen {
   border: 1px solid #3d810c;
-  padding: 2px 10px;
+  padding: 3px 10px;
   cursor: pointer;
   display: inline-block;
   text-align: center;
@@ -374,7 +375,7 @@ table {
 }
 .btnGray {
   border: 1px solid #3d810c;
-  padding: 2px 10px;
+  padding: 3px 10px;
   cursor: pointer;
   display: inline-block;
   text-align: center;
@@ -402,7 +403,7 @@ table {
 
 .btnDisable {
   border: 1px solid #3d810c;
-  padding: 2px 10px;
+  padding: 3px 10px;
   cursor: pointer;
   display: inline-block;
   text-align: center;

@@ -70,6 +70,8 @@ class ShopsController < ApplicationController
 
     ShopWeixinUserRelationship.create!(:shop_id=>@shop.id, :weixin_user_id=>@weixin_user.id)
 
+    STAT_LOG.info "[shops/follow]\t#{@weixin_user ? @weixin_user.open_id : ''}\t#{@shop.id}\t#{@shop.name}\t#{@weixin_user ? @weixin_user.shops.size : ''}"
+
     respond_to do |format|
       format.js {render :layout => false}
     end
@@ -84,6 +86,8 @@ class ShopsController < ApplicationController
     relations.each do |relation|
       relation.destroy
     end
+
+    STAT_LOG.info "[shops/unfollow]\t#{@weixin_user ? @weixin_user.open_id : ''}\t#{@shop.id}\t#{@shop.name}\t#{@weixin_user ? @weixin_user.shops.size : ''}"
 
     respond_to do |format|
       format.js {render :layout => false}
