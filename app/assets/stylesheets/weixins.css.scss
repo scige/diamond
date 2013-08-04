@@ -451,6 +451,121 @@ table {
 }
 
 
+/****************************
+    weixin_user/myhome style
+*****************************/
+.user-details {
+	padding:0;
+	background:#FFF;
+	border-top:0
+}
+.user-details .details-mode {
+	margin-bottom:-1px;
+	overflow:hidden;
+	zoom:1
+}
+.user-details .user-info {
+	padding:10px;
+	border-bottom:1px solid #ededed
+}
+.user-info .user-name {
+	padding-bottom:14px;
+	padding-top:4px
+}
+.user-info .user-name h1 {
+	font-size:18px;
+	font-weight:normal
+}
+.user-info .pic-txt {
+	padding-left:120px;
+	overflow:hidden;
+	zoom:1;
+	color:#9d9992;
+	font-size:14px;
+	line-height:25px
+}
+.user-info .pic-txt .info {
+  margin-top: 10px;
+}
+.user-info .pic-txt .info h3 {
+	overflow:hidden;
+	zoom:1;
+	margin-top:3px;
+	line-height:20px;
+	font-size:18px;
+  color:#646464;
+}
+.user-info .pic-txt .info p {
+	overflow:hidden;
+	zoom:1;
+	margin-top:3px;
+	line-height:20px
+}
+.user-info .pic-txt .pic {
+	float:left;
+	margin-left:-120px;
+	_display:inline
+}
+.user-info .pic-txt .pic img {
+	background:#fff;
+	padding:4px;
+	-webkit-box-shadow:0 2px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 2px 3px rgba(0,0,0,0.2);
+	box-shadow:0 2px 3px rgba(0,0,0,0.2);
+	width:100px;
+	height:75px
+}
+.user-info-list li a.traffic {
+	padding-left:10px
+}
+.user-info-list li {
+	border-bottom:1px solid #ededed;
+	margin-top:-1px
+}
+.user-info-list li a {
+	padding:15px 0 15px 40px;
+	position:relative;
+	display:block;
+	color:#323232
+}
+.user-info-list li a:visited {
+	color:#323232
+}
+.user-info-list li .info-right {
+	position:absolute;
+	min-width:100px;
+	text-align:center;
+	right:0;
+	top:0;
+	border-left:1px solid #ededed;
+	padding:10px 0
+}
+.box-mode .hd {
+	margin:0 -10px;
+	background-color:#f2f2f2;
+	border-bottom:1px solid #e2e2e2;
+	padding:0 10px;
+	height:30px;
+	line-height:30px;
+	font-size:22px;
+	font-family:"Microsoft YaHei"
+}
+.box-mode .hd h6 {
+	font-size:12px;
+	color:#646464
+}
+.user-top-dishes {
+	padding:0 10px
+}
+.user-left-dishes {
+	margin:0 -10px;
+}
+.user-description {
+	margin: 10px 5px;
+	font-size:16px;
+  line-height: 18px;
+}
+
 
 /****************************
     promo/show style

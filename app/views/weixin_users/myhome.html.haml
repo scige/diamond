@@ -1,31 +1,29 @@
 - provide(:title, "个人主页")
 
-%section.shop-details
-  .details-mode.shop-info
-    .shop-name
-      %h1= @weixin_user.open_id
+%section.user-details
+  .details-mode.user-info
     .pic-txt
       .pic
         %a{:href=>"http://wx.jilinmei.com/images/fallback/thumb_default.png"}
           = image_tag("http://wx.jilinmei.com/images/fallback/thumb_default.png")
-      %p 姓名：吉林美
+      .info
+        %h3= @weixin_user.nick_name
+        %p= "微信号: #{@weixin_user.user_name}"
 
-  .modebox.top-dishes
+  .box-mode.user-top-dishes
     .hd
       %h6 个性签名
-    .shop-description
+    .user-description
       %p 白领消费观，购物新主张
 
-  .modebox.top-dishes
+  .box-mode.user-top-dishes
     .hd
       %h6 今日优惠
     - if !has_promo?(@weixin_user)
-      .shop-description
+      .user-description
         %p 暂无优惠活动
-
-  .details-mode.promo-info
-    - if has_promo?(@weixin_user)
-      .info-list
+    - else
+      .user-info-list.user-left-dishes
         %ul
           - if @weixin_user.shops.size > 0
             - @weixin_user.shops.each do |shop|
@@ -37,16 +35,14 @@
                       = "【#{shop.name}】#{promo.name}"
                       %i.arrow-ent
 
-  .modebox.top-dishes
+  .box-mode.user-top-dishes
     .hd
       %h6 关注商家
     - if @weixin_user.shops.size == 0
-      .shop-description
+      .user-description
         %p 您还没有关注商家
-
-  .details-mode.promo-info
-    - if @weixin_user.shops.size > 0
-      .info-list
+    - else
+      .user-info-list.user-left-dishes
         %ul
           - @weixin_user.shops.each do |shop|
             %li
