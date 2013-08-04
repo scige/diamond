@@ -27,6 +27,8 @@
 
 class WeixinUser < ActiveRecord::Base
   has_many :coupons
+  has_many :shop_weixin_user_relationships
+  has_many :shops, :through => :shop_weixin_user_relationships
 
   before_validation :compute_guid
 

@@ -8,8 +8,8 @@
 #  name                 :string(255)
 #  navigation           :string(255)
 #  poi                  :string(255)
-#  latitude             :float
-#  longitude            :float
+#  latitude             :decimal(15, 10)
+#  longitude            :decimal(15, 10)
 #  thumb                :string(255)
 #  star                 :integer
 #  avg_price            :integer

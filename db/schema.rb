@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130728014103) do
+ActiveRecord::Schema.define(:version => 20130804042038) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -105,14 +105,24 @@ ActiveRecord::Schema.define(:version => 20130728014103) do
   add_index "shop_promo_relationships", ["promo_id"], :name => "index_shop_promo_relationships_on_promo_id"
   add_index "shop_promo_relationships", ["shop_id"], :name => "index_shop_promo_relationships_on_shop_id"
 
+  create_table "shop_weixin_user_relationships", :force => true do |t|
+    t.integer  "shop_id"
+    t.integer  "weixin_user_id"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
+  add_index "shop_weixin_user_relationships", ["shop_id"], :name => "index_shop_weixin_user_relationships_on_shop_id"
+  add_index "shop_weixin_user_relationships", ["weixin_user_id"], :name => "index_shop_weixin_user_relationships_on_weixin_user_id"
+
   create_table "shops", :force => true do |t|
     t.integer  "rank"
     t.integer  "shop_id"
     t.string   "name"
     t.string   "navigation"
     t.string   "poi"
-    t.float    "latitude"
-    t.float    "longitude"
+    t.decimal  "latitude",             :precision => 15, :scale => 10
+    t.decimal  "longitude",            :precision => 15, :scale => 10
     t.string   "thumb"
     t.integer  "star"
     t.integer  "avg_price"
@@ -127,9 +137,9 @@ ActiveRecord::Schema.define(:version => 20130728014103) do
     t.string   "hours"
     t.string   "atmosphere"
     t.string   "characteristics"
-    t.datetime "created_at",                          :null => false
-    t.datetime "updated_at",                          :null => false
-    t.integer  "status",               :default => 0
+    t.datetime "created_at",                                                          :null => false
+    t.datetime "updated_at",                                                          :null => false
+    t.integer  "status",                                               :default => 0
     t.string   "editor"
     t.string   "districts"
   end
