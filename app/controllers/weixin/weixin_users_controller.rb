@@ -23,4 +23,9 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
     STAT_LOG.info "[weixins/user]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{params[:xml][:Event]}"
     render :text => ""
   end
+
+  def myhome
+    STAT_LOG.info "[weixins/myhome]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{params[:xml][:Content]}"
+    render "myhome"
+  end
 end

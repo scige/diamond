@@ -1,0 +1,42 @@
+- provide(:title, "个人主页")
+
+%section.shop-details
+  .details-mode.shop-info
+    .shop-name
+      %h1= @weixin_user.open_id
+    .pic-txt
+      .pic
+        %a{:href=>"http://wx.jilinmei.com/images/fallback/thumb_default.png"}
+          = image_tag("http://wx.jilinmei.com/images/fallback/thumb_default.png")
+      %p 姓名：吉林美
+
+  .modebox.top-dishes
+    .hd
+      %h6 个性签名
+    .shop-description
+      %p 白领消费观，购物新主张
+
+  .modebox.top-dishes
+    - if @weixin_user.shops.size > 0
+      .hd
+        %h6 今日优惠
+      %table.table
+        %tbody
+          - @weixin_user.shops.each do |shop|
+            - if shop.promos.size > 0
+              - shop.promos.each do |promo|
+                %tr
+                  %td= promo.name
+                  %td
+
+  .modebox.top-dishes
+    - if @weixin_user.shops.size > 0
+      .hd
+        %h6 关注商家
+      %table.table
+        %tbody
+          - @weixin_user.shops.each do |shop|
+            %tr
+              %td= shop.name
+              %td
+

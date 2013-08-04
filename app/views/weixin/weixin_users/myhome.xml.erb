@@ -1,0 +1,16 @@
+<xml>
+  <ToUserName><![CDATA[<%= params[:xml][:FromUserName] %>]]></ToUserName>
+  <FromUserName><![CDATA[<%= params[:xml][:ToUserName] %>]]></FromUserName>
+  <CreateTime><%= Time.now.to_i %></CreateTime>
+  <MsgType><![CDATA[news]]></MsgType>
+  <ArticleCount>1</ArticleCount>
+  <Articles>
+    <item>
+      <Title><![CDATA[个人主页]]></Title> 
+      <Description><![CDATA[个人主页]]></Description>
+      <PicUrl><![CDATA[]]></PicUrl>
+      <Url><![CDATA[<%= myhome_weixin_users_url(:spm=>@weixin_user.guid) %>]]></Url>
+    </item>
+  </Articles>
+  <FuncFlag>0</FuncFlag>
+</xml> 

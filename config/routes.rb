@@ -16,6 +16,10 @@ Diamond::Application.routes.draw do
 
   resources :coupons
 
+  resources :weixin_users do
+    get :myhome, :on => :collection
+  end
+
   namespace :admin do
     resources :shops do
       get :map, :on => :collection
@@ -51,6 +55,8 @@ Diamond::Application.routes.draw do
     root :to => 'weixin/weixin_users#subscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Event] == "subscribe" }
 
     root :to => 'weixin/weixin_users#unsubscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Event] == "unsubscribe" }
+
+    root :to => 'weixin/weixin_users#myhome', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && (request.params[:xml][:Content] == 'my' || request.params[:xml][:Content] == 'My' || request.params[:xml][:Content] == 'MY') }
 
     root :to => 'weixin/home#help', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && (request.params[:xml][:Content] == 'help' || request.params[:xml][:Content] == 'h') }
 
