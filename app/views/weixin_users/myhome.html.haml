@@ -19,6 +19,9 @@
   .modebox.top-dishes
     .hd
       %h6 今日优惠
+    - if !has_promo?(@weixin_user)
+      .shop-description
+        %p 暂无优惠活动
 
   .details-mode.promo-info
     - if has_promo?(@weixin_user)
@@ -33,13 +36,13 @@
                       %i.address-inpromo
                       = "【#{shop.name}】#{promo.name}"
                       %i.arrow-ent
-    - else
-      .shop-description
-        %p 商家暂无优惠活动
 
   .modebox.top-dishes
     .hd
       %h6 关注商家
+    - if @weixin_user.shops.size == 0
+      .shop-description
+        %p 您还没有关注商家
 
   .details-mode.promo-info
     - if @weixin_user.shops.size > 0
@@ -51,7 +54,4 @@
                 %i.head-already
                 = shop.name
                 %i.arrow-ent
-    - else
-      .shop-description
-        %p 您还没有关注商家
 
