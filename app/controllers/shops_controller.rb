@@ -62,4 +62,31 @@ class ShopsController < ApplicationController
 
     redirect_to "tel:#{phone}"
   end
+
+  def follow
+    @shop = Shop.find_by_id(params[:shop_id])
+    @guid = params[:spm]
+    @weixin_user = WeixinUser.find_by_guid(@guid)
+
+    ShopWeixinUserRelationship.create!(:shop_id=>@shop.id, :weixin_user_id=>@weixin_user.id)
+
+    respond_to do |format|
+      format.js {render :layout => false}
+    end
+  end
+
+  def unfollow
+    @shop = Shop.find_by_id(params[:shop_id])
+    @guid = params[:spm]
+    @weixin_user = WeixinUser.find_by_guid(@guid)
+
+    relations = ShopWeixinUserRelationship.where(:shop_id=>@shop.id, :weixin_user_id=>@weixin_user.id)
+    relations.each do |relation|
+      relation.destroy
+    end
+
+    respond_to do |format|
+      format.js {render :layout => false}
+    end
+  end
 end

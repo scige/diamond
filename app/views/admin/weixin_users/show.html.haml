@@ -75,6 +75,12 @@
       = f.text_field :thumb, :class=>"input-xxlarge", :disabled=>"disabled"
 
   .control-group
+    = f.label "关注商家", :class=>"control-label"
+    .controls
+      - @weixin_user.shops.each do |shop|
+        %p= link_to shop.name, admin_shop_path(shop), :target=>"_blank", :class=>"btn btn-danger"
+
+  .control-group
     .controls
       = link_to 'Edit', edit_admin_weixin_user_path(@weixin_user), :class=>"btn btn-info"
       = link_to 'Back', admin_weixin_users_path, :class=>"btn"

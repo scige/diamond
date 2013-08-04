@@ -1,0 +1,5 @@
+$(function() {
+  $(".btnGreen").text("取消关注");
+  $(".btnGreen").attr("href", "<%= unfollow_shops_path(:shop_id=>@shop.id, :spm=>@guid) %>");
+  $(".btnGreen").removeClass("btnGreen").addClass("btnGray");
+});

@@ -3,7 +3,13 @@
 %section.shop-details
   .details-mode.shop-info
     .shop-name
-      %h1= @shop.name
+      %h1
+        = @shop.name
+        .shop-button
+          - if @weixin_user.shops.include? @shop
+            = link_to "取消关注", unfollow_shops_path(:shop_id=>@shop.id, :spm=>@guid), :remote=>true, :class=>"btnGray"
+          - else
+            = link_to "+关注", follow_shops_path(:shop_id=>@shop.id, :spm=>@guid), :remote=>true, :class=>"btnGreen"
     .pic-txt
       .pic
         %a{:href=>"weixin://viewimage/http://wx.jilinmei.com#{@shop.thumb_url(:normal)}"}

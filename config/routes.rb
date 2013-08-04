@@ -8,6 +8,8 @@ Diamond::Application.routes.draw do
   resources :shops do
     get :map, :on => :collection
     get :phone, :on => :collection
+    get :follow, :on => :collection
+    get :unfollow, :on => :collection
   end
 
   resources :promos

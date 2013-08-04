@@ -1,0 +1,5 @@
+$(function() {
+  $(".btnGray").text("+关注");
+  $(".btnGray").attr("href", "<%= follow_shops_path(:shop_id=>@shop.id, :spm=>@guid) %>");
+  $(".btnGray").removeClass("btnGray").addClass("btnGreen");
+});
