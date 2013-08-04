@@ -21,30 +21,37 @@
       %h6 今日优惠
 
   .details-mode.promo-info
-    .info-list
-      %ul
-        - if @weixin_user.shops.size > 0
-          - @weixin_user.shops.each do |shop|
-            - if shop.promos.size > 0
-              - shop.promos.each do |promo|
-                %li
-                  %a{:href=>promo_path(promo, :shop_id=>shop.id, :spm=>@weixin_user.guid)}
-                    %i.address-inpromo
-                    = "【#{shop.name}】#{promo.name}"
-                    %i.arrow-ent
+    - if has_promo?(@weixin_user)
+      .info-list
+        %ul
+          - if @weixin_user.shops.size > 0
+            - @weixin_user.shops.each do |shop|
+              - if shop.promos.size > 0
+                - shop.promos.each do |promo|
+                  %li
+                    %a{:href=>promo_path(promo, :shop_id=>shop.id, :spm=>@weixin_user.guid)}
+                      %i.address-inpromo
+                      = "【#{shop.name}】#{promo.name}"
+                      %i.arrow-ent
+    - else
+      .shop-description
+        %p 商家暂无优惠活动
 
   .modebox.top-dishes
     .hd
       %h6 关注商家
 
   .details-mode.promo-info
-    .info-list
-      %ul
-        - if @weixin_user.shops.size > 0
+    - if @weixin_user.shops.size > 0
+      .info-list
+        %ul
           - @weixin_user.shops.each do |shop|
             %li
               %a{:href=>shop_url(shop, :spm=>@weixin_user.guid)}
                 %i.head-already
                 = shop.name
                 %i.arrow-ent
+    - else
+      .shop-description
+        %p 您还没有关注商家
 
