@@ -11,13 +11,12 @@ class Admin::PromosController < ApplicationController
 
   def new
     @promo = Promo.new
-    @shops = Shop.all
+    @shops = Shop.order("id DESC")
   end
 
   def edit
     @promo = Promo.find(params[:id])
-    @shops = Shop.all
-    #@shops = Shop.order("name")
+    @shops = Shop.order("id DESC")
   end
 
   def create
