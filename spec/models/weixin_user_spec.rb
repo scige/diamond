@@ -23,6 +23,7 @@
 #  status      :integer          default(0)
 #  guid        :string(255)
 #  gh_id       :string(255)
+#  binding     :integer          default(1)
 #
 
 require 'spec_helper'

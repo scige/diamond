@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130804042038) do
+ActiveRecord::Schema.define(:version => 20130805132251) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -190,8 +190,10 @@ ActiveRecord::Schema.define(:version => 20130804042038) do
     t.integer  "status",      :default => 0
     t.string   "guid"
     t.string   "gh_id"
+    t.integer  "binding",     :default => 1
   end
 
+  add_index "weixin_users", ["binding"], :name => "index_weixin_users_on_binding"
   add_index "weixin_users", ["gh_id"], :name => "index_weixin_users_on_gh_id"
   add_index "weixin_users", ["guid"], :name => "index_weixin_users_on_guid"
   add_index "weixin_users", ["open_id"], :name => "index_weixin_users_on_open_id"

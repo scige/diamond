@@ -23,6 +23,7 @@
 #  status      :integer          default(0)
 #  guid        :string(255)
 #  gh_id       :string(255)
+#  binding     :integer          default(1)
 #
 
 class WeixinUser < ActiveRecord::Base
@@ -33,6 +34,7 @@ class WeixinUser < ActiveRecord::Base
   before_validation :compute_guid
 
   attr_accessible :status
+  attr_accessible :binding
   attr_accessible :guid
   attr_accessible :open_id
   attr_accessible :fake_id

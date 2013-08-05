@@ -17,6 +17,12 @@ defaults: &defaults
     status_unsubscribe: 0
     status_subscribe: 1
 
+    binding_none: 0
+    binding_nick_name: 1
+    binding_user_name: 2
+    binding_mobile: 3
+    binding_finish: 4
+
   send_coupon_to_mobile: true
 
 development:
