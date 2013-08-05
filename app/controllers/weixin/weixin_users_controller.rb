@@ -54,7 +54,17 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
       end
     when Setting.weixin_user.binding_mobile
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_finish, :mobile=>@content)
-        @response_info = "设置成功！您已经成功绑定微信帐号。"
+        @response_info = "设置成功！恭喜您，您已经成功绑定微信帐号！
+
+昵称：#{@weixin_user.nick_name}
+微信：#{@weixin_user.user_name}
+手机：#{@weixin_user.mobile}
+
+我们为您创建了个人主页
+<a href=\"#{myhome_weixin_users_url(:spm=>@weixin_user.guid)}\">【请点我访问个人主页】</a>
+
+如需了解如何使用本应用
+<a href=\"http://wx.jilinmei.com/notices/help\">【请点我查看使用帮助】</a>"
       else
         @response_info = "设置失败！
 请输入您的手机号，以便接收我们免费提供给您的商家优惠券。"

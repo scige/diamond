@@ -56,7 +56,7 @@ Diamond::Application.routes.draw do
 
     root :to => 'weixin/weixin_users#unsubscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Event] == "unsubscribe" }
 
-    root :to => 'weixin/weixin_users#binding', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text'}
+    root :to => 'weixin/weixin_users#binding', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && is_binding_finish?(request.params)}
 
     root :to => 'weixin/weixin_users#myhome', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && (request.params[:xml][:Content] == 'my' || request.params[:xml][:Content] == 'My' || request.params[:xml][:Content] == 'MY') }
 
@@ -75,4 +75,12 @@ Diamond::Application.routes.draw do
 
   # root要放在最后
   root :to => 'home#index'
+end
+
+def is_binding_finish?(params)
+  weixin_user = WeixinUser.find_by_open_id(params[:xml][:FromUserName])
+  if !weixin_user
+    return false
+  end
+  return weixin_user.binding != Setting.weixin_user.binding_finish
 end
