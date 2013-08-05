@@ -1,1 +1,14 @@
 - provide(:title, "吉林美管理平台")
+
+%table.table.table-striped
+  %tr
+    %th date
+    %th editor1
+    %th eidtor2
+
+  - @date_range.each do |cur_date|
+    %tr
+      %td= cur_date.to_s[0..9]
+      %td= @count_editor1[cur_date.to_s[0..9]]
+      %td= @count_editor2[cur_date.to_s[0..9]]
+
