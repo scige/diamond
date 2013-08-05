@@ -1,6 +1,7 @@
 # coding: utf-8
+
 class Weixin::WeixinUsersController < Weixin::ApplicationController
-  before_filter :sync_weixin_user_status, :only => [:subscribe, :myhome, :binding]
+  before_filter :sync_weixin_user_status, :only => [:subscribe, :myhome, :bind, :binding]
 
   def subscribe
     STAT_LOG.info "[weixins/user]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{params[:xml][:Event]}"
@@ -32,9 +33,10 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 
   def bind
     @content = params[:xml][:Content]
+    #取消关注后重新再关注，只要发送bind，也会重新绑定微信帐号
     if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_nick_name)
-      @response_info = "请给己取一个昵称，并回复给我们，如红糖哥。
-（昵不能超过12个字和低于两个字，建议与微信昵称一致。"
+      @response_info = "请给自己取一个昵称，并回复给我们，如小马哥。
+(昵不能超过12个字或少于两个字，建议与微信昵称一致。)"
     end
     render "binding"
   end
@@ -43,25 +45,26 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
     @content = params[:xml][:Content]
     case @weixin_user.binding
     when Setting.weixin_user.binding_none
-        @response_info = "为了使用吉林美的全部功能，请先回复【bind】绑定微信帐号。"
+        @response_info = "为了获得更好的使用体验，请先回复【bind】绑定微信帐号。"
     when Setting.weixin_user.binding_nick_name
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_user_name, :nick_name=>@content)
         @response_info = "设置成功！
-请输入您的微信帐号，以便您附近的朋友可以通过微信号联系您。
-（点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。）"
+请输入您的微信号，以便您附近的朋友可以通过微信号联系您。
+(点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。)"
       else
         @response_info = "设置失败！
-请给自己取一个昵称，并回复给我们，如红糖哥。
-（昵称不能超过12个字和低于两个字，建议与微信昵称一致。"
+请给自己取一个昵称，并回复给我们，如小马哥。
+(昵不能超过12个字或少于两个字，建议与微信昵称一致。)"
       end
     when Setting.weixin_user.binding_user_name
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_mobile, :user_name=>@content)
         @response_info = "设置成功！
-请输入您的手机号，以便接收我们免费提供给您的商家优惠券。"
+请输入您的手机号，以便接收我们免费提供给您的商家优惠券。
+(手机号仅用于接收优惠券，我们会为您保密。)"
       else
         @response_info = "设置失败！
-请输入您的微信帐号，以便您附近的朋友可以通过微信号联系您。
-（点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。）"
+请输入您的微信号，以便您附近的朋友可以通过微信号联系您。
+(点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。)"
       end
     when Setting.weixin_user.binding_mobile
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_finish, :mobile=>@content)
@@ -71,7 +74,7 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 微信：#{@weixin_user.user_name}
 手机：#{@weixin_user.mobile}
 
-我们为您创建了个人主页
+我们已经为您创建了个人主页，您关注商家的优惠信息和最新动态都会在这里显示，记得经常回来查看哦！
 <a href=\"#{myhome_weixin_users_url(:spm=>@weixin_user.guid)}\">【请点我访问个人主页】</a>
 
 如需了解如何使用本应用
