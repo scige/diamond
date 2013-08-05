@@ -1,14 +1,38 @@
 - provide(:title, "吉林美管理平台")
 
-%table.table.table-striped
-  %tr
-    %th date
-    %th editor1
-    %th eidtor2
+%h2 数据采集员工作统计
 
-  - @date_range.each do |cur_date|
-    %tr
-      %td= cur_date.to_s[0..9]
-      %td= @count_editor1[cur_date.to_s[0..9]]
-      %td= @count_editor2[cur_date.to_s[0..9]]
+.row
+  .offset2.span8
+    %table.table.table-striped
+      %tr
+        %th 日期
+        %th 李清航
+        %th 工作时间
+        %th 王东卫
+        %th 工作时间
+    
+      - @date_range.each do |cur_date|
+        %tr
+          %td= cur_date.to_s[0..9]
+          %td= @create_count_editor1[cur_date.to_s[0..9]]
+          - if @working_time_editor1[cur_date.to_s[0..9]]
+            %td= "#{@working_time_editor1[cur_date.to_s[0..9]][0]} ~ #{@working_time_editor1[cur_date.to_s[0..9]][1]}"
+          - else
+            %td
+          %td= @create_count_editor2[cur_date.to_s[0..9]]
+          - if @working_time_editor2[cur_date.to_s[0..9]]
+            %td= "#{@working_time_editor2[cur_date.to_s[0..9]][0]} ~ #{@working_time_editor2[cur_date.to_s[0..9]][1]}"
+          - else
+            %td
+
+      %tr
+        %td
+          %strong 合计
+        %td
+          %strong= @shops_editor1.size
+        %td
+        %td
+          %strong= @shops_editor2.size
+        %td
 
