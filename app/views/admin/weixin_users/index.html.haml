@@ -9,11 +9,11 @@
   %tr
     %th id
     %th status
+    %th binding
     %th open_id
-    %th fake_id
     %th user_name
     %th nick_name
-    %th group_id
+    %th mobile
     %th updated_at
     %th{:width=>"250"} operation
 
@@ -21,11 +21,11 @@
     %tr
       %td= weixin_user.id
       %td= weixin_user.status
+      %td= weixin_user.binding
       %td= weixin_user.open_id
-      %td= weixin_user.fake_id
       %td= weixin_user.user_name
       %td= weixin_user.nick_name
-      %td= weixin_user.group_id
+      %td= weixin_user.mobile
       %td= weixin_user.updated_at
       %td
         = link_to 'Show', admin_weixin_user_path(weixin_user), :class=>"btn btn-small btn-warning"

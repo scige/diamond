@@ -43,7 +43,6 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 请给自己取一个昵称，并回复给我们，如红糖哥。
 （昵称不能超过一2个字和低于两个字，建议与微信昵称一致。"
       end
-      render "binding"
     when Setting.weixin_user.binding_user_name
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_mobile, :user_name=>@content)
         @response_info = "设置成功！
@@ -53,7 +52,6 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 请输入您的微信帐号，以便您附近的朋友可以通过微信号联系您。
 （点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。）"
       end
-      render "binding"
     when Setting.weixin_user.binding_mobile
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_finish, :mobile=>@content)
         @response_info = "设置成功！您已经成功绑定微信帐号。"
@@ -61,8 +59,8 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
         @response_info = "设置失败！
 请输入您的手机号，以便接收我们免费提供给您的商家优惠券。"
       end
-      render "binding"
     when Setting.weixin_user.binding_finish
     end
+    render "binding"
   end
 end
