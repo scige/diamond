@@ -30,9 +30,20 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
     render "myhome"
   end
 
+  def bind
+    @content = params[:xml][:Content]
+    if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_nick_name)
+      @response_info = "请给己取一个昵称，并回复给我们，如红糖哥。
+（昵不能超过12个字和低于两个字，建议与微信昵称一致。"
+    end
+    render "binding"
+  end
+
   def binding
     @content = params[:xml][:Content]
     case @weixin_user.binding
+    when Setting.weixin_user.binding_none
+        @response_info = "为了使用吉林美的全部功能，请先回复【bind】绑定微信帐号。"
     when Setting.weixin_user.binding_nick_name
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_user_name, :nick_name=>@content)
         @response_info = "设置成功！
@@ -41,7 +52,7 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
       else
         @response_info = "设置失败！
 请给自己取一个昵称，并回复给我们，如红糖哥。
-（昵称不能超过一2个字和低于两个字，建议与微信昵称一致。"
+（昵称不能超过12个字和低于两个字，建议与微信昵称一致。"
       end
     when Setting.weixin_user.binding_user_name
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_mobile, :user_name=>@content)

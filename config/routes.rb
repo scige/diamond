@@ -50,11 +50,11 @@ Diamond::Application.routes.draw do
   end
 
   scope :path => "/weixin", :via => :post, :defaults => {:format => 'xml'} do
-    #root :to => 'weixin/home#index', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' }
-
     root :to => 'weixin/weixin_users#subscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Event] == "subscribe" }
 
     root :to => 'weixin/weixin_users#unsubscribe', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'event' && request.params[:xml][:Event] == "unsubscribe" }
+
+    root :to => 'weixin/weixin_users#bind', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && request.params[:xml][:Content] == 'bind'}
 
     root :to => 'weixin/weixin_users#binding', :constraints => lambda { |request| request.params[:xml][:MsgType] == 'text' && is_binding_finish?(request.params)}
 
