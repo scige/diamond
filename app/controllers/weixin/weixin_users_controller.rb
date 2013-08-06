@@ -45,7 +45,9 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
     @content = params[:xml][:Content]
     case @weixin_user.binding
     when Setting.weixin_user.binding_none
-        @response_info = "为了获得更好的使用体验，请先回复【bind】绑定微信帐号。"
+        @response_info = "为了获得更好的使用体验，请先回复【bind】绑定微信帐号。
+
+绑定微信帐号后，可以获得我们为您定制的动态主页。您关注商家的优惠信息和最新动态都会在这里显示，记得经常回来查看哦！"
     when Setting.weixin_user.binding_nick_name
       if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_user_name, :nick_name=>@content)
         @response_info = "设置成功！
@@ -74,8 +76,8 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 微信：#{@weixin_user.user_name}
 手机：#{@weixin_user.mobile}
 
-我们已经为您创建了个人主页，您关注商家的优惠信息和最新动态都会在这里显示，记得经常回来查看哦！
-<a href=\"#{myhome_weixin_users_url(:spm=>@weixin_user.guid)}\">【请点我访问个人主页】</a>
+我们已经为您创建了动态主页，您关注商家的优惠信息和最新动态都会在这里显示，记得经常回来查看哦！
+<a href=\"#{myhome_weixin_users_url(:spm=>@weixin_user.guid)}\">【请点我访问动态主页】</a>
 
 如需了解如何使用本应用
 <a href=\"http://wx.jilinmei.com/notices/help\">【请点我查看使用帮助】</a>"
