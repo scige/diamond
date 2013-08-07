@@ -10,7 +10,7 @@
     .control-group
       = f.label :status, :class=>"control-label"
       .controls
-        = f.text_field :status, :class=>"input-xxlarge"
+        = f.select :status, generate_promo_status, :selected=>@promo.status
   .control-group
     = f.label :name, "名称", :class=>"control-label"
     .controls
