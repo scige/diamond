@@ -11,7 +11,7 @@
   <Articles>
     <% @shops.each do |shop| %>
       <item>
-        <Title><![CDATA[<%= shop.name %>]]></Title> 
+        <Title><![CDATA[<%= shop.promos.size>0 ? "#{shop.name}【最新优惠：#{shop.promos[-1].name}】" : shop.name %>]]></Title> 
         <Description><![CDATA[<%= shop.name %>]]></Description>
         <PicUrl><![CDATA[<%= "http://wx.jilinmei.com" + shop.thumb_url(:normal) %>]]></PicUrl>
         <Url><![CDATA[<%= shop_url(shop, :keywords=>@content, :spm=>@weixin_user.guid) %>]]></Url>
@@ -19,8 +19,8 @@
     <% end %>
     <% if @more_size > 0 %>
       <item>
-        <Title><![CDATA[后面还有 <%= @more_size %> 个商家哦，发送【m】查看更多商家]]></Title> 
-        <Description><![CDATA[后面还有 <%= @more_size %> 个商家哦，发送【m】查看更多商家]]></Description>
+        <Title><![CDATA[发送【m】查看更多商家，后面还有 <%= @more_size %> 个商家哦]]></Title> 
+        <Description><![CDATA[发送【m】查看更多商家，后面还有 <%= @more_size %> 个商家哦]]></Description>
         <PicUrl><![CDATA[]]></PicUrl>
         <Url><![CDATA[]]></Url>
       </item>

@@ -18,7 +18,7 @@ class PromosController < ApplicationController
         end
       end
     end
-    @shop_detail_address = "吉林市" + district + @shop.address
+    @shop_detail_address = district + @shop.address
 
     STAT_LOG.info "[promos/show]\t#{@weixin_user ? @weixin_user.open_id : ''}\t#{@promo.id}\t#{@promo.name}\t#{@shop ? @shop.id : ''}\t#{@shop ? @shop.name : ''}"
   end

@@ -32,7 +32,7 @@
                   %li
                     %a{:href=>promo_path(promo, :shop_id=>shop.id, :spm=>@weixin_user.guid)}
                       %i.address-inpromo
-                      = "【#{shop.name}】#{promo.name}"
+                      = promo.name
                       %i.arrow-ent
 
   .box-mode.user-top-dishes

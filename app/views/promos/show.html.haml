@@ -7,19 +7,14 @@
       .pic-wrapper
         = image_tag(@promo.thumb_url(:normal))
     %p.promo-name= "- #{@promo.name} -"
+    %p.promo-txt= "优惠时间：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
+    %p.promo-txt= "商家地址：#{@shop_detail_address}"
     %br
-    %p.promo-txt= "活动地址：#{@shop_detail_address}"
-    %p.promo-txt= "活动时间：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
-    %br
+    %h6 - 详细内容 -
     %p.promo-txt= @promo.content
 
--#
-  %a{:class=>"icon-btn", :id=>"send-mobile", :href=>"javascript:;"}
-    发送到手机
-    %i.client
-
   .promo-suit
-    %h6 适用商户
+    %h6 - 适用商家 -
     .coupon-list.coupon-list-m
       %ul
         - @promo.shops.each do |shop|
@@ -29,6 +24,11 @@
                 = shop.name
                 /%em.tips &lt;100m
                 %p.explai= shop.address
+
+-#
+  %a{:class=>"icon-btn", :id=>"send-mobile", :href=>"javascript:;"}
+    发送到手机
+    %i.client
 
   %br
   .pop-main

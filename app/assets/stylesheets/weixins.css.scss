@@ -582,6 +582,9 @@ table {
 .promo-details .pic-wrapper {
   margin: 10px 0 18px 0;
 }
+.promo-details .pic-wrapper img {
+  width: 100%;
+}
 .promo-details .promo-name {
 	line-height:1.5;
 	color:#c00000;
@@ -592,6 +595,12 @@ table {
 	line-height:1.5;
 	color:#3e3e3e;
 	font-size:16px;
+}
+.promo-details h6 {
+	line-height:1.5;
+	color:#0070c0;
+	font-size:16px;
+  font-weight:bold;
 }
 .coupon-list {
 	margin:0 -10px
@@ -632,9 +641,10 @@ table {
 	padding-top:20px
 }
 .promo-suit h6 {
-	color:#696969;
-	font-size:14px;
-	padding-bottom:5px
+	line-height:1.5;
+	color:#00B050;
+	font-size:16px;
+  font-weight:bold;
 }
 .promo-suit .coupon-list {
 	border:1px solid #ededed;
