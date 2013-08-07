@@ -2,12 +2,18 @@
 
 %section.shop-promo
   .promo-details
-    %h6= @promo.name
+    %h3= @promo.name
     - if @promo.thumb and @promo.thumb.to_s != "/images/fallback/default.png"
-      = image_tag(@promo.thumb_url(:normal))
-    .promo-txt= @promo.content
-    %p.promo-time= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
+      .pic-wrapper
+        = image_tag(@promo.thumb_url(:normal))
+    %p.promo-name= "- #{@promo.name} -"
+    %br
+    %p.promo-txt= "活动地址：#{@shop_detail_address}"
+    %p.promo-txt= "活动时间：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
+    %br
+    %p.promo-txt= @promo.content
 
+-#
   %a{:class=>"icon-btn", :id=>"send-mobile", :href=>"javascript:;"}
     发送到手机
     %i.client

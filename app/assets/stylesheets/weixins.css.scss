@@ -573,23 +573,25 @@ table {
 .shop-promo {
 	border-top:0
 }
-.promo-details h6 {
-	font-size:18px;
+.promo-details h3 {
 	padding:6px 0;
-	color:#696969;
-	font-weight:normal
+	color:black;
+	font-size:20px;
+  font-weight:bold;
+}
+.promo-details .pic-wrapper {
+  margin: 10px 0 18px 0;
+}
+.promo-details .promo-name {
+	line-height:1.5;
+	color:#c00000;
+	font-size:16px;
+  font-weight:bold;
 }
 .promo-details .promo-txt {
-	line-height:25px;
-	padding-bottom:5px;
-	color:#696969;
-	font-size:14px
-}
-.promo-details .promo-time {
-	color:#9d9992;
-	padding-bottom:20px;
-	font-size:14px;
-	color:#9d9992
+	line-height:1.5;
+	color:#3e3e3e;
+	font-size:16px;
 }
 .coupon-list {
 	margin:0 -10px

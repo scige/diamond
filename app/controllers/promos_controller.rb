@@ -1,3 +1,4 @@
+# coding: utf-8
 class PromosController < ApplicationController
   layout "application_mobile"
 
@@ -6,6 +7,18 @@ class PromosController < ApplicationController
     @shop = Shop.find_by_id(params[:shop_id])
     @guid = params[:spm]
     @weixin_user = WeixinUser.find_by_guid(@guid)
+
+    parts = @shop.districts.strip.split
+    district = ""
+    if parts
+      parts.each do |part|
+        if part[-1] == "区"
+          district = part
+          break
+        end
+      end
+    end
+    @shop_detail_address = "吉林市" + district + @shop.address
 
     STAT_LOG.info "[promos/show]\t#{@weixin_user ? @weixin_user.open_id : ''}\t#{@promo.id}\t#{@promo.name}\t#{@shop ? @shop.id : ''}\t#{@shop ? @shop.name : ''}"
   end
