@@ -4,7 +4,7 @@
   .promo-details
     %h6= @promo.name
     - if @promo.thumb and @promo.thumb.to_s != "/images/fallback/default.png"
-      = image_tag(@promo.thumb_url(:small))
+      = image_tag(@promo.thumb_url(:normal))
     .promo-txt= @promo.content
     %p.promo-time= "有效期：#{get_format_date(@promo.begin_at)} 至 #{get_format_date(@promo.end_at)}"
 
