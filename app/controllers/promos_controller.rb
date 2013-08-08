@@ -1,4 +1,5 @@
 # coding: utf-8
+
 class PromosController < ApplicationController
   layout "application_mobile"
 
@@ -8,17 +9,22 @@ class PromosController < ApplicationController
     @guid = params[:spm]
     @weixin_user = WeixinUser.find_by_guid(@guid)
 
-    parts = @shop.districts.strip.split
-    district = ""
-    if parts
-      parts.each do |part|
-        if part[-1] == "区"
-          district = part
-          break
+    if @shop
+      parts = @shop.districts.strip.split
+      district = ""
+      if parts
+        parts.each do |part|
+          if part[-1] == "区"
+            district = part
+            break
+          end
         end
       end
+      @shop_detail_address = district + @shop.address
+    else
+      #!!!直接搜索优惠券来访问的，并且拥有这个优惠券的商家多于1个，生成coupon时会有问题
+      @shop_detail_address = ""
     end
-    @shop_detail_address = district + @shop.address
 
     STAT_LOG.info "[promos/show]\t#{@weixin_user ? @weixin_user.open_id : ''}\t#{@promo.id}\t#{@promo.name}\t#{@shop ? @shop.id : ''}\t#{@shop ? @shop.name : ''}"
   end

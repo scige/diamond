@@ -21,6 +21,41 @@ class Weixin::ApplicationController < ActionController::Base
     end
   end
 
+  def merge_shops(shops0, shops1)
+    intersection = shops0 & shops1
+    #union = shops0 | shops1
+
+    hit_two_shops = intersection
+    #hit_one_shops = union - intersection
+
+    hit_two_shops.sort! do |a, b|
+      if b.star and a.star
+        b.star <=> a.star
+      elsif b.star
+        1
+      elsif a.star
+        -1
+      else
+        0
+      end
+    end
+
+    #hit_one_shops.sort! do |a, b|
+    #  if b.star and a.star
+    #    b.star <=> a.star
+    #  elsif b.star
+    #    1
+    #  elsif a.star
+    #    -1
+    #  else
+    #    0
+    #  end
+    #end
+
+    return hit_two_shops
+    #return hit_two_shops + hit_one_shops
+  end
+
   private
   def check_weixin_legality
     array = ["jilinmei_sanbaoyuan", params[:timestamp], params[:nonce]].sort

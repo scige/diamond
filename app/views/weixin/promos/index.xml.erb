@@ -1,0 +1,30 @@
+<xml>
+  <ToUserName><![CDATA[<%= params[:xml][:FromUserName] %>]]></ToUserName>
+  <FromUserName><![CDATA[<%= params[:xml][:ToUserName] %>]]></FromUserName>
+  <CreateTime><%= Time.now.to_i %></CreateTime>
+  <MsgType><![CDATA[news]]></MsgType>
+  <% if @more_size > 0 %>
+    <ArticleCount><%= @promos.size + 1 %></ArticleCount>
+  <% else %>
+    <ArticleCount><%= @promos.size %></ArticleCount>
+  <% end %>
+  <Articles>
+    <% @promos.each do |promo| %>
+      <item>
+        <Title><![CDATA[<%= promo.name %>]]></Title> 
+        <Description><![CDATA[<%= promo.name %>]]></Description>
+        <PicUrl><![CDATA[<%= "http://wx.jilinmei.com" + promo.thumb_url(:normal) %>]]></PicUrl>
+        <Url><![CDATA[<%= promo_url(promo, :shop_id=>get_promo_shopid(promo, @content), :spm=>@weixin_user.guid) %>]]></Url>
+      </item>
+    <% end %>
+    <% if @more_size > 0 %>
+      <item>
+        <Title><![CDATA[发送【m】查看更多优惠券，后面还有 <%= @more_size %> 个优惠券哦]]></Title> 
+        <Description><![CDATA[发送【m】查看更多优惠券，后面还有 <%= @more_size %> 个优惠券哦]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+      </item>
+    <% end %>
+  </Articles>
+  <FuncFlag>0</FuncFlag>
+</xml> 
