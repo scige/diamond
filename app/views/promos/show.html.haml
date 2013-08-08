@@ -19,10 +19,9 @@
       %ul
         - @promo.shops.each do |shop|
           %li
-            %a
+            %a{:href=>shop_url(shop, :spm=>@weixin_user.guid)}
               %p.tit
                 = shop.name
-                /= link_to shop.name, shop_url(shop, :spm=>@weixin_user.guid)
                 /%em.tips &lt;100m
                 %p.explai= shop.address
 

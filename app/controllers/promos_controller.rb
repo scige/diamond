@@ -9,6 +9,7 @@ class PromosController < ApplicationController
     @guid = params[:spm]
     @weixin_user = WeixinUser.find_by_guid(@guid)
 
+    @shop_detail_address = ""
     if @shop
       parts = @shop.districts.strip.split
       district = ""
