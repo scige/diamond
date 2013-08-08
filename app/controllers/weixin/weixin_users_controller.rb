@@ -49,27 +49,27 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 
 绑定微信帐号后，可以获得我们为您定制的动态主页。您关注商家的优惠信息和最新动态都会在这里显示，记得经常回来查看哦！"
     when Setting.weixin_user.binding_nick_name
-      if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_user_name, :nick_name=>@content)
+      if @content.size >= 2 and @content.size <=12 and @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_user_name, :nick_name=>@content)
         @response_info = "设置成功！
 请输入您的微信号，以便您附近的朋友可以通过微信号联系您。
 (点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。)"
       else
         @response_info = "设置失败！
-请给自己取一个昵称，并回复给我们，如小马哥。
+请正确输入您的昵称，并回复给我们，如小马哥。
 (昵不能超过12个字或少于两个字，建议与微信昵称一致。)"
       end
     when Setting.weixin_user.binding_user_name
-      if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_mobile, :user_name=>@content)
+      if @content =~/^[A-Za-z][A-Za-z0-9_-]{5,19}/ and @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_mobile, :user_name=>@content)
         @response_info = "设置成功！
 请输入您的手机号，以便接收我们免费提供给您的商家优惠券。
 (手机号仅用于接收优惠券，我们会为您保密。)"
       else
         @response_info = "设置失败！
-请输入您的微信号，以便您附近的朋友可以通过微信号联系您。
+请正确输入您的微信号，以便您附近的朋友可以通过微信号联系您。
 (点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。)"
       end
     when Setting.weixin_user.binding_mobile
-      if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_finish, :mobile=>@content)
+      if @content.size == 11 and @content =~/^1[358][0-9]/ and @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_finish, :mobile=>@content)
         @response_info = "设置成功！恭喜您，您已经成功绑定微信帐号！
 
 昵称：#{@weixin_user.nick_name}
@@ -83,10 +83,11 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 <a href=\"http://wx.jilinmei.com/notices/help\">【请点我查看使用帮助】</a>"
       else
         @response_info = "设置失败！
-请输入您的手机号，以便接收我们免费提供给您的商家优惠券。"
+请正确输入您的手机号，以便接收我们免费提供给您的商家优惠券。"
       end
     when Setting.weixin_user.binding_finish
     end
+
     render "binding"
   end
 end
