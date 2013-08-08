@@ -1,0 +1,8 @@
+<xml>
+    <ToUserName><![CDATA[<%= params[:xml][:FromUserName] %>]]></ToUserName>
+    <FromUserName><![CDATA[<%= params[:xml][:ToUserName] %>]]></FromUserName>
+    <CreateTime><%= Time.now.to_i %></CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[已经没有更多相关的优惠券了，如果您还没找到满意的优惠券，建议您试试其他关键词查询。]]></Content>
+    <FuncFlag>0</FuncFlag>
+</xml>

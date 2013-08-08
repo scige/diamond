@@ -47,10 +47,11 @@ class Weixin::PromosController < Weixin::ApplicationController
     STAT_LOG.info "[weixins/promo]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@shops.size}\t#{@promos.size}\t#{request.remote_ip}\t#{request.user_agent}"
 
     if @promos.size == 0
-      render "weixin/shared/noresult"
+      render "weixin/shared/no_promos"
     else
       redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
       redis_session[:keywords] = @content
+      redis_session[:data_type] = "promos"
       #清除存储的上次搜索结果
       redis_promos = Redis::List.new(@weixin_user.open_id, :marshal=>true)
       redis_promos.clear
@@ -64,28 +65,6 @@ class Weixin::PromosController < Weixin::ApplicationController
       @more_size = 0
       if more_promos
         @more_size = more_promos.size
-      end
-      render "index"
-    end
-  end
-
-  def more
-    redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
-    @content = redis_session[:keywords]
-    redis_promos = Redis::List.new(@weixin_user.open_id, :marshal=>true)
-
-    STAT_LOG.info "[weixins/more]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{redis_promos.size}\t#{request.remote_ip}\t#{request.user_agent}"
-
-    if redis_promos.nil? or redis_promos.size == 0
-      render "weixin/shared/no_more_result"
-    else
-      @promos = redis_promos[0..MAX_SHOPS_NUM-1]
-      (1..MAX_SHOPS_NUM).each do |id|
-        redis_promos.shift
-      end
-      @more_size = 0
-      if redis_promos
-        @more_size = redis_promos.size
       end
       render "index"
     end

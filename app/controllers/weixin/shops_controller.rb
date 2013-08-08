@@ -9,7 +9,7 @@ class Weixin::ShopsController < Weixin::ApplicationController
     @content = params[:xml][:Content].strip
     #参数非法性检查
     if !@content or @content.empty?
-      render "weixin/shared/noresult"
+      render "weixin/shared/no_shops"
       return
     end
 
@@ -41,10 +41,11 @@ class Weixin::ShopsController < Weixin::ApplicationController
     STAT_LOG.info "[weixins/search]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
 
     if @shops.size == 0
-      render "weixin/shared/noresult"
+      render "weixin/shared/no_shops"
     else
       redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
       redis_session[:keywords] = @content
+      redis_session[:data_type] = "shops"
       #清除存储的上次搜索结果
       redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
       redis_shops.clear
@@ -96,10 +97,11 @@ class Weixin::ShopsController < Weixin::ApplicationController
     STAT_LOG.info "[weixins/dingcan]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
 
     if @shops.size == 0
-      render "weixin/shared/noresult"
+      render "weixin/shared/no_shops"
     else
       redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
       redis_session[:keywords] = @content
+      redis_session[:data_type] = "shops"
       #清除存储的上次搜索结果
       redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
       redis_shops.clear
@@ -121,26 +123,43 @@ class Weixin::ShopsController < Weixin::ApplicationController
   def more
     redis_session = Redis::HashKey.new(@weixin_user.open_id + "_session")
     @content = redis_session[:keywords]
-    redis_shops = Redis::List.new(@weixin_user.open_id, :marshal=>true)
+    @data_type = redis_session[:data_type]
+    redis_data = Redis::List.new(@weixin_user.open_id, :marshal=>true)
 
-    STAT_LOG.info "[weixins/more]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{redis_shops.size}\t#{request.remote_ip}\t#{request.user_agent}"
+    STAT_LOG.info "[weixins/more]\t#{params[:xml][:FromUserName]}\t#{params[:xml][:ToUserName]}\t#{@content}\t#{@data_type}\t#{redis_data.size}\t#{request.remote_ip}\t#{request.user_agent}"
 
-    if redis_shops.nil? or redis_shops.size == 0
-      render "weixin/shared/no_more_result"
+    if @data_type == "shops"
+      if redis_data.nil? or redis_data.size == 0
+        render "weixin/shared/no_more_shops"
+      else
+        @shops = redis_data[0..MAX_SHOPS_NUM-1]
+        (1..MAX_SHOPS_NUM).each do |id|
+          redis_data.shift
+        end
+        @more_size = 0
+        if redis_data
+          @more_size = redis_data.size
+        end
+        render "index"
+      end
     else
-      @shops = redis_shops[0..MAX_SHOPS_NUM-1]
-      (1..MAX_SHOPS_NUM).each do |id|
-        redis_shops.shift
+      if redis_data.nil? or redis_data.size == 0
+        render "weixin/shared/no_more_promos"
+      else
+        @promos = redis_data[0..MAX_SHOPS_NUM-1]
+        (1..MAX_SHOPS_NUM).each do |id|
+          redis_data.shift
+        end
+        @more_size = 0
+        if redis_data
+          @more_size = redis_data.size
+        end
+        render "weixin/promos/index"
       end
-      @more_size = 0
-      if redis_shops
-        @more_size = redis_shops.size
-      end
-      render "index"
     end
   end
 
   def near
-    render "weixin/shared/noresult"
+    render "weixin/shared/no_shops"
   end
 end
