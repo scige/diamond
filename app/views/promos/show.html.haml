@@ -21,7 +21,8 @@
           %li
             %a
               %p.tit
-                = link_to shop.name, shop_url(shop, :spm=>@weixin_user.guid)
+                = shop.name
+                /= link_to shop.name, shop_url(shop, :spm=>@weixin_user.guid)
                 /%em.tips &lt;100m
                 %p.explai= shop.address
 

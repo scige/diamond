@@ -1,6 +1,6 @@
 # coding: utf-8
 
-class Weixin::ShopsController < Weixin::ApplicationController
+class Weixin::PromosController < Weixin::ApplicationController
   before_filter :sync_weixin_user_status
 
   MAX_SHOPS_NUM = 5
