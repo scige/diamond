@@ -6,36 +6,29 @@ class Weixin::ShopsController < Weixin::ApplicationController
   MAX_SHOPS_NUM = 5
 
   def index
-    @content = params[:xml][:Content].strip
-    #参数非法性检查
+    @content = params[:xml][:Content][2..-1].strip
+    #TODO: 这种实现[dc]的方式性能比较低, 以后需要改掉
     if !@content or @content.empty?
-      render "weixin/shared/noresult"
-      return
-    end
-
-    words = @content.split(/ +|, *|， */)
-
-    #如果是用户对话则直接退出
-    words.each do |word|
-      if word.size > 6
-        return
-      end
-    end
-
-    #不处理三个关键词的情况
-    if words.size > 2
-      words = words[0..1]
-    end
-
-    if words.size != 2
-      query = words[0]
-      @shops = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("star DESC")
+      @content = nil
+      @shops = Shop.all
     else
-      query = words[0]
-      shops0 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
-      query = words[1]
-      shops1 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
-      @shops = merge_shops(shops0, shops1)
+      words = @content.split(/ +|, *|， */)
+
+      #不处理三个关键词的情况
+      if words.size > 2
+        words = words[0..1]
+      end
+
+      if words.size != 2
+        query = words[0]
+        @shops = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("star DESC")
+      else
+        query = words[0]
+        shops0 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
+        query = words[1]
+        shops1 = Shop.where("name like '%#{query}%' or address like '%#{query}%' or navigation like '%#{query}%' or districts like '%#{query}%' or recommended_products like '%#{query}%'").order("id")
+        @shops = merge_shops(shops0, shops1)
+      end
     end
 
     @promos = []
