@@ -2,7 +2,11 @@ class Admin::PromosController < ApplicationController
   before_filter :deny_to_visitors
 
   def index
-    @promos = Promo.page(params[:page])
+    if super_signed_in?
+      @promos = Promo.order("id DESC").page(params[:page])
+    else
+      @promos = Promo.where("editor='#{current_editor.email}'").order("id DESC").page(params[:page])
+    end
   end
 
   def show
