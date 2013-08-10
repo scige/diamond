@@ -6,10 +6,8 @@
     %th 状态
     %th 名称
     %th 类别
-    %th 照片
-    %th 地址
-    %th 电话
-    %th 编辑
+    %th 区域
+    %th= @column
     - if super_signed_in?
       %th{:width=>"250"} 操作
     - else
@@ -21,10 +19,8 @@
       %td= shop.status
       %td= shop.name
       %td= shop.navigation
-      %td= image_tag(shop.thumb_url(:thumb), :height => "40")
-      %td= shop.address
-      %td= shop.phone
-      %td= shop.editor
+      %td= shop.districts
+      %td= shop.send(@column)
       %td
         - if super_signed_in?
           = link_to 'Show', shop, :target=>"_blank", :class=>"btn btn-small"

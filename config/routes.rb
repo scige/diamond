@@ -28,6 +28,7 @@ Diamond::Application.routes.draw do
       get :verify_fail, :on => :collection
       get :can_dingcan, :on => :collection
       get :have_promos, :on => :collection
+      get :order_by, :on => :collection
     end
 
     resources :promos

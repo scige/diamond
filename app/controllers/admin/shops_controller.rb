@@ -6,6 +6,23 @@ class Admin::ShopsController < ApplicationController
     @shops = Shop.order("id DESC").page(params[:page])
   end
 
+  def order_by
+    @shops = Shop.order("#{params[:order]}, id DESC").page(params[:page])
+    pos = params[:order].index(" DESC")
+    if pos
+      @column = params[:order][0...pos]
+    else
+      @column = params[:order]
+    end
+
+    special_columns = ["districts", "description", "created_at", "updated_at"]
+    if special_columns.include?(@column)
+      render "admin/shops/order_by"
+    else
+      render "admin/shops/index"
+    end
+  end
+
   def show
     @shop = Shop.find(params[:id])
     @product = Product.new
@@ -110,6 +127,13 @@ class Admin::ShopsController < ApplicationController
   end
 
   def have_promos
+    shops = Shop.all
+    @shops = []
+    shops.each do |shop|
+      if shop.promos.size > 0
+        @shops << shop
+      end
+    end
     render "admin/shops/index"
   end
 end

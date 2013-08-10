@@ -1,0 +1,66 @@
+.row
+  .span3
+    %h2 商家列表
+  .span4
+    .new-shop-button
+      = form_tag search_admin_shops_path, :method=>"get", :class=>"form-search" do |f|
+        = text_field_tag :keywords, nil, {:autocomplete=>"off", :placeholder=>"请输入商家名称", :class=>"input-large search-query"}
+        = submit_tag "搜索", {:hidefocus=>"true", :class=>"btn btn-info"}
+  - if super_signed_in?
+    .span5
+      .new-shop-button
+        = link_to '全部', admin_shops_path, :class=>"btn"
+        .btn-group
+          %button.btn.dropdown-toggle{"data-toggle"=>"dropdown"}
+            排序
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              = link_to '按编号', order_by_admin_shops_path(:order=>"id DESC")
+              = link_to '按状态', order_by_admin_shops_path(:order=>"status")
+              = link_to '按名称', order_by_admin_shops_path(:order=>"name")
+            %li.divider
+            %li
+              = link_to '按类别', order_by_admin_shops_path(:order=>"navigation")
+              = link_to '按区域', order_by_admin_shops_path(:order=>"districts")
+            %li.divider
+            %li
+              = link_to '按地址', order_by_admin_shops_path(:order=>"address")
+              = link_to '按电话', order_by_admin_shops_path(:order=>"phone")
+              = link_to '按描述', order_by_admin_shops_path(:order=>"description")
+            %li.divider
+            %li
+              = link_to '按创建时间', order_by_admin_shops_path(:order=>"created_at DESC")
+              = link_to '按更新时间', order_by_admin_shops_path(:order=>"updated_at DESC")
+        .btn-group
+          %button.btn.dropdown-toggle{"data-toggle"=>"dropdown"}
+            审核
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              = link_to '待审核(8467)', not_verify_admin_shops_path(:editor=>"846713848@qq.com")
+              = link_to '待审核(4699)', not_verify_admin_shops_path(:editor=>"469909985@qq.com")
+            %li.divider
+            %li
+              = link_to '审核失败(8467)', verify_fail_admin_shops_path(:editor=>"846713848@qq.com")
+              = link_to '审核失败(4699)', verify_fail_admin_shops_path(:editor=>"469909985@qq.com")
+        .btn-group
+          %button.btn.dropdown-toggle{"data-toggle"=>"dropdown"}
+            特殊
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              = link_to '能订餐', can_dingcan_admin_shops_path
+            %li.divider
+            %li
+              = link_to '有优惠', have_promos_admin_shops_path
+        = link_to '新增商家', new_admin_shop_path, :class=>"btn btn-primary"
+  - else
+    .span5
+      .new-shop-button
+        = link_to '全部', admin_shops_path, :class=>"btn"
+        = link_to '待审核', not_verify_admin_shops_path(:editor=>"#{current_editor.email}"), :class=>"btn"
+        = link_to '审核失败', verify_fail_admin_shops_path(:editor=>"#{current_editor.email}"), :class=>"btn"
+        = link_to '新增商家', new_admin_shop_path, :class=>"btn btn-primary"
+
+
