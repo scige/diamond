@@ -31,7 +31,10 @@ Diamond::Application.routes.draw do
       get :order_by, :on => :collection
     end
 
-    resources :promos
+    resources :promos do
+      get :not_verify, :on => :collection
+      get :verify_fail, :on => :collection
+    end
 
     resources :coupons
 

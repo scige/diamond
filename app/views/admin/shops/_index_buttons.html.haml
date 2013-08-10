@@ -56,7 +56,7 @@
               = link_to '有优惠', have_promos_admin_shops_path
         = link_to '新增商家', new_admin_shop_path, :class=>"btn btn-primary"
   - else
-    .span5
+    .offset1.span4
       .new-shop-button
         = link_to '全部', admin_shops_path, :class=>"btn"
         = link_to '待审核', not_verify_admin_shops_path(:editor=>"#{current_editor.email}"), :class=>"btn"

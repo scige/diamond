@@ -77,4 +77,14 @@ class Admin::PromosController < ApplicationController
 
     redirect_to admin_promos_url
   end
+
+  def not_verify
+    @promos = Promo.where("status=#{Setting.promo.status_not_verify} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    render "admin/promos/index"
+  end
+
+  def verify_fail
+    @promos = Promo.where("status=#{Setting.promo.status_verify_fail} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    render "admin/promos/index"
+  end
 end

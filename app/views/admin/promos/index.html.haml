@@ -1,9 +1,30 @@
 .row
   .span3
     %h2 打折列表
-  .offset7.span2
-    .new-shop-button
-      = link_to '新增打折', new_admin_promo_path, :class=>"btn btn-primary"
+  - if super_signed_in?
+    .offset5.span4
+      .new-shop-button
+        = link_to '全部', admin_promos_path, :class=>"btn"
+        .btn-group
+          %button.btn.dropdown-toggle{"data-toggle"=>"dropdown"}
+            审核
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              = link_to '待审核(8467)', not_verify_admin_promos_path(:editor=>"846713848@qq.com")
+              = link_to '待审核(4699)', not_verify_admin_promos_path(:editor=>"469909985@qq.com")
+            %li.divider
+            %li
+              = link_to '审核失败(8467)', verify_fail_admin_promos_path(:editor=>"846713848@qq.com")
+              = link_to '审核失败(4699)', verify_fail_admin_promos_path(:editor=>"469909985@qq.com")
+        = link_to '新增商家', new_admin_promo_path, :class=>"btn btn-primary"
+  - else
+    .offset5.span4
+      .new-shop-button
+        = link_to '全部', admin_promos_path, :class=>"btn"
+        = link_to '待审核', not_verify_admin_promos_path(:editor=>"#{current_editor.email}"), :class=>"btn"
+        = link_to '审核失败', verify_fail_admin_promos_path(:editor=>"#{current_editor.email}"), :class=>"btn"
+        = link_to '新增打折', new_admin_promo_path, :class=>"btn btn-primary"
 
 %table.table.table-striped
   %tr
