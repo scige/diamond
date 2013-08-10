@@ -80,12 +80,12 @@ class Admin::ShopsController < ApplicationController
   end
 
   def not_verify
-    @shops = Shop.where("status=#{Setting.shop.status_not_verify} and editor=#{params[:editor]}").order("id DESC").page(params[:page])
+    @shops = Shop.where("status=#{Setting.shop.status_not_verify} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
     render "admin/shops/index"
   end
 
   def verify_fail
-    @shops = Shop.where("status=#{Setting.shop.status_verify_fail} and editor=#{params[:editor]}").order("id DESC").page(params[:page])
+    @shops = Shop.where("status=#{Setting.shop.status_verify_fail} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
     render "admin/shops/index"
   end
 
