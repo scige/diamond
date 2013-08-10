@@ -2,8 +2,11 @@ class Admin::ShopsController < ApplicationController
   before_filter :deny_to_visitors
 
   def index
-    #@shops = Shop.order("name").page(params[:page])
-    @shops = Shop.order("id DESC").page(params[:page])
+    if super_signed_in?
+      @shops = Shop.order("id DESC").page(params[:page])
+    else
+      @shops = Shop.where("editor='#{current_editor.email}'").order("id DESC").page(params[:page])
+    end
   end
 
   def order_by
