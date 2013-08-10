@@ -12,6 +12,10 @@
       .controls
         = f.select :status, generate_promo_status, :selected=>@promo.status
   .control-group
+    = f.label :remarks, "审核记录", :class=>"control-label"
+    .controls
+      = f.text_area :remarks, :rows=>6, :class=>"input-xxlarge"
+  .control-group
     = f.label :name, "名称", :class=>"control-label"
     .controls
       = f.text_field :name, :class=>"input-xxlarge"

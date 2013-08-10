@@ -8,6 +8,10 @@
         .controls
           = f.text_field :status, :class=>"input-xxlarge", :disabled=>"disabled"
       .control-group
+        = f.label :remarks, "审核记录", :class=>"control-label"
+        .controls
+          = f.text_area :remarks, :rows=>6, :class=>"input-xxlarge", :disabled=>"disabled"
+      .control-group
         = f.label :name, "名称", :class=>"control-label"
         .controls
           = f.text_field :name, :class=>"input-xxlarge", :disabled=>"disabled"

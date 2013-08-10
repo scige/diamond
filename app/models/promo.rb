@@ -12,6 +12,7 @@
 #  updated_at :datetime         not null
 #  status     :integer          default(0)
 #  editor     :string(255)
+#  remarks    :string(255)
 #
 
 class Promo < ActiveRecord::Base
@@ -26,6 +27,7 @@ class Promo < ActiveRecord::Base
   attr_accessible :end_at
   attr_accessible :thumb
   attr_accessible :editor
+  attr_accessible :remarks
 
   validates :status,   :presence => true,
                        :numericality => {:only_integer => true}

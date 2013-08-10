@@ -29,6 +29,7 @@
 #  status               :integer          default(0)
 #  editor               :string(255)
 #  districts            :string(255)
+#  remarks              :string(255)
 #
 
 class Shop < ActiveRecord::Base
@@ -63,6 +64,7 @@ class Shop < ActiveRecord::Base
   attr_accessible :atmosphere
   attr_accessible :characteristics
   attr_accessible :editor
+  attr_accessible :remarks
 
   validates :status,    :presence => true,
                         :numericality => {:only_integer => true}

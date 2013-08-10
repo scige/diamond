@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130805161739) do
+ActiveRecord::Schema.define(:version => 20130810031347) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -90,6 +90,7 @@ ActiveRecord::Schema.define(:version => 20130805161739) do
     t.datetime "updated_at",                :null => false
     t.integer  "status",     :default => 0
     t.string   "editor"
+    t.string   "remarks"
   end
 
   add_index "promos", ["name"], :name => "index_promos_on_name"
@@ -142,6 +143,7 @@ ActiveRecord::Schema.define(:version => 20130805161739) do
     t.integer  "status",                                               :default => 0
     t.string   "editor"
     t.string   "districts"
+    t.string   "remarks"
   end
 
   add_index "shops", ["address"], :name => "index_shops_on_address"

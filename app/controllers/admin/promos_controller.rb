@@ -21,9 +21,18 @@ class Admin::PromosController < ApplicationController
 
   def create
     @promo = Promo.new(params[:promo])
-    if editor_signed_in?
-      @promo.editor = current_editor.email
-      @promo.status = Setting.promo.status_not_verify
+
+    #if editor_signed_in?
+    #  @promo.editor = current_editor.email
+    #  @promo.status = Setting.promo.status_not_verify
+    #end
+
+    if @promo.remarks != attributes[:remarks]
+      if super_signed_in?
+        attributes[:status] = Setting.promo.status_verify_fail
+      else
+        attributes[:status] = Setting.promo.status_not_verify
+      end
     end
 
     if @promo.save

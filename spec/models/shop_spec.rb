@@ -29,6 +29,7 @@
 #  status               :integer          default(0)
 #  editor               :string(255)
 #  districts            :string(255)
+#  remarks              :string(255)
 #
 
 require 'spec_helper'

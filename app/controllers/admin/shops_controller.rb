@@ -40,9 +40,18 @@ class Admin::ShopsController < ApplicationController
   def update
     @shop = Shop.find(params[:id])
     attributes = params[:shop]
-    if editor_signed_in?
-      attributes[:editor] = current_editor.email
-      attributes[:status] = Setting.shop.status_not_verify
+
+    #if editor_signed_in?
+    #  attributes[:editor] = current_editor.email
+    #  attributes[:status] = Setting.shop.status_not_verify
+    #end
+
+    if @shop.remarks != attributes[:remarks]
+      if super_signed_in?
+        attributes[:status] = Setting.shop.status_verify_fail
+      else
+        attributes[:status] = Setting.shop.status_not_verify
+      end
     end
 
     if @shop.update_attributes(attributes)
@@ -71,7 +80,12 @@ class Admin::ShopsController < ApplicationController
   end
 
   def not_verify
-    @shops = Shop.where("status=#{Setting.shop.status_not_verify}").order("id DESC").page(params[:page])
+    @shops = Shop.where("status=#{Setting.shop.status_not_verify} and editor=#{params[:editor]}").order("id DESC").page(params[:page])
+    render "admin/shops/index"
+  end
+
+  def verify_fail
+    @shops = Shop.where("status=#{Setting.shop.status_verify_fail} and editor=#{params[:editor]}").order("id DESC").page(params[:page])
     render "admin/shops/index"
   end
 
@@ -92,6 +106,10 @@ class Admin::ShopsController < ApplicationController
       a <=> b
     end
 
+    render "admin/shops/index"
+  end
+
+  def have_promos
     render "admin/shops/index"
   end
 end

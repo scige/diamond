@@ -3,11 +3,13 @@ defaults: &defaults
     status_off_shelf: 0
     status_on_shelf: 1
     status_not_verify: 2
+    status_verify_fail: 3
 
   promo:
     status_off_shelf: 0
     status_on_shelf: 1
     status_not_verify: 2
+    status_verify_fail: 3
 
   coupon:
     status_unused: 0

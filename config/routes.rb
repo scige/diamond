@@ -25,7 +25,9 @@ Diamond::Application.routes.draw do
       get :map, :on => :collection
       get :search, :on => :collection
       get :not_verify, :on => :collection
+      get :verify_fail, :on => :collection
       get :can_dingcan, :on => :collection
+      get :have_promos, :on => :collection
     end
 
     resources :promos
