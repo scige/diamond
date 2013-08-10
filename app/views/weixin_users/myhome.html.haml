@@ -4,17 +4,18 @@
   .details-mode.user-info
     .pic-txt
       .pic
-        %a{:href=>"http://wx.jilinmei.com/images/fallback/thumb_default.png"}
-          = image_tag("http://wx.jilinmei.com/images/fallback/thumb_default.png")
+        %a{:href=>"http://wx.jilinmei.com/assets/default_head.jpg"}
+          = image_tag("http://wx.jilinmei.com/assets/default_head.jpg")
       .info
         %h3= @weixin_user.nick_name
         %p= "微信号: #{@weixin_user.user_name}"
 
-  .box-mode.user-top-dishes
-    .hd
-      %h6 个性签名
-    .user-description
-      %p 白领消费观，购物新主张
+  -#
+    .box-mode.user-top-dishes
+      .hd
+        %h6 个性签名
+      .user-description
+        %p 白领消费观，购物新主张
 
   .box-mode.user-top-dishes
     .hd
