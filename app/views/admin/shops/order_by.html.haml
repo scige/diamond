@@ -8,6 +8,7 @@
     %th 类别
     %th 区域
     %th= @column
+    %th 编辑
     - if super_signed_in?
       %th{:width=>"250"} 操作
     - else
@@ -21,6 +22,7 @@
       %td= shop.navigation
       %td= shop.districts
       %td= shop.send(@column)
+      %td= shop.editor
       %td
         - if super_signed_in?
           = link_to 'Show', shop, :target=>"_blank", :class=>"btn btn-small"

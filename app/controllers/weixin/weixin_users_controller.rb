@@ -35,8 +35,8 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
     @content = params[:xml][:Content]
     #取消关注后重新再关注，只要发送bind，也会重新绑定微信帐号
     if @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_nick_name)
-      @response_info = "请输入您的微信昵称，并回复给我们。
-(昵称不能超过12个字或少于两个字。)"
+      @response_info = "请给自己取一个昵称，并回复给我们，如小马哥。
+(昵不能超过12个字或少于两个字，建议与微信昵称一致。)"
     end
     render "binding"
   end
@@ -55,8 +55,8 @@ class Weixin::WeixinUsersController < Weixin::ApplicationController
 (点击微信\"设置\"，再点击\"个人信息\"即可看到您的微信号。)"
       else
         @response_info = "设置失败！
-请正确输入您的微信昵称，并回复给我们。
-(昵称不能超过12个字或少于两个字。)"
+请正确输入您的昵称，并回复给我们，如小马哥。
+(昵不能超过12个字或少于两个字，建议与微信昵称一致。)"
       end
     when Setting.weixin_user.binding_user_name
       if @content =~/^[A-Za-z][A-Za-z0-9_-]{5,19}/ and @weixin_user.update_attributes(:binding=>Setting.weixin_user.binding_mobile, :user_name=>@content)

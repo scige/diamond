@@ -18,7 +18,7 @@ class Admin::ShopsController < ApplicationController
       @column = params[:order]
     end
 
-    special_columns = ["districts", "description", "created_at", "updated_at"]
+    special_columns = ["districts", "recommended_products", "description", "remarks", "created_at", "updated_at"]
     if special_columns.include?(@column)
       render "admin/shops/order_by"
     else
@@ -66,11 +66,13 @@ class Admin::ShopsController < ApplicationController
     #  attributes[:status] = Setting.shop.status_not_verify
     #end
 
-    if @shop.remarks != attributes[:remarks]
-      if super_signed_in?
-        attributes[:status] = Setting.shop.status_verify_fail
-      else
-        attributes[:status] = Setting.shop.status_not_verify
+    if attributes[:remarks] and !attributes[:remarks].empty?
+      if !@shop.remarks or @shop.remarks.empty? or @shop.remarks != attributes[:remarks]
+        if super_signed_in?
+          attributes[:status] = Setting.shop.status_verify_fail
+        else
+          attributes[:status] = Setting.shop.status_not_verify
+        end
       end
     end
 
@@ -100,12 +102,20 @@ class Admin::ShopsController < ApplicationController
   end
 
   def not_verify
-    @shops = Shop.where("status=#{Setting.shop.status_not_verify} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    if params[:editor] and !params[:editor].empty?
+      @shops = Shop.where("status=#{Setting.shop.status_not_verify} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    else
+      @shops = Shop.where("status=#{Setting.shop.status_not_verify}").order("id DESC").page(params[:page])
+    end
     render "admin/shops/index"
   end
 
   def verify_fail
-    @shops = Shop.where("status=#{Setting.shop.status_verify_fail} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    if params[:editor] and !params[:editor].empty?
+      @shops = Shop.where("status=#{Setting.shop.status_verify_fail} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    else
+      @shops = Shop.where("status=#{Setting.shop.status_verify_fail}").order("id DESC").page(params[:page])
+    end
     render "admin/shops/index"
   end
 

@@ -28,8 +28,10 @@
               = link_to '按地址', order_by_admin_shops_path(:order=>"address")
               = link_to '按电话', order_by_admin_shops_path(:order=>"phone")
               = link_to '按描述', order_by_admin_shops_path(:order=>"description")
+              = link_to '按经营内容', order_by_admin_shops_path(:order=>"recommended_products")
             %li.divider
             %li
+              = link_to '按审核记录', order_by_admin_shops_path(:order=>"remarks")
               = link_to '按创建时间', order_by_admin_shops_path(:order=>"created_at DESC")
               = link_to '按更新时间', order_by_admin_shops_path(:order=>"updated_at DESC")
         .btn-group
@@ -38,10 +40,12 @@
             %span.caret
           %ul.dropdown-menu
             %li
+              = link_to '待审核', not_verify_admin_shops_path
               = link_to '待审核(8467)', not_verify_admin_shops_path(:editor=>"846713848@qq.com")
               = link_to '待审核(4699)', not_verify_admin_shops_path(:editor=>"469909985@qq.com")
             %li.divider
             %li
+              = link_to '审核失败', verify_fail_admin_shops_path
               = link_to '审核失败(8467)', verify_fail_admin_shops_path(:editor=>"846713848@qq.com")
               = link_to '审核失败(4699)', verify_fail_admin_shops_path(:editor=>"469909985@qq.com")
         .btn-group

@@ -25,18 +25,9 @@ class Admin::PromosController < ApplicationController
 
   def create
     @promo = Promo.new(params[:promo])
-
-    #if editor_signed_in?
-    #  @promo.editor = current_editor.email
-    #  @promo.status = Setting.promo.status_not_verify
-    #end
-
-    if @promo.remarks != attributes[:remarks]
-      if super_signed_in?
-        attributes[:status] = Setting.promo.status_verify_fail
-      else
-        attributes[:status] = Setting.promo.status_not_verify
-      end
+    if editor_signed_in?
+      @promo.editor = current_editor.email
+      @promo.status = Setting.promo.status_not_verify
     end
 
     if @promo.save
@@ -52,9 +43,20 @@ class Admin::PromosController < ApplicationController
   def update
     @promo = Promo.find(params[:id])
     attributes = params[:promo]
-    if editor_signed_in?
-      attributes[:editor] = current_editor.email
-      attributes[:status] = Setting.promo.status_not_verify
+
+    #if editor_signed_in?
+    #  attributes[:editor] = current_editor.email
+    #  attributes[:status] = Setting.promo.status_not_verify
+    #end
+
+    if attributes[:remarks] and !attributes[:remarks].empty?
+      if !@promo.remarks or @promo.remarks.empty? or @promo.remarks != attributes[:remarks]
+        if super_signed_in?
+          attributes[:status] = Setting.promo.status_verify_fail
+        else
+          attributes[:status] = Setting.promo.status_not_verify
+        end
+      end
     end
 
     if @promo.update_attributes(attributes)
@@ -83,12 +85,20 @@ class Admin::PromosController < ApplicationController
   end
 
   def not_verify
-    @promos = Promo.where("status=#{Setting.promo.status_not_verify} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    if params[:editor] and !params[:editor].empty?
+      @promos = Promo.where("status=#{Setting.promo.status_not_verify} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    else
+      @promos = Promo.where("status=#{Setting.promo.status_not_verify}").order("id DESC").page(params[:page])
+    end
     render "admin/promos/index"
   end
 
   def verify_fail
-    @promos = Promo.where("status=#{Setting.promo.status_verify_fail} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    if params[:editor] and !params[:editor].empty?
+      @promos = Promo.where("status=#{Setting.promo.status_verify_fail} and editor='#{params[:editor]}'").order("id DESC").page(params[:page])
+    else
+      @promos = Promo.where("status=#{Setting.promo.status_verify_fail}").order("id DESC").page(params[:page])
+    end
     render "admin/promos/index"
   end
 end
